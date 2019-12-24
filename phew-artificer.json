@@ -1,0 +1,987 @@
+{
+	"class": [
+		{
+			"name": "Artificer",
+			"source": "PHEW",
+			"hd": {
+				"number": 1,
+				"faces": 8
+			},
+			"proficiency": [
+				"con",
+				"int"
+			],
+			"spellcastingAbility": "int",
+			"casterProgression": "1/2",
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"{@filter Spells Known|spells|class=Artificer}",
+						"{@filter 1st|spells|level=1|class=Artificer}",
+						"{@filter 2nd|spells|level=2|class=Artificer}",
+						"{@filter 3rd|spells|level=3|class=Artificer}",
+						"{@filter 4th|spells|level=4|class=Artificer}",
+						"{@filter 5th|spells|level=5|class=Artificer}",
+						"{@filter Upgrades|optionalfeatures}"
+					],
+					"rows": [
+						[
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0,
+							0,
+							0,
+							1
+						],
+						[
+							4,
+							3,
+							0,
+							0,
+							0,
+							0,
+							1
+						],
+						[
+							5,
+							4,
+							2,
+							0,
+							0,
+							0,
+							2
+						],
+						[
+							5,
+							4,
+							2,
+							0,
+							0,
+							0,
+							2
+						],
+						[
+							6,
+							4,
+							3,
+							0,
+							0,
+							0,
+							3
+						],
+						[
+							6,
+							4,
+							3,
+							0,
+							0,
+							0,
+							3
+						],
+						[
+							7,
+							4,
+							3,
+							2,
+							0,
+							0,
+							4
+						],
+						[
+							7,
+							4,
+							3,
+							2,
+							0,
+							0,
+							4
+						],
+						[
+							8,
+							4,
+							3,
+							3,
+							0,
+							0,
+							5
+						],
+						[
+							8,
+							4,
+							3,
+							3,
+							0,
+							0,
+							5
+						],
+						[
+							9,
+							4,
+							3,
+							3,
+							1,
+							0,
+							6
+						],
+						[
+							9,
+							4,
+							3,
+							3,
+							1,
+							0,
+							6
+						],
+						[
+							10,
+							4,
+							3,
+							3,
+							2,
+							0,
+							7
+						],
+						[
+							10,
+							4,
+							3,
+							3,
+							2,
+							0,
+							7
+						],
+						[
+							11,
+							4,
+							3,
+							3,
+							3,
+							1,
+							8
+						],
+						[
+							11,
+							4,
+							3,
+							3,
+							3,
+							1,
+							8
+						],
+						[
+							12,
+							4,
+							3,
+							3,
+							3,
+							2,
+							9
+						],
+						[
+							12,
+							4,
+							3,
+							3,
+							3,
+							2,
+							9
+						]
+					]
+				}
+			],
+			"startingProficiencies": {
+				"armor": [
+					"light",
+					"medium"
+				],
+				"weapons": [
+					"simple",
+					"hand crossbow",
+					"heavy crossbow"
+				],
+				"tools": [
+					"thieves' tools",
+					"one other tool of your choice"
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"arcana",
+								"deception",
+								"history",
+								"investigation",
+								"medicine",
+								"nature",
+								"religion",
+								"sleight of Hand"
+							],
+							"count":3
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"default": [
+					"(a) a {@item light crossbow|phb} and {@item crossbow bolts (20)|phb|20 bolts} or (b) any two {@filter simple weapons|items|source=phb|category=basic|type=simple weapon}",
+					"(a) {@item scale mail|phb}, (b) {@item leather armor|phb}, or (c) {@item chain mail|phb}",
+					"{@item thieves' tools|phb} and a {@item dungeoneer's pack|phb}"
+				]
+			},
+			"multiclassing": {
+				"requirements": {
+					"int": 13
+				},
+				"proficienciesGained": {
+					"armor": [
+						"light"
+					],
+					"skills": [
+						{
+							"choose": {
+								"from": [
+									"arcana"
+								],
+								"count":1
+							}
+						}
+					]
+				}
+			},
+			"classFeatures": [
+				[
+					{
+						"name": "Artificer Specialization",
+						"entries": [
+							"At 1st level, you focus your craft on a particular specialization: Gadgetsmith, Golemsmith, Infusionsmith, Potionsmith, Thundersmith, Warsmith or Fleshsmith, each of which are detailed at the end of the class description. Your choice grants you features at 1st level and again at 3rd, 5th, and 14th level."
+						],
+						"gainSubclassFeature": true
+					},
+					{
+						"name": "Magic Item Analysis",
+						"entries": [
+							"Starting at 1st level, your understanding of magic items allows you to analyze and understand their secrets. You know the artificer spells {@spell detect magic} and {@spell identify}, and you can cast them as rituals without material components."
+						]
+					}
+				],
+				[
+					{
+						"name": "Tool Expertise",
+						"entries": [
+							"Starting at 2nd level, your proficiency bonus is doubled for any ability check you make that uses any of the tool proficiencies you gain from this class."
+						]
+					},
+					{
+						"name": "Spellcasting",
+						"entries": [
+							"As part of your study of magic, you gain the ability to cast spells at 2nd level. The spells you learn are limited in scope, primarily concerned with modifying creatures and objects or creating items.",
+							{
+								"type": "entries",
+								"name": "Spell Slots",
+								"entries": [
+									"The artificer table shows how many spell slots you have to cast your artificer spells of 1st level and higher. To cast one of your Artificer spells, you must expend a slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Pact Arcanum",
+								"entries": [
+									"Your patron bestows upon you a minor magical secret called an arcanum. This allows you to cast one of the 1st level spells you know. You gain an additional 2nd level arcanum at 3rd level, a 3rd level arcanum at 5th level, a 4th level arcanum at 7th level, and a 5th level arcanum at 9th level.",
+									"You regain all uses of your pact arcanum at the end of a short rest."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Spells Known of 1st Level and Higher",
+								"entries": [
+									"You know three 1st-level spells of your choice from the artificer spell list.",
+									"The Spells Known column of the Artificer table shows when you learn more Artificer spells of your choice. Each of these spells must be of a level for which you have spell slots.",
+									"For instance, when you reach 5th level in this class, you can learn one new spell of 1st or 2nd level. Additionally, when you gain a level in this class, you can choose one of the Artificer spells you know and replace it with another spell from the Artificer spell list, which also must be of a level for which you have spell slots."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Spellcasting Ability",
+								"entries": [
+									"Intelligence is your spellcasting ability for your artificer spells, so you use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for an artificer spell you cast and when making an attack roll with one.",
+									{
+										"type": "abilityDc",
+										"name": "Spell",
+										"attributes": [
+											"int"
+										]
+									},
+									{
+										"type": "abilityAttackMod",
+										"name": "Spell",
+										"attributes": [
+											"int"
+										]
+									}
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Spellcasting Focus",
+								"entries": [
+									"You can use an arcane focus as a spellcasting focus for your artificer spells. See chapter 5, 'Equipment' in the Player’s Handbook for various arcane focus options."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Spell Versatility",
+								"entries": [
+									"Whenever you finish a long rest, you can replace one spell you learned from this Spellcasting feature with another spell from the artificer spell list. The new spell must be the same level as the spell you replace."
+								]
+							},
+							{
+								"type": "inset",
+								"name": "Artificer's Spellcasting",
+								"entries": [
+									"An Artificer is fundamentally someone that understands and regularly interacts with magic, leading to the ability to apply this knowledge as spell casters, but how you want to approach your Artificer's spell casting is up to you.",
+									"While the Focuses listed in Chapter 5 'Equipment' are certainly functional options, feel free to explore other approaches in coordination with your DM. From a functional standpoint, the only requirement would be that you have a defined material or focus for the spell.",
+									"Consider for some spells that perhaps your Artisan's Tools are your focus, or perhaps a specific item you've made is your material component for a spell. Perhaps instead of a Component Pouch that simply contains all the material components you could need for your spells, you have an Artificer's Tool Belt that contains the various spellcasting assistance contraptions you've made to cast your spells. For the purposes of mechanics, the only thing that matters is that if functions the same way, and is used consistently."
+								]
+							}
+						]
+					}
+				],
+				[
+					{
+						"name": "Artificer Specialist feature",
+						"entries": [
+							"At 3rd level, you gain a feature granted by your Artificer Specialization."
+						],
+						"gainSubclassFeature": true
+					},
+					{
+						"name": "Specialization Upgrade",
+						"entries": [
+							"Your expert craftsmanship allows you to improve, modify, or add to your specialization's features.",
+							"Starting at 3rd level, choose an upgrade from the list at the end of your specialization, and gain the benefits listed in the description of the Upgrade.",
+							"You select an additional Upgrade at 5th, 7th, 9th, 11th, 13th, 15th, 17th, and 19th level. You cannot select an Upgrade more than once, unless the Upgrade's description says otherwise. Whenever you level up, you can exchange one of your existing upgrades for another upgrade of the same level requirement as the replaced upgrade.",
+							"In any case that a specialization allows an Upgrade to be swapped out, Upgrades must always be selected as if the Artificer is the level they were when they got that Upgrade slot. For example, if you replace your Stormforged Weapon and reselect all of your upgrades as a 5th level Artificer, you could select one 3rd level upgrade and one 5th level upgrade, or two 3rd level upgrades, but you would not be able to select two 5th level upgrades.",
+							{
+								"type": "inset",
+								"name": "Customizing Artificer Upgrades",
+								"entries": [
+									"The upgrades for each Artificer Specialization are presented in a list at the end of the Specialization, but invariably there will always be ideas for upgrades not included in that list. At the heart of an Artificer beats an unrelenting drive for creativity, after all! Feel free to consult your DM for potential custom upgrades.",
+									"Consult the Expanded Toolbox more ideas and playtesting content."
+								]
+							}
+						]
+					}
+				],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+						]
+					}
+				],
+				[
+					{
+						"name": "Artificer Specialist feature",
+						"entries": [
+							"At 5th level, you gain a feature granted by your Artificer Specialization."
+						],
+						"gainSubclassFeature": true
+					}
+				],
+				[
+					{
+						"name": "Arcane Reconstruction",
+						"entries": [
+							"At 6th level, you have mastered the knowledge of using magic to repair things. You learn the {@spell mending} cantrip, and can cast it at will. Additionally, you learn the {@spell cure wounds} spell. If you already know cure wounds you can select another spell from the {@filter Artificer spell list|spells|class=Artificer}. When you cast cure wounds, it can heal constructs in addition to normally valid targets."
+						]
+					},
+					{
+						"name": "Cross Disciplinary Knowledge",
+						"entries": [
+							"At 6th level, you can expand on your knowledge across fields. You can craft one of the following: a Thundersmith's Stormforged Weapon, an Infusionsmith's Animated Weapon, Blasting Rod, or Infused Weapon, a Potionsmith's Alchemical Reagent Pouch and Alchemical Fire or Alchemical Acid, or an Unrestricted Gadgetsmith Upgrade.",
+							"If you select a Stormforged Weapon, you gain proficiency with that weapon and knowledge of how to make ammunition for it (if required). You cannot apply Infused Weapon to another weapon granted by this class.",
+							"If this selection is lost or destroyed, you can remake it following the rules for remaking the select item in subclass."
+						]
+					}
+				],
+				[
+					{
+						"name": "Wondrous Item Proficiency",
+						"entries": [
+							"At 7th level, your familiarity with the workings of magical items means that you can ignore class based restrictions on attuning to magical items.",
+							"Additionally, you can now attune to 4 magical items at once."
+						]
+					}
+				],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+						]
+					}
+				],
+				[
+				],
+				[
+					{
+						"name": "Improved Magical Crafting",
+						"entries": [
+							"At 10th level, your experience in creating your own wondrous invention makes you more adept at crafting a magic item than a normal spellcaster. Creating a magic item takes you half the time it would normally take.",
+							"Additionally, you can make 1 hour of progress toward crafting a magic item, scroll, or potion during a long rest."
+						]
+					},
+					{
+						"name": "Wondrous Item Recharge",
+						"entries": [
+							"Starting at 10th level, you can recharge a magic item that has charges or per rest uses, as long as those charges or uses can only be used to cast spells. To restore charges or uses, you perform a ritual that takes one minute and expends a spell slot of equal or higher level than a spell slot level of a spell cast by the item.",
+							"The number of charges or uses restored to the item is equal to the number of charges or uses required to cast that spell using the item once."
+						]
+					}
+				],
+				[
+					{
+						"name": "Study of Magic",
+						"entries": [
+							"At 11th level, your proficiency in the workings of magic has become so great you can cast detect magic and identify at will without expending a spell slot.",
+							"Additionally, you have advantage on all Intelligence (Arcana) checks to understand the workings of magical traps, effects, or runes."
+						]
+					}
+				],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+						]
+					}
+				],
+				[
+				],
+				[
+					{
+						"name": "Artificer Specialist feature",
+						"entries": [
+							"At 14th level, you gain a feature granted by your Artificer Specialization."
+						],
+						"gainSubclassFeature": true
+					}
+				],
+				[
+				],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+						]
+					}
+				],
+				[
+				],
+				[
+					{
+						"name": "Wondrous Item Mastery",
+						"entries": [
+							"Starting at 18th level you can activate a magic item that would normally take an action as a bonus action instead.",
+							"Additionally, you can attune to 5 magical items at a time."
+						]
+					}
+				],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+						]
+					}
+				],
+				[
+					{
+						"name": "Peerless Inventor",
+						"entries": [
+							"At 20th level, your mind is always thinking of new options and clever solutions. You can select and create temporary version of an Upgrade from your subclass you are qualified to take but do not have with a level requirement of 11th level or lower as an action. You have this upgrade until you complete a short rest. You cannot select another temporary Upgrade in this fashion until you complete a short or long rest."
+						]
+					}
+				]
+			],
+			"subclassTitle": "Artificer Specialization",
+			"subclasses": [
+				{
+					"name": "Gadgetsmith",
+					"subclassFeatures": [
+						[
+							{
+								"name": "Gadgetsmith's Proficiency",
+								"entries": [
+									"When you choose this specialization at 1st level, you gain proficiency with nets, rapiers, whips, and tinker's tools."
+								]
+							},
+							{
+								"name": "Essential Tools",
+								"entries": [
+									"At 1st level, you've mastered the creation of the essential reusable tools for surviving the battlefield as a gadgeteer. You have the following items:",
+									{
+										"type": "list",
+										"items": [
+											"Grappling Hook. As an attack or as an action, you may target a surface, object or creature within 20 feet. If the target is Small or Smaller, you can make a Strength (Athletics) grappling check to pull it to you and grapple it. Alternatively, if the target is Medium or larger, you can choose to be pulled to it, however, this does not grapple it.",
+											"Smoke Bomb. As an action, you can use this to cast {@spell fog cloud} centered on yourself without expending a spell slot. It lasts a number of rounds equal to your intelligence modifier and does not require concentration.",
+											"Gadgetsmith Weapon. Pick one of boomerang of hitting, Impact Gauntlets, Lightning Baton, Repeating Crossbow, or Shock Generator from the {@filter upgrade section|optionalfeatures|feature type=gg}. You receive this upgrade and it does not count against your upgrade total."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Additional Upgrade",
+										"entries": [
+											"At 3rd level, you've mastered the essential tools, and have begun to tinker with ways to expand your arsenal. The number of upgrades you have for your class level is increased by one.",
+											"The number of additional upgrades you get increases by one more at 5th level to two more than the class table."
+										]
+									}
+								]
+							},
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Recycle Gadgets",
+										"entries": [
+											"Starting at 3rd level, during a long rest and taking effect when you complete it, you can disassemble your gadgets and create different ones. When you do this, remove any upgrade you would like, and pick a new upgrade its place.",
+											"You still must select upgrades that are valid for the level you gained the upgrade at (e.g. at 9th level, you can only have one upgrade that has a prerequisite of 9th level).",
+											"Additionally, if a gadget is destroyed, you can use this feature to recreate it for materials worth 20 gold pieces."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Extra Attack",
+										"entries": [
+											"Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Combat Gadgets",
+										"entries": [
+											"Beginning at the 14th level, when you take the Attack action, you can replace an attack with using any gadget that requires an action to use."
+										]
+									}
+								]
+							}
+						]
+					],
+					"source": "PHEW",
+					"shortName": "Gadgetsmith"
+				},
+				{
+					"name": "Golemsmith",
+					"subclassFeatures": [
+						[
+							{
+								"name": "Golemsmith's Proficiency",
+								"entries": [
+									"When you choose this specialization at 1st level, you gain proficiency with smith's tools and tinker's tools."
+								]
+							},
+							{
+								"name": "Mechanical Golem",
+								"entries": [
+									"Starting at 1st level, you forge an {@creature artificer's golem|phew} to carry out your orders and protect you. The golem is under your control, and understands the languages you speak, but does not speak.",
+									"The Golem obeys your commands as best it can. On your turn, you can verbally command the construct where to move (no action required by you) and take an action, which requires your action to do. Additionally, you can use your reaction to direct it to take a reaction. The Golem acts on your commands during your turn. If you issue no action command to your Golem, it takes no actions.",
+									"Your Golem's Proficiency increases when yours does. If the golem is killed, it can be returned to life via normal means, such as with the revivify spell.",
+									"In addition, over the course of a long rest, you can repair a slain servant if you have access to its body. It returns to life with half (rounded down) its maximum hit point at the end of the rest during which you repaired it. If the servant is beyond recovery, you can reproduce the construct exactly as it was, with four days of work (eight hours each day) and 100 gp of raw materials.",
+									"Over the course of a short rest, you can restore hitpoints equal to your Intelligence modifier + your Artificer level to your golem, or repair it to full health during a long rest."
+								]
+							},
+							{
+								"name": "Golem Chassis",
+								"entries": [
+									"When you create your golem, you can add one prefix to its type in the form which basic chassis you use for golem. For example, if you select Warforged, your golem becomes a Warforged Golem, and gains the Warforged modifications to its base statistics.",
+									{
+										"name": "Warforged",
+										"entries": [
+											"Your golem is roughly humanoid, and comes with the robust flexibility and options that this form provides. Its base strength becomes 16(+3) and it gains proficiency in shields, simple weapons, and martial weapons.",
+											"Its natural weapon is: Slam: +5 (Strength + Proficiency) to hit, reach 5ft., one target. Hit 1d4 + 3 (Strength) bludgeoning damage."
+										]
+									},
+									{
+										"name": "Quadrupedal",
+										"entries": [
+											"Your golem takes on a quadrupedal design. Larger and more sturdy, it is more suitable to launch into the fray or carry its creator. Its base size becomes large, its base strength and constitution become 16(+3), its natural armor becomes 16, and its speed becomes 35 ft.",
+											"Its natural weapon is: Bite: +5 (Strength + Proficiency) to hit, reach 5ft., one target. Hit 1d10 + 3 (Strength) piercing damage."
+										]
+									},
+									{
+										"name": "Winged",
+										"entries": [
+											"Your Golem is modeled off a flying creature. Smaller and lighter than most golems, it is kept aloft by intricate wings. Its base size becomes small and it gains a flying speed of 30 ft.",
+											"Its natural weapon is: Talon: +4 (Strength + Proficiency) to hit, reach 5ft., one target. Hit 1d8 + 2 (Strength) slashing damage."
+										]
+									},
+									{
+										"name": "Launcher",
+										"entries": [
+											"Your Golem becomes akin to a mobile turret, taking the frame of a ballista or other launching device. Its base Dexterity becomes 16(+3) and its speed becomes 25 ft.",
+											"Its natural weapon is: Shoot +5 (Dexterity + Proficiency) to hit, reach 60/240ft., one target. Hit 1d10 + 3 (Dexterity) piercing damage."
+										]
+									},
+									{
+										"name": "Specialized",
+										"entries": [
+											"Your Golem defies all expectations, its design fueled by your own rampant creativity. A little less robust and stable, it is far more extensible to your visionary plans. Your Golem starts with the basic statistics, but you can select 2 free {@filter upgrades|optionalfeatures|feature type=gl} that do not count against your upgrade total.",
+											"Its natural weapon is: Slam: +4 (Strength + Proficiency) to hit, reach 5ft., one target. Hit 1d8 + 4 (Strength) bludgeoning damage."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Intelligent Oversight",
+										"entries": [
+											"Starting at 3rd level, you can take the Help action as a bonus action when assisting your golem.",
+											"Additionally, when you take the Help action to aid an ally (including your golem) in attacking a creature, the target of that attack can be within 30 feet of you, rather than 5 feet of you, if the allied creature can see or hear you."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Autonomous Action",
+										"entries": [
+											"Starting at 5th level, you no longer need to spend your action or reaction to direct the golem to use its action or reaction, and it can act following mental commands communicated while it is within 60 feet of you.",
+											"If the Golem is not directed to take any action, it will take the Dodge action in combat."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Magical Nature",
+										"entries": [
+											"Additionally at 5th level, your golem's natural weapons count as magical for the purposes of overcoming resistance and immunity to nonmagical attacks and damage."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Perfected Design",
+										"entries": [
+											"Starting at 14th level, your golem can add your Intelligence modifier to all of its attack rolls, skill checks, and saving throws."
+										]
+									}
+								]
+							}
+						]
+					],
+					"source": "PHEW",
+					"shortName": "Golemsmith"
+				},
+				{
+					"name": "Infusionsmith",
+					"subclassFeatures": [
+						[
+							{
+								"name": "Infusionsmith's Proficiency",
+								"entries": [
+									"When you choose this specialization at 1st level, you gain proficiency with jeweler's tools and calligrapher's supplies.",
+									"Your knowledge of infusion magic gives you a natural affinity for scribing spell scrolls. Creating a magic spell scroll only takes you half the time and material cost it would normally take."
+								]
+							},
+							{
+								"name": "Infused Armament",
+								"entries": [
+									"Starting at 1st level, you can infuse a powerful armament to take into battle. At the end of a long rest, select one of the Infusions below. The infusion lasts until the end of your next long rest.",
+									{
+										"name": "Animated Weapon",
+										"entries": [
+											"You touch a melee weapon, causing it to spring to life. An animated weapon can be carried or stowed, but while readied, it floats beside you. While an animated weapon is readied, as an action you can make a melee spell attack with it.",
+											"If this attack hits, it deals the weapon's damage dice + your Intelligence modifier. The range of this attack is 30 feet, with that range reduced to 15 feet if the weapon has the Heavy property and increased to 60 feet if the weapon has the Light property."
+										]
+									},
+									{
+										"name": "Blasting Rod",
+										"entries": [
+											"You touch a nonmagical wand-blank, stick, staff, or rod, infusing with the ability to cast a cantrip. Select one Evocation Cantrip from the Wizard spell list that does not require concentration. Thereafter, as an action, you can use the Blasting rod to cast that cantrip.",
+											"Once per turn, when you deal damage to a creature or object with your Blasting Rod, you can add your Intelligence modifier to damage dealt to that target."
+										]
+									},
+									{
+										"name": "Infused Weapon",
+										"entries": [
+											"You touch a weapon, enchanting its effectiveness. While this weapon is enchanted, you - and only you - have proficiency with it.",
+											"An Infused Weapon can be wielded like a normal weapon, but gains the following property: you can apply your Intelligence modifier to the to attack and damage roll of the weapon where you usually apply your Strength or Dexterity modifier.",
+											"If an Infused Weapon has a single damage die, and that damage die is less than a d12, the damage die of the Infused Weapon is increased (for example, a dagger's damage die would go from a d4 to a d6)."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Spell Manual",
+										"entries": [
+											"At 3rd level, you have a Spell Manual containing two 1st-level wizard spells of your choice. Your Spell Manual is the repository of any non-Artificer spell you know.",
+											"You cannot cast these spells and they do not count against your spells known, but when you would learn a new Artificer spell, you can select that spell from your Spell Manual instead of the Artificer spell list, at which point you can cast it as normal. You can choose to scribe any Artificer spell you can cast into the Spell Manual, as if copying from a written spell."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Learning Spells of 1st Level and Higher",
+										"entries": [
+											"Each time you gain a artificer level, you can add one wizard Spell of your choice to your Spell Manual for free. Each of these spells must be of a level for which you have Spell Slots, as shown on the Artificer table.",
+											"On your adventures, you might find other Spells that you can add to your Spell Manual. For each level of the spell, the process takes 2 hours and costs 50 gold pieces."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Infuse Magic",
+										"entries": [
+											"Additionally at 3rd level, you can use your Spell Manual to infuse magic items, such as wands, storing the power for later use. In a special ritual taking 1 minute, you can expend a spell slot to cast a spell as normal, but the spell does not take effect, and is stored in the item for later use.",
+											"Subsequently, any creature holding the item with an Intelligence of 6 or higher that is aware there is magic infused in it can expend the stored magic to cast the spell.",
+											"The spell uses your spellcasting modifiers, but is in all other ways treated as if the creature holding it cast the spell. The magic infused in the item fades if you complete a long rest without expending the stored spell."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Improved Armaments",
+										"entries": [
+											"Starting at 5th level, you have mastered the use of your Infused Armaments, allowing you grow more effective with them.",
+											"Your Animated Weapon infusion can now animate two Animated Weapons, and you can attack with both them as part of the same action.",
+											"Your Blasting Rod infusion can now be used more easily. If you cast a spell using an item from Infuse Magic or from a wand (from the Magical Wand upgrade or a normal wand), you can cast the cantrip with your Blasting Rod as a bonus action.",
+											"Your Infused Weapon empowers you, allowing you to attack twice instead of once when you take the attack action."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Infused Focus",
+										"entries": [
+											"Starting at 14th level, you can anchor a powerful spell into an item. When you cast a concentration spell, you can anchor it to an item (such as a staff, wand or weapon), and do not need to maintain concentration. The spell lasts a number of rounds equal to your intelligence modifier, after which the spell ends.",
+											"Once you use this ability, you must complete a short or long rest before using it again."
+										]
+									}
+								]
+							}
+						]
+					],
+					"source": "PHEW",
+					"shortName": "Infusionsmith"
+				},
+				{
+					"name": "Potionsmith",
+					"subclassFeatures": [
+						[
+							{
+								"name": "Potionsmith's Proficiency",
+								"entries": [
+									"When you choose this specialization at 1st level, you gain proficiency with Blowguns, Alchemist’s supplies and Herbalism kit.",
+									"Your knowledge of alchemy gives you a natural affinity for brewing potions. Creating a potion through normal crafting takes you only half the time and cost it would normally take."
+								]
+							},
+							{
+								"name": "Alchemical Reagents Pouch",
+								"entries": [
+									"At 1st level, you've acquired a pouch of useful basic reagents, much as a wizard might carry a component pouch. You've tucked away things that will come in handy, and can retrieve them as part of using an ability that might require them. As long as you have this pouch on, you can use the potionsmith's features. This pouch is considered as alchemy supplies for the purposes of crafting.",
+									"If you lose your reagent pouch, you can spend 50 gold pieces to reacquire the various stocks you need, or spend 1 full day gathering them from a natural environment without expense."
+								]
+							},
+							{
+								"name": "Instant Reactions",
+								"entries": [
+									"At 1st level, you know how to get instant reactions to occur without the niceties of grinding, simmering and brewing required for more refined concoctions.",
+									"Moreover, you know enough ways to do these that with just a few standards supplies, you can get these results out of a wide range of things you can gather in almost any locale and a pinch from your reagent pouch.",
+									"You can pick three instant reactions from your {@filter Upgrade list|optionalfeatures|feature type=pt}, marked with a '*'; these include Alchemical Fire, Alchemical Acid, Healing Draught, Poisonous Gas, or Fortifying Fumes. The reactions you pick do not count against your maximum Upgrades known."
+								]
+							}
+						],
+						[
+							{
+								"name": "Alchemical Infusions",
+								"entries": [
+									"At 3rd level, you have found a way to skip most of the brewing process for alchemically creating potent magically effects by directly infusing the potion with your own magic. When you finish a short or long rest and have an empty vial on your person, you may choose one or more the following spells and use a spell slots to cast them.",
+									{
+										"type": "table",
+										"colLabels": [
+											"Spell level",
+											"Infusion Spells"
+										],
+										"colStyles": [
+											"col-2 text-center",
+											"col-8"
+										],
+										"rows": [
+											[
+												"1st",
+												"{@spell cure wounds}, {@spell fog cloud}, {@spell grease}, {@spell heroism}"
+											],
+											[
+												"2nd",
+												"{@spell barkskin}, {@spell shatter}, {@spell lesser restoration}, {@spell web}"
+											],
+											[
+												"3rd",
+												"{@spell blink}, {@spell water breathing}, {@spell stinking cloud}, {@spell haste}"
+											],
+											[
+												"4th",
+												"{@spell stoneskin}, {@spell confusion}"
+											],
+											[
+												"5th",
+												"{@spell cloudkill}, {@spell skill empowerment}"
+											]
+										]
+									},
+									"When you cast spells in this way, the spell does not take effect immediately, but is infused into the potion. If the spell grants an effect or restores health, the creature will gain the effect of the spell when the potion is consumed as an action.",
+									"If the spell has an area of effect, that area of effect takes place when the vial is broken, with the effect centered on where the vial breaks. As an action, you or another creature can either consume the vial, or throw it up to 30 feet where it shatters on impact.",
+									"If the spell has a persistent effect that requires concentration, it does not require concentration to maintain, but its duration is shortened to a number of rounds equal to your intelligence modifier.",
+									"A spell that does not require concentration lasts its normal duration. An infused potion loses its potency if it is not used by the end of your next long rest.",
+									"You can gain additional spells for your Alchemical Infusions through your Alchemist upgrades."
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Empowered Alchemy",
+										"entries": [
+											"Starting at 5th level, when you deal damage, grant temporary hit points, or restore health with an instant reaction or alchemical infusion, you can add your intelligence modifier to the damage dealt or health restored."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Infusion Expertise",
+										"entries": [
+											"Starting at 14th level, when you create an Alchemical Infusion at end the end of a short or long rest, the first alchemical infusion you create does not require a spell slot to infuse, and you can select an alchemical infusion that you would otherwise not have a spell slot of high enough level for when making this infusion."
+										]
+									}
+								]
+							}
+						]
+					],
+					"source": "PHEW",
+					"shortName": "Potionsmith"
+				}
+			],
+			"fluff": [
+				{
+					"entries": [
+						"A gnome sits hunched over a workbench in a room cluttered with every sort of tool, carefully drawing the final lines to an intricate rune. With a crackling hum of arcane energy, the completed rune flares with power, and she watches with a smile of pride as the golem comes to life and stands.",
+						"A troll growls in hunger as it looms over a dwarf, who slides a long, metal tube from a holster at his belt. With a thundering boom, a gout of energy erupts from the tube, and the troll's growls turn into shrieks of panic as it turns to flee.",
+						"With a thunderous crash of energy a figure lands in the middle of the battlefield. As the smoke clears, a towering presence stands amidst the war-torn battlefield clad in glowing mechanical plate mail. The glowing visor swivels to inspect the wreckage. It raises a gauntlet, and lightning crackles forth.",
+						"Makers of magic-infused objects, artificers are defined by their inventive nature. Like wizards, they see magic as a complex system waiting to be decoded and controlled through a combination of thorough study and investigation.",
+						"Artificers, though, focus on creating marvelous new magical objects. Spells are often too ephemeral and temporary for their tastes. Instead, they seek to craft durable, useful items.",
+						{
+							"type": "entries",
+							"name": "Cunning Inventors",
+							"entries": [
+								"Every artificer is defined by a specific craft. Artificers see mastering the basic methods of a craft as the first step to true progress, the invention of new methods and approaches. Artificers are arcane engineers, students of invention and warfare who craft deadly firearms, ingenious gadgets, magical armor, and mechanical beings that they can augment with magic.",
+								"All artificers are united by their curious and inventive nature. To an artificer, magic is an evolving art with a leading edge of discovery and mastery that pushes further ahead with each passing year. Artificers value novelty and discovery. This penchant pushes them to seek a life of adventure.",
+								"A hidden ruin might hold a forgotten magic item or a beautifully crafted mirror perfect for magical enhancement. Artificers win respect and renown among their kind by uncovering new lore or inventing new methods of creation."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Intense Rivalries",
+							"entries": [
+								"The artificers’ drive to invent and expand their knowledge creates an intense drive to uncover new magic discoveries. An artificer who hears news of a newly discovered magic item must act fast to get it before any rivals do. Good-aligned artificers recover items on adventures or offer gold or wondrous items to those who possess items they are keen to own. Evil ones have no problem committing crimes to claim what they want.",
+								"Almost every artificer has at least one rival, someone whom they seek to outdo at every turn. By the same token, artificers with similar philosophies and theories band together into loose guilds. They share their discoveries and work together to verify their theories and keep ahead of their rivals."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Creating an Artificer",
+							"entries": [
+								"When creating an artificer character, think about your character's background and drive for adventure. Does the character have a rival? What drove your character down the path of being an artificer? Is it about curiosity and invention, or about the power their inventions bring? Did you character learn from another artificer, or receive a vision or flash of inspiration to learn their craft?",
+								"Consider how your character interacts with the world, and what they represent. Consult with your DM regarding guilds or societies your character might belong to.",
+								{
+									"type": "entries",
+									"name": "Quick Build",
+									"entries": [
+										"You can make an artificer quickly by following these suggestions. For the Gadgetsmith or Thundersmith paths, make your highest attribute Dexterity, followed by Intelligence. For Golemsmith, Infusionsmith, or Potionsmith, Intelligence followed by Constitution or Dexterity, and for Warsmith or Fleshsmith, choose either Strength or Intelligence, with Constitution as your second highest attribute. Second, choose the Guild Artisan background."
+									]
+								}
+							]
+						}
+					],
+					"source": "PHEW"
+				}
+			]
+		}
+	]
+}

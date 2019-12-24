@@ -1,0 +1,742 @@
+{
+	"_meta": {
+		"internalCopies": [
+			"race"
+		]
+	},
+	"race": [
+		{
+			"name": "Dwarf",
+			"source": "PHEW",
+			"size": "S",
+			"speed": 25,
+			"darkvision": 120,
+			"ability": [
+				{
+					"choose": {
+						"from":["con","wis"],
+						"count":1,
+						"amount":2
+					}
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Dwarves reach adulthood in their early teens and rarely live more than 60 years."
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Most dwarves are lawful, believing firmly in the benefits of a well-ordered society."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Dwarves are 3 to 4 feet tall, and are always considered Small."
+					]
+				},
+				{
+					"name": "Speed",
+					"entries": [
+						"Your speed is not reduced by wearing heavy armor."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Superior Darkvision",
+					"entries": [
+						"You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Echolocation",
+					"entries": [
+						"You can use your action to sing, whistle, scream or otherwise use sound in order to gain blindsight up to a 30 foot radius until the end of your turn. You must be able to hear the sound in order to benefit from this ability."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Limited Arcane Immunity",
+					"entries": [
+						"You are immune to arcane spells of a level equal to or lower than half of your proficiency bonus unless you wish to be affected by them."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Arcane Ineptitude",
+					"entries": [
+						"You are unable to activate magical items and can only benefit from those that give off passive continuous benefits. In addition, you can only attune to up to 2 items instead of 3, and you must reduce by 1 this limit if it ever increases."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Dwarvish and Common."
+					],
+					"type": "entries"
+				}
+			],
+			"subraces": [
+				{
+					"name": "Dragon",
+					"entries": [
+						{
+							"name": "Elemental Resistance",
+							"entries": [
+								"You have resistance to one of the following damage types: acid, fire, lightning, poison, or cold."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Brave",
+							"entries": [
+								"You have advantage on saving throws against being frightened."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Far Thrower",
+							"entries": [
+								"You don't have disadvantage on attack rolls made with a ranged or thrown weapon when your target is beyond normal range."
+							],
+							"type": "entries"
+						}
+					]
+				},
+				{
+					"name": "Snake",
+					"entries": [
+						{
+							"name": "Poison Resilience",
+							"entries": [
+								"You have advantage on saving throws against poison, and you have resistance against poison damage."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Nimbleness",
+							"entries": [
+								"You have advantage on rolls made to resist being grappled or restrained, as well as rolls made to escape a grapple."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Focused",
+							"entries": [
+								"You have advantage on saving throws against being charmed."
+							],
+							"type": "entries"
+						}
+					]
+				},
+				{
+					"name": "Stone",
+					"entries": [
+						{
+							"name": "Ability Score Increase",
+							"entries": [
+								"Your Strength, Intelligence or Charisma score increases by 1."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Dwarven Stability",
+							"entries": [
+								"You have advantage on saving throws against being shoved or knocked prone."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Arcane Resilience",
+							"entries": [
+								"When you roll a 1 on a saving throw against an arcane spell, you can reroll the die and must use the new roll."
+							],
+							"type": "entries"
+						}
+					]
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"dwarvish": true
+				}
+			]
+		},
+		{
+			"name": "Elf",
+			"source": "PHEW",
+			"size": "M",
+			"speed": 30,
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Elves reach adulthood in their early teens and rarely live more than 60 years."
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Most elves are chaotic, with no clear sense of identity or loyalty beyond whatever gives them happiness at the time."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Elves are 4 to 5 feet tall, but much skinnier than humans. They are considered Medium."
+					]
+				},
+				{
+					"name": "Elven Adaptability",
+					"entries": [
+						"You can change your appearance over an extended period of time. You can grow hair, sprout leaves or flowers, cat claws, wolf noses, any kind of gender signifiers and other extraneous body parts over time. You can choose a single body part to grow at a time, and must do it over an entire month which you spend living with a creature or plant that shares that property. These body parts don't change your fundamental capabilities: eagle eyes don't change your sight, a wolf nose won't improve your sense of smell, and cat claws are too weak to scratch anything with sufficient force."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Elven and one other language of your choice, which can include the ability to communicate with a specific animal species."
+					],
+					"type": "entries"
+				}
+			],
+			"subraces": [
+				{
+					"name": "City",
+					"ability": [
+						{
+							"str": 1,
+							"dex": 1,
+							"con": 1,
+							"int": 1,
+							"wis": 1,
+							"cha": 1
+						}
+					],
+					"entries": [
+						{
+							"name": "Humanoid Kinship",
+							"entries": [
+								"You can give up 1 Ability Score increase to obtain one of the following traits through your Elven Adaptability instead:",
+								{
+									"type":"table",
+									"caption":"Humanoid Kinship",
+									"colLabels":["Race","Traits"],
+									"colStyles":["col-3 text-center","col-6"],
+									"rows":[
+										["Dwarf","Superior Darkvision, Echolocation, Brave (Dragon), Nimbleness (Snake), Stability (Stone)"],
+										["Goroth","Powerful Build, Stone's Endurance"],
+										["Hom","Determination, Skill Versatility (Generalist), Prolific Mind (Sharp), Relentless Endurance (Tough)"]
+									]
+								}
+							],
+							"type": "entries"
+						}
+					]
+				},
+				{
+					"name": "Fauna",
+					"speed": 35,
+					"ability": [
+						{
+							"dex": 2,
+							"choose": {
+								"from": ["str","cha"],
+								"count": 1,
+								"amount": 2
+							}
+						}
+					],
+					"entries": [
+						{
+							"name": "Animal Kinship",
+							"entries": [
+								"You can give up 1 Ability Score increase to obtain two of the following traits through your Elven Adaptability instead: Keen Smell, Keen Sight, Keen Hearing, Amphibious, Relentless, Standing Leap, Running Leap, Spider Climb, Underwater Camouflage, Ink Cloud, Sure-Footed, Beast of Burden, Mimicry (raven), or a natural weapon (1d6 damage for a single weapon and 1d4 for a multi-weapon, such as claws or tentacles)."
+							],
+							"type": "entries"
+						}
+					]
+				},
+				{
+					"name": "Flora",
+					"ability": [
+						{
+							"con": 2,
+							"choose": {
+								"from": ["str","int"],
+								"count": 1,
+								"amount": 2
+							}
+						}
+					],
+					"entries": [
+						{
+							"name": "Floral Longevity",
+							"entries": [
+								"Flora Elves reach maturity in their early 20s, and have a lifespan of up to 100 years."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Plant Kinship",
+							"entries": [
+								"You can give up 1 Ability Score increase to obtain one of the following traits through your Elven Adaptability instead:",
+								{
+									"type":"table",
+									"caption":"Plant Kinship",
+									"colLabels":["Trait","Description"],
+									"colStyles":["col-3 text-center","col-6"],
+									"rows":[
+										["Rooting","You can forgo your Move Action to give yourself advantage to resist being pushed or knocked prone."],
+										["Harden Skin","You gain a number of temporary hit points at the end of a long rest equal to your proficiency + your Constitution modifier."],
+										["Withstand the Elements","You can use your reaction to gain resistance to acid, cold, fire, lightning, and thunder damage until the end of that turn."],
+										["Minor Regeneration","You automatically succeed any death roll you make, and you regain 1 hit point as soon as you suceed 3 of them."]
+									]
+								}
+							],
+							"type": "entries"
+						}
+					]
+				}
+			],
+			"languageProficiencies": [
+				{
+					"elvish": true,
+					"other": true
+				}
+			]
+		},
+		{
+			"name": "Goroth",
+			"source": "PHEW",
+			"size": "M",
+			"speed": 30,
+			"ability": [
+				{
+					"str": 1,
+					"con": 1
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Goroth reach adulthood by the time they reach 10 years of age and can live up to 120 years."
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Goroth tend to be neutral: loyal to their family and role, but chaotic in their attitude towards the world."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Goroth are 7 to 8 feet tall, and they're considered Medium."
+					]
+				},
+				{
+					"name": "Powerful Build",
+					"entries": [
+						"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Stalwart Resilience",
+					"entries": [
+						"You reduce any bludgeoning, piercing, and slashing damage you take by 3."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Stone's Endurance",
+					"entries": [
+						"You can focus yourself to occasionally shrug off injury. When you take damage, you can use your reaction to roll a {@dice d12}. Add your Constitution modifier to the number rolled, and reduce the damage by that total. After you use this trait, you can't use it again until you finish a short or long rest."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common."
+					],
+					"type": "entries"
+				}
+			],
+			"subraces": [
+				{
+					"name": "Artist",
+					"ability": [
+						{
+							"dex": 1,
+							"cha": 1
+						}
+					],
+					"entries": [
+						{
+							"name": "Goroth Artist's Role",
+							"entries": [
+								"You have expertise in 2 Dexterity or Charisma tools of your choice, usually determined by your role."
+							],
+							"type": "entries"
+						}
+					]
+				},
+				{
+					"name": "Erudite",
+					"ability": [
+						{
+							"int": 1,
+							"wis": 1
+						}
+					],
+					"entries": [
+						{
+							"name": "Goroth Erudite's Role",
+							"entries": [
+								"You can speak, read, and write Goroth and 2 other languages of your choice. In addition, you gain expertise in an Intelligence or Wisdom skill you're proficient with. Goroth is a language that was used by this race in the past, before they started relations with the rest of the humanoids. All Goroth know some words in this language, and they use them regularly in their speech."
+							],
+							"type": "entries"
+						}
+					]
+				},
+				{
+					"name": "Warrior",
+					"ability": [
+						{
+							"str": 2,
+							"con": 2
+						}
+					],
+					"entries": [
+						{
+							"name": "Goroth Warrior's Role",
+							"entries": [
+								"Whenever you gain a level and increase your maximum hit points, reroll any die roll lower than your proficiency bonus. The proficiency bonus is updated before calculating your new hit points."
+							],
+							"type": "entries"
+						}
+					]
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true
+				}
+			]
+		},
+		{
+			"name": "Hom",
+			"source": "PHEW",
+			"size": "M",
+			"speed": 30,
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Homs reach adulthood in their mid teens and live less than a century."
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Homs tend toward no particular alignment. The best and the worst are found among them."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Homs vary wildly in height and build, from barely 5 feet tall to over 6 feet tall. Regardless of your position in this range your size is Medium."
+					]
+				},
+				{
+					"name": "Determination",
+					"entries": [
+						"You can choose to give yourself advantage before making an attack roll, saving throw or ability check. Once you use this ability, you can't use it again until you finish a short or long rest."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, write and read Common and one extra language of your choice. Homs typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues."
+					],
+					"type": "entries"
+				}
+			],
+			"subraces": [
+				{
+					"name": "Generalist",
+					"ability": [
+						{
+							"str": 1,
+							"dex": 1,
+							"con": 1,
+							"int": 1,
+							"wis": 1,
+							"cha": 1
+						}
+					],
+					"entries": [
+						{
+							"name": "Skill Versatility",
+							"entries": [
+								"You gain proficiency in two skills and one tool of your choice."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Well Traveled",
+							"entries": [
+								"You can read, speak, and write an additional two languages of your choice."
+							],
+							"type": "entries"
+						}
+					]
+				},
+				{
+					"name": "Sharp",
+					"entries": [
+						{
+							"name": "Ability Score Increase",
+							"entries": [
+								"Increase either your Intelligence, Wisdom or Charisma score by 2, and two other Ability Scores of your choice increase by 1 each."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Skill Versatility",
+							"entries": [
+								"When you gain your 1st character level and gain proficiency in skills from the list in your class's description, you gain expertise in one of the chosen skills, which means you add double your proficiency bonus to skill checks with that skill."
+							],
+							"type": "entries"
+						}
+					]
+				},
+				{
+					"name": "Tough",
+					"entries": [
+						{
+							"name": "Ability Score Increase",
+							"entries": [
+								"Increase either your Strength, Dexterity, or Constitution score by 2, and two other Ability Scores of your choice by 1."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Relentless Endurance",
+							"entries": [
+								"When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can't use this feature again until you complete a long rest."
+							],
+							"type": "entries"
+						}
+					]
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"other": true
+				}
+			]
+		},
+		{
+			"name": "Titan",
+			"source": "PHEW",
+			"size": "M",
+			"darkvision": 60,
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Titans do not grow or age, but they do deteriorate over time. Titans have potentially eternal lives."
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Titans are as varied as the souls that were used to build them. They tend to no particular alignment."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Titans vary somewhat in size, between 6 and 7 feet tall. Regardless of your position in this range your size is Medium."
+					]
+				},
+				{
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Mechanical Form",
+					"entries": [
+						"Whenever you would regain hit points, except at the end of a long rest and for effects that work when you spend your hit dice, you regain only half the amount (rounded up). On the other hand, you can spend 1 hit dice when you're the target of the {@spell mending} cantrip."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Immutable Form",
+					"entries": [
+						"You are immune to any spell or effect that would alter your form."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Artificial Body",
+					"entries": [
+						" You are immune to sleep. You don't need to eat, sleep or breathe. You only need 30 minutes in order to finish a short rest and 4 hours of inactivity in order to finish a long rest. During a long rest, you are aware of your surroundings but can't think or move without interrupting your rest and requiring another full 4h to rest."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Artificial Soul",
+					"entries": [
+						"You have disadvantage on resurrection rolls, and you're considered to be dead for a day for each hour that passes up to 24, and a year for every day that passes since your death."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Half-Construct",
+					"entries": [
+						"You are immune to disease and the poisoned condition, and resistant to poison damage."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, write and read Dwarvish and one extra language of your choice. Titans typically learn the language of their master."
+					],
+					"type": "entries"
+				}
+			],
+			"subraces": [
+				{
+					"name": "Guardian",
+					"speed": 20,
+					"ability": [
+						{
+							"con": 2
+						}
+					],
+					"entries": [
+						{
+							"name": "Speed",
+							"entries": [
+								"Your base walking speed is 20 feet, but being encumbered, heavily encumbered, or moving a grappled creature don't reduce your speed."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Giant Armor Plating",
+							"entries": [
+								"You cannot wear armor, but you're considered to be wearing heavy armor. Your Armor Class equals 13 + your Constitution modifier."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Giant Frame",
+							"entries": [
+								"Any allied creatures within 5 feet of you have three quarters cover against ranged attacks."
+							],
+							"type": "entries"
+						}
+					]
+				},
+				{
+					"name": "Hammer",
+					"speed": 30,
+					"ability": [
+						{
+							"choose": {
+								"from": ["str","int","cha"],
+								"count": 1,
+								"amount": 2
+							}
+						}
+					],
+					"entries": [
+						{
+							"name": "Combat Armor Plating",
+							"entries": [
+								"You cannot wear armor, but you're considered to be wearing light armor. Your Armor Class equals 13 + your Dexterity modifier."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Siege Monster",
+							"entries": [
+								"You deal double damage to objects and structures."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Slam",
+							"entries": [
+								"You can make a special unarmed strike called a slam. It's a melee weapon attack you're proficient with that has a weapon die of 1d8 and deals bludgeoning damage."
+							],
+							"type": "entries"
+						}
+					]
+				},
+				{
+					"name": "Scout",
+					"speed": 40,
+					"ability": [
+						{
+							"choose": {
+								"from": ["dex","wis"],
+								"count": 1,
+								"amount": 2
+							}
+						}
+					],
+					"entries": [
+						{
+							"name": "Reliable Scouting",
+							"entries": [
+								"You can choose 10 instead of rolling whenever you make a Dexterity or Wisdom skill check for a skill you're proficient with a number of times equal to your proficiency bonus."
+							],
+							"type": "entries"
+						}
+					]
+				}
+			],
+			"languageProficiencies": [
+				{
+					"dwarvish": true,
+					"other": true
+				}
+			]
+		}
+	]
+}

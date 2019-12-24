@@ -1,0 +1,1534 @@
+{
+	"optionalfeature": [
+		{
+			"name": "Airburst Mine",
+			"entries": [
+				"You create a mechanical device capable of producing a devastating blast. You can use this device to cast {@spell shatter} or {@spell thunderburst mine} without expending a spell slot. Once used, the gadget cannot be used again until you complete a short or long rest."
+			],
+			"source": "PHEW",
+			"featureType": "GG"
+		},
+		{
+			"name": "Boomerang of Hitting",
+			"entries": [
+				"You create a magical boomerang. You have proficiency in this weapon, and it has the Finesse, Thrown (30/90), and Special properties, and deals {@dice 1d4} bludgeoning damage. At level 5, this weapon gains a +1 to attack and damage rolls; this increases to a +2 at level 14.",
+				"Special: When this weapon is Thrown, you can target two creatures within 10 feet of each other, making a separate attack roll against each target.",
+				"This weapon returns to your hand after you make an attack with it using the Thrown property."
+			],
+			"source": "PHEW",
+			"featureType": "GG"
+		},
+		{
+			"name": "Belt of Adjusting Size",
+			"entries": [
+				"You create a belt with a creature size dial on it. While you are wearing this belt, you can use an action to cast {@spell Enlarge/Reduce} on yourself. Once you use this gadget, you cannot use it again until you complete a short or long rest."
+			],
+			"source": "PHEW",
+			"featureType": "GG"
+		},
+		{
+			"name": "Element Eater",
+			"entries": [
+				"You create a device capable of absorbing incoming elemental damage. You can activate this device and cast {@spell absorb elements} without expending a spell slot, but the gadget cannot be used again until you complete a short or long rest."
+			],
+			"source": "PHEW",
+			"featureType": "GG"
+		},
+		{
+			"name": "Enhanced Grappling Hook",
+			"entries": [
+				"You enhance your grappling hook, increasing its range to 30 feet. Additionally, the enhanced power of the grappling hook means that when pulling yourself to a larger or larger creature or object, you can drag one medium or smaller willing or grappled creature within 5 feet of you with you."
+			],
+			"source": "PHEW",
+			"featureType": "GG"
+		},
+		{
+			"name": "Fire Spitter",
+			"entries": [
+				"You create a gadget that creates a quick blast of fire. As an action, you can cast {@spell Aganazzar's Scorcher} with this gadget without expending a spell slot, but the gadget cannot be used again until you complete a short or long rest."
+			],
+			"source": "PHEW",
+			"featureType": "GG"
+		},
+		{
+			"name": "Flashbang",
+			"entries": [
+				"You create a high luminary discharge device. As an action, you can target a point within 30 feet. Any creature within 20 feet of the targeted point must make a Dexterity saving throw or be blinded until the end of its next turn. Once you use this gadget, you cannot use it again until you complete a short or long rest."
+			],
+			"source": "PHEW",
+			"featureType": "GG"
+		},
+		{
+			"name": "Gravity Switch",
+			"entries": [
+				"You build a switch that turns off gravity. You can use it to cast {@spell feather fall} without expending a spell slot. Once you this gadget, you cannot use it again until you complete a short or long rest."
+			],
+			"source": "PHEW",
+			"featureType": "GG"
+		},
+		{
+			"name": "Impact Gauntlet",
+			"entries": [
+				"You create a magic weapon capable of amplifying the impact of your blows. You have proficiency in this weapon, and it has the Finesse, Light and Special properties. It deals {@dice 1d8} bludgeoning damage. At level 5, this weapon gains a +1 to attack and damage rolls; this increases to a +2 at level 14.",
+				"Special: When you make an attack roll, you can choose to forgo adding your Proficiency modifier to the attack roll. If the attack hits, you can add double your Proficiency modifier to the damage roll.",
+				"You can apply this upgrade up to 2 times, making a separate item each time."
+			],
+			"source": "PHEW",
+			"featureType": "GG"
+		},
+		{
+			"name": "Jumper Cable",
+			"prerequisite": [
+				{
+					"type": "prereqSpecial",
+					"entry": "Shock Generator upgrade",
+					"entrySummary": "Shock Generator"
+				}
+			],
+			"entries": [
+				"When you cast shocking grasp with your shock generator, you can add your Intelligence modifier to the damage dealt.",
+				"Additionally, you can make a DC 10 Intelligence (Medicine) to revive an unconscious companion. If you succeed this check, they regain consciousness with 1 hitpoint and a number of temporary hit points equal to your Artificer level, but they gain 1 level of exhaustion."
+			],
+			"source": "PHEW",
+			"featureType": "GG"
+		},
+		{
+			"name": "Lightning Baton",
+			"entries": [
+				"You create a baton that channels lightning, creating a magic weapon. You have proficiency in this weapon.",
+				"It has the Finesse and Light properties. It deals {@dice 1d4} bludgeoning damage and {@dice 1d4} lightning damage on hit. On an attack roll of 20 with this weapon, the target must succeed a Constitution saving throw against your Spell Save DC or become stunned until the start of your next turn. At level 5, this weapon gains a +1 to attack and damage rolls; this increases to a +2 at level 14.",
+				"You can apply this upgrade up to 2 times, making a separate item each time."
+			],
+			"source": "PHEW",
+			"featureType": "GG"
+		},
+		{
+			"name": "Mechanical Arm",
+			"entries": [
+				"You create a mechanical arm, giving an extra hand. This mechanical arm only functions while it is mounted on gear you are wearing, but can be operated mentally without the need for you hands. This mechanical arm can serve any function a normal hand could, such as holding things, making attacks, interacting with the environment, etc, but does not give you additional actions."
+			],
+			"source": "PHEW",
+			"featureType": "GG"
+		},
+		{
+			"name": "Mechanical Familiar",
+			"entries": [
+				"You can create the blueprint for a small mechanical creature. At the end of a long rest, you can choose to animate it, and cast find familiar. The familiar's type is Construct. This construct stays active until you deactivate it or it is destroyed. In either case, you can choose to reactivate it at the end of a long rest."
+			],
+			"source": "PHEW",
+			"featureType": "GG"
+		},
+		{
+			"name": "Jumping Boots",
+			"entries": [
+				"You modify your boots with arcane boosters. While wearing these boots, you are under the effects of the {@spell jump} spell."
+			],
+			"source": "PHEW",
+			"featureType": "GG"
+		},
+		{
+			"name": "Net Launcher",
+			"entries": [
+				"You build a device capable of delivering nets to their targets more effectively. While you have this upgrade, nets have a range of 20/60 for you."
+			],
+			"source": "PHEW",
+			"featureType": "GG"
+		},
+		{
+			"name": "Repeating Hand Crossbow",
+			"entries": [
+				"You build an improved hand crossbow. You have proficiency in this weapon, and it has the Ammunition (range 30/120), Light, and Special properties and deals {@dice 1d6} piercing damage. At level 5, this weapon gains a +1 to attack and damage rolls; this increases to a +2 at level 14.",
+				"Special: This weapon does not require a free-hand to load, as it has a built in loader. Once per turn, when you take the Attack action with this weapon and have advantage on an attack, you can forgo advantage on an attack to make one additional weapon attack (also without advantage) with this weapon against the same target as a bonus action."
+			],
+			"source": "PHEW",
+			"featureType": "GG"
+		},
+		{
+			"name": "Shock Generator",
+			"entries": [
+				"You create a device capable of generating potent shocks. You can use this to cast {@spell shocking grasp}. When you cast shocking grasp with this feature, you can use either your Dexterity or Intelligence modifier for the melee spell attack roll."
+			],
+			"source": "PHEW",
+			"featureType": "GG"
+		},
+		{
+			"name": "Shocking Hook",
+			"prerequisite": [
+				{
+					"type": "prereqSpecial",
+					"entry": "Shock Generator upgrade",
+					"entrySummary": "Shock Generator"
+				}
+			],
+			"entries": [
+				"You can integrate your Shock Generator and your Grappling Hook. If the target of your Grappling Hook is a creature, you can cast {@spell shocking grasp} using your Shock Generator on that creature as a bonus action when pulling it to you or being pulled to it."
+			],
+			"source": "PHEW",
+			"featureType": "GG"
+		},
+		{
+			"name": "Sight Lenses",
+			"entries": [
+				"You create a set of lenses you can integrate into a set of goggles, glasses, or other vision assistance that allow you to see through obscurement. You can see through fog, mist, smoke, clouds, and non-magical darkness as normal sight up to 15 feet."
+			],
+			"source": "PHEW",
+			"featureType": "GG"
+		},
+		{
+			"name": "Smoke Cloak",
+			"entries": [
+				"You create a cloak that causes you to blend in with smoke. When you start your turn lightly or heavily obscured by smoke, you are invisible until your turn ends, you cast a spell, make an attack, or damage an enemy."
+			],
+			"source": "PHEW",
+			"featureType": "GG"
+		},
+		{
+			"name": "Striding Boots",
+			"entries": [
+				"You modify your boots with amplified striding speed. While wearing these boots, you are under the effects of the {@spell longstrider} spell."
+			],
+			"source": "PHEW",
+			"featureType": "GG"
+		},
+		{
+			"name": "Autonomous Crossbow",
+			"prerequisite": [
+				{
+					"type": "prereqLevel",
+					"level": 5,
+					"class": {
+						"name": "Artificer"
+					},
+					"subclass": {
+						"name": "Gadgetsmith"
+					}
+				}
+			],
+			"entries": [
+				"You modify a crossbow to be able to aim and fire on its own. As an action, you can deploy a tiny construct. Once deployed, the tiny construct can be fired as a bonus action making an attack from where it is deployed. You make a ranged spell attack, and if the attack hits it deals {@dice 1d6} + your intelligence modifier piercing damage. The construct becomes inactive after 1 minute has passed, or after it has fired 10 times.",
+				"Once you have activated it, you cannot activate it again until you complete a short or long rest."
+			],
+			"source": "PHEW",
+			"featureType": "GG"
+		},
+		{
+			"name": "Binding Rope",
+			"prerequisite": [
+				{
+					"type": "prereqLevel",
+					"level": 5,
+					"class": {
+						"name": "Artificer"
+					},
+					"subclass": {
+						"name": "Gadgetsmith"
+					}
+				}
+			],
+			"entries": [
+				"You create a rope that is capable of animating and binding a target. As an action, target a creature within 30 feet. The target must make a Dexterity saving throw against your Spell Save DC or become restrained until the end of your next turn. If you are currently grappling the target, it makes the Dexterity saving throw with disadvantage. The rope can only restrain one target a time."
+			],
+			"source": "PHEW",
+			"featureType": "GG"
+		},
+		{
+			"name": "Explosive Gauntlet",
+			"prerequisite": [
+				{
+					"type": "prereqLevel",
+					"level": 5,
+					"class": {
+						"name": "Artificer"
+					},
+					"subclass": {
+						"name": "Gadgetsmith"
+					}
+				},
+				{
+					"type": "prereqSpecial",
+					"entry": "Impact Gauntlet upgrade",
+					"entrySummary": "Impact Gauntlet"
+				}
+			],
+			"entries": [
+				"Your gauntlets can exert massive kinetic force when striking. When you make an attack with your Impact Gauntlet, you can choose to move 10 feet in the opposite direction, or, as a bonus action, force the target to make a Strength saving throw or be knocked 10 feet backward.",
+				"You can expend an attack to use the movement effect of this gauntlet even if not attacking target."
+			],
+			"source": "PHEW",
+			"featureType": "GG"
+		},
+		{
+			"name": "Smoky Images",
+			"prerequisite": [
+				{
+					"type": "prereqLevel",
+					"level": 5,
+					"class": {
+						"name": "Artificer"
+					},
+					"subclass": {
+						"name": "Gadgetsmith"
+					}
+				}
+			],
+			"entries": [
+				"When you use a Smoke Bomb, you can use a bonus action to cast {@spell mirror image} without expending a spell slot. Once you do this, you cannot do this again until you complete a short or long rest."
+			],
+			"source": "PHEW",
+			"featureType": "GG"
+		},
+		{
+			"name": "Vanishing Trick",
+			"prerequisite": [
+				{
+					"type": "prereqLevel",
+					"level": 5,
+					"class": {
+						"name": "Artificer"
+					},
+					"subclass": {
+						"name": "Gadgetsmith"
+					}
+				}
+			],
+			"entries": [
+				"When you use a Smoke Bomb you can cast {@spell misty step} without expending a spell slot. Once you do this, you cannot do this again until you complete a short or long rest."
+			],
+			"source": "PHEW",
+			"featureType": "GG"
+		},
+		{
+			"name": "Arcane Nullifier",
+			"prerequisite": [
+				{
+					"type": "prereqLevel",
+					"level": 9,
+					"class": {
+						"name": "Artificer"
+					},
+					"subclass": {
+						"name": "Gadgetsmith"
+					}
+				}
+			],
+			"entries": [
+				"You make a device that nullifies the arcane through means you assure everyone else you understand. As an action, you can use this device to cast {@spell dispel magic} without expending a spell slot.",
+				"Once you use this gadget, you cannot use it again until you complete a short or long rest."
+			],
+			"source": "PHEW",
+			"featureType": "GG"
+		},
+		{
+			"name": "Phase Trinket",
+			"prerequisite": [
+				{
+					"type": "prereqLevel",
+					"level": 9,
+					"class": {
+						"name": "Artificer"
+					},
+					"subclass": {
+						"name": "Gadgetsmith"
+					}
+				}
+			],
+			"entries": [
+				"You create a magical stopwatch that manipulates ethereal magic. As an action, you can cast {@spell blink} or {@spell dimension door} using the Stopwatch without expending a spell slot.",
+				"Once you use this ability, you cannot use it again until you complete a long rest."
+			],
+			"source": "PHEW",
+			"featureType": "GG"
+		},
+		{
+			"name": "Stinking Gas",
+			"prerequisite": [
+				{
+					"type": "prereqLevel",
+					"level": 9,
+					"class": {
+						"name": "Artificer"
+					},
+					"subclass": {
+						"name": "Gadgetsmith"
+					}
+				}
+			],
+			"entries": [
+				"You make a more potent compound for your Smoke Bomb. When you use a Smoke Bomb, you can choose to cast {@spell stinking cloud} rather than {@spell fog cloud}, following the same rules. You cannot cast stinking cloud in this way again until you complete a short or long rest."
+			],
+			"source": "PHEW",
+			"featureType": "GG"
+		},
+		{
+			"name": "Stopwatch Trinket",
+			"prerequisite": [
+				{
+					"type": "prereqLevel",
+					"level": 9,
+					"class": {
+						"name": "Artificer"
+					},
+					"subclass": {
+						"name": "Gadgetsmith"
+					}
+				}
+			],
+			"entries": [
+				"You create a magical stopwatch that manipulates time magic. As an action, you can cast {@spell haste} or slow using the stopwatch without expending a Spell Slot.",
+				"Once you use this Upgrade, you cannot use it again until you complete a long rest."
+			],
+			"source": "PHEW",
+			"featureType": "GG"
+		},
+		{
+			"name": "Crossbow Spider",
+			"prerequisite": [
+				{
+					"type": "prereqLevel",
+					"level": 11,
+					"class": {
+						"name": "Artificer"
+					},
+					"subclass": {
+						"name": "Gadgetsmith"
+					}
+				},
+				{
+					"type": "prereqSpecial",
+					"entry": "Autonomous Crossbow upgrade",
+					"entrySummary": "Autonomous Crossbow"
+				}
+			],
+			"entries": [
+				"You upgrade your Autonomous Crossbow design to be mobile. When you use your bonus action to command it, you can move it up to 20 feet. It is under the effect of the spiderclimb spell and can skitter along and stand on any surface. You improve the central crossbow increasing its damage to {@dice 1d8} + your Intelligence modifier, and its firing capacity to 20 shots before it becomes inactive. Additionally, you make it sturdier, and it gains hit points equal to twice your Artificer level."
+			],
+			"source": "PHEW",
+			"featureType": "GG"
+		},
+		{
+			"name": "Flying Gadget",
+			"prerequisite": [
+				{
+					"type": "prereqLevel",
+					"level": 11,
+					"class": {
+						"name": "Artificer"
+					},
+					"subclass": {
+						"name": "Gadgetsmith"
+					}
+				}
+			],
+			"entries": [
+				"You build a a device that allows you to fly, such as of deployable artificial wings. You can activate this device as a bonus action, or as a reaction to falling. Whatever form it takes, when activated it gives you a flying speed of 30 feet."
+			],
+			"source": "PHEW",
+			"featureType": "GG"
+		},
+		{
+			"name": "Lightning Generator",
+			"prerequisite": [
+				{
+					"type": "prereqLevel",
+					"level": 11,
+					"class": {
+						"name": "Artificer"
+					},
+					"subclass": {
+						"name": "Gadgetsmith"
+					}
+				},
+				{
+					"type": "prereqSpecial",
+					"entry": "Shock Generator upgrade",
+					"entrySummary": "Shock Generator"
+				}
+			],
+			"entries": [
+				"You upgrade your shock generator with additional lightning capabilities. You can cast {@spell lightning lure} at-will using it, and can overload it to cast {@spell lightning bolt}. Once you overload it, you cannot use it to cast lightning bolt again until you complete a short or long rest.",
+				"Additionally, when dealing Lightning damage during your turn, you can add your Intelligence modifier to one roll of the damage dealt."
+			],
+			"source": "PHEW",
+			"featureType": "GG"
+		},
+		{
+			"name": "Truesight Lenses",
+			"prerequisite": [
+				{
+					"type": "prereqLevel",
+					"level": 11,
+					"class": {
+						"name": "Artificer"
+					},
+					"subclass": {
+						"name": "Gadgetsmith"
+					}
+				},
+				{
+					"type": "prereqSpecial",
+					"entry": "Sight Lenses upgrade",
+					"entrySummary": "Sight Lenses"
+				}
+			],
+			"entries": [
+				"You upgrade and fine-tune your sight lenses, granting you Truesight up to 15 feet."
+			],
+			"source": "PHEW",
+			"featureType": "GG"
+		},
+		{
+			"name": "Useful Universal Key",
+			"prerequisite": [
+				{
+					"type": "prereqLevel",
+					"level": 11,
+					"class": {
+						"name": "Artificer"
+					},
+					"subclass": {
+						"name": "Gadgetsmith"
+					}
+				}
+			],
+			"entries": [
+				"You create a Universal Key to obstacles, transmuting them into not-obstacles. As an action, you can apply this key to a surface to cast {@spell passwall} without expending a spell slot.",
+				"Once you use this ability, you cannot use it again until you complete a long rest."
+			],
+			"source": "PHEW",
+			"featureType": "GG"
+		},
+		{
+			"name": "Bracers of Empowerment",
+			"prerequisite": [
+				{
+					"type": "prereqLevel",
+					"level": 15,
+					"class": {
+						"name": "Artificer"
+					},
+					"subclass": {
+						"name": "Gadgetsmith"
+					}
+				}
+			],
+			"entries": [
+				"You create bracers that can empower you. You can use this to cast {@spell Tenser's transformation} without expending a Spell Slot.",
+				"Once you use this ability, you cannot use it again until you complete a long rest."
+			],
+			"source": "PHEW",
+			"featureType": "GG"
+		},
+		{
+			"name": "Bee Swarm Rockets",
+			"prerequisite": [
+				{
+					"type": "prereqLevel",
+					"level": 15,
+					"class": {
+						"name": "Artificer"
+					},
+					"subclass": {
+						"name": "Gadgetsmith"
+					}
+				}
+			],
+			"entries": [
+				"You design a type of tiny firecracker-like device, which can release rockets in large numbers. You have a maximum number of rockets equal to your Artificer level. You can release between one and the number you have remaining as an action. Each rocket targets a point you can see within 40 feet. Creatures within 10 feet of a target point must make a dexterity saving throw. Creatures that fail take {@dice 2d6} fire damage per rocket that effects the area they are standing in, or half as much on a successful one.",
+				"You rebuild your stock to your maximum during a long rest."
+			],
+			"source": "PHEW",
+			"featureType": "GG"
+		},
+		{
+			"name": "Dimensional Toolbox",
+			"prerequisite": [
+				{
+					"type": "prereqLevel",
+					"level": 15,
+					"class": {
+						"name": "Artificer"
+					},
+					"subclass": {
+						"name": "Gadgetsmith"
+					}
+				}
+			],
+			"entries": [
+				"You build a toolbox, filling it the many ideas you've had and discarded, with the magical power of making those ideas reality when you need them most. As an action, you can withdraw an Unrestricted Upgrade (one with no level requirement) from the Gadgetsmith list. Gadgets withdrawn from the toolbox are fleeting, and disappear after one minute. Once you have drawn an upgrade from the toolbox, you cannot draw another upgrade from it until you complete a long rest."
+			],
+			"source": "PHEW",
+			"featureType": "GG"
+		},
+		{
+			"name": "Disintegration Ray",
+			"prerequisite": [
+				{
+					"type": "prereqLevel",
+					"level": 15,
+					"class": {
+						"name": "Artificer"
+					},
+					"subclass": {
+						"name": "Gadgetsmith"
+					}
+				}
+			],
+			"entries": [
+				"You create a Disintegration Ray. You can use this to cast {@spell disintegration} without expending a Spell Slot.",
+				"Once you use this ability, you cannot use it again until you complete a long rest."
+			],
+			"source": "PHEW",
+			"featureType": "GG"
+		},
+		{
+			"name": "Arcane Resonance",
+			"entries": [
+				"You create a magical boomerang. You have proficiency in this weapon, and it has the Finesse, Thrown (30/90), and Special properties, and deals {@dice 1d4} bludgeoning damage. At level 5, this weapon gains a +1 to attack and damage rolls; this increases to a +2 at level 14.",
+				"Special: When this weapon is Thrown, you can target two creatures within 10 feet of each other, making a separate attack roll against each target.",
+				"This weapon returns to your hand after you make an attack with it using the Thrown property."
+			],
+			"source": "PHEW",
+			"featureType": "GL"
+		},
+		{
+			"name": "Defender Protocol",
+			"entries": [
+				"You build in a protocol response into your golem to defend its master. The golem gains the Protection fighting style."
+			],
+			"source": "PHEW",
+			"featureType": "GL"
+		},
+		{
+			"name": "Fine Tuned Dexterity",
+			"entries": [
+				"You craft improved gears and joints for your golem. Your golem's Dexterity ability score increases by 2, increasing its ability at tasks requiring fine motor skills. If, after taking this skill, the golem's Dexterity is 16 or greater, it gains proficiency with Thieves' Tools. If, after taking this skill, the golem's Dexterity is 18, it gains proficiency with the Stealth skill.",
+				"You can take this upgrade more than once. A golem's maximum Dexterity ability score is 18."
+			],
+			"source": "PHEW",
+			"featureType": "GL"
+		},
+		{
+			"name": "Grappling Appendages",
+			"entries": [
+				"You install an additional pair of grappling appendages taking a form of your choice. For the purposes of grappling, these serve as two additional free hands for your Golem. Additionally, your golem gains a climbing speed equal to its movement speed so long as it is not using these appendages to grapple."
+			],
+			"source": "PHEW",
+			"featureType": "GL"
+		},
+		{
+			"name": "Heavy Armor Plating",
+			"entries": [
+				"You can incorporate a suit of Heavy Armor into your golem allowing it to equip that suit of armor. Your golem's Armor Class becomes the Armor Class granted by the equipped armor. While incorporated with your golem in this way, the golem has Proficiency with that armor. You can change or remove the incorporated armor at any time once you have taken this upgrade, but it takes twice as long as normally equipping or unequipping the chosen armor type.",
+				"While equipped with Heavy Armor, your Golem has disadvantage on Dexterity (Stealth) checks."
+			],
+			"source": "PHEW",
+			"featureType": "GL"
+		},
+		{
+			"name": "Structural Constitution",
+			"entries": [
+				"You have reinforced your Golem with layers of protection and redundant systems. Its Constitution ability score increases by 2, increasing its stability and durability. If, after taking this skill, the golem's Constitution is 16 or greater, it gains advantage on Death Saving Throws. If, after taking this skill, the golem's Constitution is 18, it gains proficiency with Constitution saving throws.",
+				"You can take this upgrade more than once. A golem's maximum Constitution ability score is 18."
+			],
+			"source": "PHEW",
+			"featureType": "GL"
+		},
+		{
+			"name": "Systematic Strength",
+			"entries": [
+				"You build an improved frame and power source for your golem. Your golem's Strength ability score increases by 2, and increasing its ability at tasks requiring raw strength. If, after taking this skill, the golem's Strength is 16 or greater, it gains proficiency with Strength saving throws. If, after taking this skill, the golem's Strength is 18, it gains proficiency with the Athletics skill.",
+				"You can take this upgrade more than once. A golem's maximum Strength ability score is 18."
+			],
+			"source": "PHEW",
+			"featureType": "GL"
+		},
+		{
+			"name": "Magical Essence",
+			"entries": [
+				"You infuse a fragment of magical essence into your golem, allowing it to attune to one magical item. This follows all normal attunement rules."
+			],
+			"source": "PHEW",
+			"featureType": "GL"
+		},
+		{
+			"name": "Warfare Routines",
+			"entries": [
+				"You advance the control routines for your golem, allowing it to fight more effectively. Your Golem gains one Fighting Style of your choice from Archery, Dueling, or Great Weapon Fighting."
+			],
+			"source": "PHEW",
+			"featureType": "GL"
+		},
+		{
+			"name": "Arcane Barrage Armament",
+			"prerequisite": [
+				{
+					"type": "prereqLevel",
+					"level": 5,
+					"class": {
+						"name": "Artificer"
+					},
+					"subclass": {
+						"name": "Golemsmith"
+					}
+				}
+			],
+			"entries": [
+				"You install an mounted armament to your golem, taking whatever form is most appropriate, charged with arcane power. As an action, the golem can cast {@spell magic missile} as a 3rd level spell. When cast this way, it has no Verbal or Somatic components.",
+				"Once used, this armament cannot be used again until the Artificer completes a short or long rest."
+			],
+			"source": "PHEW",
+			"featureType": "GL"
+		},
+		{
+			"name": "Cloaking Device",
+			"prerequisite": [
+				{
+					"type": "prereqLevel",
+					"level": 5,
+					"class": {
+						"name": "Artificer"
+					},
+					"subclass": {
+						"name": "Golemsmith"
+					}
+				}
+			],
+			"entries": [
+				"You install an Arcane Cloaking device on your Golem. Your golem can use this device to cast {@spell invisibility} on itself without expending a spell slot.",
+				"Once used, this device cannot be used again until the Artificer completes a short or long rest."
+			],
+			"source": "PHEW",
+			"featureType": "GL"
+		},
+		{
+			"name": "Flamethrower Armament",
+			"prerequisite": [
+				{
+					"type": "prereqLevel",
+					"level": 5,
+					"class": {
+						"name": "Artificer"
+					},
+					"subclass": {
+						"name": "Golemsmith"
+					}
+				}
+			],
+			"entries": [
+				"You install an armament to your golem, taking whatever form is most appropriate, capable for reproducing powerful flames. As an action, the golem can cast {@spell burning hands} as a 3rd level spell.",
+				"The spell save DC is equal to your spell save DC. When cast this way, it has no Verbal or Somatic components.",
+				"Once used, this armament cannot be used again until the Artificer completes a short or long rest."
+			],
+			"source": "PHEW",
+			"featureType": "GL"
+		},
+		{
+			"name": "Iron Fortress",
+			"prerequisite": [
+				{
+					"type": "prereqLevel",
+					"level": 5,
+					"class": {
+						"name": "Artificer"
+					},
+					"subclass": {
+						"name": "Golemsmith"
+					}
+				},
+				{
+					"type": "prereqSpecial",
+					"entry": "Medium or Large Golem, Golem Constitution of 18",
+					"entrySummary": "M/L Golem, Con 18"
+				}
+			],
+			"entries": [
+				"You extend your golems shielding and stationary stability. Your Golem now counts as three quarters cover for people within 5 feet (so long as it between them an the attacker) or riding it. Additionally, it cannot be moved against its will while in contact with the ground."
+			],
+			"source": "PHEW",
+			"featureType": "GL"
+		},
+		{
+			"name": "Shielding Bond",
+			"prerequisite": [
+				{
+					"type": "prereqLevel",
+					"level": 5,
+					"class": {
+						"name": "Artificer"
+					},
+					"subclass": {
+						"name": "Golemsmith"
+					}
+				}
+			],
+			"entries": [
+				"After studying the arcane fundamentals of Shield Golems, you have gained insight on how they shield their controllers, and can implement it in your own golem. Your golem gains the ability to cast {@spell warding bond} without expending a spell slot. When cast in this method, it does not require material components.",
+				"Once the golem casts warding bond in this way, it cannot use this feature to cast it again until it completes a short or long rest."
+			],
+			"source": "PHEW",
+			"featureType": "GL"
+		},
+		{
+			"name": "Powered Charge",
+			"prerequisite": [
+				{
+					"type": "prereqLevel",
+					"level": 9,
+					"class": {
+						"name": "Artificer"
+					},
+					"subclass": {
+						"name": "Golemsmith"
+					}
+				}
+			],
+			"entries": [
+				"You can select this upgrade twice.",
+				"You improve your golem's charging speed, increasing its movement speed by 5 feet. If your golem's speed is 40 feet or more after taking this upgrade, it gains the ability to use a Forceful Slam after moving 20 feet or more in a straight line toward it before attacking; if the attack hits, the target must make a Strength saving throw with a DC of 8 + the golem's proficiency + the golem's strength modifier, being knocked prone on."
+			],
+			"source": "PHEW",
+			"featureType": "GL"
+		},
+		{
+			"name": "Expanded Frame",
+			"prerequisite": [
+				{
+					"type": "prereqLevel",
+					"level": 9,
+					"class": {
+						"name": "Artificer"
+					},
+					"subclass": {
+						"name": "Golemsmith"
+					}
+				}
+			],
+			"entries": [
+				"You enlarge your golem, increasing its size category by one if possible, up to a maximum size of Large. If your golem is Large after taking this upgrade, it gains advantage on Strength checks and Strength saving throws and your golem's maximum hit points become 5 + ([Golem's Constitution Modifier + 6] * Artificer Level).",
+				"During the process, you can determine if your golem will have the appropriate physiology to serve as a mount. You can take this upgrade multiple times, but cannot make a golem larger than Large."
+			],
+			"source": "PHEW",
+			"featureType": "GL"
+		},
+		{
+			"name": "Mark of Life",
+			"prerequisite": [
+				{
+					"type": "prereqLevel",
+					"level": 9,
+					"class": {
+						"name": "Artificer"
+					},
+					"subclass": {
+						"name": "Golemsmith"
+					}
+				},
+				{
+					"type": "prereqSpecial",
+					"entry": "incompatible with Launcher Chassis",
+					"entrySummary": "no Launcher chassis"
+				}
+			],
+			"entries": [
+				"You have attained the understanding of magic and you craft a Mark of Life on the forehead of your Warforged Golem, turning it into a Warforged Companion. It gains an Intelligence score of 10, a Wisdom score of 10 and a Charisma score of 8. This allows it to follow more complex commands without direct input, speak, and remember things"
+			],
+			"source": "PHEW",
+			"featureType": "GL"
+		},
+		{
+			"name": "Overdrive",
+			"prerequisite": [
+				{
+					"type": "prereqLevel",
+					"level": 9,
+					"class": {
+						"name": "Artificer"
+					},
+					"subclass": {
+						"name": "Golemsmith"
+					}
+				}
+			],
+			"entries": [
+				"You build in a special mode allowing your golem go beyond its limitations. As your action, you can overcharge your golem with energy, granting it the effects of {@spell haste} for a number of rounds equal to your intelligence modifier. Once used, you cannot use this again until you complete a long rest."
+			],
+			"source": "PHEW",
+			"featureType": "GL"
+		},
+		{
+			"name": "Mechnical Wings",
+			"prerequisite": [
+				{
+					"type": "prereqLevel",
+					"level": 11,
+					"class": {
+						"name": "Artificer"
+					},
+					"subclass": {
+						"name": "Golemsmith"
+					}
+				}
+			],
+			"entries": [
+				"You add intricate and powerful mechanical wings to your golem, granting it a flying speed. If your golem is Medium or smaller, it gains a flying speed is 30 feet. If your golem is Large or larger, its flying speed is 25 feet."
+			],
+			"source": "PHEW",
+			"featureType": "GL"
+		},
+		{
+			"name": "Multiattack Protocol",
+			"prerequisite": [
+				{
+					"type": "prereqLevel",
+					"level": 11,
+					"class": {
+						"name": "Artificer"
+					},
+					"subclass": {
+						"name": "Golemsmith"
+					}
+				}
+			],
+			"entries": [
+				"Your Golem gains multiattack. When your Golem uses the Attack action, it can attack twice."
+			],
+			"source": "PHEW",
+			"featureType": "GL"
+		},
+		{
+			"name": "Thundering Stomp",
+			"prerequisite": [
+				{
+					"type": "prereqLevel",
+					"level": 11,
+					"class": {
+						"name": "Artificer"
+					},
+					"subclass": {
+						"name": "Golemsmith"
+					}
+				},
+				{
+					"type": "prereqSpecial",
+					"entry": "Golem of Large size",
+					"entrySummary": "Large Golem"
+				}
+			],
+			"entries": [
+				"Your golem can leverage its increased size and magical nature to unleash a crushing stomp of magical energy when it brings down its foot. Your golem can replace any attack with the {@spell thunderclap} spell using the Artificers level and spell save for casting the spell."
+			],
+			"source": "PHEW",
+			"featureType": "GL"
+		},
+		{
+			"name": "Transforming Golem",
+			"prerequisite": [
+				{
+					"type": "prereqLevel",
+					"level": 11,
+					"class": {
+						"name": "Artificer"
+					},
+					"subclass": {
+						"name": "Golemsmith"
+					}
+				}
+			],
+			"entries": [
+				"You install clever multifunctional components allowing your golem to reduce its size. Your golem can collapse its size back down to one size smaller, but while in the collapsed mode any movement speed it has is reduced by 10 feet. The process takes 1 minute to invoke or revert."
+			],
+			"source": "PHEW",
+			"featureType": "GL"
+		},
+		{
+			"name": "Artificial Learning",
+			"prerequisite": [
+				{
+					"type": "prereqLevel",
+					"level": 15,
+					"class": {
+						"name": "Artificer"
+					},
+					"subclass": {
+						"name": "Golemsmith"
+					}
+				},
+				{
+					"type": "prereqSpecial",
+					"entry": "Mark of Life upgrade",
+					"entrySummary": "Mark of Life"
+				}
+			],
+			"entries": [
+				"Your Warforged Companion begins to apply its abilities to learn new things, gaining a class level in a class of your choosing. Your Warforged Companion gains all the first level features of the chosen class. This does not include health or class proficiencies (for example, selecting Fighter grants only Fighting Style and Second Wind).",
+				"You can select this Upgrade multiple times, granting another level of features or the first level features of another class each time it is selected."
+			],
+			"source": "PHEW",
+			"featureType": "GL"
+		},
+		{
+			"name": "Brutal Armaments",
+			"prerequisite": [
+				{
+					"type": "prereqLevel",
+					"level": 15,
+					"class": {
+						"name": "Artificer"
+					},
+					"subclass": {
+						"name": "Golemsmith"
+					}
+				}
+			],
+			"entries": [
+				"You increase the effectiveness of your Golem's natural weapons, allowing it to strike with lethal strikes. When your golem makes an attack, you can subtract is proficiency from the attack roll. When you do so, if the attack his, you can add double its proficiency bonus to the damage roll of the attack."
+			],
+			"source": "PHEW",
+			"featureType": "GL"
+		},
+		{
+			"name": "Shared Power",
+			"prerequisite": [
+				{
+					"type": "prereqLevel",
+					"level": 15,
+					"class": {
+						"name": "Artificer"
+					},
+					"subclass": {
+						"name": "Golemsmith"
+					}
+				}
+			],
+			"entries": [
+				"You bind your golem's power source to your own soul, allowing you to tap its power and it to tap your power.",
+				{
+					"type": "list",
+					"items": [
+						"As its action, your golem can expend one of your spell slots to cast a spell you know.",
+						"As an action, you can drain a number of hit points from the golem up to twice your Artificer level, gaining that many temporary hit points.",
+						"Either you or your golem can give up your action to allow the other to take an additional action. This additional action can only be used to Attack (one weapon attack only), Dash, Disengage, Hide, or Use an Object."
+					]
+				}
+			],
+			"source": "PHEW",
+			"featureType": "GL"
+		},
+		{
+			"name": "Animated Archer",
+			"entries": [
+				"You master animation enchantments allowing you to use your Animate Weapon feature on a ranged weapon and a quiver of ammunition. An animated ranged weapon hovers near you, and can target anything inside the weapon's normal range with a ranged spell attack, dealing weapon damage + your intelligence modifier on hit. The weapon requires ammunition, and can carry up 30 pieces of ammunition at a time, after which it needs to be reloaded as an action."
+			],
+			"source": "PHEW",
+			"featureType": "IF"
+		},
+		{
+			"name": "Animated Shield",
+			"entries": [
+				"You apply your animating magic to a shield. At the end of a long rest, you can touch a shield, causing it to spring to life and protect you until you complete your next long rest. While it is protecting you, you gain the benefit if you had the shield equipped. You cannot benefit from both an animated shield and an equipped shield.",
+				"While you have an animated shield, you can use your reaction to send it to defend an ally who is being attacked. You can impose disadvantage on that attack, but do not gain the benefits of having an animated shield until the start of your next turn."
+			],
+			"source": "PHEW",
+			"featureType": "IF"
+		},
+		{
+			"name": "Arcane Armament",
+			"entries": [
+				"You master armoring yourself with magical enchantments. You learn the {@spell mage armor} spell. While under the effect of mage armor, you can add your Intelligence modifier to your AC instead of your Dexterity modifier. You can only do this if you are not adding your Intelligence modifier to your AC from another source. Additionally you gain resistance to force damage."
+			],
+			"source": "PHEW",
+			"featureType": "IF"
+		},
+		{
+			"name": "Deflecting Weapon",
+			"entries": [
+				"While you have an animated melee weapon, if you are attacked you can use your reaction to defend yourself with them, granting you +2 AC against an single attack. If the attack misses you and the attacker is within 5 feet of you, you can immediately attack the creature that attacked you, making a melee spell attack with one animated weapon against the attacker if they are in range."
+			],
+			"source": "PHEW",
+			"featureType": "IF"
+		},
+		{
+			"name": "Magical Wand",
+			"entries": [
+				"You create a new Wand that you can infuse with a spell of 1st level or higher that you have recorded in your Spell Manual. This wand does not require attunement, but can only be used by you. The spell must be of a level that you can cast. This wand has three charges.",
+				"You can expend a charge to cast the selected spell at its base level. The wand regains all charges at the end of a long rest.",
+				"You can select this upgrade multiple times, selecting a different spell each time you take this upgrade."
+			],
+			"source": "PHEW",
+			"featureType": "IF"
+		},
+		{
+			"name": "Infuse Elements",
+			"entries": [
+				"You can infuse elements with your magic temporarily, granting you limited control of them. You learn the cantrips {@spell control flames}, {@spell mold earth}, and {@spell shape water}."
+			],
+			"source": "PHEW",
+			"featureType": "IF"
+		},
+		{
+			"name": "Skilled Animation",
+			"entries": [
+				"You manage to make the magic of your Animated Weapons so potent that attacks made with them are made with a fighting style. Attacks made with one handed weapons gain Dueling, attacks made with two-handed weapons gain Great Weapon Fighting, and attacks made with ranged weapons gain Archery."
+			],
+			"source": "PHEW",
+			"featureType": "IF"
+		},
+		{
+			"name": "Soul Saving Bond",
+			"entries": [
+				"You set up a special magical bond between you and another creature. When either creature bound by this abilities fails a Wisdom, Intelligence, Charisma, or Death saving throw, the other character can make their own saving throw, replacing the failed saved with their own roll. If this ability is used on a death saving throw, the replacement roll is a 20. Once a roll is replaced by this feature, it cannot be used again until both creatures in the bond have completed a short or long rest.",
+				"This bond can be set up with a different creature at the end of a long rest."
+			],
+			"source": "PHEW",
+			"featureType": "IF"
+		},
+		{
+			"name": "Warding Stone",
+			"entries": [
+				"You learn how to weave a protective enchantment on an item. That item gains a pool of temporary hit points equal to your Artificer level. Whoever is carrying this item gains any temporary hit points remaining in this pool, but these are lost when that creature is no longer carrying this item.",
+				"This pool of temporary hit points refreshes when the Artificer that created it completes a long rest."
+			],
+			"source": "PHEW",
+			"featureType": "IF"
+		},
+		{
+			"name": "Worn Enchantment",
+			"entries": [
+				"You can enchant an item you a wearing, such as as scarf or cloak to animate and assist you with a task, be it climbing a wall, grappling an enemy, or picking a lock. You can expend a 1st level spell slot to gain proficiency in a Strength or Dexterity skill until you complete a long rest. You can use up all the magic in the item to gain advantage on one check of that skill, immediately ending the effect."
+			],
+			"source": "PHEW",
+			"featureType": "IF"
+		},
+		{
+			"name": "Arcane Ammunition",
+			"prerequisite": [
+				{
+					"type": "prereqLevel",
+					"level": 5,
+					"class": {
+						"name": "Artificer"
+					},
+					"subclass": {
+						"name": "Infusionsmith"
+					}
+				}
+			],
+			"entries": [
+				"You infuse a ranged weapon with special magic granting it magical ammunition. The weapons damage becomes force damage and it no longer requires ammunition to fire. If the weapon had the Loading property, it no longer has the Loading Property."
+			],
+			"source": "PHEW",
+			"featureType": "IF"
+		},
+		{
+			"name": "Infuse Shadows",
+			"prerequisite": [
+				{
+					"type": "prereqLevel",
+					"level": 5,
+					"class": {
+						"name": "Artificer"
+					},
+					"subclass": {
+						"name": "Infusionsmith"
+					}
+				}
+			],
+			"entries": [
+				"You learn the spell {@spell shadow blade}. When you are wielding the blade conjured by shadow blade you can treat it as an Infused Weapon."
+			],
+			"source": "PHEW",
+			"featureType": "IF"
+		},
+		{
+			"name": "Lesser Ring of Protection",
+			"prerequisite": [
+				{
+					"type": "prereqLevel",
+					"level": 5,
+					"class": {
+						"name": "Artificer"
+					},
+					"subclass": {
+						"name": "Infusionsmith"
+					}
+				}
+			],
+			"entries": [
+				"You make a prototype Ring of Protection. Any creature wearing it can add +1 to their armor class."
+			],
+			"source": "PHEW",
+			"featureType": "IF"
+		},
+		{
+			"name": "Malicious Infusion",
+			"prerequisite": [
+				{
+					"type": "prereqLevel",
+					"level": 5,
+					"class": {
+						"name": "Artificer"
+					},
+					"subclass": {
+						"name": "Infusionsmith"
+					}
+				}
+			],
+			"entries": [
+				"As a reaction to being hit with a metal weapon, you can cast {@spell heat metal} targeting the weapon that struck you. Additionally, you learn the spell heat metal."
+			],
+			"source": "PHEW",
+			"featureType": "IF"
+		},
+		{
+			"name": "Ring of Reaction",
+			"prerequisite": [
+				{
+					"type": "prereqLevel",
+					"level": 5,
+					"class": {
+						"name": "Artificer"
+					},
+					"subclass": {
+						"name": "Infusionsmith"
+					}
+				}
+			],
+			"entries": [
+				"You make a minor magic ring. Any creature wearing it can add your Intelligence modifier to their Dexterity saving throws and initiative rolls."
+			],
+			"source": "PHEW",
+			"featureType": "IF"
+		},
+		{
+			"name": "Translocation Binding",
+			"prerequisite": [
+				{
+					"type": "prereqLevel",
+					"level": 5,
+					"class": {
+						"name": "Artificer"
+					},
+					"subclass": {
+						"name": "Infusionsmith"
+					}
+				}
+			],
+			"entries": [
+				"As a bonus action while attacking with an Infused or Animated melee weapon, you can expend a first level spell slot and teleport to an unoccupied location within 5 feet of it before it returns to you. You can invoke this even if the attack misses the target."
+			],
+			"source": "PHEW",
+			"featureType": "IF"
+		},
+		{
+			"name": "Weapon Enchantment Resonance",
+			"prerequisite": [
+				{
+					"type": "prereqLevel",
+					"level": 5,
+					"class": {
+						"name": "Artificer"
+					},
+					"subclass": {
+						"name": "Infusionsmith"
+					}
+				}
+			],
+			"entries": [
+				"When you cast {@spell arcane weapon}, {@spell magical weapon}, {@spell elemental weapon}, {@spell holy weapon}, or {@spell vorpal weapon} it also effects any weapon Animated or Infused by you. Additionally, you can target a weapon with any arcane weapon, magical weapon, or elemental weapon even if the weapon is already magical."
+			],
+			"source": "PHEW",
+			"featureType": "IF"
+		},
+		{
+			"name": "Weapon Enchantment Expertise",
+			"prerequisite": [
+				{
+					"type": "prereqLevel",
+					"level": 5,
+					"class": {
+						"name": "Artificer"
+					},
+					"subclass": {
+						"name": "Infusionsmith"
+					}
+				}
+			],
+			"entries": [
+				"When you cast {@spell arcane weapon}, {@spell magical weapon}, or {@spell vorpal weapon} on a weapon, that weapon deals an additional 1d4 force damage. The damage of {@spell elemental weapon} is increased by {@dice 1d4} of the elemental type chosen.",
+				"Additionally, when you make a Constitution save to maintain concentration on arcane weapon, magical weapon, elemental weapon, or vorpal weapon, you have advantage on that saving throw."
+			],
+			"source": "PHEW",
+			"featureType": "IF"
+		},
+		{
+			"name": "Detonate Armament",
+			"prerequisite": [
+				{
+					"type": "prereqLevel",
+					"level": 9,
+					"class": {
+						"name": "Artificer"
+					},
+					"subclass": {
+						"name": "Infusionsmith"
+					}
+				},
+				{
+					"type": "prereqSpecial",
+					"entry": "Arcane Armament upgrade",
+					"entrySummary": "Arcane Armament"
+				}
+			],
+			"entries": [
+				"As a reaction to taking damage, you can end the effect of {@spell mage armor} to cast {@spell thunder step} without expending a spell slot. When you cast thunder step in this manner, it deals force damage instead of thunder damage.",
+				"Once you do this, you cannot use this ability again until the end of your next short or long rest."
+			],
+			"source": "PHEW",
+			"featureType": "IF"
+		},
+		{
+			"name": "Dimensional Pockets",
+			"prerequisite": [
+				{
+					"type": "prereqLevel",
+					"level": 9,
+					"class": {
+						"name": "Artificer"
+					},
+					"subclass": {
+						"name": "Infusionsmith"
+					}
+				}
+			],
+			"entries": [
+				"You enchant a pocket on your gear to contain far more than it would appear. That pocket can hold any object that can fit through a 6 inch diameter opening, and up to 50 pounds. The pocket otherwise behaves in the same manner as a {@item bag of holding}."
+			],
+			"source": "PHEW",
+			"featureType": "IF"
+		},
+		{
+			"name": "Invisibility Cloak",
+			"prerequisite": [
+				{
+					"type": "prereqLevel",
+					"level": 9,
+					"class": {
+						"name": "Artificer"
+					},
+					"subclass": {
+						"name": "Infusionsmith"
+					}
+				}
+			],
+			"entries": [
+				"You make a cloak of invisibility. While wearing this a creature can cast {@spell invisibility} once without expending a spell slot. When cast in this method it does not require concentration. It cannot be used again in that way until you complete a short or long rest."
+			],
+			"source": "PHEW",
+			"featureType": "IF"
+		},
+		{
+			"name": "Prepared Enchantment",
+			"prerequisite": [
+				{
+					"type": "prereqLevel",
+					"level": 9,
+					"class": {
+						"name": "Artificer"
+					},
+					"subclass": {
+						"name": "Infusionsmith"
+					}
+				}
+			],
+			"entries": [
+				"You bestow magical enchantments onto your gear, casting a limited version of {@spell contingency} without expending a material component or spell slot. When cast in this way, the spell triggered by contingency must be a 2nd level or lower spell, and ends if you complete a long rest before the contingency is triggered.",
+				"Once you cast contingency in this way, you cannot cast it again until you complete a long rest."
+			],
+			"source": "PHEW",
+			"featureType": "IF"
+		},
+		{
+			"name": "Spell Trapping Ring",
+			"prerequisite": [
+				{
+					"type": "prereqLevel",
+					"level": 9,
+					"class": {
+						"name": "Artificer"
+					},
+					"subclass": {
+						"name": "Infusionsmith"
+					}
+				}
+			],
+			"entries": [
+				"You set a powerful magic into a non-magical ring. You can use this ring to cast {@spell counterspell} without expending a spell slot. When you cast counterspell in this way and it succeeds, the spell countered is stored in the ring. You can then cast the stored spell without expending a spell slot, but the spell fades if it is not used before you complete a long rest.",
+				"Once you use this ring, you cannot use it again until you complete a long rest."
+			],
+			"source": "PHEW",
+			"featureType": "IF"
+		},
+		{
+			"name": "Enchanted Broom",
+			"prerequisite": [
+				{
+					"type": "prereqLevel",
+					"level": 11,
+					"class": {
+						"name": "Artificer"
+					},
+					"subclass": {
+						"name": "Infusionsmith"
+					}
+				}
+			],
+			"entries": [
+				"You can enchant a broom (or broom like object) into a {@item Broom of Flying}. You set the command word for the broom, and the Broom only obeys you."
+			],
+			"source": "PHEW",
+			"featureType": "IF"
+		},
+		{
+			"name": "Empower Weapon",
+			"prerequisite": [
+				{
+					"type": "prereqLevel",
+					"level": 11,
+					"class": {
+						"name": "Artificer"
+					},
+					"subclass": {
+						"name": "Infusionsmith"
+					}
+				}
+			],
+			"entries": [
+				"When you hit a creature with a weapon, you can infuse the weapon with arcane energy as a bonus action to deal {@dice 3d4} additional force damage. When infusing the weapon in this way you can expend a 1st level spell slot to increase the damage further. The extra damage is {@dice 3d4} for a 1st-level spell slot, plus {@dice 2d4} for each spell level higher than 1st."
+			],
+			"source": "PHEW",
+			"featureType": "IF"
+		},
+		{
+			"name": "Mixed Technique",
+			"prerequisite": [
+				{
+					"type": "prereqLevel",
+					"level": 11,
+					"class": {
+						"name": "Artificer"
+					},
+					"subclass": {
+						"name": "Infusionsmith"
+					}
+				}
+			],
+			"entries": [
+				"When you create an Arcane Armament at the end of a long rest, you can create two different Infused Armaments (you cannot select the same option twice); if you use your action to use one to attack or cast a cantrip, you can make a single attack with the other as a bonus action (a single Animated Weapon attack, or a single attack with your Infused Weapon).",
+				"For example, if you use your action to cast a cantrip with your Blasting Rod, you can use your bonus action to make a single animated weapon attack, or if you use your action to attack with your Animated Weapons, you can make a single Infused Weapon attack."
+			],
+			"source": "PHEW",
+			"featureType": "IF"
+		},
+		{
+			"name": "Life Infusion",
+			"prerequisite": [
+				{
+					"type": "prereqLevel",
+					"level": 11,
+					"class": {
+						"name": "Artificer"
+					},
+					"subclass": {
+						"name": "Infusionsmith"
+					}
+				}
+			],
+			"entries": [
+				"You learn a potent magical infusion that suffuses a creature with life energy. You can cast {@spell regenerate} without expending a spell slot. Once you cast this spell in this manner, you cannot use it again until you complete a long rest."
+			],
+			"source": "PHEW",
+			"featureType": "IF"
+		},
+		{
+			"name": "Magical Rod",
+			"prerequisite": [
+				{
+					"type": "prereqLevel",
+					"level": 11,
+					"class": {
+						"name": "Artificer"
+					},
+					"subclass": {
+						"name": "Infusionsmith"
+					}
+				}
+			],
+			"entries": [
+				"You create a new Rod that you can infuse with a spell of 5th level or higher you have recorded in your Spell Manual. This rod does not require attunement, but can only be used by you. The spell level must be equal to half or less of your Artificer level (as of when you would get this upgrade), rounded down. This rod has one charge. You can expend the charge to cast the selected spell at its base level. The rod regains all charges at the end of a long rest.",
+				"You can select this upgrade multiple times, selecting a different spell each time you take this upgrade."
+			],
+			"source": "PHEW",
+			"featureType": "IF"
+		},
+		{
+			"name": "Advanced Object Animation",
+			"prerequisite": [
+				{
+					"type": "prereqLevel",
+					"level": 15,
+					"class": {
+						"name": "Artificer"
+					},
+					"subclass": {
+						"name": "Infusionsmith"
+					}
+				}
+			],
+			"entries": [
+				"When you cast the {@spell animate objects} spell, your animated objects add +1 to their attack and damage rolls per object it counts as (tiny objects gain +1, huge objects gain +8)."
+			],
+			"source": "PHEW",
+			"featureType": "IF"
+		},
+		{
+			"name": "Third Animated Weapon",
+			"prerequisite": [
+				{
+					"type": "prereqLevel",
+					"level": 15,
+					"class": {
+						"name": "Artificer"
+					},
+					"subclass": {
+						"name": "Infusionsmith"
+					}
+				}
+			],
+			"entries": [
+				"Your mastery of weapon animation expands to greater breadth of control. You can animate a third weapon with your Animate Weapon feature. When you make a spell attack with your animated weapons, you can attack with this weapon as well."
+			],
+			"source": "PHEW",
+			"featureType": "IF"
+		},
+		{
+			"name": "Alchemical Fire*",
+			"entries": [
+				"As an action you can produce a reaction causing a searing flame. At a point within 15 feet, you can a toss quick combination of reagents that will cause searing fire to flare up in a 5 foot radius. Creatures in that area have to make a Dexterity saving throw against your Spell Save DC, or take 1d8 fire damage.",
+				"The damage damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8)."
+			],
+			"source": "PHEW",
+			"featureType": "PT"
+		},
+		{
+			"name": "Alchemical Acid*",
+			"entries": [
+				"As an action you can produce a reaction causing a caustic acid to form. At a point within 15 feet, you can a toss quick combination of reagents that will cause a splatter of acid in a 5 foot radius.",
+				"Creatures in that area have to make a Dexterity saving throw against your Spell Save DC, or take 2d4 acid damage. Damage from this acid deals double damage against structures and objects.",
+				"The damage damage increases by 2d4 when you reach 5th level (4d4), 11th level (6d4), and 17th level (8d4).",
+				"This Upgrade counts as a new Instant Reaction, and all rules for Instant Reactions apply to it."
+			],
+			"source": "PHEW",
+			"featureType": "PT"
+		}
+	]
+}
