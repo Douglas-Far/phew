@@ -78,11 +78,13 @@
 		},
 		{
 			"name": "Jumper Cable",
-			"prerequisite": [
+			"prerequisite":[
 				{
-					"type": "prereqSpecial",
-					"entry": "Shock Generator upgrade",
-					"entrySummary": "Shock Generator"
+				"otherSummary":
+					{
+						"entry":"Shock Generator upgrade",
+						"entrySummary":"Shock Generator"
+					}
 				}
 			],
 			"entries": [
@@ -155,9 +157,11 @@
 			"name": "Shocking Hook",
 			"prerequisite": [
 				{
-					"type": "prereqSpecial",
-					"entry": "Shock Generator upgrade",
-					"entrySummary": "Shock Generator"
+				"otherSummary":
+					{
+						"entry": "Shock Generator upgrade",
+						"entrySummary": "Shock Generator"
+					}
 				}
 			],
 			"entries": [
@@ -194,13 +198,14 @@
 			"name": "Autonomous Crossbow",
 			"prerequisite": [
 				{
-					"type": "prereqLevel",
-					"level": 5,
-					"class": {
-						"name": "Artificer"
-					},
-					"subclass": {
-						"name": "Gadgetsmith"
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Artificer"
+						},
+						"subclass": {
+							"name": "Gadgetsmith"
+						}
 					}
 				}
 			],
@@ -215,13 +220,14 @@
 			"name": "Binding Rope",
 			"prerequisite": [
 				{
-					"type": "prereqLevel",
-					"level": 5,
-					"class": {
-						"name": "Artificer"
-					},
-					"subclass": {
-						"name": "Gadgetsmith"
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Artificer"
+						},
+						"subclass": {
+							"name": "Gadgetsmith"
+						}
 					}
 				}
 			],
@@ -235,19 +241,22 @@
 			"name": "Explosive Gauntlet",
 			"prerequisite": [
 				{
-					"type": "prereqLevel",
-					"level": 5,
-					"class": {
-						"name": "Artificer"
-					},
-					"subclass": {
-						"name": "Gadgetsmith"
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Artificer"
+						},
+						"subclass": {
+							"name": "Gadgetsmith"
+						}
 					}
 				},
 				{
-					"type": "prereqSpecial",
-					"entry": "Impact Gauntlet upgrade",
-					"entrySummary": "Impact Gauntlet"
+				"otherSummary":
+					{
+						"entry": "Impact Gauntlet upgrade",
+						"entrySummary": "Impact Gauntlet"
+					}
 				}
 			],
 			"entries": [
@@ -261,13 +270,14 @@
 			"name": "Smoky Images",
 			"prerequisite": [
 				{
-					"type": "prereqLevel",
-					"level": 5,
-					"class": {
-						"name": "Artificer"
-					},
-					"subclass": {
-						"name": "Gadgetsmith"
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Artificer"
+						},
+						"subclass": {
+							"name": "Gadgetsmith"
+						}
 					}
 				}
 			],
@@ -281,13 +291,14 @@
 			"name": "Vanishing Trick",
 			"prerequisite": [
 				{
-					"type": "prereqLevel",
-					"level": 5,
-					"class": {
-						"name": "Artificer"
-					},
-					"subclass": {
-						"name": "Gadgetsmith"
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Artificer"
+						},
+						"subclass": {
+							"name": "Gadgetsmith"
+						}
 					}
 				}
 			],
@@ -301,13 +312,14 @@
 			"name": "Arcane Nullifier",
 			"prerequisite": [
 				{
-					"type": "prereqLevel",
-					"level": 9,
-					"class": {
-						"name": "Artificer"
-					},
-					"subclass": {
-						"name": "Gadgetsmith"
+					"level": {
+						"level": 9,
+						"class": {
+							"name": "Artificer"
+						},
+						"subclass": {
+							"name": "Gadgetsmith"
+						}
 					}
 				}
 			],
@@ -322,13 +334,14 @@
 			"name": "Phase Trinket",
 			"prerequisite": [
 				{
-					"type": "prereqLevel",
-					"level": 9,
-					"class": {
-						"name": "Artificer"
-					},
-					"subclass": {
-						"name": "Gadgetsmith"
+					"level": {
+						"level": 9,
+						"class": {
+							"name": "Artificer"
+						},
+						"subclass": {
+							"name": "Gadgetsmith"
+						}
 					}
 				}
 			],
@@ -343,13 +356,14 @@
 			"name": "Stinking Gas",
 			"prerequisite": [
 				{
-					"type": "prereqLevel",
-					"level": 9,
-					"class": {
-						"name": "Artificer"
-					},
-					"subclass": {
-						"name": "Gadgetsmith"
+					"level": {
+						"level": 9,
+						"class": {
+							"name": "Artificer"
+						},
+						"subclass": {
+							"name": "Gadgetsmith"
+						}
 					}
 				}
 			],
@@ -363,13 +377,14 @@
 			"name": "Stopwatch Trinket",
 			"prerequisite": [
 				{
-					"type": "prereqLevel",
-					"level": 9,
-					"class": {
-						"name": "Artificer"
-					},
-					"subclass": {
-						"name": "Gadgetsmith"
+					"level": {
+						"level": 9,
+						"class": {
+							"name": "Artificer"
+						},
+						"subclass": {
+							"name": "Gadgetsmith"
+						}
 					}
 				}
 			],
@@ -384,19 +399,22 @@
 			"name": "Crossbow Spider",
 			"prerequisite": [
 				{
-					"type": "prereqLevel",
-					"level": 11,
-					"class": {
-						"name": "Artificer"
-					},
-					"subclass": {
-						"name": "Gadgetsmith"
+					"level": {
+						"level": 11,
+						"class": {
+							"name": "Artificer"
+						},
+						"subclass": {
+							"name": "Gadgetsmith"
+						}
 					}
 				},
 				{
-					"type": "prereqSpecial",
-					"entry": "Autonomous Crossbow upgrade",
-					"entrySummary": "Autonomous Crossbow"
+				"otherSummary":
+					{
+						"entry": "Autonomous Crossbow upgrade",
+						"entrySummary": "Autonomous Crossbow"
+					}
 				}
 			],
 			"entries": [
@@ -409,13 +427,14 @@
 			"name": "Flying Gadget",
 			"prerequisite": [
 				{
-					"type": "prereqLevel",
-					"level": 11,
-					"class": {
-						"name": "Artificer"
-					},
-					"subclass": {
-						"name": "Gadgetsmith"
+					"level": {
+						"level": 11,
+						"class": {
+							"name": "Artificer"
+						},
+						"subclass": {
+							"name": "Gadgetsmith"
+						}
 					}
 				}
 			],
@@ -429,19 +448,22 @@
 			"name": "Lightning Generator",
 			"prerequisite": [
 				{
-					"type": "prereqLevel",
-					"level": 11,
-					"class": {
-						"name": "Artificer"
-					},
-					"subclass": {
-						"name": "Gadgetsmith"
+					"level": {
+						"level": 11,
+						"class": {
+							"name": "Artificer"
+						},
+						"subclass": {
+							"name": "Gadgetsmith"
+						}
 					}
 				},
 				{
-					"type": "prereqSpecial",
-					"entry": "Shock Generator upgrade",
-					"entrySummary": "Shock Generator"
+				"otherSummary":
+					{
+						"entry": "Shock Generator upgrade",
+						"entrySummary": "Shock Generator"
+					}
 				}
 			],
 			"entries": [
@@ -455,19 +477,22 @@
 			"name": "Truesight Lenses",
 			"prerequisite": [
 				{
-					"type": "prereqLevel",
-					"level": 11,
-					"class": {
-						"name": "Artificer"
-					},
-					"subclass": {
-						"name": "Gadgetsmith"
+					"level": {
+						"level": 11,
+						"class": {
+							"name": "Artificer"
+						},
+						"subclass": {
+							"name": "Gadgetsmith"
+						}
 					}
 				},
 				{
-					"type": "prereqSpecial",
-					"entry": "Sight Lenses upgrade",
-					"entrySummary": "Sight Lenses"
+				"otherSummary":
+					{
+						"entry": "Sight Lenses upgrade",
+						"entrySummary": "Sight Lenses"
+					}
 				}
 			],
 			"entries": [
@@ -480,13 +505,14 @@
 			"name": "Useful Universal Key",
 			"prerequisite": [
 				{
-					"type": "prereqLevel",
-					"level": 11,
-					"class": {
-						"name": "Artificer"
-					},
-					"subclass": {
-						"name": "Gadgetsmith"
+					"level": {
+						"level": 11,
+						"class": {
+							"name": "Artificer"
+						},
+						"subclass": {
+							"name": "Gadgetsmith"
+						}
 					}
 				}
 			],
@@ -501,13 +527,14 @@
 			"name": "Bracers of Empowerment",
 			"prerequisite": [
 				{
-					"type": "prereqLevel",
-					"level": 15,
-					"class": {
-						"name": "Artificer"
-					},
-					"subclass": {
-						"name": "Gadgetsmith"
+					"level": {
+						"level": 15,
+						"class": {
+							"name": "Artificer"
+						},
+						"subclass": {
+							"name": "Gadgetsmith"
+						}
 					}
 				}
 			],
@@ -522,13 +549,14 @@
 			"name": "Bee Swarm Rockets",
 			"prerequisite": [
 				{
-					"type": "prereqLevel",
-					"level": 15,
-					"class": {
-						"name": "Artificer"
-					},
-					"subclass": {
-						"name": "Gadgetsmith"
+					"level": {
+						"level": 15,
+						"class": {
+							"name": "Artificer"
+						},
+						"subclass": {
+							"name": "Gadgetsmith"
+						}
 					}
 				}
 			],
@@ -543,13 +571,14 @@
 			"name": "Dimensional Toolbox",
 			"prerequisite": [
 				{
-					"type": "prereqLevel",
-					"level": 15,
-					"class": {
-						"name": "Artificer"
-					},
-					"subclass": {
-						"name": "Gadgetsmith"
+					"level": {
+						"level": 15,
+						"class": {
+							"name": "Artificer"
+						},
+						"subclass": {
+							"name": "Gadgetsmith"
+						}
 					}
 				}
 			],
@@ -563,13 +592,14 @@
 			"name": "Disintegration Ray",
 			"prerequisite": [
 				{
-					"type": "prereqLevel",
-					"level": 15,
-					"class": {
-						"name": "Artificer"
-					},
-					"subclass": {
-						"name": "Gadgetsmith"
+					"level": {
+						"level": 15,
+						"class": {
+							"name": "Artificer"
+						},
+						"subclass": {
+							"name": "Gadgetsmith"
+						}
 					}
 				}
 			],
@@ -662,13 +692,14 @@
 			"name": "Arcane Barrage Armament",
 			"prerequisite": [
 				{
-					"type": "prereqLevel",
-					"level": 5,
-					"class": {
-						"name": "Artificer"
-					},
-					"subclass": {
-						"name": "Golemsmith"
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Artificer"
+						},
+						"subclass": {
+							"name": "Golemsmith"
+						}
 					}
 				}
 			],
@@ -683,13 +714,14 @@
 			"name": "Cloaking Device",
 			"prerequisite": [
 				{
-					"type": "prereqLevel",
-					"level": 5,
-					"class": {
-						"name": "Artificer"
-					},
-					"subclass": {
-						"name": "Golemsmith"
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Artificer"
+						},
+						"subclass": {
+							"name": "Golemsmith"
+						}
 					}
 				}
 			],
@@ -704,13 +736,14 @@
 			"name": "Flamethrower Armament",
 			"prerequisite": [
 				{
-					"type": "prereqLevel",
-					"level": 5,
-					"class": {
-						"name": "Artificer"
-					},
-					"subclass": {
-						"name": "Golemsmith"
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Artificer"
+						},
+						"subclass": {
+							"name": "Golemsmith"
+						}
 					}
 				}
 			],
@@ -726,19 +759,22 @@
 			"name": "Iron Fortress",
 			"prerequisite": [
 				{
-					"type": "prereqLevel",
-					"level": 5,
-					"class": {
-						"name": "Artificer"
-					},
-					"subclass": {
-						"name": "Golemsmith"
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Artificer"
+						},
+						"subclass": {
+							"name": "Golemsmith"
+						}
 					}
 				},
 				{
-					"type": "prereqSpecial",
-					"entry": "Medium or Large Golem, Golem Constitution of 18",
-					"entrySummary": "M/L Golem, Con 18"
+				"otherSummary":
+					{
+						"entry": "Medium or Large Golem, Golem Constitution of 18",
+						"entrySummary": "M/L Golem, Con 18"
+					}
 				}
 			],
 			"entries": [
@@ -751,13 +787,14 @@
 			"name": "Shielding Bond",
 			"prerequisite": [
 				{
-					"type": "prereqLevel",
-					"level": 5,
-					"class": {
-						"name": "Artificer"
-					},
-					"subclass": {
-						"name": "Golemsmith"
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Artificer"
+						},
+						"subclass": {
+							"name": "Golemsmith"
+						}
 					}
 				}
 			],
@@ -772,13 +809,14 @@
 			"name": "Powered Charge",
 			"prerequisite": [
 				{
-					"type": "prereqLevel",
-					"level": 9,
-					"class": {
-						"name": "Artificer"
-					},
-					"subclass": {
-						"name": "Golemsmith"
+					"level": {
+						"level": 9,
+						"class": {
+							"name": "Artificer"
+						},
+						"subclass": {
+							"name": "Golemsmith"
+						}
 					}
 				}
 			],
@@ -793,13 +831,14 @@
 			"name": "Expanded Frame",
 			"prerequisite": [
 				{
-					"type": "prereqLevel",
-					"level": 9,
-					"class": {
-						"name": "Artificer"
-					},
-					"subclass": {
-						"name": "Golemsmith"
+					"level": {
+						"level": 9,
+						"class": {
+							"name": "Artificer"
+						},
+						"subclass": {
+							"name": "Golemsmith"
+						}
 					}
 				}
 			],
@@ -814,19 +853,22 @@
 			"name": "Mark of Life",
 			"prerequisite": [
 				{
-					"type": "prereqLevel",
-					"level": 9,
-					"class": {
-						"name": "Artificer"
-					},
-					"subclass": {
-						"name": "Golemsmith"
+					"level": {
+						"level": 9,
+						"class": {
+							"name": "Artificer"
+						},
+						"subclass": {
+							"name": "Golemsmith"
+						}
 					}
 				},
 				{
-					"type": "prereqSpecial",
-					"entry": "incompatible with Launcher Chassis",
-					"entrySummary": "no Launcher chassis"
+				"otherSummary":
+					{
+						"entry": "incompatible with Launcher Chassis",
+						"entrySummary": "no Launcher chassis"
+					}
 				}
 			],
 			"entries": [
@@ -839,13 +881,14 @@
 			"name": "Overdrive",
 			"prerequisite": [
 				{
-					"type": "prereqLevel",
-					"level": 9,
-					"class": {
-						"name": "Artificer"
-					},
-					"subclass": {
-						"name": "Golemsmith"
+					"level": {
+						"level": 9,
+						"class": {
+							"name": "Artificer"
+						},
+						"subclass": {
+							"name": "Golemsmith"
+						}
 					}
 				}
 			],
@@ -859,13 +902,14 @@
 			"name": "Mechnical Wings",
 			"prerequisite": [
 				{
-					"type": "prereqLevel",
-					"level": 11,
-					"class": {
-						"name": "Artificer"
-					},
-					"subclass": {
-						"name": "Golemsmith"
+					"level": {
+						"level": 11,
+						"class": {
+							"name": "Artificer"
+						},
+						"subclass": {
+							"name": "Golemsmith"
+						}
 					}
 				}
 			],
@@ -879,13 +923,14 @@
 			"name": "Multiattack Protocol",
 			"prerequisite": [
 				{
-					"type": "prereqLevel",
-					"level": 11,
-					"class": {
-						"name": "Artificer"
-					},
-					"subclass": {
-						"name": "Golemsmith"
+					"level": {
+						"level": 11,
+						"class": {
+							"name": "Artificer"
+						},
+						"subclass": {
+							"name": "Golemsmith"
+						}
 					}
 				}
 			],
@@ -899,19 +944,22 @@
 			"name": "Thundering Stomp",
 			"prerequisite": [
 				{
-					"type": "prereqLevel",
-					"level": 11,
-					"class": {
-						"name": "Artificer"
-					},
-					"subclass": {
-						"name": "Golemsmith"
+					"level": {
+						"level": 11,
+						"class": {
+							"name": "Artificer"
+						},
+						"subclass": {
+							"name": "Golemsmith"
+						}
 					}
 				},
 				{
-					"type": "prereqSpecial",
-					"entry": "Golem of Large size",
-					"entrySummary": "Large Golem"
+				"otherSummary":
+					{
+						"entry": "Golem of Large size",
+						"entrySummary": "Large Golem"
+					}
 				}
 			],
 			"entries": [
@@ -924,13 +972,14 @@
 			"name": "Transforming Golem",
 			"prerequisite": [
 				{
-					"type": "prereqLevel",
-					"level": 11,
-					"class": {
-						"name": "Artificer"
-					},
-					"subclass": {
-						"name": "Golemsmith"
+					"level": {
+						"level": 11,
+						"class": {
+							"name": "Artificer"
+						},
+						"subclass": {
+							"name": "Golemsmith"
+						}
 					}
 				}
 			],
@@ -944,19 +993,22 @@
 			"name": "Artificial Learning",
 			"prerequisite": [
 				{
-					"type": "prereqLevel",
-					"level": 15,
-					"class": {
-						"name": "Artificer"
-					},
-					"subclass": {
-						"name": "Golemsmith"
+					"level": {
+						"level": 15,
+						"class": {
+							"name": "Artificer"
+						},
+						"subclass": {
+							"name": "Golemsmith"
+						}
 					}
 				},
 				{
-					"type": "prereqSpecial",
-					"entry": "Mark of Life upgrade",
-					"entrySummary": "Mark of Life"
+				"otherSummary":
+					{
+						"entry": "Mark of Life upgrade",
+						"entrySummary": "Mark of Life"
+					}
 				}
 			],
 			"entries": [
@@ -970,13 +1022,14 @@
 			"name": "Brutal Armaments",
 			"prerequisite": [
 				{
-					"type": "prereqLevel",
-					"level": 15,
-					"class": {
-						"name": "Artificer"
-					},
-					"subclass": {
-						"name": "Golemsmith"
+					"level": {
+						"level": 15,
+						"class": {
+							"name": "Artificer"
+						},
+						"subclass": {
+							"name": "Golemsmith"
+						}
 					}
 				}
 			],
@@ -990,13 +1043,14 @@
 			"name": "Shared Power",
 			"prerequisite": [
 				{
-					"type": "prereqLevel",
-					"level": 15,
-					"class": {
-						"name": "Artificer"
-					},
-					"subclass": {
-						"name": "Golemsmith"
+					"level": {
+						"level": 15,
+						"class": {
+							"name": "Artificer"
+						},
+						"subclass": {
+							"name": "Golemsmith"
+						}
 					}
 				}
 			],
@@ -1103,13 +1157,14 @@
 			"name": "Arcane Ammunition",
 			"prerequisite": [
 				{
-					"type": "prereqLevel",
-					"level": 5,
-					"class": {
-						"name": "Artificer"
-					},
-					"subclass": {
-						"name": "Infusionsmith"
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Artificer"
+						},
+						"subclass": {
+							"name": "Infusionsmith"
+						}
 					}
 				}
 			],
@@ -1123,13 +1178,14 @@
 			"name": "Infuse Shadows",
 			"prerequisite": [
 				{
-					"type": "prereqLevel",
-					"level": 5,
-					"class": {
-						"name": "Artificer"
-					},
-					"subclass": {
-						"name": "Infusionsmith"
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Artificer"
+						},
+						"subclass": {
+							"name": "Infusionsmith"
+						}
 					}
 				}
 			],
@@ -1143,13 +1199,14 @@
 			"name": "Lesser Ring of Protection",
 			"prerequisite": [
 				{
-					"type": "prereqLevel",
-					"level": 5,
-					"class": {
-						"name": "Artificer"
-					},
-					"subclass": {
-						"name": "Infusionsmith"
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Artificer"
+						},
+						"subclass": {
+							"name": "Infusionsmith"
+						}
 					}
 				}
 			],
@@ -1163,13 +1220,14 @@
 			"name": "Malicious Infusion",
 			"prerequisite": [
 				{
-					"type": "prereqLevel",
-					"level": 5,
-					"class": {
-						"name": "Artificer"
-					},
-					"subclass": {
-						"name": "Infusionsmith"
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Artificer"
+						},
+						"subclass": {
+							"name": "Infusionsmith"
+						}
 					}
 				}
 			],
@@ -1183,13 +1241,14 @@
 			"name": "Ring of Reaction",
 			"prerequisite": [
 				{
-					"type": "prereqLevel",
-					"level": 5,
-					"class": {
-						"name": "Artificer"
-					},
-					"subclass": {
-						"name": "Infusionsmith"
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Artificer"
+						},
+						"subclass": {
+							"name": "Infusionsmith"
+						}
 					}
 				}
 			],
@@ -1203,13 +1262,14 @@
 			"name": "Translocation Binding",
 			"prerequisite": [
 				{
-					"type": "prereqLevel",
-					"level": 5,
-					"class": {
-						"name": "Artificer"
-					},
-					"subclass": {
-						"name": "Infusionsmith"
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Artificer"
+						},
+						"subclass": {
+							"name": "Infusionsmith"
+						}
 					}
 				}
 			],
@@ -1223,13 +1283,14 @@
 			"name": "Weapon Enchantment Resonance",
 			"prerequisite": [
 				{
-					"type": "prereqLevel",
-					"level": 5,
-					"class": {
-						"name": "Artificer"
-					},
-					"subclass": {
-						"name": "Infusionsmith"
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Artificer"
+						},
+						"subclass": {
+							"name": "Infusionsmith"
+						}
 					}
 				}
 			],
@@ -1243,13 +1304,14 @@
 			"name": "Weapon Enchantment Expertise",
 			"prerequisite": [
 				{
-					"type": "prereqLevel",
-					"level": 5,
-					"class": {
-						"name": "Artificer"
-					},
-					"subclass": {
-						"name": "Infusionsmith"
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Artificer"
+						},
+						"subclass": {
+							"name": "Infusionsmith"
+						}
 					}
 				}
 			],
@@ -1264,19 +1326,22 @@
 			"name": "Detonate Armament",
 			"prerequisite": [
 				{
-					"type": "prereqLevel",
-					"level": 9,
-					"class": {
-						"name": "Artificer"
-					},
-					"subclass": {
-						"name": "Infusionsmith"
+					"level": {
+						"level": 9,
+						"class": {
+							"name": "Artificer"
+						},
+						"subclass": {
+							"name": "Infusionsmith"
+						}
 					}
 				},
 				{
-					"type": "prereqSpecial",
-					"entry": "Arcane Armament upgrade",
-					"entrySummary": "Arcane Armament"
+				"otherSummary":
+					{
+						"entry": "Arcane Armament upgrade",
+						"entrySummary": "Arcane Armament"
+					}
 				}
 			],
 			"entries": [
@@ -1290,13 +1355,14 @@
 			"name": "Dimensional Pockets",
 			"prerequisite": [
 				{
-					"type": "prereqLevel",
-					"level": 9,
-					"class": {
-						"name": "Artificer"
-					},
-					"subclass": {
-						"name": "Infusionsmith"
+					"level": {
+						"level": 9,
+						"class": {
+							"name": "Artificer"
+						},
+						"subclass": {
+							"name": "Infusionsmith"
+						}
 					}
 				}
 			],
@@ -1310,13 +1376,14 @@
 			"name": "Invisibility Cloak",
 			"prerequisite": [
 				{
-					"type": "prereqLevel",
-					"level": 9,
-					"class": {
-						"name": "Artificer"
-					},
-					"subclass": {
-						"name": "Infusionsmith"
+					"level": {
+						"level": 9,
+						"class": {
+							"name": "Artificer"
+						},
+						"subclass": {
+							"name": "Infusionsmith"
+						}
 					}
 				}
 			],
@@ -1330,13 +1397,14 @@
 			"name": "Prepared Enchantment",
 			"prerequisite": [
 				{
-					"type": "prereqLevel",
-					"level": 9,
-					"class": {
-						"name": "Artificer"
-					},
-					"subclass": {
-						"name": "Infusionsmith"
+					"level": {
+						"level": 9,
+						"class": {
+							"name": "Artificer"
+						},
+						"subclass": {
+							"name": "Infusionsmith"
+						}
 					}
 				}
 			],
@@ -1351,13 +1419,14 @@
 			"name": "Spell Trapping Ring",
 			"prerequisite": [
 				{
-					"type": "prereqLevel",
-					"level": 9,
-					"class": {
-						"name": "Artificer"
-					},
-					"subclass": {
-						"name": "Infusionsmith"
+					"level": {
+						"level": 9,
+						"class": {
+							"name": "Artificer"
+						},
+						"subclass": {
+							"name": "Infusionsmith"
+						}
 					}
 				}
 			],
@@ -1372,13 +1441,14 @@
 			"name": "Enchanted Broom",
 			"prerequisite": [
 				{
-					"type": "prereqLevel",
-					"level": 11,
-					"class": {
-						"name": "Artificer"
-					},
-					"subclass": {
-						"name": "Infusionsmith"
+					"level": {
+						"level": 11,
+						"class": {
+							"name": "Artificer"
+						},
+						"subclass": {
+							"name": "Infusionsmith"
+						}
 					}
 				}
 			],
@@ -1392,13 +1462,14 @@
 			"name": "Empower Weapon",
 			"prerequisite": [
 				{
-					"type": "prereqLevel",
-					"level": 11,
-					"class": {
-						"name": "Artificer"
-					},
-					"subclass": {
-						"name": "Infusionsmith"
+					"level": {
+						"level": 11,
+						"class": {
+							"name": "Artificer"
+						},
+						"subclass": {
+							"name": "Infusionsmith"
+						}
 					}
 				}
 			],
@@ -1412,13 +1483,14 @@
 			"name": "Mixed Technique",
 			"prerequisite": [
 				{
-					"type": "prereqLevel",
-					"level": 11,
-					"class": {
-						"name": "Artificer"
-					},
-					"subclass": {
-						"name": "Infusionsmith"
+					"level": {
+						"level": 11,
+						"class": {
+							"name": "Artificer"
+						},
+						"subclass": {
+							"name": "Infusionsmith"
+						}
 					}
 				}
 			],
@@ -1433,13 +1505,14 @@
 			"name": "Life Infusion",
 			"prerequisite": [
 				{
-					"type": "prereqLevel",
-					"level": 11,
-					"class": {
-						"name": "Artificer"
-					},
-					"subclass": {
-						"name": "Infusionsmith"
+					"level": {
+						"level": 11,
+						"class": {
+							"name": "Artificer"
+						},
+						"subclass": {
+							"name": "Infusionsmith"
+						}
 					}
 				}
 			],
@@ -1453,13 +1526,14 @@
 			"name": "Magical Rod",
 			"prerequisite": [
 				{
-					"type": "prereqLevel",
-					"level": 11,
-					"class": {
-						"name": "Artificer"
-					},
-					"subclass": {
-						"name": "Infusionsmith"
+					"level": {
+						"level": 11,
+						"class": {
+							"name": "Artificer"
+						},
+						"subclass": {
+							"name": "Infusionsmith"
+						}
 					}
 				}
 			],
@@ -1474,13 +1548,14 @@
 			"name": "Advanced Object Animation",
 			"prerequisite": [
 				{
-					"type": "prereqLevel",
-					"level": 15,
-					"class": {
-						"name": "Artificer"
-					},
-					"subclass": {
-						"name": "Infusionsmith"
+					"level": {
+						"level": 15,
+						"class": {
+							"name": "Artificer"
+						},
+						"subclass": {
+							"name": "Infusionsmith"
+						}
 					}
 				}
 			],
@@ -1494,13 +1569,14 @@
 			"name": "Third Animated Weapon",
 			"prerequisite": [
 				{
-					"type": "prereqLevel",
-					"level": 15,
-					"class": {
-						"name": "Artificer"
-					},
-					"subclass": {
-						"name": "Infusionsmith"
+					"level": {
+						"level": 15,
+						"class": {
+							"name": "Artificer"
+						},
+						"subclass": {
+							"name": "Infusionsmith"
+						}
 					}
 				}
 			],
