@@ -395,7 +395,7 @@
 					{
 						"name": "Unarmored Defense",
 						"entries": [
-							"Beginning at 1st level, while you are wearing no armor and not wielding a shield, your AC equals 10 + your Dexterity modifier + your Wisdom modifier."
+							"Beginning at 1st level, while you are wearing no armor and not wielding a shield, your AC equals your choice between 10 + your Dexterity modifier + your Wisdom modifier or 10 + your Strength modifier + your Wisdom modifier."
 						]
 					},
 					{
@@ -410,7 +410,6 @@
 									"The weapon must lack these properties: heavy, special, or two-handed."
 								]
 							},
-							"Your practice of martial arts gives you mastery of combat styles that use unarmed strikes and monk weapons, which are shortswords, caestus, nunchaku, and any simple melee weapons that don't have the two-handed or heavy property.",
 							"You gain the following benefits while you are unarmed or wielding only monk weapons and you aren't wearing armor or wielding a shield.",
 							{
 								"type": "list",
@@ -464,6 +463,13 @@
 								"name": "Distant Eye",
 								"entries": [
 									"When you make a ranged weapon attack, you can spend 1 ki point to prevent attacking at long range from imposing disadvantage on your attack rolls until the end of the current turn."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Iron Body",
+								"entries": [
+									"You can spend 2 ki points as a bonus action to gain resistance to bludgeoning, piercing, and slashing damage for 1 minute. The effect ends early if you are knocked {@condition unconscious}, if you make an attack that uses your dexterity bonus, or if you end your turn without spending a ki point."
 								]
 							},
 							{
@@ -740,6 +746,112 @@
 					"shortName": "Shadow"
 				},
 				{
+					"name": "Way of the Rikishi",
+					"subclassFeatures": [
+						[
+							{
+								"name": "Way of the Rikishi",
+								"entries": [
+									"Followers of the way of the rikishi turn their bodies into living monuments, expanding their size and strength to the extreme. They can be stalwart defenders, knocking enemies away from their allies, or dedicate their girth and massive hands to launching an all-out assault against an opponent with a lightning speed.",
+									{
+										"type": "entries",
+										"name": "Bottom Heavy",
+										"entries": [
+											"When you choose this tradition at 3rd Level, you learn how to use your size and weight in combat, gaining the following benefits:",
+											{
+												"type": "list",
+												"items": [
+													"You become proficient in the Athletics skill and Calligrapher’s Supplies if you are not already.",
+													"You can use your reaction to grant yourself advantage on saving throws that would result in you being knocked prone, or to reduce undesired movement you are subject to by half.",
+													"You can stand up using 10 feet of your movement.",
+													"You gain 3 additional hit points, and one hit point each time you gain a level in this class."
+												]
+											}
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Oshi-Zumo",
+										"entries": [
+											"Also at 3rd Level, once on your turn when you hit a Large or smaller creature with an unarmed strike, you can spend 1 ki point to shove the target prone or up to 10 feet away from you. The target makes a Strength saving throw against your Ki save DC. If you hit the creature with two or more unarmed strikes on your turn, the target has disadvantage on their saving throw.",
+											"The number of pushes you can make on your turn, and the distance you can push a creature increase at certain levels: 15 feet at 11th level (two pushes), and 20 feet at 17th level (three pushes)."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Crushing Grapple",
+										"entries": [
+											"At 6th level, your you can use your girth itself as a weapon. You gain the following benefits:",
+											{
+												"type": "list",
+												"items": [
+													"Once per turn when you hit a creature with an unarmed strike, you can immediately attempt to grapple it.",
+													"Once per turn, you can deal an additional martial arts die of damage to one creature you are grappling when you hit them with an unarmed strike."
+												]
+											}
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Flying Deashi",
+										"entries": [
+											"At 11th level, when you use your Step of the Wind feature, you can spend 1 additional ki point to gain a flying speed equal to your movement speed until the end of your turn. Your flight (or flights) must begin from a stable surface, and move in a straight line."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Purified Dohyo",
+										"entries": [
+											"Also at 11th Level, you can spend 4 ki points to cast the {@spell magic circle} spell, substituting a handful of salt, chalk, or grain as the material component for the spell."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Improved Oshi-Zumo",
+										"entries": [
+											"Starting at 11th level you can attempt to push a creature up to 2 times on each of your turns, and a creature that fails the save is pushed 15 feet."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Hundred Hand Slap",
+										"entries": [
+											"At 17th Level,you can unleash an assault against a single opponent with blazing speed. When you take the Attack action and make both your attacks against the same creature, you can use your bonus action to spend up to 6 additional ki points, making one unarmed strike against that same target for each ki point spent."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Improved Oshi-Zumo",
+										"entries": [
+											"Starting at 11th level you can attempt to push a creature up to 3 times on each of your turns, and a creature that fails the save is pushed 20 feet."
+										]
+									}
+								]
+							}
+						]
+					],
+					"source": "PHEW",
+					"shortName": "Rikishi"
+				},
+				{
 					"name": "Way of the Open Hand",
 					"subclassFeatures": [
 						[
@@ -834,7 +946,7 @@
 												"entries": [
 													"Some elemental disciplines allow you to cast spells. See {@book chapter 10|PHEW|10} of the Player's Handbook for the general rules of spellcasting. To cast one of these spells, you use its casting time and other rules, but you don't need to provide material components for it.",
 													"Once you reach 5th level in this class, you can spend additional ki points to increase the level of an elemental discipline spell that you cast, provided that the spell has an enhanced effect at a higher level, as {@spell burning hands} does. The spell's level increases by 1 for each additional ki point you spend. For example, if you are a 5th-level monk and use Sweeping Cinder Strike to cast {@spell burning hands}, you can spend 3 ki points to cast it as a 2nd-level spell (the discipline's base cost of 2 ki points plus 1).",
-													"The maximum number of ki points you can spend to cast a spell in this way (including its base ki point cost and any additional ki points you spend to increase its level) is determined by your monk level, as shown in the Spells and Ki Points table. At 5th level, you may spend up to 3 ki points; this increases to 4 ki points at 9th level, 5 at 13th level, and 6 at 17th level.",
+													"The maximum number of ki points you can spend to cast a spell in this way (including its base ki point cost and any additional ki points you spend to increase its level) is determined by your monk level, as shown in the Spells and Ki Points table. At 5th level, you may spend up to 2 ki points; this increases to 3 ki points at 9th level, 4 at 13th level, and 5 at 17th level.",
 													{
 														"type": "table",
 														"caption": "Spells and Ki Points",
@@ -849,19 +961,19 @@
 														"rows": [
 															[
 																"5th-8th",
-																3
+																2
 															],
 															[
 																"9th-12th",
-																4
+																3
 															],
 															[
 																"13th-16th",
-																5
+																4
 															],
 															[
 																"17th-20th",
-																6
+																5
 															]
 														]
 													}
@@ -881,14 +993,14 @@
 														"type": "entries",
 														"name": "Breath of Winter (17th Level Required)",
 														"entries": [
-															"You can spend 6 ki points to cast {@spell cone of cold}."
+															"You can spend 5 ki points to cast {@spell cone of cold}."
 														]
 													},
 													{
 														"type": "entries",
 														"name": "Clench of the North Wind (6th Level Required)",
 														"entries": [
-															"You can spend 3 ki points to cast {@spell hold person}."
+															"You can spend 2 ki points to cast {@spell hold person}."
 														]
 													},
 													{
@@ -911,7 +1023,7 @@
 														"type": "entries",
 														"name": "Eternal Mountain Defense (17th Level Required)",
 														"entries": [
-															"You can spend 5 ki points to cast {@spell stoneskin}, targeting yourself."
+															"You can spend 4 ki points to cast {@spell stoneskin}, targeting yourself."
 														]
 													},
 													{
@@ -925,7 +1037,7 @@
 														"type": "entries",
 														"name": "Fist of Four Thunders",
 														"entries": [
-															"You can spend 2 ki points to cast {@spell thunderwave}."
+															"You can spend 1 ki point to cast {@spell thunderwave}."
 														]
 													},
 													{
@@ -939,42 +1051,42 @@
 														"type": "entries",
 														"name": "Flames of the Phoenix (11th Level Required)",
 														"entries": [
-															"You can spend 4 ki points to cast {@spell fireball}."
+															"You can spend 3 ki points to cast {@spell fireball}."
 														]
 													},
 													{
 														"type": "entries",
 														"name": "Gong of the Summit (6th Level Required)",
 														"entries": [
-															"You can spend 3 ki points to cast {@spell shatter}."
+															"You can spend 2 ki points to cast {@spell shatter}."
 														]
 													},
 													{
 														"type": "entries",
 														"name": "Mist Stance (11th Level Required)",
 														"entries": [
-															"You can spend 4 ki points to cast {@spell gaseous form}, targeting yourself."
+															"You can spend 3 ki points to cast {@spell gaseous form}, targeting yourself."
 														]
 													},
 													{
 														"type": "entries",
 														"name": "Ride the Wind (11th Level Required)",
 														"entries": [
-															"You can spend 4 ki points to cast {@spell fly}, targeting yourself."
+															"You can spend 3 ki points to cast {@spell fly}, targeting yourself."
 														]
 													},
 													{
 														"type": "entries",
 														"name": "River of Hungry Flame (17th Level Required)",
 														"entries": [
-															"You can spend 5 ki points to cast {@spell wall of fire}."
+															"You can spend 4 ki points to cast {@spell wall of fire}."
 														]
 													},
 													{
 														"type": "entries",
 														"name": "Rush of the Gale Spirits",
 														"entries": [
-															"You can spend 2 ki points to cast {@spell gust of wind}."
+															"You can spend 1 ki point to cast {@spell gust of wind}."
 														]
 													},
 													{
@@ -988,7 +1100,7 @@
 														"type": "entries",
 														"name": "Sweeping Cinder Strike",
 														"entries": [
-															"You can spend 2 ki points to cast {@spell burning hands}."
+															"You can spend 1 ki point to cast {@spell burning hands}."
 														]
 													},
 													{
@@ -1002,7 +1114,7 @@
 														"type": "entries",
 														"name": "Wave of Rolling Earth (17th Level Required)",
 														"entries": [
-															"You can spend 6 ki points to cast {@spell wall of stone}."
+															"You can spend 5 ki points to cast {@spell wall of stone}."
 														]
 													}
 												]
@@ -1043,6 +1155,22 @@
 						[
 							{
 								"entries": [
+									{
+										"type": "entries",
+										"name": "Avatar of the Elements",
+										"entries": [
+											"As an ultimate display of your mastery of the elements, you can spend 8 ki as an action to have the elements of earth, fire, air, and water form a protective sphere around your body, gaining multiple benefits for 1 minute. While this ability is active, you have resistance to bludgeoning, piercing, slashing, cold, fire, lightning, and thunder damage. You also gain a burrow, fly, and swim speed equal to your movement speed. Lastly, you can use any of the following abilities as a bonus action:",
+											{
+												"type": "list",
+												"items": [
+													"You create a small earthquake on the ground in a 15-foot radius around you. Each creature in that area must make a Dexterity saving throw. On a failed save, a creature takes 1d6 bludgeoning damage and is knocked prone.",
+													"You create a line of fire 15 feet long and 5 feet wide extending from you in a direction you choose. Each creature in the line must make a Dexterity saving throw. A creature takes 3d6 fire damage on a failed save, or half as much damage on a successful one.",
+													"You create a 15-foot cube of swirling wind centered on a point you can see within 60 feet of you. Each creature in that area must make a Constitution saving throw. A creature takes 1d10 bludgeoning damage on a failed save, or half as much damage on a successful one. If a Large or smaller creature fails the save, that creature is also pushed up to 10 feet away from the center of the cube.",
+													"You create a 15-foot cone of ice shards extending from your outstretched hand in a direction you choose. Each creature in the cone must make a Constitution save throw. A creature takes 2d6 cold damage on a failed save, or half as much damage on a successful one. A creature that fails its save against this effect has its speed halved until the start of your next turn."
+												]
+											}
+										]
+									},
 									{
 										"type": "entries",
 										"name": "Extra Elemental Discipline",

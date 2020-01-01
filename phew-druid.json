@@ -697,7 +697,7 @@
 													],
 													[
 														"9th",
-														"{@spell commune with nature}, {@spell cone of cold}"
+														"{@spell commune with nature}, {@spell passwall}"
 													]
 												]
 											},
@@ -783,7 +783,7 @@
 													],
 													[
 														"7th",
-														"{@spell divination}, {@spell freedom of movement}"
+														"{@spell greater invisibility}, {@spell freedom of movement}"
 													],
 													[
 														"9th",
@@ -813,7 +813,7 @@
 													],
 													[
 														"7th",
-														"{@spell divination}, {@spell freedom of movement}"
+														"{@spell greater invisibility}, {@spell freedom of movement}"
 													],
 													[
 														"9th",

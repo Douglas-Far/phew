@@ -6533,7 +6533,7 @@
 			"source": "PHEW",
 			"entries": [
 				"One humanoid of your choice that you can see within range must succeed on a Wisdom saving throw or become {@condition charmed} by you for the duration. While the target is {@condition charmed} in this way, a twisted crown of jagged iron appears on its head, and a madness glows in its eyes.",
-				"The {@condition charmed} target must use its action before moving on each of its turns to make a melee attack against a creature other than itself that you mentally choose. The target can act normally on its turn if you choose no creature or if none are within its reach.",
+				"The {@condition charmed} target must move towards the closest creature it can see other than yourself to make a melee attack against it. The target must use the Dash action if no valid creature is within its reach after moving its speed. If more than one creature is a valid target of the attack you can choose the creature to be attacked.",
 				"On your subsequent turns, you must use your action to maintain control over the target, or the spell ends. Also, the target can make a Wisdom saving throw at the end of each of its turns. On a success, the spell ends."
 			],
 			"savingThrow": [
@@ -10544,8 +10544,9 @@
 			},
 			"source": "PHEW",
 			"entries": [
-				"You sense the presence of any trap within range that is within line of sight. A trap, for the purpose of this spell, includes anything that would inflict a sudden or unexpected effect you consider harmful or undesirable, which was specifically intended as such by its creator. Thus, the spell would sense an area affected by the alarm spell, a glyph of warding, or a mechanical pit trap, but it would not reveal a natural weakness in the floor, an unstable ceiling, or a hidden sinkhole.",
-				"This spell merely reveals that a trap is present. You don't learn the location of each trap, but you do learn the general nature of the danger posed by a trap you sense."
+				"You sense the presence of any trap within range that is within range. A trap, for the purpose of this spell, includes anything that would inflict a sudden or unexpected effect you consider harmful or undesirable, which was specifically intended as such by its creator. Thus, the spell would sense an area affected by the alarm spell, a glyph of warding, or a mechanical pit trap, but it would not reveal a natural weakness in the floor, an unstable ceiling, or a hidden sinkhole.",
+				"This spell merely reveals the direction in which each trap is present. You don't learn the exact location of each trap, but you do learn the general nature of the danger posed by a trap you sense.",
+				"The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt."
 			]
 		},
 		{
@@ -18352,7 +18353,16 @@
 			"source": "PHEW",
 			"entries": [
 				"You create a sword-shaped plane of force that hovers within range. It lasts for the duration.",
-				"When the sword appears, you make a melee spell attack against a target of your choice within 5 feet of the sword. On a hit, the target takes {@dice 3d10} force damage. Until the spell ends, you can use a bonus action on each of your turns to move the sword up to 20 feet to a spot you can see and repeat this attack against the same target or a different one."
+				"When the sword appears, you make 2 melee spell attacks against a target of your choice within 5 feet of the sword. On a hit, the target takes 3d10 force damage. Until the spell ends, you can use a bonus action on each of your turns to move the sword up to 60 feet to a spot you can see and repeat these attacks against the same targets or different ones."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 8th level or higher, the damage increases by 1d10 for each slot level above 7th."
+					]
+				}
 			],
 			"damageInflict": [
 				"force"
@@ -19085,7 +19095,7 @@
 			},
 			"source": "PHEW",
 			"entries": [
-				"You tap into the nightmares of a creature you can see within range and create an illusory manifestation of its deepest fears, visible only to that creature. The target must make a Wisdom saving throw. On a failed save, the target becomes {@condition frightened} for the duration. At the end of each of the target's turns before the spell ends, the target must succeed on a Wisdom saving throw or take {@dice 4d10} psychic damage. On a successful save, the spell ends."
+				"You tap into the nightmares of a creature you can see within range and create an illusory manifestation of its deepest fears, visible only to that creature. The target must make a Wisdom saving throw, ending the spell on a success. On a failed save, the target becomes {@condition frightened} for the duration. At the start of each of the creature's turns, it takes {@dice 4d10} psychic damage. At the end of each of the creature's turns, it can repeat the Wisdom saving throw. The spell ends on a success."
 			],
 			"entriesHigherLevel": [
 				{
@@ -26115,8 +26125,7 @@
 					"duration": {
 						"type": "round",
 						"amount": 1
-					},
-					"concentration": true
+					}
 				}
 			],
 			"classes": {
@@ -26141,7 +26150,7 @@
 			},
 			"source": "PHEW",
 			"entries": [
-				"You extend your hand and point a finger at a target in range. Your magic grants you a brief insight into the target's defenses. On your next turn, you gain advantage on your first attack roll against the target, provided that this spell hasn't ended."
+				"You extend your hand and point a finger at a target in range. Your magic grants you a brief insight into the target's defenses. On your next turn, you gain advantage on your first attack roll against the target. If you roll the attack with advantage and both results would have hit, the attack is a critical hit."
 			]
 		},
 		{
@@ -27276,7 +27285,7 @@
 			},
 			"source": "PHEW",
 			"entries": [
-				"Drawing on the deepest fears of a group of creatures, you create illusory creatures in their minds, visible only to them. Each creature in a 30-foot-radius sphere centered on a point of your choice within range must make a Wisdom saving throw. On a failed save, a creature becomes {@condition frightened} for the duration. The illusion calls on the creature's deepest fears, manifesting its worst nightmares as an implacable threat. At the end of each of the {@condition frightened} creature's turns, it must succeed on a Wisdom saving throw or take {@dice 4d10} psychic damage. On a successful save, the spell ends for that creature."
+				"Drawing on the deepest fears of a group of creatures, you create illusory creatures in their minds, visible only to them. Each creature in a 30-foot-radius sphere centered on a point of your choice within range must make a Wisdom saving throw. On a failed save, a creature becomes {@condition frightened} for the duration. The illusion calls on the creature's deepest fears, manifesting its worst nightmares as an implacable threat. At the start of each of the {@condition frightened} creature's turns, it takes {@dice 4d10} psychic damage. At the end of each of the {@condition frightened} creature's turns, it can repeat the Wisdom saving throw, ending the effect for that creature on a success."
 			],
 			"damageInflict": [
 				"psychic"
@@ -27547,14 +27556,14 @@
 			},
 			"source": "PHEW",
 			"entries": [
-				"A beam of crackling, blue energy lances out toward a creature within range, forming a sustained arc of lightning between you and the target. Make a ranged spell attack against that creature. On a hit, the target takes {@dice 1d12} lightning damage, and on each of your turns for the duration, you can use your action to deal {@dice 1d12} lightning damage to the target automatically. The spell ends if you use your action to do anything else. The spell also ends if the target is ever outside the spell's range or if it has total cover from you."
+				"A beam of crackling, blue energy lances out toward a creature within range, forming a sustained arc of lightning between you and the target. Make a ranged spell attack against that creature. On a hit, the target takes {@dice 1d12} lightning damage, and on each of your turns for the duration, you can use your action to deal {@dice 1d12} lightning damage to the target automatically, assuming the target isn't outside the spell's range and it doesn't have total cover from you. The spell ends if you use your action to do nothing or to do anything else."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"When you cast this spell using a spell slot of 2nd level or higher, the initial damage increases by {@scaledice 1d12|1-9|1d12} for each slot level above 1st."
+						"When you cast this spell using a spell slot of 2nd level or higher, both the initial damage and the damage on subsequent turns increase by {@scaledice 1d12|1-9|1d12} for each slot level above 1st."
 					]
 				}
 			],
@@ -31093,8 +31102,7 @@
 					"duration": {
 						"type": "minute",
 						"amount": 10
-					},
-					"concentration": true
+					}
 				}
 			],
 			"classes": {
@@ -31176,8 +31184,7 @@
 					"duration": {
 						"type": "minute",
 						"amount": 10
-					},
-					"concentration": true
+					}
 				}
 			],
 			"classes": {
@@ -31261,8 +31268,7 @@
 					"duration": {
 						"type": "minute",
 						"amount": 10
-					},
-					"concentration": true
+					}
 				}
 			],
 			"classes": {
@@ -31344,8 +31350,7 @@
 					"duration": {
 						"type": "minute",
 						"amount": 10
-					},
-					"concentration": true
+					}
 				}
 			],
 			"classes": {
@@ -33732,7 +33737,7 @@
 						"You gain 50 temporary hit points. If any of these remain when the spell ends, they are lost.",
 						"You have advantage on attack rolls that you make with simple and martial weapons.",
 						"When you hit a target with a weapon attack, that target takes an extra {@dice 2d12} force damage.",
-						"You have proficiency with all armor, shields, simple weapons, and martial weapons.",
+						"You have proficiency with all armor, shields, simple weapons, and martial weapons, and you can magically don a single armor or shield you're touching at the time of casting the spell as part of the same action, assuming you're not already wearing or wielding a different one.",
 						"You have proficiency in Strength and Constitution saving throws.",
 						"You can attack twice, instead of once, when you take the Attack action on your turn. You ignore this benefit if you already have a feature, like Extra Attack, that gives you extra attacks."
 					]

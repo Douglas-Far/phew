@@ -284,7 +284,7 @@
 									},
 									{
 										"type": "entries",
-										"name": "Bling Fighting",
+										"name": "Blind Fighting",
 										"entries": [
 											"Being unable to see a creature doesn’t impose disadvantage on your attack rolls against it, provided the creature isn’t hidden from you."
 										]
@@ -837,7 +837,7 @@
 													],
 													[
 														"17th",
-														"{@spell commune}, {@spell flame strike}"
+														"{@spell commune}, {@spell immolation}"
 													]
 												]
 											}
@@ -1282,11 +1282,11 @@
 													],
 													[
 														"5th",
-														"{@spell warding bond}, {@spell zone of truth}"
+														"{@spell shadow blade}, {@spell zone of truth}"
 													],
 													[
 														"9th",
-														"{@spell aura of vitality}, {@spell spirit guardians}"
+														"{@spell aura of vitality}, {@spell haste}"
 													],
 													[
 														"13th",

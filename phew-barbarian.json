@@ -492,6 +492,182 @@
 					"shortName": "Berserker"
 				},
 				{
+					"name": "Path of the Juggernaut",
+					"subclassFeatures": [
+						[
+							{
+								"name": "Path of the Juggernaut",
+								"entries": [
+									"For some barbarians, strength is a goal in and of itself. The juggernaut laughs at that idea and instead raises the weapon that will shatter the world.",
+									{
+										"type": "entries",
+										"name": "Oversized Proficiency",
+										"entries": [
+											"Starting when you choose this path at 3rd level, you gain proficiency with oversized versions of all simple and martial weapons you're proficient with, excluding those with the special property, and you don't make all attack rolls with oversized weapons with disadvantage.",
+											"An oversized weapon is a weapon made to suit a creature one size category larger than you. Proficiency in use of such weapons is separate from proficiency with the same weapon type for your size, but it can be gained by anyone whenever a feature allows you to gain proficiency with one or more simple or martial weapon. Regardless of proficiency, all attacks with oversized weapons from creatures that lack this feature are made with disadvantage.",
+											"When you're wielding an oversized weapon you're proficient with, its properties change as follows:",
+											{
+												"type": "list",
+												"items": [
+													"The weapon's damage dice increases by 1d4 of the same type.",
+													"The finesse, light, and thrown properties are lost.",
+													"Weapons that lack the finesse, light, and heavy properties gain the two-handed and heavy properties.",
+													"Versatile weapons become two-handed and can only deal their two-handed damage dice.",
+													"Heavy weapons become massive instead. All attacks made with a massive weapon are made with disadvantage even if you have this feature."
+												]
+											}
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Behemoth Blow",
+										"entries": [
+											"Starting when you choose this path at 3rd level, when you take the Attack action on your turn while you're raging, you can forgo your normal attacks to instead perform one mighty blow, sundering the earth with a melee weapon you are wielding with two hands. This weapon must have the heavy property.",
+											"This blow creates a zone of destruction, originating from you, with a shape and maximum size chosen from the options below.",
+											"Every creature within the zone must make a Dexterity saving throw, or suffer damage equal to your weapon damage dice + your Strength modifier + your rage bonus to damage + your barbarian level. Once you reach 6th level, even creatures that make a successful save suffer half this damage.",
+											"When you use this feature, choose one blow:",
+											{
+												"type": "abilityDc",
+												"name": "Ki",
+												"attributes": [
+													"str"
+												]
+											},
+											{
+												"type": "entries",
+												"name": "Avalanche Smash",
+												"entries": [
+													"15-foot cone."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "Eruption Spin",
+												"entries": [
+													"5-foot radius circle."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "Fissure Cut",
+												"entries": [
+													"30-foot long, 5-foot wide line."
+												]
+											}
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Immovable",
+										"entries": [
+											"At 6th level, you shrug off pathetic distractions with battle-ready momentum. While you're raging, you can use your reaction to gain advantage on any saving throw.",
+											"Regardless of whether the save succeeds, your movement is reduced to 0 until the end of your next turn. If you fail, your rage ends."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Improved Behemoth Blow",
+										"entries": [
+											"Also at 6th level, you gain a new option for your Behemoth Blow feature:",
+											{
+												"type": "entries",
+												"name": "Boulder Crush",
+												"entries": [
+													"5-foot cube. This blow deals double the normal damage."
+												]
+											}
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Improved Behemoth Blow",
+										"entries": [
+											"Starting at 10th level, your Behemoth Blow options improve as follows:",
+											{
+												"type": "entries",
+												"name": "Avalanche Smash",
+												"entries": [
+													"30-foot cone."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "Eruption Spin",
+												"entries": [
+													"10-foot radius circle."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "Fissure Cut",
+												"entries": [
+													"60-foot long, 5-foot wide line."
+												]
+											}
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Unstoppable",
+										"entries": [
+											"Starting at 14th level, immediately after you use your Behemoth Blow feature you can take a bonus action to choose one of the following options, employing a follow-up that rends the very air.",
+											{
+												"type": "entries",
+												"name": "Duststorm Strike",
+												"entries": [
+													"Your blow kicks up a vicious sonic boom of dust, which heavily obscures visibility within its area until the start of your next turn. In addition, creatures that failed their saves are blinded and deafened for the duration."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "Skyfall Slam",
+												"entries": [
+													"You choose one creature that failed its save within 5 feet of you, and restrain it beneath your weapon. The creature must be of a size category that you can grapple. While the creature is restrained, you cannot use your weapon except to Boulder Crush it. The creature can use its action to attempt to escape the grapple, constested by your Behemoth Blow DC."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "Hurricane Ripper",
+												"entries": [
+													"Creatures that failed their saves are pushed 10 feet away from you, and fall prone."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "Galeforce Rush",
+												"entries": [
+													"You can immediately move to any point within the blow's shape, without consuming movement. Creatures that failed their saves cannot make opportunity attacks against you this turn."
+												]
+											},
+											"You can only use this feature once per rage."
+										]
+									}
+								]
+							}
+						]
+					],
+					"source": "PHEW",
+					"shortName": "Juggernaut"
+				},
+				{
 					"name": "Path of the Totem Warrior",
 					"subclassFeatures": [
 						[

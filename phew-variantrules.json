@@ -231,6 +231,10 @@
 							],
 							"rows": [
 								[
+									"{@class Artificer}",
+									"Intelligence 13"
+								],
+								[
 									"{@class Barbarian}",
 									"Strength 13"
 								],
@@ -321,6 +325,10 @@
 								"col-10"
 							],
 							"rows": [
+								[
+									"{@class Artificer}",
+									"Light armor, Arcana"
+								],
 								[
 									"{@class Barbarian}",
 									"Shields, simple weapons, martial weapons"

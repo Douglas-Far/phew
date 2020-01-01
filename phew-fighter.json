@@ -207,13 +207,6 @@
 									},
 									{
 										"type": "entries",
-										"name": "Restraining Strike",
-										"entries": [
-											"Immediately after you hit a creature with a melee weapon attack on your turn, you can expend one superiority die and use a bonus action to grapple the target (see chapter 9 in the Player’s Handbook for rules on grappling). Add the superiority die to your Strength (Athletics) check. The target is also restrained while grappled in this way."
-										]
-									},
-									{
-										"type": "entries",
 										"name": "Silver Tongue",
 										"entries": [
 											"When you make a Charisma (Deception) check or a Charisma (Persuasion) check, you can expend one superiority die, and add the superiority die to the ability check."
