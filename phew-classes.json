@@ -1314,9 +1314,9 @@
 						]
 					},
 					{
-						"name": "Alt: Multiattack (1d4)",
+						"name": "Alt: Reckless Strikes (1d4)",
 						"entries": [
-							"You can use a Multiattack action on your turn. If you do, use your Attack action once and make one unarmed strike as part of it. Your unarmed strikes now deal 1d4 + your Strength modifier."
+							"You become proficient with unarmed strikes if you weren't already, and your unarmed strikes now deal 1d4 + your Strength modifier bludgeoning damage. When you use your Attack action you can make one reckless strike as part of it. A reckless strike is an unarmed strike that deals the same damage to both the target and yourself if it hits."
 						]
 					}
 				],
@@ -1356,9 +1356,9 @@
 						]
 					},
 					{
-						"name": "Alt: Multiattack (1d8)",
+						"name": "Alt: Reckless Strikes (1d8)",
 						"entries": [
-							"If you chose the Multiattack feature, your unarmed strikes now deal 1d8 + your Strength modifier."
+							"If you chose the Reckless Strikes feature, your unarmed strikes now deal 1d8 + your Strength modifier."
 						]
 					}
 				],
@@ -1396,9 +1396,9 @@
 						]
 					},
 					{
-						"name": "Alt: Multiattack (1d12)",
+						"name": "Alt: Reckless Strikes (1d12)",
 						"entries": [
-							"If you chose the Multiattack feature, your unarmed strikes now deal 1d12 + your Strength modifier."
+							"If you chose the Reckless Strikes feature, your unarmed strikes now deal 1d12 + your Strength modifier."
 						]
 					}
 				],
