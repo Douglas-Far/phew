@@ -844,7 +844,7 @@
 					"type": "entries",
 					"name": "Areas of Magic",
 					"entries": [
-						"The area of another spell or magical effect, such as {@spell fireball}, can't extend into the sphere. If the sphere overlaps an area of magic, the part of the area that is covered by the sphere is suppressed. For example, the flames created by a wall of fire are suppressed within the sphere, creating a gap in the wall if the overlap is large enough."
+						"The area of another spell or magical effect, such as {@spell fireball|PHEW}, can't extend into the sphere. If the sphere overlaps an area of magic, the part of the area that is covered by the sphere is suppressed. For example, the flames created by a wall of fire are suppressed within the sphere, creating a gap in the wall if the overlap is large enough."
 					]
 				},
 				{
@@ -880,7 +880,7 @@
 					"type": "entries",
 					"name": "Dispel Magic",
 					"entries": [
-						"Spells and magical effects such as {@spell dispel magic} have no effect on the sphere. Likewise, the spheres created by different {@spell antimagic field} spells don't nullify each other."
+						"Spells and magical effects such as {@spell dispel magic|PHEW} have no effect on the sphere. Likewise, the spheres created by different {@spell antimagic field|PHEW} spells don't nullify each other."
 					]
 				}
 			],
@@ -1424,7 +1424,7 @@
 				"Your astral body resembles your mortal form in almost every way, replicating your game statistics and possessions. The principal difference is the addition of a silvery cord that extends from between your shoulder blades and trails behind you, fading to invisibility after 1 foot. This cord is your tether to your material body. As long as the tether remains intact, you can find your way home. If the cord is cut-something that can happen only when an effect specifically states that it does-your soul and body are separated, killing you instantly.",
 				"Your astral form can freely travel through the Astral Plane and can pass through portals there leading to any other plane. If you enter a new plane or return to the plane you were on when casting this spell, your body and possessions are transported along the silver cord, allowing you to re-enter your body as you enter the new plane. Your astral form is a separate incarnation. Any damage or other effects that apply to it have no effect on your physical body, nor do they persist when you return to it.",
 				"The spell ends for you and your companions when you use your action to dismiss it. When the spell ends, the affected creature returns to its physical body, and it awakens.",
-				"The spell might also end early for you or one of your companions. A successful {@spell dispel magic} spell used against an astral or physical body ends the spell for that creature. If a creature's original body or its astral form drops to 0 hit points, the spell ends for that creature. If the spell ends and the silver cord is intact, the cord pulls the creature's astral form back to its body, ending its state of suspended animation.",
+				"The spell might also end early for you or one of your companions. A successful {@spell dispel magic|PHEW} spell used against an astral or physical body ends the spell for that creature. If a creature's original body or its astral form drops to 0 hit points, the spell ends for that creature. If the spell ends and the silver cord is intact, the cord pulls the creature's astral form back to its body, ending its state of suspended animation.",
 				"If you are returned to your body prematurely, your companions remain in their astral forms and must find their own way back to their bodies, usually by dropping to 0 hit points."
 			],
 			"conditionInflict": [
@@ -2346,7 +2346,7 @@
 						"While the target is cursed, your attacks and spells deal an extra {@dice 1d8} necrotic damage to the target."
 					]
 				},
-				"A {@spell remove curse} spell ends this effect. At the DM's option, you may choose an alternative curse effect, but it should be no more powerful than those described above. The DM has final say on such a curse's effect."
+				"A {@spell remove curse|PHEW} spell ends this effect. At the DM's option, you may choose an alternative curse effect, but it should be no more powerful than those described above. The DM has final say on such a curse's effect."
 			],
 			"entriesHigherLevel": [
 				{
@@ -3021,6 +3021,76 @@
 			],
 			"miscTags": [
 				"SGT"
+			]
+		},
+		{
+			"name": "Blood Bomb",
+			"level": 3,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHEW"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHEW"
+					}
+				]
+			},
+			"source": "PHEW",
+			"entries": [
+				"You magically inject a creature with corrosive poison that congeals their blood. The creature must succeed on a Constitution saving throw or become {@condition poisoned} for the duration. An affected creature can repeat the saving throw at the end of each of its turns to end the spell. If the target dies while it is poisoned by this effect, it explodes, and each creature in a 20-foot radius from the target must make a Constitution saving throw. A creature takes 6d8 necrotic damage on a failed save, or half as much damage on a successful one. A single creature can only be poisoned by one instance of this spell or {@spell Virulent Blood Bomb|PHEW} at the same time, an either spell overrides the other when cast on an already affected creature."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 5th level or higher, the damage increases by {@scaledice 6d8|3-9|1d8} for each slot level above 4th."
+					]
+				}
+			],
+			"damageInflict": [
+				"necrotic"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"conditionInflict": [
+				"poisoned"
+			],
+			"areaTags": [
+				"S",
+				"MT"
 			]
 		},
 		{
@@ -3932,7 +4002,7 @@
 			"entries": [
 				"You create an invisible sensor within range in a location familiar to you (a place you have visited or seen before) or in an obvious location that is unfamiliar to you (such as behind a door, around a corner, or in a grove of trees). The sensor remains in place for the duration, and it can't be attacked or otherwise interacted with.",
 				"When you cast the spell, you choose seeing or hearing. You can use the chosen sense through the sensor as if you were in its space. As your action, you can switch between seeing and hearing.",
-				"A creature that can see the sensor (such as a creature benefiting from {@spell see invisibility} or truesight) sees a luminous, intangible orb about the size of your fist."
+				"A creature that can see the sensor (such as a creature benefiting from {@spell see invisibility|PHEW} or truesight) sees a luminous, intangible orb about the size of your fist."
 			]
 		},
 		{
@@ -5509,7 +5579,7 @@
 				"ritual": true
 			},
 			"entries": [
-				"You mentally contact a demigod, the spirit of a long-dead sage, or some other mysterious entity from another plane. Contacting this extraplanar intelligence can strain or even break your mind. When you cast this spell, make a DC 15 Intelligence saving throw. On a failure, you take {@dice 6d6} psychic damage and are insane until you finish a long rest. While insane, you can't take actions, can't understand what other creatures say, can't read, and speak only in gibberish. A {@spell greater restoration} spell cast on you ends this effect.",
+				"You mentally contact a demigod, the spirit of a long-dead sage, or some other mysterious entity from another plane. Contacting this extraplanar intelligence can strain or even break your mind. When you cast this spell, make a DC 15 Intelligence saving throw. On a failure, you take {@dice 6d6} psychic damage and are insane until you finish a long rest. While insane, you can't take actions, can't understand what other creatures say, can't read, and speak only in gibberish. A {@spell greater restoration|PHEW} spell cast on you ends this effect.",
 				"On a successful save, you can ask the entity up to five questions. You must ask your questions before the spell ends. The DM answers each question with one word, such as \"yes,\" \"no,\" \"maybe,\" \"never,\" \"irrelevant,\" or \"unclear\" (if the entity doesn't know the answer to the question). If a one-word answer would be misleading, the DM might instead offer a short phrase as an answer."
 			],
 			"damageInflict": [
@@ -5612,7 +5682,7 @@
 					"type": "entries",
 					"name": "Mindfire",
 					"entries": [
-						"The creature's mind becomes feverish. The creature has disadvantage on Intelligence checks and Intelligence saving throws, and the creature behaves as if under the effects of the {@spell confusion} spell during combat."
+						"The creature's mind becomes feverish. The creature has disadvantage on Intelligence checks and Intelligence saving throws, and the creature behaves as if under the effects of the {@spell confusion|PHEW} spell during combat."
 					]
 				},
 				{
@@ -7824,7 +7894,7 @@
 			"entries": [
 				"A thin green ray springs from your pointing finger to a target that you can see within range. The target can be a creature, an object, or a creation of magical force, such as the wall created by wall of force.",
 				"A creature targeted by this spell must make a Dexterity saving throw. On a failed save, the target takes {@dice 10d6 + 40} force damage. The target is disintegrated if this damage leaves it with 0 hit points.",
-				"A disintegrated creature and everything it is wearing and carrying, except magic items, are reduced to a pile of fine gray dust. The creature can be restored to life only by means of a true resurrection or a {@spell wish} spell.",
+				"A disintegrated creature and everything it is wearing and carrying, except magic items, are reduced to a pile of fine gray dust. The creature can be restored to life only by means of a true resurrection or a {@spell wish|PHEW} spell.",
 				"This spell automatically disintegrates a Large or smaller nonmagical object or a creation of magical force. If the target is a Huge or larger object or creation of force, this spell disintegrates a 10-foot-cube portion of it. A magic item is unaffected by this spell."
 			],
 			"entriesHigherLevel": [
@@ -8322,7 +8392,7 @@
 						"20 hit points or fewer: killed instantly"
 					]
 				},
-				"Regardless of its current hit points, a celestial, an elemental, a fey, or a fiend that fails its save is forced back to its plane of origin (if it isn't there already) and can't return to your current plane for 24 hours by any means short of a {@spell wish} spell."
+				"Regardless of its current hit points, a celestial, an elemental, a fey, or a fiend that fails its save is forced back to its plane of origin (if it isn't there already) and can't return to your current plane for 24 hours by any means short of a {@spell wish|PHEW} spell."
 			],
 			"savingThrow": [
 				"charisma"
@@ -8713,7 +8783,7 @@
 				"You touch an object weighing 10 pounds or less whose longest dimension is 6 feet or less. The spell leaves an invisible mark on its surface and invisibly inscribes the name of the item on the sapphire you use as the material component. Each time you cast this spell, you must use a different sapphire.",
 				"At any time thereafter, you can use your action to speak the item's name and crush the sapphire. The item instantly appears in your hand regardless of physical or planar distances, and the spell ends.",
 				"If another creature is holding or carrying the item, crushing the sapphire doesn't transport the item to you, but instead you learn who the creature possessing the object is and roughly where that creature is located at that moment.",
-				"{@spell Dispel magic} or a similar effect successfully applied to the sapphire ends this spell's effect."
+				"{@spell Dispel magic|PHEW} or a similar effect successfully applied to the sapphire ends this spell's effect."
 			]
 		},
 		{
@@ -10280,7 +10350,7 @@
 				"You blast the mind of a creature that you can see within range, attempting to shatter its intellect and personality. The target takes {@dice 4d6} psychic damage and must make an Intelligence saving throw.",
 				"On a failed save, the creature's Intelligence and Charisma scores become 1. The creature can't cast spells, activate magic items, understand language, or communicate in any intelligible way. The creature can, however, identify its friends, follow them, and even protect them.",
 				"At the end of every 30 days, the creature can repeat its saving throw against this spell. If it succeeds on its saving throw, the spell ends.",
-				"The spell can also be ended by {@spell greater restoration}, {@spell heal}, or {@spell wish}."
+				"The spell can also be ended by {@spell greater restoration|PHEW}, {@spell heal|PHEW}, or {@spell wish|PHEW}."
 			],
 			"damageInflict": [
 				"psychic"
@@ -11605,7 +11675,7 @@
 				"A prison in the shape of a box can be up to 10 feet on a side, creating a solid barrier that prevents any matter from passing through it and blocking any spells cast into or out from the area.",
 				"When you cast the spell, any creature that is completely inside the cage's area is trapped. Creatures only partially within the area, or those too large to fit inside the area, are pushed away from the center of the area until they are completely outside the area.",
 				"A creature inside the cage can't leave it by nonmagical means. If the creature tries to use teleportation or interplanar travel to leave the cage, it must first make a Charisma saving throw. On a success, the creature can use that magic to exit the cage. On a failure, the creature can't exit the cage and wastes the use of the spell or effect. The cage also extends into the Ethereal Plane, blocking ethereal travel.",
-				"This spell can't be dispelled by {@spell dispel magic}."
+				"This spell can't be dispelled by {@spell dispel magic|PHEW}."
 			],
 			"savingThrow": [
 				"charisma"
@@ -12084,7 +12154,7 @@
 			"entries": [
 				"You place a magical command on a creature that you can see within range, forcing it to carry out some service or refrain from some action or course of activity as you decide. If the creature can understand you, it must succeed on a Wisdom saving throw or become {@condition charmed} by you for the duration. While the creature is {@condition charmed} by you, it takes {@dice 5d10} psychic damage each time it acts in a manner directly counter to your instructions, but no more than once each day. A creature that can't understand you is unaffected by the spell.",
 				"You can issue any command you choose, short of an activity that would result in certain death. Should you issue a suicidal command, the spell ends.",
-				"You can end the spell early by using an action to dismiss it. A {@spell remove curse}, {@spell greater restoration}, or {@spell wish} spell also ends it."
+				"You can end the spell early by using an action to dismiss it. A {@spell remove curse|PHEW}, {@spell greater restoration|PHEW}, or {@spell wish|PHEW} spell also ends it."
 			],
 			"entriesHigherLevel": [
 				{
@@ -12961,14 +13031,14 @@
 					"type": "entries",
 					"name": "Doors",
 					"entries": [
-						"All doors in the warded area are magically locked, as if sealed by an {@spell arcane lock} spell. In addition, you can cover up to ten doors with an illusion (equivalent to the illusory object function of the minor illusion spell) to make them appear as plain sections of wall."
+						"All doors in the warded area are magically locked, as if sealed by an {@spell arcane lock|PHEW} spell. In addition, you can cover up to ten doors with an illusion (equivalent to the illusory object function of the minor illusion spell) to make them appear as plain sections of wall."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Stairs",
 					"entries": [
-						"Webs fill all stairs in the warded area from top to bottom, as the {@spell web} spell. These strands regrow in 10 minutes if they are burned or torn away while guards and wards lasts."
+						"Webs fill all stairs in the warded area from top to bottom, as the {@spell web|PHEW} spell. These strands regrow in 10 minutes if they are burned or torn away while guards and wards lasts."
 					]
 				},
 				{
@@ -12979,16 +13049,16 @@
 						{
 							"type": "list",
 							"items": [
-								"Place {@spell dancing lights} in four corridors. You can designate a simple program that the lights repeat as long as guards and wards lasts.",
-								"Place {@spell magic mouth} in two locations.",
-								"Place {@spell stinking cloud} in two locations. The vapors appear in the places you designate; they return within 10 minutes if dispersed by wind while guards and wards lasts.",
-								"Place a constant {@spell gust of wind} in one corridor or room.",
-								"Place a {@spell suggestion} in one location. You select an area of up to 5 feet square, and any creature that enters or passes through the area receives the suggestion mentally."
+								"Place {@spell dancing lights|PHEW} in four corridors. You can designate a simple program that the lights repeat as long as guards and wards lasts.",
+								"Place {@spell magic mouth|PHEW} in two locations.",
+								"Place {@spell stinking cloud|PHEW} in two locations. The vapors appear in the places you designate; they return within 10 minutes if dispersed by wind while guards and wards lasts.",
+								"Place a constant {@spell gust of wind|PHEW} in one corridor or room.",
+								"Place a {@spell suggestion|PHEW} in one location. You select an area of up to 5 feet square, and any creature that enters or passes through the area receives the suggestion mentally."
 							]
 						}
 					]
 				},
-				"The whole warded area radiates magic. A {@spell dispel magic} cast on a specific effect, if successful, removes only that effect.",
+				"The whole warded area radiates magic. A {@spell dispel magic|PHEW} cast on a specific effect, if successful, removes only that effect.",
 				"You can create a permanently guarded and warded structure by casting this spell there every day for one year."
 			],
 			"areaTags": [
@@ -14943,7 +15013,7 @@
 						"During the casting of the spell, in any of its versions, you can specify a condition that will cause the spell to end and release the target. The condition can be as specific or as elaborate as you choose, but the DM must agree that the condition is reasonable and has a likelihood of coming to pass. The conditions can be based on a creature's name, identity, or deity but otherwise must be based on observable actions or qualities and not based on intangibles such as level, class, or hit points."
 					]
 				},
-				"A {@spell dispel magic} spell can end the spell only if it is cast as a 9th-level spell, targeting either the prison or the special component used to create it.",
+				"A {@spell dispel magic|PHEW} spell can end the spell only if it is cast as a 9th-level spell, targeting either the prison or the special component used to create it.",
 				"You can use a particular special component to create only one prison at a time. If you cast the spell again using the same component, the target of the first casting is immediately freed from its binding."
 			],
 			"savingThrow": [
@@ -17573,7 +17643,7 @@
 			},
 			"source": "PHEW",
 			"entries": [
-				"Until the spell ends, one willing creature you touch is immune to psychic damage, any effect that would sense its emotions or read its thoughts, divination spells, and the {@condition charmed} condition. The spell even foils {@spell wish} spells and spells or effects of similar power used to affect the target's mind or to gain information about the target."
+				"Until the spell ends, one willing creature you touch is immune to psychic damage, any effect that would sense its emotions or read its thoughts, divination spells, and the {@condition charmed} condition. The spell even foils {@spell wish|PHEW} spells and spells or effects of similar power used to affect the target's mind or to gain information about the target."
 			],
 			"damageInflict": [
 				"psychic"
@@ -18025,7 +18095,7 @@
 				"While this charm lasts, you can affect the target's memory of an event that it experienced within the last 24 hours and that lasted no more than 10 minutes. You can permanently eliminate all memory of the event, allow the target to recall the event with perfect clarity and exacting detail, change its memory of the details of the event, or create a memory of some other event.",
 				"You must speak to the target to describe how its memories are affected, and it must be able to understand your language for the modified memories to take root. Its mind fills in any gaps in the details of your description. If the spell ends before you have finished describing the modified memories, the creature's memory isn't altered. Otherwise, the modified memories take hold when the spell ends.",
 				"A modified memory doesn't necessarily affect how a creature behaves, particularly if the memory contradicts the creature's natural inclinations, alignment, or beliefs. An illogical modified memory, such as implanting a memory of how much the creature enjoyed dousing itself in acid, is dismissed, perhaps as a bad dream. The DM might deem a modified memory too nonsensical to affect a creature in a significant manner.",
-				"A {@spell remove curse} or {@spell greater restoration} spell cast on the target restores the creature's true memory."
+				"A {@spell remove curse|PHEW} or {@spell greater restoration|PHEW} spell cast on the target restores the creature's true memory."
 			],
 			"entriesHigherLevel": [
 				{
@@ -18715,7 +18785,7 @@
 				"A sphere of shimmering force encloses a creature or object of Large size or smaller within range. An unwilling creature must make a Dexterity saving throw. On a failed save, the creature is enclosed for the duration.",
 				"Nothing\u2014not physical objects, energy, or other spell effects\u2014can pass through the barrier, in or out, though a creature in the sphere can breathe there. The sphere is immune to all damage, and a creature or object inside can't be damaged by attacks or effects originating from outside, nor can a creature inside the sphere damage anything outside it.",
 				"The sphere is weightless and just large enough to contain the creature or object inside. An enclosed creature can use its action to push against the sphere's walls and thus roll the sphere at up to half the creature's speed. Similarly, the globe can be picked up and moved by other creatures.",
-				"A {@spell disintegrate} spell targeting the globe destroys it without harming anything inside it."
+				"A {@spell disintegrate|PHEW} spell targeting the globe destroys it without harming anything inside it."
 			],
 			"damageImmune": [
 				"acid",
@@ -20168,7 +20238,7 @@
 					"type": "entries",
 					"name": "Violet",
 					"entries": [
-						"On a failed save, the creature is {@condition blinded}. It must then make a Wisdom saving throw at the start of your next turn. A successful save ends the blindness. If it fails that save, the creature is transported to another plane of the DM's choosing and is no longer {@condition blinded}. (Typically, a creature that is on a plane that isn't its home plane is banished home, while other creatures are usually cast into the Astral or Ethereal planes.) This layer is destroyed by a {@spell dispel magic} spell or a similar spell of equal or higher level that can end spells and magical effects."
+						"On a failed save, the creature is {@condition blinded}. It must then make a Wisdom saving throw at the start of your next turn. A successful save ends the blindness. If it fails that save, the creature is transported to another plane of the DM's choosing and is no longer {@condition blinded}. (Typically, a creature that is on a plane that isn't its home plane is banished home, while other creatures are usually cast into the Astral or Ethereal planes.) This layer is destroyed by a {@spell dispel magic|PHEW} spell or a similar spell of equal or higher level that can end spells and magical effects."
 					]
 				}
 			],
@@ -21909,7 +21979,7 @@
 			},
 			"source": "PHEW",
 			"entries": [
-				"You ward a creature within range against attack. Until the spell ends, any creature who targets the warded creature with an attack or a harmful spell must first make a Wisdom saving throw. On a failed save, the creature must choose a new target or lose the attack or spell. This spell doesn't protect the warded creature from area effects, such as the explosion of a {@spell fireball}.",
+				"You ward a creature within range against attack. Until the spell ends, any creature who targets the warded creature with an attack or a harmful spell must first make a Wisdom saving throw. On a failed save, the creature must choose a new target or lose the attack or spell. This spell doesn't protect the warded creature from area effects, such as the explosion of a {@spell fireball|PHEW}.",
 				"If the warded creature makes an attack, casts a spell that affects an enemy, or deals damage to another creature, this spell ends."
 			],
 			"savingThrow": [
@@ -22720,7 +22790,7 @@
 				{
 					"number": 1,
 					"unit": "reaction",
-					"condition": "which you take when you are hit by an attack or targeted by the {@spell magic missile} spell"
+					"condition": "which you take when you are hit by an attack or targeted by the {@spell magic missile|PHEW} spell"
 				}
 			],
 			"range": {
@@ -23634,6 +23704,58 @@
 				"Plants might be able to perform other tasks on your behalf, at the DM's discretion. The spell doesn't enable plants to uproot themselves and move about, but they can freely move branches, tendrils, and stalks.",
 				"If a plant creature is in the area, you can communicate with it as if you shared a common language, but you gain no magical ability to influence it.",
 				"This spell can cause the plants created by the entangle spell to release a {@condition restrained} creature."
+			]
+		},
+		{
+			"name": "Spell Crush",
+			"level": 5,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Paladin",
+						"source": "PHEW"
+					}
+				]
+			},
+			"source": "PHEW",
+			"entries": [
+				"The weave of magic is twisted around the target, making it overflow with its own magical power. Make a ranged spell attack against the target. On a hit, the target takes a number of {@dice 1d12} psychic damage equal to the highest level of spell slot the target has access to, and the target makes all Constitution saving throws to maintain concentration on a spell with disadvantage for the duration."
+			],
+			"damageInflict": [
+				"psychic"
+			],
+			"spellAttack": [
+				"R"
+			],
+			"areaTags": [
+				"ST"
 			]
 		},
 		{
@@ -26677,7 +26799,7 @@
 			"source": "PHEW",
 			"entries": [
 				"An invisible wall of force springs into existence at a point you choose within range. The wall appears in any orientation you choose, as a horizontal or vertical barrier or at an angle. It can be free floating or resting on a solid surface. You can form it into a hemispherical dome or a sphere with a radius of up to 10 feet, or you can shape a flat surface made up of ten 10-foot-by-10-foot panels. Each panel must be contiguous with another panel. In any form, the wall is 1/4 inch thick. It lasts for the duration. If the wall cuts through a creature's space when it appears, the creature is pushed to one side of the wall (your choice which side).",
-				"Nothing can physically pass through the wall. It is immune to all damage and can't be dispelled by {@spell dispel magic}. A {@spell disintegrate} spell destroys the wall instantly, however. The wall also extends into the Ethereal Plane, blocking ethereal travel through the wall."
+				"Nothing can physically pass through the wall. It is immune to all damage and can't be dispelled by {@spell dispel magic|PHEW}. A {@spell disintegrate|PHEW} spell destroys the wall instantly, however. The wall also extends into the Ethereal Plane, blocking ethereal travel through the wall."
 			],
 			"damageImmune": [
 				"force"
@@ -27474,7 +27596,7 @@
 					"type": "list",
 					"items": [
 						"You create one object of up to 25,000 gp in value that isn't a magic item. The object can be no more than 300 feet in any dimension, and it appears in an unoccupied space you can see on the ground.",
-						"You allow up to twenty creatures that you can see to regain all hit points, and you end all effects on them described in the {@spell greater restoration} spell.",
+						"You allow up to twenty creatures that you can see to regain all hit points, and you end all effects on them described in the {@spell greater restoration|PHEW} spell.",
 						"You grant up to ten creatures that you can see resistance to a damage type you choose.",
 						"You grant up to ten creatures you can see immunity to a single spell or other magical effect for 8 hours. For instance, you could make yourself and all your companions immune to a {@creature lich}'s life drain attack.",
 						"You undo a single recent event by forcing a reroll of any roll made within the last round (including your last turn). Reality reshapes itself to accommodate the new result. For example, a wish spell could undo an opponent's successful save, a foe's critical hit, or a friend's failed save. You can force the reroll to be made with advantage or disadvantage, and you can choose whether to use the reroll or the original roll."
@@ -27943,7 +28065,7 @@
 			"source": "PHEW",
 			"entries": [
 				"You channel lightning energy into a creature. The energy is harmless to the creature, but escapes in dangerous bursts to other nearby creatures.",
-				"Every time that creature strikes another creature with a melee attack, a spell with a range of touch, is struck by another creature with melee attack, or ends their turn while grappling or being grappled by another creature, they deal {@spell 1d6} Lightning damage to that creature.",
+				"Every time that creature strikes another creature with a melee attack, a spell with a range of touch, is struck by another creature with melee attack, or ends their turn while grappling or being grappled by another creature, they deal {@dice 1d6} Lightning damage to that creature.",
 				"Once this spell has discharged 6 times (dealing up to 6d6 damage), the spell ends."
 			],
 			"entriesHigherLevel": [
@@ -28763,7 +28885,7 @@
 					"type": "entries",
 					"name": "Funeral Rite",
 					"entries": [
-						"You touch one corpse, and for the next 7 days, the target can't become undead by any means short of a {@spell wish} spell."
+						"You touch one corpse, and for the next 7 days, the target can't become undead by any means short of a {@spell wish|PHEW} spell."
 					]
 				},
 				{
@@ -33245,7 +33367,7 @@
 						"You can use an action to name a place the humanoid saw in life, which creates an invisible sensor somewhere in that place if it is on the plane of existence you're currently on. The sensor remains for as long as you concentrate, up to 10 minutes (as if you were concentrating on a spell). You receive visual and auditory information from the sensor as if you were in its space using your senses."
 					]
 				},
-				"A creature that can see the sensor (such as one using {@spell see invisibility} or truesight) sees a translucent image of the tormented humanoid whose soul you caged."
+				"A creature that can see the sensor (such as one using {@spell see invisibility|PHEW} or truesight) sees a translucent image of the tormented humanoid whose soul you caged."
 			],
 			"miscTags": [
 				"HL"
@@ -33673,7 +33795,7 @@
 				"The temple opposes types of creatures you choose when you cast this spell. Choose one or more of the following: celestials, elementals, fey, fiends, or undead. If a creature of the chosen type attempts to enter the temple, that creature must make a Charisma saving throw. On a failed save, it can't enter the temple for 24 hours. Even if the creature can enter the temple, the magic there hinders it; whenever it makes an attack roll, an ability check, or a saving throw inside the temple, it must roll a {@dice d4} and subtract the number rolled from the {@dice d20} roll.",
 				"In addition, the sensors created by divination spells can't appear inside the temple, and creatures within can't be targeted by divination spells.",
 				"Finally, whenever any creature in the temple regains hit points from a spell of 1st level or higher, the creature regains additional hit points equal to your Wisdom modifier (minimum 1 hit point).",
-				"The temple is made from opaque magical force that extends into the Ethereal Plane, thus blocking ethereal travel into the temple's interior. Nothing can physically pass through the temple's exterior. It can't be dispelled by dispel magic, and antimagic field has no effect on it. A {@spell disintegrate} spell destroys the temple instantly.",
+				"The temple is made from opaque magical force that extends into the Ethereal Plane, thus blocking ethereal travel into the temple's interior. Nothing can physically pass through the temple's exterior. It can't be dispelled by dispel magic, and antimagic field has no effect on it. A {@spell disintegrate|PHEW} spell destroys the temple instantly.",
 				"Casting this spell on the same spot every day for a year makes this effect permanent."
 			],
 			"savingThrow": [
@@ -34181,6 +34303,67 @@
 			],
 			"miscTags": [
 				"SGT"
+			]
+		},
+		{
+			"name": "Virulent Blood Bomb",
+			"level": 9,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHEW"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHEW"
+					}
+				]
+			},
+			"source": "PHEW",
+			"entries": [
+				"You magically inject a creature with corrosive poison that congeals their blood. The creature must succeed on a Constitution saving throw or become {@condition poisoned} for the duration. An affected creature can repeat the saving throw at the end of each of its turns to end the effect of the spell on itself. If a creature dies while it is poisoned by this effect, it explodes, and each creature in a 20-foot radius from the target must make a Constitution saving throw. A creature takes 12d8 necrotic damage and becomes poisoned as if targeted by this spell on a failed save, or half as much damage on a successful one. A single creature can only be poisoned by one instance of this spell or {@spell Blood Bomb|PHEW} at the same time, an either spell overrides the other when cast on an already affected creature."
+			],
+			"damageInflict": [
+				"necrotic"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"conditionInflict": [
+				"poisoned"
+			],
+			"areaTags": [
+				"S",
+				"MT"
 			]
 		},
 		{

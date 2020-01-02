@@ -1312,6 +1312,12 @@
 							"Beginning at 9th level, you can roll one additional weapon damage die when determining the extra damage for a critical hit with a melee attack.",
 							"This increases to two additional dice at 13th level and three additional dice at 17th level."
 						]
+					},
+					{
+						"name": "Alt: Multiattack (1d4)",
+						"entries": [
+							"You can use a Multiattack action on your turn. If you do, use your Attack action once and make one unarmed strike as part of it. Your unarmed strikes now deal 1d4 + your Strength modifier."
+						]
 					}
 				],
 				[
@@ -1345,8 +1351,14 @@
 					{
 						"name": "Brutal Critical (2 dice)",
 						"entries": [
-							"At 13th level, you can roll two additional weapon damage dice when determining the extra damage for a critical hit with a melee attack.",
+							"At 13th level, if you chose the Brutal Critical feature, you can roll two additional weapon damage dice when determining the extra damage for a critical hit with a melee attack.",
 							"This increases to three additional dice at 17th level."
+						]
+					},
+					{
+						"name": "Alt: Multiattack (1d8)",
+						"entries": [
+							"If you chose the Multiattack feature, your unarmed strikes now deal 1d8 + your Strength modifier."
 						]
 					}
 				],
@@ -1380,7 +1392,13 @@
 					{
 						"name": "Brutal Critical (3 dice)",
 						"entries": [
-							"At 17th level, you can roll three additional weapon damage dice when determining the extra damage for a critical hit with a melee attack."
+							"At 17th level, if you chose the Brutal Critical feature, you can roll three additional weapon damage dice when determining the extra damage for a critical hit with a melee attack."
+						]
+					},
+					{
+						"name": "Alt: Multiattack (1d12)",
+						"entries": [
+							"If you chose the Multiattack feature, your unarmed strikes now deal 1d12 + your Strength modifier."
 						]
 					}
 				],
@@ -1425,6 +1443,13 @@
 										"name": "Frenzy",
 										"entries": [
 											"Starting when you choose this path at 3rd level, you can go into a frenzy when you rage. If you do so, for the duration of your rage you can make a single melee weapon attack as a bonus action on each of your turns after this one. When your rage ends, you suffer one level of {@condition exhaustion}."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Tireless Warrior",
+										"entries": [
+											"You can reduce your level of exhaustion by 1 at the end of a short rest. Once you do, you must take a long rest in order to benefit from this feature again."
 										]
 									}
 								]
@@ -11800,6 +11825,12 @@
 				],
 				[
 					{
+						"name": "Improved Deflect Missiles",
+						"entries": [
+							"Starting at 13th level, when you use your reaction for your Deflect Missiles feature, you can deflect additional attacks without spending your reaction up to a number of times equal to your Wisdom modifier or until the start of your next turn."
+						]
+					},
+					{
 						"name": "Tongue of the Sun and Moon",
 						"entries": [
 							"Starting at 13th level, you learn to touch the ki of other minds so that you understand all spoken languages. Moreover, any creature that can understand a language can understand what you say."
@@ -11816,6 +11847,34 @@
 					}
 				],
 				[
+					{
+						"name": "Improved Ki Features",
+						"entries": [
+							"Starting at 15th level, your mastery over ki makes some of your ki feature options even stronger.",
+							{
+								"type": "entries",
+								"name": "Flurry of Blows",
+								"entries": [
+									"Immediately after you take the {@action Attack} action on your turn, you can spend 1 ki point to make two unarmed strikes or 2 ki points to make three strikes as a bonus action."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Step of the Wind",
+								"entries": [
+									"You can spend 1 ki point to take both the {@action Disengage} and {@action Dash} actions as a single bonus action on your turn, and your jump distance is doubled for the turn."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Iron Body",
+								"entries": [
+									"You can spend 2 ki points as a bonus action to gain resistance to bludgeoning, piercing, and slashing damage for 1 minute. The effect ends early if you are knocked {@condition unconscious}, if you make an attack that uses your dexterity bonus, or if you end your turn without spending a ki point.",
+									"While this effect is active, you can use your reaction to gain immunity to the bludgeoning, piercing and slashing damage you would take when you are hit by an attack or a spell."
+								]
+							}
+						]
+					},
 					{
 						"name": "Timeless Body",
 						"entries": [
