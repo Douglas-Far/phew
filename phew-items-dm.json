@@ -1,0 +1,340 @@
+{
+	"_meta": {
+		"internalCopies": [
+			"item"
+		]
+	},
+	"item": [
+		{
+			"name": "Greatclub",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Simple",
+			"rarity": "None",
+			"value": 20,
+			"weight": 10,
+			"dmg1": "{@dice 1d8}",
+			"dmgType": "B",
+			"property": [
+				"H",
+				"2H"
+			],
+			"source": "PHEW"
+		},
+		{
+			"name": "Handaxe",
+			"type": "M",
+			"weapon": true,
+			"axe": true,
+			"weaponCategory": "Simple",
+			"rarity": "None",
+			"value": 200,
+			"weight": 2,
+			"dmg1": "{@dice 1d4}",
+			"dmgType": "S",
+			"property": [
+				"L",
+				"T"
+			],
+			"range": "20/60",
+			"source": "PHEW"
+		},
+		{
+			"name": "Quarterstaff",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Simple",
+			"rarity": "None",
+			"value": 20,
+			"weight": 4,
+			"dmg1": "{@dice 1d4}",
+			"dmg2": "{@dice 1d8}",
+			"dmgType": "B",
+			"property": [
+				"V"
+			],
+			"source": "PHEW",
+			"staff": true
+		},
+		{
+			"name": "Trident",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Martial",
+			"rarity": "None",
+			"value": 500,
+			"weight": 4,
+			"dmg1": "{@dice 1d6}",
+			"dmg2": "{@dice 1d10}",
+			"dmgType": "P",
+			"property": [
+				"T",
+				"V"
+			],
+			"range": "20/60",
+			"source": "PHEW"
+		},
+		{
+			"name": "Caestus",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Martial",
+			"rarity": "None",
+			"value": 500,
+			"weight": 1,
+			"dmg1": "{@dice 1d4}",
+			"dmgType": "B",
+			"property": [
+				"L"
+			],
+			"source": "PHEW",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"Your hand is considered free even while you are wielding this weapon, but you can't use it to attack if you're wielding another weapon in the same hand."
+					]
+				}
+			]
+		},
+		{
+			"name": "Katana",
+			"type": "M",
+			"weapon": true,
+			"sword": true,
+			"weaponCategory": "Martial",
+			"rarity": "None",
+			"value": 5000,
+			"weight": 3,
+			"dmg1": "{@dice 1d6}",
+			"dmg2": "{@dice 1d10}",
+			"dmgType": "S",
+			"property": [
+				"F",
+				"V"
+			],
+			"source": "PHEW"
+		},
+		{
+			"name": "Nunchaku",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Martial",
+			"rarity": "None",
+			"value": 150,
+			"weight": 2,
+			"dmg1": "{@dice 1d6}",
+			"dmgType": "B",
+			"property": [
+				"D"
+			],
+			"source": "PHEW"
+		},
+		{
+			"name": "Kusarigama",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Martial",
+			"rarity": "None",
+			"value": 1000,
+			"weight": 10,
+			"dmg1": "{@dice 1d6}",
+			"dmgType": "S",
+			"property": [
+				"2H",
+				"D",
+				"R"
+			],
+			"source": "PHEW",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"The off-hand end of the weapon deals {@dice 1d4} bludgeoning damage. You can only benefit from the reach property with one of the two ends within a single turn."
+					]
+				}
+			]
+		},
+		{
+			"name": "Estus Flask",
+			"wondrous": true,
+			"weight": 1,
+			"tier": "Minor",
+			"rarity": "uncommon",
+			"source": "PHEW",
+			"reqAttune": "special; read text",
+			"entries": [
+				"This dull emerald flask is treasured by adventurers everywhere. It constantly gives out warmth, regardless of the surrounding temperature, and it contains the precious Estus, a liquid substance with miraculous healing properties.",
+				"When placed in a flame, hearth, or other similar source of flame it begins to slowly fill with a vibrant orange liquid. After 1 hour the flask is filled completely. It may be removed from the fire safely as it is never more than warm to the touch.",
+				"Using an action, any creature may drink the Estus to spend as many of their Hit Dice as possible, up to a maximum of half the creature's level, to regain a number of hit points equal to 1d4+1 times the number of Hit Dice spent. A creature that is attuned to this item multiplies the hit dice spent by their Hit Die value + their Constitution modifier instead.",
+				"In order to attune to this item you first need to drink its contents, and then you must wait until the second dawn since you drank it.",
+				"Regardless of attunement, drinking the contents of the flask provides enough sustenance and water for the day, and drinking more than one flask during the same day is likely to cause illness from overeating.",
+				"A creature that falls unconscious while attuned to this item loses attunement to it."
+			]
+		},
+		{
+			"name": "Gao - Protector (dormant)",
+			"type": "S",
+			"wondrous": true,
+			"weight": 6,
+			"ac": 2,
+			"tier": "Major",
+			"rarity": "Tegument",
+			"source": "PHEW",
+			"reqAttune": "by a divine caster",
+			"entries": [
+				"A shield with the power to repel any attack. This item's true power is revealed when paired with the Gao - Servant shortsword.",
+				"While holding this shield, you gain a +1 bonus to AC and become proficient with the shortsword. This bonus is in addition to the shield's normal bonus to AC.",
+				"If you're wielding both Gao - Protector and Gao - Servant you can sheathe the sword into the shield as an item interaction. If the sword is sheathed within this item, you can draw it as a free action.",
+				"Whenever an attack misses your AC by 5 or more and you can see the source of the attack, you can use your reaction to cause Gao-Protector to roar. That source becomes the target of the roar and, if it is within 5 feet of you, it must make a Wisdom saving throw against your divine spellcasting DC. A creature that fails the save takes {@dice 2d10} thunder damage and, if it isn't immune to fear, it falls prone.",
+				"This item can hold up to 3 charges. Any unspent charges are lost at dawn. You can use 1 charge from this item to increase the range of the roar to 15 feet and have if affect every creature in a 30-foot cone centered on the target.",
+				"If you're wielding this shield when you cast a divine spell, Gao - Servant regains 1 charge for each level of the spell used, assuming you're also wielding the sword or it is sheathed within the shield."
+			],
+			"bonus": "+1"
+		},
+		{
+			"name": "Gao - Protector (awakened)",
+			"type": "S",
+			"wondrous": true,
+			"weight": 6,
+			"ac": 2,
+			"tier": "Major",
+			"rarity": "Tegument",
+			"source": "PHEW",
+			"reqAttune": "by a divine caster",
+			"entries": [
+				"A shield with the power to repel any attack. This item's true power is revealed when paired with the Gao - Servant shortsword.",
+				"While holding this shield, you gain a +2 bonus to AC and become proficient with the shortsword. This bonus is in addition to the shield's normal bonus to AC.",
+				"If you're wielding both Gao - Protector and Gao - Servant you can sheathe the sword into the shield as an item interaction. If the sword is sheathed within this item, you can draw it as a free action.",
+				"Whenever an attack misses your AC by 5 or more and you can see the source of the attack, you can use your reaction to cause Gao-Protector to roar. That source becomes the target of the roar and, if it is within 5 feet of you, it must make a Wisdom saving throw against your divine spellcasting DC. A creature that fails the save takes {@dice 4d10} thunder damage and, if it isn't immune to fear, it falls prone.",
+				"This item can hold up to 3 charges. Any unspent charges are lost at dawn. You can use 1 charge from this item to increase the range of the roar to 30 feet and have if affect every creature in a 30-foot cone centered on the target.",
+				"If you're wielding this shield when you cast a divine spell, Gao - Servant regains 1 charge for each level of the spell used, assuming you're also wielding the sword or it is sheathed within the shield."
+			],
+			"bonus": "+2"
+		},
+		{
+			"name": "Gao - Protector (exalted)",
+			"type": "S",
+			"wondrous": true,
+			"weight": 6,
+			"ac": 2,
+			"tier": "Major",
+			"rarity": "Tegument",
+			"source": "PHEW",
+			"reqAttune": "by a divine caster",
+			"entries": [
+				"A shield with the power to repel any attack. This item's true power is revealed when paired with the Gao - Servant shortsword.",
+				"While holding this shield, you gain a +3 bonus to AC and become proficient with the shortsword. This bonus is in addition to the shield's normal bonus to AC.",
+				"If you're wielding both Gao - Protector and Gao - Servant you can sheathe the sword into the shield as an item interaction. If the sword is sheathed within this item, you can draw it as a free action.",
+				"Whenever an attack misses your AC by 5 or more and you can see the source of the attack, you can use your reaction to cause Gao-Protector to roar. That source becomes the target of the roar and, if it is within 5 feet of you, it must make a Wisdom saving throw against your divine spellcasting DC. A creature that fails the save takes {@dice 6d10} thunder damage and, if it isn't immune to fear, it falls prone.",
+				"This item can hold up to 3 charges. Any unspent charges are lost at dawn. You can use 1 charge from this item to increase the range of the roar to 60 feet and have if affect every creature in a 30-foot cone centered on the target.",
+				"If you're wielding this shield when you cast a divine spell, Gao - Servant regains 1 charge for each level of the spell used, assuming you're also wielding the sword or it is sheathed within the shield."
+			],
+			"bonus": "+3"
+		},
+		{
+			"name": "Gao - Servant (dormant)",
+			"type": "S",
+			"wondrous": true,
+			"type": "M",
+			"weapon": true,
+			"sword": true,
+			"weaponCategory": "Martial",
+			"weight": 2,
+			"dmg1": "{@dice 1d6}",
+			"dmgType": "P",
+			"property": [
+				"F",
+				"L"
+			],
+			"tier": "Major",
+			"rarity": "Tegument",
+			"source": "PHEW",
+			"reqAttune": "by a divine caster",
+			"entries": [
+				"A sword with the power to smite its enemies with divine justice. This item's true power is revealed when paired with the Gao - Protector shield.",
+				"While holding this sword, you gain a +1 bonus to attack and damage rolls and become proficient with shields.",
+				"If you're wielding both Gao - Protector and Gao - Servant you can sheathe the sword into the shield as an item interaction. If this item is sheathed within the shield, you can draw it as a free action.",
+				"When you unsheathe this sword, you can use your divine spellcasting ability instead of your Strength or Dexterity to determine attacks and damage dealt from this weapon. If you unsheathe it from Gao - Protector, it gains the reach (10 feet) property.",
+				"This item can hold up to 9 charges. Any unspent charges are lost at dawn. As an action, you can use any number of charges to make a single ranged attack with this weapon. The maximum range equals 10 feet times the number of charges spent. This attack deals extra radiant damage equal to the number of charges spent. A target hit by the attack must make a Strength Saving Throw against your divine spellcasting DC or pulled 5 feet towards you per charge spent.",
+				"If you're wielding this sword when you use a spell slot to cast a divine spell that restores hit points to at least 1 creature, Gao - Servant regains 1 charge, assuming you're also wielding the shield."
+			],
+			"bonus": "+1"
+		},
+		{
+			"name": "Gao - Servant (awakened)",
+			"type": "S",
+			"wondrous": true,
+			"type": "M",
+			"weapon": true,
+			"sword": true,
+			"weaponCategory": "Martial",
+			"weight": 2,
+			"dmg1": "{@dice 1d6}",
+			"dmgType": "P",
+			"property": [
+				"F",
+				"L"
+			],
+			"tier": "Major",
+			"rarity": "Tegument",
+			"source": "PHEW",
+			"reqAttune": "by a divine caster",
+			"entries": [
+				"A sword with the power to smite its enemies with divine justice. This item's true power is revealed when paired with the Gao - Protector shield.",
+				"While holding this sword, you gain a +2 bonus to attack and damage rolls and become proficient with shields.",
+				"If you're wielding both Gao - Protector and Gao - Servant you can sheathe the sword into the shield as an item interaction. If this item is sheathed within the shield, you can draw it as a free action.",
+				"When you unsheathe this sword, you can use your divine spellcasting ability instead of your Strength or Dexterity to determine attacks and damage dealt from this weapon. If you unsheathe it from Gao - Protector, it gains the reach (15 feet) property.",
+				"This item can hold up to 9 charges. Any unspent charges are lost at dawn. As an action, you can use any number of charges to make a single ranged attack with this weapon. The maximum range equals 10 feet times the number of charges spent. This attack deals extra radiant damage equal to {@dice 1d4} times the number of charges spent. A target hit by the attack must make a Strength Saving Throw against your divine spellcasting DC or pulled 5 feet towards you per charge spent.",
+				"If you're wielding this sword when you use a spell slot to cast a divine spell that restores hit points to at least 1 creature, Gao - Servant regains 1 charge, assuming you're also wielding the shield."
+			],
+			"bonus": "+2"
+		},
+		{
+			"name": "Gao - Servant (exalted)",
+			"type": "S",
+			"wondrous": true,
+			"type": "M",
+			"weapon": true,
+			"sword": true,
+			"weaponCategory": "Martial",
+			"weight": 2,
+			"dmg1": "{@dice 1d6}",
+			"dmgType": "P",
+			"property": [
+				"F",
+				"L"
+			],
+			"tier": "Major",
+			"rarity": "Tegument",
+			"source": "PHEW",
+			"reqAttune": "by a divine caster",
+			"entries": [
+				"A sword with the power to smite its enemies with divine justice. This item's true power is revealed when paired with the Gao - Protector shield.",
+				"While holding this sword, you gain a +3 bonus to attack and damage rolls and become proficient with shields.",
+				"If you're wielding both Gao - Protector and Gao - Servant you can sheathe the sword into the shield as an item interaction. If this item is sheathed within the shield, you can draw it as a free action.",
+				"When you unsheathe this sword, you can use your divine spellcasting ability instead of your Strength or Dexterity to determine attacks and damage dealt from this weapon. If you unsheathe it from Gao - Protector, it gains the reach (20 feet) property.",
+				"This item can hold up to 9 charges. Any unspent charges are lost at dawn. As an action, you can use any number of charges to make a single ranged attack with this weapon. The maximum range equals 10 feet times the number of charges spent. This attack deals extra radiant damage equal to {@dice 1d6} times the number of charges spent. A target hit by the attack must make a Strength Saving Throw against your divine spellcasting DC or pulled 5 feet towards you per charge spent.",
+				"If you're wielding this sword when you use a spell slot to cast a divine spell that restores hit points to at least 1 creature, Gao - Servant regains 1 charge, assuming you're also wielding the shield."
+			],
+			"bonus": "+3"
+		}
+	],
+	"itemProperty": [
+		{
+			"abbreviation": "D",
+			"source": "PHEW",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Double",
+					"entries": [
+						"This weapon can be wielded in two hands and it is considered a pair of light weapons when you do. You can choose which end of the weapon to attack with if you wield it one-handed."
+					]
+				}
+			]
+		}
+	]
+}
