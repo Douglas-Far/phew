@@ -7369,7 +7369,7 @@
 										"type": "entries",
 										"name": "Elemental Wild Shape",
 										"entries": [
-											"At 10th level, you can expend two uses of Wild Shape at the same time to transform into an {@creature air elemental}, an {@creature earth elemental}, a {@creature fire elemental}, or a {@creature water elemental}."
+											"At 10th level, you can expend two uses of Wild Shape at the same time to transform into an {@creature air elemental|PHEW}, an {@creature earth elemental|PHEW}, a {@creature fire elemental|PHEW}, or a {@creature water elemental|PHEW}."
 										]
 									}
 								]
@@ -7873,37 +7873,37 @@
 									"rows": [
 										[
 											"0",
-											"{@creature Owl}",
+											"{@creature Owl|PHEW}",
 											"Fly"
 										],
 										[
 											"1/8",
-											"{@creature Blood hawk}",
+											"{@creature Blood hawk|PHEW}",
 											"Fly"
 										],
 										[
 											"1/4",
-											"{@creature Giant owl}",
+											"{@creature Giant owl|PHEW}",
 											"Fly"
 										],
 										[
 											"1",
-											"{@creature Brown bear}",
+											"{@creature Brown bear|PHEW}",
 											"\u2014"
 										],
 										[
 											"2",
-											"{@creature Polar bear}",
+											"{@creature Polar bear|PHEW}",
 											"Swim"
 										],
 										[
 											"2",
-											"{@creature Saber-toothed tiger}",
+											"{@creature Saber-toothed tiger|PHEW}",
 											"\u2014"
 										],
 										[
 											"6",
-											"{@creature Mammoth}",
+											"{@creature Mammoth|PHEW}",
 											"\u2014"
 										]
 									]
@@ -7924,62 +7924,62 @@
 									"rows": [
 										[
 											"0",
-											"{@creature Crab}",
+											"{@creature Crab|PHEW}",
 											"Swim"
 										],
 										[
 											"0",
-											"{@creature Eagle}",
+											"{@creature Eagle|PHEW}",
 											"Fly"
 										],
 										[
 											"1/8",
-											"{@creature Blood hawk}",
+											"{@creature Blood hawk|PHEW}",
 											"Fly"
 										],
 										[
 											"1/8",
-											"{@creature Giant crab}",
+											"{@creature Giant crab|PHEW}",
 											"Swim"
 										],
 										[
 											"1/8",
-											"{@creature Poisonous snake}",
+											"{@creature Poisonous snake|PHEW}",
 											"Swim"
 										],
 										[
 											"1/8",
-											"{@creature Stirge}",
+											"{@creature Stirge|PHEW}",
 											"Fly"
 										],
 										[
 											"1/4",
-											"{@creature Giant lizard}",
+											"{@creature Giant lizard|PHEW}",
 											"\u2014"
 										],
 										[
 											"1/4",
-											"{@creature Giant wolf spider}",
+											"{@creature Giant wolf spider|PHEW}",
 											"\u2014"
 										],
 										[
 											"1/4",
-											"{@creature Pteranodon}",
+											"{@creature Pteranodon|PHEW}",
 											"Fly"
 										],
 										[
 											"1",
-											"{@creature Giant eagle}",
+											"{@creature Giant eagle|PHEW}",
 											"Fly"
 										],
 										[
 											"1",
-											"{@creature Giant toad}",
+											"{@creature Giant toad|PHEW}",
 											"Swim"
 										],
 										[
 											"2",
-											"{@creature Plesiosaurus}",
+											"{@creature Plesiosaurus|PHEW}",
 											"Swim"
 										]
 									]
@@ -8000,107 +8000,107 @@
 									"rows": [
 										[
 											"0",
-											"{@creature Cat}",
+											"{@creature Cat|PHEW}",
 											"\u2014"
 										],
 										[
 											"0",
-											"{@creature Hyena}",
+											"{@creature Hyena|PHEW}",
 											"\u2014"
 										],
 										[
 											"0",
-											"{@creature Jackal}",
+											"{@creature Jackal|PHEW}",
 											"\u2014"
 										],
 										[
 											"0",
-											"{@creature Scorpion}",
+											"{@creature Scorpion|PHEW}",
 											"\u2014"
 										],
 										[
 											"0",
-											"{@creature Vulture}",
+											"{@creature Vulture|PHEW}",
 											"Fly"
 										],
 										[
 											"1/8",
-											"{@creature Camel}",
+											"{@creature Camel|PHEW}",
 											"\u2014"
 										],
 										[
 											"1/8",
-											"{@creature Flying snake}",
+											"{@creature Flying snake|PHEW}",
 											"Fly"
 										],
 										[
 											"1/8",
-											"{@creature Mule}",
+											"{@creature Mule|PHEW}",
 											"\u2014"
 										],
 										[
 											"1/8",
-											"{@creature Poisonous snake}",
+											"{@creature Poisonous snake|PHEW}",
 											"Swim"
 										],
 										[
 											"1/8",
-											"{@creature Stirge}",
+											"{@creature Stirge|PHEW}",
 											"Fly"
 										],
 										[
 											"1/4",
-											"{@creature Constrictor snake}",
+											"{@creature Constrictor snake|PHEW}",
 											"Swim"
 										],
 										[
 											"1/4",
-											"{@creature Giant lizard}",
+											"{@creature Giant lizard|PHEW}",
 											"\u2014"
 										],
 										[
 											"1/4",
-											"{@creature Giant poisonous snake}",
+											"{@creature Giant poisonous snake|PHEW}",
 											"Swim"
 										],
 										[
 											"1/4",
-											"{@creature Giant wolf spider}",
+											"{@creature Giant wolf spider|PHEW}",
 											"\u2014"
 										],
 										[
 											"1",
-											"{@creature Giant hyena}",
+											"{@creature Giant hyena|PHEW}",
 											"\u2014"
 										],
 										[
 											"1",
-											"{@creature Giant spider}",
+											"{@creature Giant spider|PHEW}",
 											"\u2014"
 										],
 										[
 											"1",
-											"{@creature Giant toad}",
+											"{@creature Giant toad|PHEW}",
 											"Swim"
 										],
 										[
 											"1",
-											"{@creature Giant vulture}",
+											"{@creature Giant vulture|PHEW}",
 											"Fly"
 										],
 										[
 											"1",
-											"{@creature Lion}",
+											"{@creature Lion|PHEW}",
 											"\u2014"
 										],
 										[
 											"2",
-											"{@creature Giant constrictor snake}",
+											"{@creature Giant constrictor snake|PHEW}",
 											"Swim"
 										],
 										[
 											"3",
-											"{@creature Giant scorpion}",
+											"{@creature Giant scorpion|PHEW}",
 											"\u2014"
 										]
 									]
@@ -8121,187 +8121,187 @@
 									"rows": [
 										[
 											"0",
-											"{@creature Baboon}",
+											"{@creature Baboon|PHEW}",
 											"\u2014"
 										],
 										[
 											"0",
-											"{@creature Badger}",
+											"{@creature Badger|PHEW}",
 											"\u2014"
 										],
 										[
 											"0",
-											"{@creature Cat}",
+											"{@creature Cat|PHEW}",
 											"\u2014"
 										],
 										[
 											"0",
-											"{@creature Deer}",
+											"{@creature Deer|PHEW}",
 											"\u2014"
 										],
 										[
 											"0",
-											"{@creature Hyena}",
+											"{@creature Hyena|PHEW}",
 											"\u2014"
 										],
 										[
 											"0",
-											"{@creature Owl}",
+											"{@creature Owl|PHEW}",
 											"Fly"
 										],
 										[
 											"1/8",
-											"{@creature Blood hawk}",
+											"{@creature Blood hawk|PHEW}",
 											"Fly"
 										],
 										[
 											"1/8",
-											"{@creature Flying snake}",
+											"{@creature Flying snake|PHEW}",
 											"Fly"
 										],
 										[
 											"1/8",
-											"{@creature Giant rat}",
+											"{@creature Giant rat|PHEW}",
 											"\u2014"
 										],
 										[
 											"1/8",
-											"{@creature Giant weasel}",
+											"{@creature Giant weasel|PHEW}",
 											"\u2014"
 										],
 										[
 											"1/8",
-											"{@creature Poisonous snake}",
+											"{@creature Poisonous snake|PHEW}",
 											"Swim"
 										],
 										[
 											"1/8",
-											"{@creature Mastiff}",
+											"{@creature Mastiff|PHEW}",
 											"\u2014"
 										],
 										[
 											"1/8",
-											"{@creature Stirge}",
+											"{@creature Stirge|PHEW}",
 											"Fly"
 										],
 										[
 											"1/4",
-											"{@creature Boar}",
+											"{@creature Boar|PHEW}",
 											"\u2014"
 										],
 										[
 											"1/4",
-											"{@creature Constrictor snake}",
+											"{@creature Constrictor snake|PHEW}",
 											"Swim"
 										],
 										[
 											"1/4",
-											"{@creature Elk}",
+											"{@creature Elk|PHEW}",
 											"\u2014"
 										],
 										[
 											"1/4",
-											"{@creature Giant badger}",
+											"{@creature Giant badger|PHEW}",
 											"\u2014"
 										],
 										[
 											"1/4",
-											"{@creature Giant bat}",
+											"{@creature Giant bat|PHEW}",
 											"Fly"
 										],
 										[
 											"1/4",
-											"{@creature Giant frog}",
+											"{@creature Giant frog|PHEW}",
 											"Swim"
 										],
 										[
 											"1/4",
-											"{@creature Giant lizard}",
+											"{@creature Giant lizard|PHEW}",
 											"\u2014"
 										],
 										[
 											"1/4",
-											"{@creature Giant owl}",
+											"{@creature Giant owl|PHEW}",
 											"Fly"
 										],
 										[
 											"1/4",
-											"{@creature Giant poisonous snake}",
+											"{@creature Giant poisonous snake|PHEW}",
 											"Swim"
 										],
 										[
 											"1/4",
-											"{@creature Giant wolf spider}",
+											"{@creature Giant wolf spider|PHEW}",
 											"\u2014"
 										],
 										[
 											"1/4",
-											"{@creature Panther}",
+											"{@creature Panther|PHEW}",
 											"\u2014"
 										],
 										[
 											"1/4",
-											"{@creature Wolf}",
+											"{@creature Wolf|PHEW}",
 											"\u2014"
 										],
 										[
 											"1/2",
-											"{@creature Ape}",
+											"{@creature Ape|PHEW}",
 											"\u2014"
 										],
 										[
 											"1/2",
-											"{@creature Black bear}",
+											"{@creature Black bear|PHEW}",
 											"\u2014"
 										],
 										[
 											"1/2",
-											"{@creature Giant wasp}",
+											"{@creature Giant wasp|PHEW}",
 											"Fly"
 										],
 										[
 											"1",
-											"{@creature Brown bear}",
+											"{@creature Brown bear|PHEW}",
 											"\u2014"
 										],
 										[
 											"1",
-											"{@creature Dire wolf}",
+											"{@creature Dire wolf|PHEW}",
 											"\u2014"
 										],
 										[
 											"1",
-											"{@creature Giant hyena}",
+											"{@creature Giant hyena|PHEW}",
 											"\u2014"
 										],
 										[
 											"1",
-											"{@creature Giant spider}",
+											"{@creature Giant spider|PHEW}",
 											"\u2014"
 										],
 										[
 											"1",
-											"{@creature Giant toad}",
+											"{@creature Giant toad|PHEW}",
 											"Swim"
 										],
 										[
 											"1",
-											"{@creature Tiger}",
+											"{@creature Tiger|PHEW}",
 											"\u2014"
 										],
 										[
 											"2",
-											"{@creature Giant boar}",
+											"{@creature Giant boar|PHEW}",
 											"\u2014"
 										],
 										[
 											"2",
-											"{@creature Giant constrictor snake}",
+											"{@creature Giant constrictor snake|PHEW}",
 											"Swim"
 										],
 										[
 											"2",
-											"{@creature Giant elk}",
+											"{@creature Giant elk|PHEW}",
 											"\u2014"
 										]
 									]
@@ -8322,177 +8322,177 @@
 									"rows": [
 										[
 											"0",
-											"{@creature Cat}",
+											"{@creature Cat|PHEW}",
 											"\u2014"
 										],
 										[
 											"0",
-											"{@creature Deer}",
+											"{@creature Deer|PHEW}",
 											"\u2014"
 										],
 										[
 											"0",
-											"{@creature Eagle}",
+											"{@creature Eagle|PHEW}",
 											"Fly"
 										],
 										[
 											"0",
-											"{@creature Goat}",
+											"{@creature Goat|PHEW}",
 											"\u2014"
 										],
 										[
 											"0",
-											"{@creature Hyena}",
+											"{@creature Hyena|PHEW}",
 											"\u2014"
 										],
 										[
 											"0",
-											"{@creature Jackal}",
+											"{@creature Jackal|PHEW}",
 											"\u2014"
 										],
 										[
 											"0",
-											"{@creature Vulture}",
+											"{@creature Vulture|PHEW}",
 											"Fly"
 										],
 										[
 											"1/8",
-											"{@creature Blood hawk}",
+											"{@creature Blood hawk|PHEW}",
 											"Fly"
 										],
 										[
 											"1/8",
-											"{@creature Flying snake}",
+											"{@creature Flying snake|PHEW}",
 											"Fly"
 										],
 										[
 											"1/8",
-											"{@creature Giant weasel}",
+											"{@creature Giant weasel|PHEW}",
 											"\u2014"
 										],
 										[
 											"1/8",
-											"{@creature Poisonous snake}",
+											"{@creature Poisonous snake|PHEW}",
 											"Swim"
 										],
 										[
 											"1/8",
-											"{@creature Stirge}",
+											"{@creature Stirge|PHEW}",
 											"Fly"
 										],
 										[
 											"1/4",
-											"{@creature Axe beak}",
+											"{@creature Axe beak|PHEW}",
 											"\u2014"
 										],
 										[
 											"1/4",
-											"{@creature Boar}",
+											"{@creature Boar|PHEW}",
 											"\u2014"
 										],
 										[
 											"1/4",
-											"{@creature Elk}",
+											"{@creature Elk|PHEW}",
 											"\u2014"
 										],
 										[
 											"1/4",
-											"{@creature Giant poisonous snake}",
+											"{@creature Giant poisonous snake|PHEW}",
 											"Swim"
 										],
 										[
 											"1/4",
-											"{@creature Giant wolf spider}",
+											"{@creature Giant wolf spider|PHEW}",
 											"\u2014"
 										],
 										[
 											"1/4",
-											"{@creature Panther} (leopard)",
+											"{@creature Panther|PHEW} (leopard)",
 											"\u2014"
 										],
 										[
 											"1/4",
-											"{@creature Pteranodon}",
+											"{@creature Pteranodon|PHEW}",
 											"Fly"
 										],
 										[
 											"1/4",
-											"{@creature Riding horse}",
+											"{@creature Riding horse|PHEW}",
 											"\u2014"
 										],
 										[
 											"1/4",
-											"{@creature Wolf}",
+											"{@creature Wolf|PHEW}",
 											"\u2014"
 										],
 										[
 											"1/2",
-											"{@creature Giant goat}",
+											"{@creature Giant goat|PHEW}",
 											"\u2014"
 										],
 										[
 											"1/2",
-											"{@creature Giant wasp}",
+											"{@creature Giant wasp|PHEW}",
 											"Fly"
 										],
 										[
 											"1",
-											"{@creature Giant eagle}",
+											"{@creature Giant eagle|PHEW}",
 											"Fly"
 										],
 										[
 											"1",
-											"{@creature Giant hyena}",
+											"{@creature Giant hyena|PHEW}",
 											"\u2014"
 										],
 										[
 											"1",
-											"{@creature Giant vulture}",
+											"{@creature Giant vulture|PHEW}",
 											"Fly"
 										],
 										[
 											"1",
-											"{@creature Lion}",
+											"{@creature Lion|PHEW}",
 											"\u2014"
 										],
 										[
 											"1",
-											"{@creature Tiger}",
+											"{@creature Tiger|PHEW}",
 											"\u2014"
 										],
 										[
 											"2",
-											"{@creature Allosaurus}",
+											"{@creature Allosaurus|PHEW}",
 											"\u2014"
 										],
 										[
 											"2",
-											"{@creature Giant boar}",
+											"{@creature Giant boar|PHEW}",
 											"\u2014"
 										],
 										[
 											"2",
-											"{@creature Giant elk}",
+											"{@creature Giant elk|PHEW}",
 											"\u2014"
 										],
 										[
 											"2",
-											"{@creature Rhinoceros}",
+											"{@creature Rhinoceros|PHEW}",
 											"\u2014"
 										],
 										[
 											"3",
-											"{@creature Ankylosaurus}",
+											"{@creature Ankylosaurus|PHEW}",
 											"\u2014"
 										],
 										[
 											"4",
-											"{@creature Elephant}",
+											"{@creature Elephant|PHEW}",
 											"\u2014"
 										],
 										[
 											"5",
-											"{@creature Triceratops}",
+											"{@creature Triceratops|PHEW}",
 											"\u2014"
 										]
 									]
@@ -8513,137 +8513,137 @@
 									"rows": [
 										[
 											"0",
-											"{@creature Baboon}",
+											"{@creature Baboon|PHEW}",
 											"\u2014"
 										],
 										[
 											"0",
-											"{@creature Eagle}",
+											"{@creature Eagle|PHEW}",
 											"Fly"
 										],
 										[
 											"0",
-											"{@creature Goat}",
+											"{@creature Goat|PHEW}",
 											"\u2014"
 										],
 										[
 											"0",
-											"{@creature Hyena}",
+											"{@creature Hyena|PHEW}",
 											"\u2014"
 										],
 										[
 											"0",
-											"{@creature Raven}",
+											"{@creature Raven|PHEW}",
 											"Fly"
 										],
 										[
 											"0",
-											"{@creature Vulture}",
+											"{@creature Vulture|PHEW}",
 											"Fly"
 										],
 										[
 											"1/8",
-											"{@creature Blood hawk}",
+											"{@creature Blood hawk|PHEW}",
 											"Fly"
 										],
 										[
 											"1/8",
-											"{@creature Giant weasel}",
+											"{@creature Giant weasel|PHEW}",
 											"\u2014"
 										],
 										[
 											"1/8",
-											"{@creature Mastiff}",
+											"{@creature Mastiff|PHEW}",
 											"\u2014"
 										],
 										[
 											"1/8",
-											"{@creature Mule}",
+											"{@creature Mule|PHEW}",
 											"\u2014"
 										],
 										[
 											"1/8",
-											"{@creature Poisonous snake}",
+											"{@creature Poisonous snake|PHEW}",
 											"Swim"
 										],
 										[
 											"1/8",
-											"{@creature Stirge}",
+											"{@creature Stirge|PHEW}",
 											"Fly"
 										],
 										[
 											"1/4",
-											"{@creature Axe beak}",
+											"{@creature Axe beak|PHEW}",
 											"\u2014"
 										],
 										[
 											"1/4",
-											"{@creature Boar}",
+											"{@creature Boar|PHEW}",
 											"\u2014"
 										],
 										[
 											"1/4",
-											"{@creature Elk}",
+											"{@creature Elk|PHEW}",
 											"\u2014"
 										],
 										[
 											"1/4",
-											"{@creature Giant owl}",
+											"{@creature Giant owl|PHEW}",
 											"Fly"
 										],
 										[
 											"1/4",
-											"{@creature Giant wolf spider}",
+											"{@creature Giant wolf spider|PHEW}",
 											"\u2014"
 										],
 										[
 											"1/4",
-											"{@creature Panther} (cougar)",
+											"{@creature Panther|PHEW} (cougar)",
 											"\u2014"
 										],
 										[
 											"1/4",
-											"{@creature Wolf}",
+											"{@creature Wolf|PHEW}",
 											"\u2014"
 										],
 										[
 											"1/2",
-											"{@creature Giant goat}",
+											"{@creature Giant goat|PHEW}",
 											"\u2014"
 										],
 										[
 											"1",
-											"{@creature Brown bear}",
+											"{@creature Brown bear|PHEW}",
 											"\u2014"
 										],
 										[
 											"1",
-											"{@creature Dire wolf}",
+											"{@creature Dire wolf|PHEW}",
 											"\u2014"
 										],
 										[
 											"1",
-											"{@creature Giant eagle}",
+											"{@creature Giant eagle|PHEW}",
 											"Fly"
 										],
 										[
 											"1",
-											"{@creature Giant hyena}",
+											"{@creature Giant hyena|PHEW}",
 											"\u2014"
 										],
 										[
 											"1",
-											"{@creature Lion}",
+											"{@creature Lion|PHEW}",
 											"\u2014"
 										],
 										[
 											"2",
-											"{@creature Giant boar}",
+											"{@creature Giant boar|PHEW}",
 											"\u2014"
 										],
 										[
 											"2",
-											"{@creature Giant elk}",
+											"{@creature Giant elk|PHEW}",
 											"\u2014"
 										]
 									]
@@ -8664,52 +8664,52 @@
 									"rows": [
 										[
 											"0",
-											"{@creature Eagle}",
+											"{@creature Eagle|PHEW}",
 											"Fly"
 										],
 										[
 											"0",
-											"{@creature Goat}",
+											"{@creature Goat|PHEW}",
 											"\u2014"
 										],
 										[
 											"1/8",
-											"{@creature Blood hawk}",
+											"{@creature Blood hawk|PHEW}",
 											"Fly"
 										],
 										[
 											"1/8",
-											"{@creature Stirge}",
+											"{@creature Stirge|PHEW}",
 											"Fly"
 										],
 										[
 											"1/4",
-											"{@creature Pteranodon}",
+											"{@creature Pteranodon|PHEW}",
 											"Fly"
 										],
 										[
 											"1/2",
-											"{@creature Giant goat}",
+											"{@creature Giant goat|PHEW}",
 											"\u2014"
 										],
 										[
 											"1",
-											"{@creature Giant eagle}",
+											"{@creature Giant eagle|PHEW}",
 											"Fly"
 										],
 										[
 											"1",
-											"{@creature Lion}",
+											"{@creature Lion|PHEW}",
 											"\u2014"
 										],
 										[
 											"2",
-											"{@creature Giant elk}",
+											"{@creature Giant elk|PHEW}",
 											"\u2014"
 										],
 										[
 											"2",
-											"{@creature Saber-toothed tiger}",
+											"{@creature Saber-toothed tiger|PHEW}",
 											"\u2014"
 										]
 									]
@@ -8730,72 +8730,72 @@
 									"rows": [
 										[
 											"0",
-											"{@creature Rat}",
+											"{@creature Rat|PHEW}",
 											"\u2014"
 										],
 										[
 											"0",
-											"{@creature Raven}",
+											"{@creature Raven|PHEW}",
 											"Fly"
 										],
 										[
 											"1/8",
-											"{@creature Giant rat}",
+											"{@creature Giant rat|PHEW}",
 											"\u2014"
 										],
 										[
 											"1/8",
-											"{@creature Poisonous snake}",
+											"{@creature Poisonous snake|PHEW}",
 											"Swim"
 										],
 										[
 											"1/8",
-											"{@creature Stirge}",
+											"{@creature Stirge|PHEW}",
 											"Fly"
 										],
 										[
 											"1/4",
-											"{@creature Constrictor snake}",
+											"{@creature Constrictor snake|PHEW}",
 											"Swim"
 										],
 										[
 											"1/4",
-											"{@creature Giant frog}",
+											"{@creature Giant frog|PHEW}",
 											"Swim"
 										],
 										[
 											"1/4",
-											"{@creature Giant lizard}",
+											"{@creature Giant lizard|PHEW}",
 											"\u2014"
 										],
 										[
 											"1/4",
-											"{@creature Giant poisonous snake}",
+											"{@creature Giant poisonous snake|PHEW}",
 											"Swim"
 										],
 										[
 											"1/2",
-											"{@creature Crocodile}",
+											"{@creature Crocodile|PHEW}",
 											"Swim"
 										],
 										[
 											"1",
-											"{@creature Giant spider}",
+											"{@creature Giant spider|PHEW}",
 											"\u2014"
 										],
 										[
 											"1",
-											"{@creature Giant toad}",
+											"{@creature Giant toad|PHEW}",
 											"Swim"
 										],
 										[
 											"2",
-											"{@creature Giant constrictor snake}",
+											"{@creature Giant constrictor snake|PHEW}",
 											"Swim"
 										],
 										[
 											"5",
-											"{@creature Giant crocodile}",
+											"{@creature Giant crocodile|PHEW}",
 											"Swim"
 										]
 									]
@@ -8816,57 +8816,57 @@
 									"rows": [
 										[
 											"0",
-											"{@creature Giant fire beetle}",
+											"{@creature Giant fire beetle|PHEW}",
 											"\u2014"
 										],
 										[
 											"1/8",
-											"{@creature Giant rat}",
+											"{@creature Giant rat|PHEW}",
 											"\u2014"
 										],
 										[
 											"1/8",
-											"{@creature Stirge}",
+											"{@creature Stirge|PHEW}",
 											"Fly"
 										],
 										[
 											"1/4",
-											"{@creature Giant bat}",
+											"{@creature Giant bat|PHEW}",
 											"Fly"
 										],
 										[
 											"1/4",
-											"{@creature Giant centipede}",
+											"{@creature Giant centipede|PHEW}",
 											"\u2014"
 										],
 										[
 											"1/4",
-											"{@creature Giant lizard}",
+											"{@creature Giant lizard|PHEW}",
 											"\u2014"
 										],
 										[
 											"1/4",
-											"{@creature Giant poisonous snake}",
+											"{@creature Giant poisonous snake|PHEW}",
 											"Swim"
 										],
 										[
 											"1",
-											"{@creature Giant spider}",
+											"{@creature Giant spider|PHEW}",
 											"\u2014"
 										],
 										[
 											"1",
-											"{@creature Giant toad}",
+											"{@creature Giant toad|PHEW}",
 											"Swim"
 										],
 										[
 											"2",
-											"{@creature Giant constrictor snake}",
+											"{@creature Giant constrictor snake|PHEW}",
 											"Swim"
 										],
 										[
 											"2",
-											"{@creature Polar bear} (cave bear)",
+											"{@creature Polar bear|PHEW} (cave bear)",
 											"Swim"
 										]
 									]
@@ -8887,52 +8887,52 @@
 									"rows": [
 										[
 											"0",
-											"{@creature Quipper}",
+											"{@creature Quipper|PHEW}",
 											"Swim"
 										],
 										[
 											"1/4",
-											"{@creature Constrictor snake}",
+											"{@creature Constrictor snake|PHEW}",
 											"Swim"
 										],
 										[
 											"1/2",
-											"{@creature Giant sea horse}",
+											"{@creature Giant sea horse|PHEW}",
 											"Swim"
 										],
 										[
 											"1/2",
-											"{@creature Reef shark}",
+											"{@creature Reef shark|PHEW}",
 											"Swim"
 										],
 										[
 											"1",
-											"{@creature Giant octopus}",
+											"{@creature Giant octopus|PHEW}",
 											"Swim"
 										],
 										[
 											"2",
-											"{@creature Giant constrictor snake}",
+											"{@creature Giant constrictor snake|PHEW}",
 											"Swim"
 										],
 										[
 											"2",
-											"{@creature Hunter shark}",
+											"{@creature Hunter shark|PHEW}",
 											"Swim"
 										],
 										[
 											"2",
-											"{@creature Plesiosaurus}",
+											"{@creature Plesiosaurus|PHEW}",
 											"Swim"
 										],
 										[
 											"3",
-											"{@creature Killer whale}",
+											"{@creature Killer whale|PHEW}",
 											"Swim"
 										],
 										[
 											"5",
-											"{@creature Giant shark}",
+											"{@creature Giant shark|PHEW}",
 											"Swim"
 										]
 									]
@@ -19400,7 +19400,7 @@
 													],
 													[
 														"47-48",
-														"A {@creature unicorn} controlled by the DM appears in a space within 5 feet of you, then disappears 1 minute later."
+														"A {@creature unicorn|PHEW} controlled by the DM appears in a space within 5 feet of you, then disappears 1 minute later."
 													],
 													[
 														"49-50",
@@ -19744,7 +19744,7 @@
 										"type": "entries",
 										"name": "Hound of Ill Omen",
 										"entries": [
-											"At 6th level, you gain the ability to call forth a howling creature of darkness to harass your foes. As a bonus action, you can spend 3 sorcery points to magically summon a hound of ill omen to target one creature you can see within 120 feet of you. The hound uses the {@creature dire wolf}'s statistics (see the Monster Manual or appendix C in the Player's Handbook), with the following changes:",
+											"At 6th level, you gain the ability to call forth a howling creature of darkness to harass your foes. As a bonus action, you can spend 3 sorcery points to magically summon a hound of ill omen to target one creature you can see within 120 feet of you. The hound uses the {@creature dire wolf|PHEW}'s statistics (see the Monster Manual or appendix C in the Player's Handbook), with the following changes:",
 											{
 												"type": "list",
 												"items": [
@@ -20631,7 +20631,7 @@
 										"name": "Pact of the Chain",
 										"entries": [
 											"Your patron felt the need to provide a guide, watcher, or aide. You learn the {@spell find familiar|PHEW} spell and can cast it as a ritual. The spell doesn't count against your number of spells known.",
-											"When you cast the spell, you can choose one of the normal forms for your familiar or one of the following special forms: {@creature imp}, {@creature pseudodragon}, {@creature quasit}, or {@creature sprite}.",
+											"When you cast the spell, you can choose one of the normal forms for your familiar or one of the following special forms: {@creature imp|PHEW}, {@creature pseudodragon|PHEW}, {@creature quasit|PHEW}, or {@creature sprite|PHEW}.",
 											"Additionally, when you take the {@action Attack|PHEW} action, you can forgo one of your own attacks to allow your familiar to use its reaction to make one attack of its own.",
 											"Your familiar uses your proficiency bonus instead of its own, and has proficiency in all saving throws. It adds your proficiency bonus to its AC and attack damage, and its hit point maximum increases by twice your warlock level."
 										]
@@ -21532,7 +21532,7 @@
 										"type": "entries",
 										"name": "Accursed Specter",
 										"entries": [
-											"Starting at 6th level, you can curse the soul of a person you slay, temporarily binding it to your service. When you slay a humanoid, you can cause its spirit to rise from its corpse as a {@creature specter}, the statistics for which are in the Monster Manual. When the specter appears, it gains temporary hit points equal to half your warlock level. Roll initiative for the specter, which has its own turns. It obeys your verbal commands, and it gains a special bonus to its attack rolls equal to your Charisma modifier (minimum of +0).",
+											"Starting at 6th level, you can curse the soul of a person you slay, temporarily binding it to your service. When you slay a humanoid, you can cause its spirit to rise from its corpse as a {@creature specter|PHEW}, the statistics for which are in the Monster Manual. When the specter appears, it gains temporary hit points equal to half your warlock level. Roll initiative for the specter, which has its own turns. It obeys your verbal commands, and it gains a special bonus to its attack rolls equal to your Charisma modifier (minimum of +0).",
 											"The specter remains in your service until the end of your next long rest, at which point it vanishes to the afterlife.",
 											"Once you bind a specter with this feature, you can't use the feature again until you finish a long rest."
 										]
