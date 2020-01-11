@@ -304,14 +304,6 @@
 							},
 							{
 								"type": "entries",
-								"name": "Pact Arcanum",
-								"entries": [
-									"Your patron bestows upon you a minor magical secret called an arcanum. This allows you to cast one of the 1st level spells you know. You gain an additional 2nd level arcanum at 3rd level, a 3rd level arcanum at 5th level, a 4th level arcanum at 7th level, and a 5th level arcanum at 9th level.",
-									"You regain all uses of your pact arcanum at the end of a short rest."
-								]
-							},
-							{
-								"type": "entries",
 								"name": "Spells Known of 1st Level and Higher",
 								"entries": [
 									"You know three 1st-level spells of your choice from the artificer spell list.",

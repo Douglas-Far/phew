@@ -613,9 +613,7 @@
 		{
 			"name": "Arcane Resonance",
 			"entries": [
-				"You create a magical boomerang. You have proficiency in this weapon, and it has the Finesse, Thrown (30/90), and Special properties, and deals {@dice 1d4} bludgeoning damage. At level 5, this weapon gains a +1 to attack and damage rolls; this increases to a +2 at level 14.",
-				"Special: When this weapon is Thrown, you can target two creatures within 10 feet of each other, making a separate attack roll against each target.",
-				"This weapon returns to your hand after you make an attack with it using the Thrown property."
+				"You craft a magical essence connector and install it into your golem's core, allowing you and it to share certain magical effects. You can make any spell you cast that targets only you also target your golem."
 			],
 			"source": "PHEW",
 			"featureType": "GL"
