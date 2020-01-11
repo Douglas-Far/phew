@@ -604,7 +604,7 @@
 				{
 					"name": "Mechanical Form",
 					"entries": [
-						"Whenever you would regain hit points, except at the end of a long rest and for effects that work when you spend your hit dice, you regain only half the amount (rounded up). On the other hand, you can spend 1 hit dice when you're the target of the {@spell mending} cantrip."
+						"Whenever you would regain hit points, except at the end of a long rest and for effects that work when you spend your hit dice, you regain only half the amount (rounded up). On the other hand, you can spend 1 hit dice when you're the target of the {@spell mending|PHEW} cantrip."
 					],
 					"type": "entries"
 				},

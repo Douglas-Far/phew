@@ -26,7 +26,7 @@
 					"type": "entries",
 					"entries": [
 						"This option makes it easier for melee combatants to harry each other with opportunity attacks.",
-						"When a creature makes a melee attack, it can also mark its target. Until the end of the attacker's next turn, any opportunity attack it makes against the marked target has advantage. The opportunity attack doesn't expend the attacker's reaction, but the attacker can't make the attack if anything, such as the {@condition incapacitated} condition or the shocking grasp spell, is preventing it from taking reactions. The attacker is limited to one opportunity attack per turn."
+						"When a creature makes a melee attack, it can also mark its target. Until the end of the attacker's next turn, any opportunity attack it makes against the marked target has advantage. The opportunity attack doesn't expend the attacker's reaction, but the attacker can't make the attack if anything, such as the {@condition incapacitated|PHEW} condition or the shocking grasp spell, is preventing it from taking reactions. The attacker is limited to one opportunity attack per turn."
 					]
 				},
 				{
@@ -108,7 +108,7 @@
 			"entries": [
 				"Magic items are the DM's purview, so you decide how they fall into the party's possession. As an option, you can allow player characters to craft magic items.",
 				"The creation of a magic item is a lengthy, expensive task. To start, a character must have a formula that describes the construction of the item. The character must also be a spellcaster with spell slots and must be able to cast any spells that the item can produce. Moreover, the character must meet a level minimum determined by the item's rarity, as shown in the Crafting Magic Items table. For example, a 3rd-level character could create a wand of magic missiles (an uncommon item), as long as the character has spell slots and can cast magic missile. That same character could make a +1 weapon (another uncommon item), no particular spell required.",
-				"You can decide that certain items also require special materials or locations to be created. For example, a character might need {@item alchemist's supplies|phb} to brew a particular potion, or the formula for a flame tongue might require that the weapon be forged with lava.",
+				"You can decide that certain items also require special materials or locations to be created. For example, a character might need {@item alchemist's supplies|PHEW} to brew a particular potion, or the formula for a flame tongue might require that the weapon be forged with lava.",
 				{
 					"type": "table",
 					"caption": "Crafting Magic Items",
@@ -425,7 +425,7 @@
 									"name": "Spell Slots",
 									"entries": [
 										"You determine your available spell slots by adding together all your levels in the bard, cleric, druid, sorcerer, and wizard classes, half your levels (rounded down) in the paladin and ranger classes, and a third of your fighter or rogue levels (rounded down) if you have the Eldritch Knight or the Arcane Trickster feature. Use this total to determine your spell slots by consulting the Multiclass Spellcaster table.",
-										"If you have more than one spellcasting class, this table might give you spell slots of a level that is higher than the spells you know or can prepare. You can use those slots, but only to cast your lower-level spells. If a lower-level spell that you cast, like {@spell burning hands}, has an enhanced effect when cast using a higher-level slot, you can use the enhanced effect, even though you don't have any spells of that higher level.",
+										"If you have more than one spellcasting class, this table might give you spell slots of a level that is higher than the spells you know or can prepare. You can use those slots, but only to cast your lower-level spells. If a lower-level spell that you cast, like {@spell burning hands|PHEW}, has an enhanced effect when cast using a higher-level slot, you can use the enhanced effect, even though you don't have any spells of that higher level.",
 										"For example, if you are the aforementioned ranger 4/wizard 3. you count as a 5th-level character when determining your spell slots: you have four 1st-level slots, three 2nd-level slots, and two 3rd-level slots. However, you don't know any 3rd-level spells, nor do you know any 2nd-level ranger spells. You can use the spell slots of those levels to cast the spells you do know\u2014and potentially enhance their effects."
 									]
 								},
@@ -718,7 +718,7 @@
 			"name": "Adamantine Weapons",
 			"entries": [
 				"Adamantine is an ultrahard metal found in meteorites and extraordinary mineral veins. In addition to being used to craft adamantine armor, the metal is also used for weapons.",
-				"Melee weapons and ammunition made of or coated with adamantine are unusually effective when used to break objects. Whenever an {@item adamantine weapon|xge} or piece of {@item adamantine ammunition|xge|ammunition} hits an object, the hit is a critical hit.",
+				"Melee weapons and ammunition made of or coated with adamantine are unusually effective when used to break objects. Whenever an {@item adamantine weapon|PHEW} or piece of {@item adamantine ammunition|PHEW|ammunition} hits an object, the hit is a critical hit.",
 				"The adamantine version of a melee weapon or of ten pieces of ammunition costs 500 gp more than the normal version, whether the weapon or ammunition is made of the metal or coated with it."
 			],
 			"source": "PHEW"
@@ -1351,19 +1351,19 @@
 							],
 							"rows": [
 								[
-									"{@item Herbalism kit|phb}",
+									"{@item Herbalism kit|PHEW}",
 									"Antitoxin, potion of healing"
 								],
 								[
-									"{@item Leatherworker's tools|phb}",
+									"{@item Leatherworker's tools|PHEW}",
 									"Leather armor, boots"
 								],
 								[
-									"{@item Smith's tools|phb}",
+									"{@item Smith's tools|PHEW}",
 									"Armor, weapons"
 								],
 								[
-									"{@item Weaver's tools|phb}",
+									"{@item Weaver's tools|PHEW}",
 									"Cloaks, robes"
 								]
 							]

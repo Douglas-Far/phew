@@ -33,7 +33,7 @@
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "A {@item holy symbol|phb} (a gift to you when you entered the priesthood), a prayer book or prayer wheel, 5 sticks of incense, vestments, a set of {@item common clothes|phb}, and a belt {@item pouch|phb} containing 15 gp"
+							"entry": "A {@item holy symbol|PHEW} (a gift to you when you entered the priesthood), a prayer book or prayer wheel, 5 sticks of incense, vestments, a set of {@item common clothes|PHEW}, and a belt {@item pouch|PHEW} containing 15 gp"
 						}
 					]
 				},
@@ -241,12 +241,12 @@
 						{
 							"type": "item",
 							"name": "Tool Proficiencies",
-							"entry": "{@item Disguise kit|phb}, {@item Forgery kit|phb}"
+							"entry": "{@item Disguise kit|PHEW}, {@item Forgery kit|PHEW}"
 						},
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "A set of {@item fine clothes|phb}, a {@item disguise kit|phb}, tools of the con of your choice (ten stoppered bottles filled with colored liquid, a set of weighted dice, a deck of marked cards, or a signet ring of an imaginary duke), and a belt {@item pouch|phb} containing 15 gp"
+							"entry": "A set of {@item fine clothes|PHEW}, a {@item disguise kit|PHEW}, tools of the con of your choice (ten stoppered bottles filled with colored liquid, a set of weighted dice, a deck of marked cards, or a signet ring of an imaginary duke), and a belt {@item pouch|PHEW} containing 15 gp"
 						}
 					]
 				},
@@ -503,7 +503,7 @@
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "A uniform in the style of your unit and indicative of your rank, a {@item horn|phb} with which to summon help, a set of {@item manacles|phb}, and a {@item pouch|phb} containing 10 gp"
+							"entry": "A uniform in the style of your unit and indicative of your rank, a {@item horn|PHEW} with which to summon help, a set of {@item manacles|PHEW}, and a {@item pouch|PHEW} containing 10 gp"
 						}
 					]
 				},
@@ -521,7 +521,7 @@
 					"type": "entries",
 					"name": "Suggested Characteristics",
 					"entries": [
-						"Use the tables for the {@background soldier} background in the Player's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as a member of the city watch.",
+						"Use the tables for the {@background soldier|PHEW} background in the Player's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as a member of the city watch.",
 						"Your bond is likely associated with your fellow watch members or the watch organization itself and almost certainly concerns your community. Your ideal probably involves the fostering of peace and safety. An investigator is likely to have an ideal connected to achieving justice by successfully solving crimes."
 					]
 				}
@@ -565,7 +565,7 @@
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "A set of {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan tool} with which you are proficient, a maker's mark chisel used to mark your handiwork with the symbol of the clan of crafters you learned your skill from, a set of {@item traveler's clothes|phb}, and a {@item pouch|phb} containing 5 gp and a gem worth 10 gp"
+							"entry": "A set of {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan tool} with which you are proficient, a maker's mark chisel used to mark your handiwork with the symbol of the clan of crafters you learned your skill from, a set of {@item traveler's clothes|PHEW}, and a {@item pouch|PHEW} containing 5 gp and a gem worth 10 gp"
 						}
 					]
 				},
@@ -583,7 +583,7 @@
 					"type": "entries",
 					"name": "Suggested Characteristics",
 					"entries": [
-						"Use the tables for the {@background guild artisan} background in the Player's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as a clan crafter. (For instance, consider the words \"guild\" and \"clan\" to be interchangeable.)",
+						"Use the tables for the {@background guild artisan|PHEW} background in the Player's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as a clan crafter. (For instance, consider the words \"guild\" and \"clan\" to be interchangeable.)",
 						"Your bond is almost certainly related to the master or the clan that taught you, or else to the work that you produce. Your ideal might have to do with maintaining the high quality of your work or preserving the dwarven traditions of craftsmanship."
 					]
 				}
@@ -636,7 +636,7 @@
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "The scholar's {@item robes|phb} of your cloister, a writing kit (small {@item pouch|phb} with a quill, ink, folded parchment, and a small penknife), a borrowed {@item book|phb} on the subject of your current study, and a {@item pouch|phb} containing 10 gp"
+							"entry": "The scholar's {@item robes|PHEW} of your cloister, a writing kit (small {@item pouch|PHEW} with a quill, ink, folded parchment, and a small penknife), a borrowed {@item book|PHEW} on the subject of your current study, and a {@item pouch|PHEW} containing 10 gp"
 						}
 					]
 				},
@@ -656,7 +656,7 @@
 					"type": "entries",
 					"name": "Suggested Characteristics",
 					"entries": [
-						"Use the tables for the {@background sage} background in the Player's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as a cloistered scholar.",
+						"Use the tables for the {@background sage|PHEW} background in the Player's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as a cloistered scholar.",
 						"Your bond is almost certainly associated either with the place where you grew up or with the knowledge you hope to acquire through adventuring. Your ideal is no doubt related to how you view the quest for knowledge and truth - perhaps as a worthy goal in itself, or maybe as a means to a desirable end."
 					]
 				}
@@ -695,7 +695,7 @@
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "A set of {@item fine clothes|phb} and a {@item pouch|phb} containing 5 gp"
+							"entry": "A set of {@item fine clothes|PHEW} and a {@item pouch|PHEW} containing 5 gp"
 						}
 					]
 				},
@@ -713,7 +713,7 @@
 					"type": "entries",
 					"name": "Suggested Characteristics",
 					"entries": [
-						"Use the tables for the {@background guild artisan} background in the Player's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as a courtier.",
+						"Use the tables for the {@background guild artisan|PHEW} background in the Player's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as a courtier.",
 						"The noble court or bureaucratic organization where you got your start is directly or indirectly associated with your bond (which could pertain to certain individuals in the group, such as your sponsor or mentor). Your ideal might be concerned with the prevailing philosophy of your court or organization."
 					]
 				}
@@ -747,12 +747,12 @@
 						{
 							"type": "item",
 							"name": "Tool Proficiencies",
-							"entry": "One type of {@filter gaming set|items|source=phb|miscellaneous=mundane|type=gaming set}, {@item thieves' tools|phb}"
+							"entry": "One type of {@filter gaming set|items|source=phb|miscellaneous=mundane|type=gaming set}, {@item thieves' tools|PHEW}"
 						},
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "A {@item crowbar|phb}, a set of dark {@item common clothes|phb} including a hood, and a belt {@item pouch|phb} containing 15 gp"
+							"entry": "A {@item crowbar|PHEW}, a set of dark {@item common clothes|PHEW} including a hood, and a belt {@item pouch|PHEW} containing 15 gp"
 						}
 					]
 				},
@@ -1012,12 +1012,12 @@
 						{
 							"type": "item",
 							"name": "Tool Proficiencies",
-							"entry": "{@item Disguise kit|phb}, one type of {@filter musical instrument|items|source=phb|miscellaneous=mundane|type=instrument}"
+							"entry": "{@item Disguise kit|PHEW}, one type of {@filter musical instrument|items|source=phb|miscellaneous=mundane|type=instrument}"
 						},
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "A {@filter musical instrument|items|source=phb|miscellaneous=mundane|type=instrument} (one of your choice), the favor of an admirer (love letter, lock of hair, or trinket), {@item costume clothes|phb}, and a belt {@item pouch|phb} containing 15 gp"
+							"entry": "A {@filter musical instrument|items|source=phb|miscellaneous=mundane|type=instrument} (one of your choice), the favor of an admirer (love letter, lock of hair, or trinket), {@item costume clothes|PHEW}, and a belt {@item pouch|PHEW} containing 15 gp"
 						}
 					]
 				},
@@ -1306,7 +1306,7 @@
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "Badge or emblem of your faction, a copy of a seminal faction text (or code-book for a covert faction), a set of {@item common clothes|phb}, and a {@item pouch|phb} containing 15 gp"
+							"entry": "Badge or emblem of your faction, a copy of a seminal faction text (or code-book for a covert faction), a set of {@item common clothes|PHEW}, and a {@item pouch|PHEW} containing 15 gp"
 						}
 					]
 				},
@@ -1324,7 +1324,7 @@
 					"type": "entries",
 					"name": "Suggested Characteristics",
 					"entries": [
-						"Use the tables for the {@background acolyte} background in the Player's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as a faction agent. (For instance, consider the words \"faith\" and \"faction\" to be interchangeable.)",
+						"Use the tables for the {@background acolyte|PHEW} background in the Player's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as a faction agent. (For instance, consider the words \"faith\" and \"faction\" to be interchangeable.)",
 						"Your bond might be associated with other members of your faction, or a location or an object that is important to your faction. The ideal you strive for is probably in keeping with the tenets and principles of your faction, but might be more personal in nature."
 					]
 				}
@@ -1368,7 +1368,7 @@
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "One set of {@item traveler's clothes|phb}, any one {@filter musical instrument|items|source=phb|miscellaneous=mundane|type=instrument} or {@filter gaming set|items|source=phb|miscellaneous=mundane|type=gaming set} you are proficient with, poorly wrought maps from your homeland that depict where you are in Faerûn, a small piece of jewelry worth 10 gp in the style of your homeland's craftsmanship, and a {@item pouch|phb} containing 5 gp"
+							"entry": "One set of {@item traveler's clothes|PHEW}, any one {@filter musical instrument|items|source=phb|miscellaneous=mundane|type=instrument} or {@filter gaming set|items|source=phb|miscellaneous=mundane|type=gaming set} you are proficient with, poorly wrought maps from your homeland that depict where you are in Faerûn, a small piece of jewelry worth 10 gp in the style of your homeland's craftsmanship, and a {@item pouch|PHEW} containing 5 gp"
 						}
 					]
 				},
@@ -1626,7 +1626,7 @@
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "A set of {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan tool} (one of your choice), a {@item shovel|phb}, an {@item iron pot|phb}, a set of {@item common clothes|phb}, and a belt {@item pouch|phb} containing 10 gp"
+							"entry": "A set of {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan tool} (one of your choice), a {@item shovel|PHEW}, an {@item iron pot|PHEW}, a set of {@item common clothes|PHEW}, and a belt {@item pouch|PHEW} containing 10 gp"
 						}
 					]
 				},
@@ -1904,7 +1904,7 @@
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "A set of {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan tool} (one of your choice), a letter of introduction from your guild, a set of {@item traveler's clothes|phb}, and a belt {@item pouch|phb} containing 15 gp"
+							"entry": "A set of {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan tool} (one of your choice), a letter of introduction from your guild, a set of {@item traveler's clothes|PHEW}, and a belt {@item pouch|PHEW} containing 15 gp"
 						}
 					]
 				},
@@ -2218,7 +2218,7 @@
 						{
 							"type": "item",
 							"name": "Tool Proficiencies",
-							"entry": "{@item Herbalism kit|phb}"
+							"entry": "{@item Herbalism kit|PHEW}"
 						},
 						{
 							"type": "item",
@@ -2228,7 +2228,7 @@
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "A scroll case stuffed full of notes from your studies or prayers, a winter {@item blanket|phb}, a set of {@item common clothes|phb}, an {@item herbalism kit|phb}, and 5 gp"
+							"entry": "A scroll case stuffed full of notes from your studies or prayers, a winter {@item blanket|PHEW}, a set of {@item common clothes|PHEW}, an {@item herbalism kit|PHEW}, and 5 gp"
 						}
 					]
 				},
@@ -2509,7 +2509,7 @@
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "Your inheritance, a set of {@item traveler's clothes|phb}, the tool you choose for this background's tool proficiency ({@filter gaming set|items|source=phb|miscellaneous=mundane|type=gaming set} or {@filter musical instrument|items|source=phb|miscellaneous=mundane|type=instrument}), and a {@item pouch|phb} containing 15 gp"
+							"entry": "Your inheritance, a set of {@item traveler's clothes|PHEW}, the tool you choose for this background's tool proficiency ({@filter gaming set|items|source=phb|miscellaneous=mundane|type=gaming set} or {@filter musical instrument|items|source=phb|miscellaneous=mundane|type=instrument}), and a {@item pouch|PHEW} containing 15 gp"
 						}
 					]
 				},
@@ -2570,7 +2570,7 @@
 					"type": "entries",
 					"name": "Suggested Characteristics",
 					"entries": [
-						"Use the tables for the {@background folk hero} background in the Player's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as an inheritor.",
+						"Use the tables for the {@background folk hero|PHEW} background in the Player's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as an inheritor.",
 						"Your bond might be directly related to your inheritance, or to the person from whom you received it. Your ideal might be influenced by what you know about your inheritance, or by what you intend to do with your gift once you realize what it is capable of."
 					]
 				}
@@ -2631,7 +2631,7 @@
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "One set of {@item traveler's clothes|phb}, a signet, banner, or seal representing your place or rank in the order, and a {@item pouch|phb} containing 10 gp"
+							"entry": "One set of {@item traveler's clothes|PHEW}, a signet, banner, or seal representing your place or rank in the order, and a {@item pouch|PHEW} containing 10 gp"
 						}
 					]
 				},
@@ -2650,7 +2650,7 @@
 					"type": "entries",
 					"name": "Suggested Characteristics",
 					"entries": [
-						"Use the tables for the {@background soldier} background in the Player's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as a knight of your order.",
+						"Use the tables for the {@background soldier|PHEW} background in the Player's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as a knight of your order.",
 						"Your bond almost always involves the order to which you belong (or at least key members of it), and it is highly unusual for a knight's ideal not to reflect the agenda, sentiment, or philosophy of one's order."
 					]
 				}
@@ -2699,7 +2699,7 @@
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "A uniform of your company ({@item traveler's clothes|phb} in quality), an insignia of your rank, a {@filter gaming set|items|source=phb|miscellaneous=mundane|type=gaming set} of your choice, and a {@item pouch|phb} containing the remainder of your last wages (10 gp)."
+							"entry": "A uniform of your company ({@item traveler's clothes|PHEW} in quality), an insignia of your rank, a {@filter gaming set|items|source=phb|miscellaneous=mundane|type=gaming set} of your choice, and a {@item pouch|PHEW} containing the remainder of your last wages (10 gp)."
 						}
 					]
 				},
@@ -2717,7 +2717,7 @@
 					"type": "entries",
 					"name": "Suggested Characteristics",
 					"entries": [
-						"Use the tables for the {@background soldier} background in the Player's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as a mercenary.",
+						"Use the tables for the {@background soldier|PHEW} background in the Player's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as a mercenary.",
 						"Your bond could be associated with the company you traveled with previously, or with some of the comrades you served with. The ideal you embrace largely depends on your worldview and your motivation for fighting."
 					]
 				}
@@ -2762,7 +2762,7 @@
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "A set of {@item fine clothes|phb}, a {@item signet ring|phb}, a scroll of pedigree, and a purse containing 25 gp"
+							"entry": "A set of {@item fine clothes|PHEW}, a {@item signet ring|PHEW}, a scroll of pedigree, and a purse containing 25 gp"
 						}
 					]
 				},
@@ -2984,7 +2984,7 @@
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "A {@item staff|phb}, a {@item hunting trap|phb}, a trophy from an animal you killed, a set of {@item traveler's clothes|phb}, and a belt {@item pouch|phb} containing 10 gp"
+							"entry": "A {@item staff|PHEW}, a {@item hunting trap|PHEW}, a trophy from an animal you killed, a set of {@item traveler's clothes|PHEW}, and a belt {@item pouch|PHEW} containing 10 gp"
 						}
 					]
 				},
@@ -3261,7 +3261,7 @@
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "A bottle of black ink, a quill, a small knife, a letter from a dead colleague posing a question you have not yet been able to answer, a set of {@item common clothes|phb}, and a belt {@item pouch|phb} containing 10 gp"
+							"entry": "A bottle of black ink, a quill, a small knife, a letter from a dead colleague posing a question you have not yet been able to answer, a set of {@item common clothes|PHEW}, and a belt {@item pouch|PHEW} containing 10 gp"
 						}
 					]
 				},
@@ -3520,12 +3520,12 @@
 						{
 							"type": "item",
 							"name": "Tool Proficiencies",
-							"entry": "{@item Navigator's tools|phb}, {@filter vehicles (water)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (water)}"
+							"entry": "{@item Navigator's tools|PHEW}, {@filter vehicles (water)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (water)}"
 						},
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "A belaying pin ({@item club|phb}), {@item silk rope (50 feet)|phb}, a lucky charm such as a rabbit foot or a small stone with a hole in the center (or you may roll for a random trinket on the Trinkets table in chapter 5), a set of {@item common clothes|phb}, and a belt {@item pouch|phb} containing 10 gp"
+							"entry": "A belaying pin ({@item club|PHEW}), {@item silk rope (50 feet)|phb}, a lucky charm such as a rabbit foot or a small stone with a hole in the center (or you may roll for a random trinket on the Trinkets table in chapter 5), a set of {@item common clothes|PHEW}, and a belt {@item pouch|PHEW} containing 10 gp"
 						}
 					]
 				},
@@ -3738,7 +3738,7 @@
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "An insignia of rank, a trophy taken from a fallen enemy (a dagger, broken blade, or piece of a banner), a bone {@item dice set|phb} or {@item playing card set|phb}, a set of {@item common clothes|phb}, and a belt {@item pouch|phb} containing 10 gp"
+							"entry": "An insignia of rank, a trophy taken from a fallen enemy (a dagger, broken blade, or piece of a banner), a bone {@item dice set|PHEW} or {@item playing card set|PHEW}, a set of {@item common clothes|PHEW}, and a belt {@item pouch|PHEW} containing 10 gp"
 						}
 					]
 				},
@@ -3992,12 +3992,12 @@
 						{
 							"type": "item",
 							"name": "Tool Proficiencies",
-							"entry": "Choose two from among one type of {@filter gaming set|items|source=phb|miscellaneous=mundane|type=gaming set}, one {@filter musical instrument|items|source=phb|miscellaneous=mundane|type=instrument}, and {@item thieves' tools|phb}"
+							"entry": "Choose two from among one type of {@filter gaming set|items|source=phb|miscellaneous=mundane|type=gaming set}, one {@filter musical instrument|items|source=phb|miscellaneous=mundane|type=instrument}, and {@item thieves' tools|PHEW}"
 						},
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "A set of clothes appropriate to your duties and a {@item pouch|phb} containing 20 gp"
+							"entry": "A set of clothes appropriate to your duties and a {@item pouch|PHEW} containing 20 gp"
 						}
 					]
 				},
@@ -4015,7 +4015,7 @@
 					"type": "entries",
 					"name": "Suggested Characteristics",
 					"entries": [
-						"Use the tables for the {@background criminal} background in the Player's Handbook as the basis for your bounty hunter's traits and motivations, modifying the entries when appropriate to suit your identity as a bounty hunter.",
+						"Use the tables for the {@background criminal|PHEW} background in the Player's Handbook as the basis for your bounty hunter's traits and motivations, modifying the entries when appropriate to suit your identity as a bounty hunter.",
 						"For instance, your bond might involve other bounty hunters or the organizations or individuals that employ you. Your ideal could be associated with your determination always to catch your quarry or your desire to maintain your reputation for being dependable."
 					]
 				}
@@ -4069,12 +4069,12 @@
 						{
 							"type": "item",
 							"name": "Tool Proficiencies",
-							"entry": "{@item Disguise kit|phb}, {@item Thieves' tools|phb}"
+							"entry": "{@item Disguise kit|PHEW}, {@item Thieves' tools|PHEW}"
 						},
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "A small knife, a map of the city you grew up in, a pet mouse, a token to remember your parents by, a set of {@item common clothes|phb}, and a belt {@item pouch|phb} containing 10 gp"
+							"entry": "A small knife, a map of the city you grew up in, a pet mouse, a token to remember your parents by, a set of {@item common clothes|PHEW}, and a belt {@item pouch|PHEW} containing 10 gp"
 						}
 					]
 				},
@@ -4287,7 +4287,7 @@
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "A uniform in the style of your unit and indicative of your rank, a {@item horn|phb} with which to summon help, a set of {@item manacles|phb}, and a {@item pouch|phb} containing 10 gp"
+							"entry": "A uniform in the style of your unit and indicative of your rank, a {@item horn|PHEW} with which to summon help, a set of {@item manacles|PHEW}, and a {@item pouch|PHEW} containing 10 gp"
 						}
 					]
 				},
@@ -4305,7 +4305,7 @@
 					"type": "entries",
 					"name": "Suggested Characteristics",
 					"entries": [
-						"Use the tables for the {@background soldier} background in the Player's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as a member of the city watch.",
+						"Use the tables for the {@background soldier|PHEW} background in the Player's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as a member of the city watch.",
 						"Your bond is likely associated with your fellow watch members or the watch organization itself and almost certainly concerns your community. Your ideal probably involves the fostering of peace and safety. An investigator is likely to have an ideal connected to achieving justice by successfully solving crimes."
 					]
 				}
@@ -4366,12 +4366,12 @@
 								{
 									"type": "item",
 									"name": "Tool Proficiencies",
-									"entry": "{@item Disguise kit|phb}, one type of {@filter musical instrument|items|source=phb|miscellaneous=mundane|type=instrument}"
+									"entry": "{@item Disguise kit|PHEW}, one type of {@filter musical instrument|items|source=phb|miscellaneous=mundane|type=instrument}"
 								},
 								{
 									"type": "item",
 									"name": "Equipment",
-									"entry": "An inexpensive but unusual weapon, such as a {@item trident|phb} or {@item net|phb} (one of your choice), the favor of an admirer (love letter, lock of hair, or trinket), {@item costume clothes|phb}, and a belt {@item pouch|phb} containing 15 gp"
+									"entry": "An inexpensive but unusual weapon, such as a {@item trident|PHEW} or {@item net|PHEW} (one of your choice), the favor of an admirer (love letter, lock of hair, or trinket), {@item costume clothes|PHEW}, and a belt {@item pouch|PHEW} containing 15 gp"
 								}
 							]
 						}
@@ -4410,12 +4410,12 @@
 								{
 									"type": "item",
 									"name": "Tool Proficiencies",
-									"entry": "One type of {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan tool}, or {@item navigator's tools|phb}, or an additional language"
+									"entry": "One type of {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan tool}, or {@item navigator's tools|PHEW}, or an additional language"
 								},
 								{
 									"type": "item",
 									"name": "Equipment",
-									"entry": "A set of {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan tool} (one of your choice) or a {@item mule|phb} and {@item cart|phb}, a letter of introduction from your guild, a set of {@item traveler's clothes|phb}, and a belt {@item pouch|phb} containing 15 gp"
+									"entry": "A set of {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan tool} (one of your choice) or a {@item mule|PHEW} and {@item cart|PHEW}, a letter of introduction from your guild, a set of {@item traveler's clothes|PHEW}, and a belt {@item pouch|PHEW} containing 15 gp"
 								}
 							]
 						}
@@ -4520,7 +4520,7 @@
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "Fishing tackle, a {@item net|phb}, a favorite fishing lure or oiled leather wading boots, a set of {@item traveler's clothes|phb}, and a belt {@item pouch|phb} containing 10 gp"
+							"entry": "Fishing tackle, a {@item net|PHEW}, a favorite fishing lure or oiled leather wading boots, a set of {@item traveler's clothes|PHEW}, and a belt {@item pouch|PHEW} containing 10 gp"
 						}
 					]
 				},
@@ -4788,7 +4788,7 @@
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "A {@item dagger|phb} that belonged to a fallen comrade, a folded flag emblazoned with the symbol of your ship or company, a set of {@item traveler's clothes|phb}, and a belt {@item pouch|phb} containing 10 gp"
+							"entry": "A {@item dagger|PHEW} that belonged to a fallen comrade, a folded flag emblazoned with the symbol of your ship or company, a set of {@item traveler's clothes|PHEW}, and a belt {@item pouch|PHEW} containing 10 gp"
 						}
 					]
 				},
@@ -5044,12 +5044,12 @@
 						{
 							"type": "item",
 							"name": "Tool Proficiencies",
-							"entry": "{@item Carpenter's tools|phb}, {@filter Vehicles (water)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (water)}"
+							"entry": "{@item Carpenter's tools|PHEW}, {@filter Vehicles (water)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (water)}"
 						},
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "A set of well-loved {@item carpenter's tools|phb}, a blank book, 1 ounce of ink, an ink pen, a set of {@item traveler's clothes|phb}, and a leather {@item pouch|phb} with 10 gp"
+							"entry": "A set of well-loved {@item carpenter's tools|PHEW}, a blank book, 1 ounce of ink, an ink pen, a set of {@item traveler's clothes|PHEW}, and a leather {@item pouch|PHEW} with 10 gp"
 						}
 					]
 				},
@@ -5310,7 +5310,7 @@
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "A fancy leather vest or a pair of leather boots, a set of {@item common clothes|phb}, and a leather {@item pouch|phb} with 15 gp"
+							"entry": "A fancy leather vest or a pair of leather boots, a set of {@item common clothes|PHEW}, and a leather {@item pouch|PHEW} with 15 gp"
 						}
 					]
 				},

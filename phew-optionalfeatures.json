@@ -3,7 +3,7 @@
 		{
 			"name": "Airburst Mine",
 			"entries": [
-				"You create a mechanical device capable of producing a devastating blast. You can use this device to cast {@spell shatter} or {@spell thunderburst mine} without expending a spell slot. Once used, the gadget cannot be used again until you complete a short or long rest."
+				"You create a mechanical device capable of producing a devastating blast. You can use this device to cast {@spell shatter|PHEW} or {@spell thunderburst mine|PHEW} without expending a spell slot. Once used, the gadget cannot be used again until you complete a short or long rest."
 			],
 			"source": "PHEW",
 			"featureType": "GG"
@@ -21,7 +21,7 @@
 		{
 			"name": "Belt of Adjusting Size",
 			"entries": [
-				"You create a belt with a creature size dial on it. While you are wearing this belt, you can use an action to cast {@spell Enlarge/Reduce} on yourself. Once you use this gadget, you cannot use it again until you complete a short or long rest."
+				"You create a belt with a creature size dial on it. While you are wearing this belt, you can use an action to cast {@spell Enlarge/Reduce|PHEW} on yourself. Once you use this gadget, you cannot use it again until you complete a short or long rest."
 			],
 			"source": "PHEW",
 			"featureType": "GG"
@@ -29,7 +29,7 @@
 		{
 			"name": "Element Eater",
 			"entries": [
-				"You create a device capable of absorbing incoming elemental damage. You can activate this device and cast {@spell absorb elements} without expending a spell slot, but the gadget cannot be used again until you complete a short or long rest."
+				"You create a device capable of absorbing incoming elemental damage. You can activate this device and cast {@spell absorb elements|PHEW} without expending a spell slot, but the gadget cannot be used again until you complete a short or long rest."
 			],
 			"source": "PHEW",
 			"featureType": "GG"
@@ -45,7 +45,7 @@
 		{
 			"name": "Fire Spitter",
 			"entries": [
-				"You create a gadget that creates a quick blast of fire. As an action, you can cast {@spell Aganazzar's Scorcher} with this gadget without expending a spell slot, but the gadget cannot be used again until you complete a short or long rest."
+				"You create a gadget that creates a quick blast of fire. As an action, you can cast {@spell Aganazzar's Scorcher|PHEW} with this gadget without expending a spell slot, but the gadget cannot be used again until you complete a short or long rest."
 			],
 			"source": "PHEW",
 			"featureType": "GG"
@@ -61,7 +61,7 @@
 		{
 			"name": "Gravity Switch",
 			"entries": [
-				"You build a switch that turns off gravity. You can use it to cast {@spell feather fall} without expending a spell slot. Once you this gadget, you cannot use it again until you complete a short or long rest."
+				"You build a switch that turns off gravity. You can use it to cast {@spell feather fall|PHEW} without expending a spell slot. Once you this gadget, you cannot use it again until you complete a short or long rest."
 			],
 			"source": "PHEW",
 			"featureType": "GG"
@@ -123,7 +123,7 @@
 		{
 			"name": "Jumping Boots",
 			"entries": [
-				"You modify your boots with arcane boosters. While wearing these boots, you are under the effects of the {@spell jump} spell."
+				"You modify your boots with arcane boosters. While wearing these boots, you are under the effects of the {@spell jump|PHEW} spell."
 			],
 			"source": "PHEW",
 			"featureType": "GG"
@@ -148,7 +148,7 @@
 		{
 			"name": "Shock Generator",
 			"entries": [
-				"You create a device capable of generating potent shocks. You can use this to cast {@spell shocking grasp}. When you cast shocking grasp with this feature, you can use either your Dexterity or Intelligence modifier for the melee spell attack roll."
+				"You create a device capable of generating potent shocks. You can use this to cast {@spell shocking grasp|PHEW}. When you cast shocking grasp with this feature, you can use either your Dexterity or Intelligence modifier for the melee spell attack roll."
 			],
 			"source": "PHEW",
 			"featureType": "GG"
@@ -165,7 +165,7 @@
 				}
 			],
 			"entries": [
-				"You can integrate your Shock Generator and your Grappling Hook. If the target of your Grappling Hook is a creature, you can cast {@spell shocking grasp} using your Shock Generator on that creature as a bonus action when pulling it to you or being pulled to it."
+				"You can integrate your Shock Generator and your Grappling Hook. If the target of your Grappling Hook is a creature, you can cast {@spell shocking grasp|PHEW} using your Shock Generator on that creature as a bonus action when pulling it to you or being pulled to it."
 			],
 			"source": "PHEW",
 			"featureType": "GG"
@@ -189,7 +189,7 @@
 		{
 			"name": "Striding Boots",
 			"entries": [
-				"You modify your boots with amplified striding speed. While wearing these boots, you are under the effects of the {@spell longstrider} spell."
+				"You modify your boots with amplified striding speed. While wearing these boots, you are under the effects of the {@spell longstrider|PHEW} spell."
 			],
 			"source": "PHEW",
 			"featureType": "GG"
@@ -282,7 +282,7 @@
 				}
 			],
 			"entries": [
-				"When you use a Smoke Bomb, you can use a bonus action to cast {@spell mirror image} without expending a spell slot. Once you do this, you cannot do this again until you complete a short or long rest."
+				"When you use a Smoke Bomb, you can use a bonus action to cast {@spell mirror image|PHEW} without expending a spell slot. Once you do this, you cannot do this again until you complete a short or long rest."
 			],
 			"source": "PHEW",
 			"featureType": "GG"
@@ -303,7 +303,7 @@
 				}
 			],
 			"entries": [
-				"When you use a Smoke Bomb you can cast {@spell misty step} without expending a spell slot. Once you do this, you cannot do this again until you complete a short or long rest."
+				"When you use a Smoke Bomb you can cast {@spell misty step|PHEW} without expending a spell slot. Once you do this, you cannot do this again until you complete a short or long rest."
 			],
 			"source": "PHEW",
 			"featureType": "GG"
@@ -324,7 +324,7 @@
 				}
 			],
 			"entries": [
-				"You make a device that nullifies the arcane through means you assure everyone else you understand. As an action, you can use this device to cast {@spell dispel magic} without expending a spell slot.",
+				"You make a device that nullifies the arcane through means you assure everyone else you understand. As an action, you can use this device to cast {@spell dispel magic|PHEW} without expending a spell slot.",
 				"Once you use this gadget, you cannot use it again until you complete a short or long rest."
 			],
 			"source": "PHEW",
@@ -346,7 +346,7 @@
 				}
 			],
 			"entries": [
-				"You create a magical stopwatch that manipulates ethereal magic. As an action, you can cast {@spell blink} or {@spell dimension door} using the Stopwatch without expending a spell slot.",
+				"You create a magical stopwatch that manipulates ethereal magic. As an action, you can cast {@spell blink|PHEW} or {@spell dimension door|PHEW} using the Stopwatch without expending a spell slot.",
 				"Once you use this ability, you cannot use it again until you complete a long rest."
 			],
 			"source": "PHEW",
@@ -368,7 +368,7 @@
 				}
 			],
 			"entries": [
-				"You make a more potent compound for your Smoke Bomb. When you use a Smoke Bomb, you can choose to cast {@spell stinking cloud} rather than {@spell fog cloud}, following the same rules. You cannot cast stinking cloud in this way again until you complete a short or long rest."
+				"You make a more potent compound for your Smoke Bomb. When you use a Smoke Bomb, you can choose to cast {@spell stinking cloud|PHEW} rather than {@spell fog cloud|PHEW}, following the same rules. You cannot cast stinking cloud in this way again until you complete a short or long rest."
 			],
 			"source": "PHEW",
 			"featureType": "GG"
@@ -389,7 +389,7 @@
 				}
 			],
 			"entries": [
-				"You create a magical stopwatch that manipulates time magic. As an action, you can cast {@spell haste} or slow using the stopwatch without expending a Spell Slot.",
+				"You create a magical stopwatch that manipulates time magic. As an action, you can cast {@spell haste|PHEW} or slow using the stopwatch without expending a Spell Slot.",
 				"Once you use this Upgrade, you cannot use it again until you complete a long rest."
 			],
 			"source": "PHEW",
@@ -467,7 +467,7 @@
 				}
 			],
 			"entries": [
-				"You upgrade your shock generator with additional lightning capabilities. You can cast {@spell lightning lure} at-will using it, and can overload it to cast {@spell lightning bolt}. Once you overload it, you cannot use it to cast lightning bolt again until you complete a short or long rest.",
+				"You upgrade your shock generator with additional lightning capabilities. You can cast {@spell lightning lure|PHEW} at-will using it, and can overload it to cast {@spell lightning bolt|PHEW}. Once you overload it, you cannot use it to cast lightning bolt again until you complete a short or long rest.",
 				"Additionally, when dealing Lightning damage during your turn, you can add your Intelligence modifier to one roll of the damage dealt."
 			],
 			"source": "PHEW",
@@ -517,7 +517,7 @@
 				}
 			],
 			"entries": [
-				"You create a Universal Key to obstacles, transmuting them into not-obstacles. As an action, you can apply this key to a surface to cast {@spell passwall} without expending a spell slot.",
+				"You create a Universal Key to obstacles, transmuting them into not-obstacles. As an action, you can apply this key to a surface to cast {@spell passwall|PHEW} without expending a spell slot.",
 				"Once you use this ability, you cannot use it again until you complete a long rest."
 			],
 			"source": "PHEW",
@@ -539,7 +539,7 @@
 				}
 			],
 			"entries": [
-				"You create bracers that can empower you. You can use this to cast {@spell Tenser's transformation} without expending a Spell Slot.",
+				"You create bracers that can empower you. You can use this to cast {@spell Tenser's transformation|PHEW} without expending a Spell Slot.",
 				"Once you use this ability, you cannot use it again until you complete a long rest."
 			],
 			"source": "PHEW",
@@ -604,7 +604,7 @@
 				}
 			],
 			"entries": [
-				"You create a Disintegration Ray. You can use this to cast {@spell disintegration} without expending a Spell Slot.",
+				"You create a Disintegration Ray. You can use this to cast {@spell disintegration|PHEW} without expending a Spell Slot.",
 				"Once you use this ability, you cannot use it again until you complete a long rest."
 			],
 			"source": "PHEW",
@@ -702,7 +702,7 @@
 				}
 			],
 			"entries": [
-				"You install an mounted armament to your golem, taking whatever form is most appropriate, charged with arcane power. As an action, the golem can cast {@spell magic missile} as a 3rd level spell. When cast this way, it has no Verbal or Somatic components.",
+				"You install an mounted armament to your golem, taking whatever form is most appropriate, charged with arcane power. As an action, the golem can cast {@spell magic missile|PHEW} as a 3rd level spell. When cast this way, it has no Verbal or Somatic components.",
 				"Once used, this armament cannot be used again until the Artificer completes a short or long rest."
 			],
 			"source": "PHEW",
@@ -724,7 +724,7 @@
 				}
 			],
 			"entries": [
-				"You install an Arcane Cloaking device on your Golem. Your golem can use this device to cast {@spell invisibility} on itself without expending a spell slot.",
+				"You install an Arcane Cloaking device on your Golem. Your golem can use this device to cast {@spell invisibility|PHEW} on itself without expending a spell slot.",
 				"Once used, this device cannot be used again until the Artificer completes a short or long rest."
 			],
 			"source": "PHEW",
@@ -746,7 +746,7 @@
 				}
 			],
 			"entries": [
-				"You install an armament to your golem, taking whatever form is most appropriate, capable for reproducing powerful flames. As an action, the golem can cast {@spell burning hands} as a 3rd level spell.",
+				"You install an armament to your golem, taking whatever form is most appropriate, capable for reproducing powerful flames. As an action, the golem can cast {@spell burning hands|PHEW} as a 3rd level spell.",
 				"The spell save DC is equal to your spell save DC. When cast this way, it has no Verbal or Somatic components.",
 				"Once used, this armament cannot be used again until the Artificer completes a short or long rest."
 			],
@@ -797,7 +797,7 @@
 				}
 			],
 			"entries": [
-				"After studying the arcane fundamentals of Shield Golems, you have gained insight on how they shield their controllers, and can implement it in your own golem. Your golem gains the ability to cast {@spell warding bond} without expending a spell slot. When cast in this method, it does not require material components.",
+				"After studying the arcane fundamentals of Shield Golems, you have gained insight on how they shield their controllers, and can implement it in your own golem. Your golem gains the ability to cast {@spell warding bond|PHEW} without expending a spell slot. When cast in this method, it does not require material components.",
 				"Once the golem casts warding bond in this way, it cannot use this feature to cast it again until it completes a short or long rest."
 			],
 			"source": "PHEW",
@@ -891,7 +891,7 @@
 				}
 			],
 			"entries": [
-				"You build in a special mode allowing your golem go beyond its limitations. As your action, you can overcharge your golem with energy, granting it the effects of {@spell haste} for a number of rounds equal to your intelligence modifier. Once used, you cannot use this again until you complete a long rest."
+				"You build in a special mode allowing your golem go beyond its limitations. As your action, you can overcharge your golem with energy, granting it the effects of {@spell haste|PHEW} for a number of rounds equal to your intelligence modifier. Once used, you cannot use this again until you complete a long rest."
 			],
 			"source": "PHEW",
 			"featureType": "GL"
@@ -961,7 +961,7 @@
 				}
 			],
 			"entries": [
-				"Your golem can leverage its increased size and magical nature to unleash a crushing stomp of magical energy when it brings down its foot. Your golem can replace any attack with the {@spell thunderclap} spell using the Artificers level and spell save for casting the spell."
+				"Your golem can leverage its increased size and magical nature to unleash a crushing stomp of magical energy when it brings down its foot. Your golem can replace any attack with the {@spell thunderclap|PHEW} spell using the Artificers level and spell save for casting the spell."
 			],
 			"source": "PHEW",
 			"featureType": "GL"
@@ -1086,7 +1086,7 @@
 		{
 			"name": "Arcane Armament",
 			"entries": [
-				"You master armoring yourself with magical enchantments. You learn the {@spell mage armor} spell. While under the effect of mage armor, you can add your Intelligence modifier to your AC instead of your Dexterity modifier. You can only do this if you are not adding your Intelligence modifier to your AC from another source. Additionally you gain resistance to force damage."
+				"You master armoring yourself with magical enchantments. You learn the {@spell mage armor|PHEW} spell. While under the effect of mage armor, you can add your Intelligence modifier to your AC instead of your Dexterity modifier. You can only do this if you are not adding your Intelligence modifier to your AC from another source. Additionally you gain resistance to force damage."
 			],
 			"source": "PHEW",
 			"featureType": "IF"
@@ -1112,7 +1112,7 @@
 		{
 			"name": "Infuse Elements",
 			"entries": [
-				"You can infuse elements with your magic temporarily, granting you limited control of them. You learn the cantrips {@spell control flames}, {@spell mold earth}, and {@spell shape water}."
+				"You can infuse elements with your magic temporarily, granting you limited control of them. You learn the cantrips {@spell control flames|PHEW}, {@spell mold earth|PHEW}, and {@spell shape water|PHEW}."
 			],
 			"source": "PHEW",
 			"featureType": "IF"
@@ -1188,7 +1188,7 @@
 				}
 			],
 			"entries": [
-				"You learn the spell {@spell shadow blade}. When you are wielding the blade conjured by shadow blade you can treat it as an Infused Weapon."
+				"You learn the spell {@spell shadow blade|PHEW}. When you are wielding the blade conjured by shadow blade you can treat it as an Infused Weapon."
 			],
 			"source": "PHEW",
 			"featureType": "IF"
@@ -1230,7 +1230,7 @@
 				}
 			],
 			"entries": [
-				"As a reaction to being hit with a metal weapon, you can cast {@spell heat metal} targeting the weapon that struck you. Additionally, you learn the spell heat metal."
+				"As a reaction to being hit with a metal weapon, you can cast {@spell heat metal|PHEW} targeting the weapon that struck you. Additionally, you learn the spell heat metal."
 			],
 			"source": "PHEW",
 			"featureType": "IF"
@@ -1293,7 +1293,7 @@
 				}
 			],
 			"entries": [
-				"When you cast {@spell arcane weapon}, {@spell magical weapon}, {@spell elemental weapon}, {@spell holy weapon}, or {@spell vorpal weapon} it also effects any weapon Animated or Infused by you. Additionally, you can target a weapon with any arcane weapon, magical weapon, or elemental weapon even if the weapon is already magical."
+				"When you cast {@spell arcane weapon|PHEW}, {@spell magical weapon|PHEW}, {@spell elemental weapon|PHEW}, {@spell holy weapon|PHEW}, or {@spell vorpal weapon|PHEW} it also effects any weapon Animated or Infused by you. Additionally, you can target a weapon with any arcane weapon, magical weapon, or elemental weapon even if the weapon is already magical."
 			],
 			"source": "PHEW",
 			"featureType": "IF"
@@ -1314,7 +1314,7 @@
 				}
 			],
 			"entries": [
-				"When you cast {@spell arcane weapon}, {@spell magical weapon}, or {@spell vorpal weapon} on a weapon, that weapon deals an additional 1d4 force damage. The damage of {@spell elemental weapon} is increased by {@dice 1d4} of the elemental type chosen.",
+				"When you cast {@spell arcane weapon|PHEW}, {@spell magical weapon|PHEW}, or {@spell vorpal weapon|PHEW} on a weapon, that weapon deals an additional 1d4 force damage. The damage of {@spell elemental weapon|PHEW} is increased by {@dice 1d4} of the elemental type chosen.",
 				"Additionally, when you make a Constitution save to maintain concentration on arcane weapon, magical weapon, elemental weapon, or vorpal weapon, you have advantage on that saving throw."
 			],
 			"source": "PHEW",
@@ -1343,7 +1343,7 @@
 				}
 			],
 			"entries": [
-				"As a reaction to taking damage, you can end the effect of {@spell mage armor} to cast {@spell thunder step} without expending a spell slot. When you cast thunder step in this manner, it deals force damage instead of thunder damage.",
+				"As a reaction to taking damage, you can end the effect of {@spell mage armor|PHEW} to cast {@spell thunder step|PHEW} without expending a spell slot. When you cast thunder step in this manner, it deals force damage instead of thunder damage.",
 				"Once you do this, you cannot use this ability again until the end of your next short or long rest."
 			],
 			"source": "PHEW",
@@ -1386,7 +1386,7 @@
 				}
 			],
 			"entries": [
-				"You make a cloak of invisibility. While wearing this a creature can cast {@spell invisibility} once without expending a spell slot. When cast in this method it does not require concentration. It cannot be used again in that way until you complete a short or long rest."
+				"You make a cloak of invisibility. While wearing this a creature can cast {@spell invisibility|PHEW} once without expending a spell slot. When cast in this method it does not require concentration. It cannot be used again in that way until you complete a short or long rest."
 			],
 			"source": "PHEW",
 			"featureType": "IF"
@@ -1407,7 +1407,7 @@
 				}
 			],
 			"entries": [
-				"You bestow magical enchantments onto your gear, casting a limited version of {@spell contingency} without expending a material component or spell slot. When cast in this way, the spell triggered by contingency must be a 2nd level or lower spell, and ends if you complete a long rest before the contingency is triggered.",
+				"You bestow magical enchantments onto your gear, casting a limited version of {@spell contingency|PHEW} without expending a material component or spell slot. When cast in this way, the spell triggered by contingency must be a 2nd level or lower spell, and ends if you complete a long rest before the contingency is triggered.",
 				"Once you cast contingency in this way, you cannot cast it again until you complete a long rest."
 			],
 			"source": "PHEW",
@@ -1429,7 +1429,7 @@
 				}
 			],
 			"entries": [
-				"You set a powerful magic into a non-magical ring. You can use this ring to cast {@spell counterspell} without expending a spell slot. When you cast counterspell in this way and it succeeds, the spell countered is stored in the ring. You can then cast the stored spell without expending a spell slot, but the spell fades if it is not used before you complete a long rest.",
+				"You set a powerful magic into a non-magical ring. You can use this ring to cast {@spell counterspell|PHEW} without expending a spell slot. When you cast counterspell in this way and it succeeds, the spell countered is stored in the ring. You can then cast the stored spell without expending a spell slot, but the spell fades if it is not used before you complete a long rest.",
 				"Once you use this ring, you cannot use it again until you complete a long rest."
 			],
 			"source": "PHEW",
@@ -1515,7 +1515,7 @@
 				}
 			],
 			"entries": [
-				"You learn a potent magical infusion that suffuses a creature with life energy. You can cast {@spell regenerate} without expending a spell slot. Once you cast this spell in this manner, you cannot use it again until you complete a long rest."
+				"You learn a potent magical infusion that suffuses a creature with life energy. You can cast {@spell regenerate|PHEW} without expending a spell slot. Once you cast this spell in this manner, you cannot use it again until you complete a long rest."
 			],
 			"source": "PHEW",
 			"featureType": "IF"
@@ -1558,7 +1558,7 @@
 				}
 			],
 			"entries": [
-				"When you cast the {@spell animate objects} spell, your animated objects add +1 to their attack and damage rolls per object it counts as (tiny objects gain +1, huge objects gain +8)."
+				"When you cast the {@spell animate objects|PHEW} spell, your animated objects add +1 to their attack and damage rolls per object it counts as (tiny objects gain +1, huge objects gain +8)."
 			],
 			"source": "PHEW",
 			"featureType": "IF"
