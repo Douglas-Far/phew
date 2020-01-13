@@ -21140,6 +21140,233 @@
 					"shortName": "Fiend"
 				},
 				{
+					"name": "Primordial",
+					"subclassFeatures": [
+						[
+							{
+								"name": "Primordial",
+								"entries": [
+									"Your patron is an ancient and powerful creature from one of the elemental planes, teeming with power and a never ending hunger. The Planes of Fire, Water, Air and Earth are home to such creatures, which usually require the abundant energy within those planes to sustain themselves. As such, one common goal shared by these primordial is usually the expansion of the dominion of their corresponding element hroughout the planes, and the creation of further links between their home plane and others.",
+									{
+										"type": "entries",
+										"name": "Expanded Spell List",
+										"entries": [
+											"The Primordial lets you choose from an expanded list of spells when you learn a warlock spell. Depending on the element associated with your patron, the following spells are added to the warlock spell list for you",
+											{
+												"type": "table",
+												"caption": "Great Old One Expanded Spells",
+												"colLabels": [
+													"Spell Level",
+													"Common Spells",
+													"Fire Spells",
+													"Water Spells",
+													"Air Spells",
+													"Earth Spells"
+												],
+												"colStyles": [
+													"col-3 text-center",
+													"col-3",
+													"col-3",
+													"col-3",
+													"col-3",
+													"col-9"
+												],
+												"rows": [
+													[
+														"1st",
+														"{@spell chromatic orb|PHEW}",
+														"{@spell burning hands|PHEW}",
+														"{@spell ice knife|PHEW}",
+														"{@spell fog cloud|PHEW}",
+														"{@spell earth tremor|PHEW}"
+														
+													],
+													[
+														"2nd",
+														"{@spell dragon's breath|PHEW}",
+														"{@spell heat metal|PHEW}",
+														"{@spell snilloc's snowball swarm|PHEW}",
+														"{@spell gust of wind|PHEW}",
+														"{@spell maximilian's earthen grasp|PHEW}"
+													],
+													[
+														"3rd",
+														"{@spell elemental weapon|PHEW}",
+														"{@spell fireball|PHEW}",
+														"{@spell tidal wave|PHEW}",
+														"{@spell call lightning|PHEW}",
+														"{@spell erupting earth|PHEW}"
+													],
+													[
+														"4th",
+														"{@spell conjure minor elementals|PHEW}",
+														"{@spell wall of fire|PHEW}",
+														"{@spell watery sphere|PHEW}",
+														"{@spell storm sphere|PHEW}",
+														"{@spell stone shape|PHEW}"
+													],
+													[
+														"5th",
+														"{@spell conjure elemental|PHEW}",
+														"{@spell immolation|PHEW}",
+														"{@spell cone of cold|PHEW}",
+														"{@spell control winds|PHEW}",
+														"{@spell wall of stone|PHEW}"
+													]
+												]
+											}
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Primordial Affinity",
+										"entries": [
+											"You learn the spell {@spell absorb elements} and always have it prepared. It is a warlock spell for you, and it doesn't count against your number of spells known.",
+											"Depending on the element of your Patron, you learn an additional additional language, a cantrip that counts as a warlock cantrip for you but doesn't count against your number of cantrips known, and you can change the damage type of your eldritch blast to the associated type.",
+											{
+												"type": "table",
+												"caption": "Primordial Patron's Associated Traits",
+												"colLabels": [
+													"Patron Element",
+													"Language",
+													"Cantrip",
+													"Damage Type"
+												],
+												"colStyles": [
+													"col-3 text-center",
+													"col-3",
+													"col-3",
+													"col-9"
+												],
+												"rows": [
+													[
+														"Fire",
+														"Ignan",
+														"{@spell control fire|PHEW}",
+														"fire"
+													],
+													[
+														"Water",
+														"Aquan",
+														"{@spell shape water|PHEW}",
+														"cold"
+													],
+													[
+														"Air",
+														"Auran",
+														"{@spell gust|PHEW}",
+														"lightning"
+													],
+													[
+														"Earth",
+														"Terran",
+														"{@spell mold earth|PHEW}",
+														"acid"
+													]
+												]
+											}
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Elemental Bequethal",
+										"entries": [
+											"At 6th level, your affinity with your patron's element increases. You gain resistance to the damage type associated with your patron. In addition, whenever you cast {@spell absorb elements|PHEW} as a warlock spell as a reaction to receiving the damage type associated with your Patron, you can cast it at 1st level without consuming a spell slot and you gain immunity to that damage type instead of resistance. You can use the spell this way a number of times equal to your Charisma modifier. You regain all your uses at the end of a long rest."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Primordial Armor",
+										"entries": [
+											"Starting at 10th level, you can cast the spell {@spell armor of agathys} once without spending a spell slot, regardless of whether you know the spell or whether you have it prepared. If you use that spell with this trait, the amount of temporary hit points and damage dealt becomes 10 + your Warlock level + your Charisma modifier, and the damage type becomes the one associated with your Patron."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Primordial Form",
+										"entries": [
+											"At 14th level, you gain the ability to become one with the element of your Patron. For 1 minute, you obtain the following benefits:",
+											{
+												"type": "list",
+												"items": [
+													"You gain darkvision up to 60 ft.",
+													"Whenever you deal damage of the type that's associated with your patron, you ignore resistance to said damage type.",
+													"You gain immunity to your Patron's associated damage type.",
+													"You gain a movement speed associated with your Patron.",
+													"Once, when you would be reduced to 0 hit points, you are reduced to 1 hit point instead and unleash a massive burst of elemental energy. Every other creature within 60 feet of you must make a saving throw against your warlock spell DC, taking 4d10 damage on a failed save and half as much on a success. You then regain a number of hit points equal to your warlock level, and this feature ends prematurely."
+												]
+											},
+											{
+												"type": "table",
+												"caption": "Primordial Form's Properties",
+												"colLabels": [
+													"Patron Element",
+													"Movement",
+													"Savind Throw",
+													"Damage Type"
+												],
+												"colStyles": [
+													"col-3 text-center",
+													"col-3",
+													"col-3",
+													"col-9"
+												],
+												"rows": [
+													[
+														"Fire",
+														"+20ft.",
+														"Dexterity",
+														"fire"
+													],
+													[
+														"Water",
+														"90ft. swim",
+														"Constitution",
+														"cold"
+													],
+													[
+														"Air",
+														"60ft. fly (hover)",
+														"Dexterity",
+														"lightning"
+													],
+													[
+														"Earth",
+														"30ft. burrow",
+														"Constitution",
+														"thunder"
+													]
+												]
+											},
+											"Once you use this feature, you can't use it again until you finish a long rest."
+										]
+									}
+								]
+							}
+						]
+					],
+					"source": "PHEW",
+					"shortName": "Primordial"
+				},
+				{
 					"name": "The Great Old One",
 					"subclassFeatures": [
 						[
