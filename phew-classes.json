@@ -243,7 +243,7 @@
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"(a) a {@item light crossbow|PHEW} and {@item crossbow bolts (20)|phb|20 bolts} or (b) any two {@filter simple weapons|items|source=phb|category=basic|type=simple weapon}",
+					"(a) a {@item light crossbow|PHEW} and {@item crossbow bolts (20)|PHEW|20 bolts} or (b) any two {@filter simple weapons|items|source=phb|category=basic|type=simple weapon}",
 					"(a) {@item scale mail|PHEW}, (b) {@item leather armor|PHEW}, or (c) {@item chain mail|PHEW}",
 					"{@item thieves' tools|PHEW} and a {@item dungeoneer's pack|PHEW}"
 				]
@@ -1190,7 +1190,7 @@
 					{
 						"name": "Rage",
 						"entries": [
-							"In battle, you fight with primal ferocity. At the start of your turn, you can enter a rage as a free action.",
+							"In battle, you fight with primal ferocity. Once during your turn you can enter a rage as a free action.",
 							"While raging, you gain the following benefits if you aren't wearing heavy armor:",
 							{
 								"type": "list",
@@ -4297,7 +4297,7 @@
 				"default": [
 					"(a) a {@item mace|PHEW} or (b) a {@item warhammer|PHEW} (if proficient)",
 					"(a) {@item scale mail|PHEW}, (b) {@item leather armor|PHEW}, or (c) {@item chain mail|PHEW} (if proficient)",
-					"(a) a {@item light crossbow|PHEW} and {@item Crossbow Bolts (20)|phb|20 bolts} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
+					"(a) a {@item light crossbow|PHEW} and {@item Crossbow Bolts (20)|PHEW|20 bolts} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
 					"(a) a {@item priest's pack|PHEW} or (b) an {@item explorer's pack|PHEW}",
 					"A {@item shield|PHEW} and a {@item holy symbol|PHEW}"
 				],
@@ -8987,9 +8987,9 @@
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"(a) {@item chain mail|PHEW} or (b) {@item leather armor|PHEW|leather}, {@item longbow|PHEW}, and {@item arrows (20)|phb|20 arrows}",
+					"(a) {@item chain mail|PHEW} or (b) {@item leather armor|PHEW|leather}, {@item longbow|PHEW}, and {@item arrows (20)|PHEW|20 arrows}",
 					"(a) a {@filter martial weapon|items|source=phb|category=basic|type=martial weapon} and a {@item shield|PHEW} or (b) two {@filter martial weapons|items|source=phb|category=basic|type=martial weapon}",
-					"(a) a {@item light crossbow|PHEW} and {@item crossbow bolts (20)|phb|20 bolts} or (b) two {@item handaxe|PHEW|handaxes}",
+					"(a) a {@item light crossbow|PHEW} and {@item crossbow bolts (20)|PHEW|20 bolts} or (b) two {@item handaxe|PHEW|handaxes}",
 					"(a) a {@item dungeoneer's pack|PHEW} or (b) an {@item explorer's pack|PHEW}"
 				],
 				"goldAlternative": "{@dice 5d4×10|5d4 × 10|Starting Gold}"
@@ -11582,7 +11582,12 @@
 			},
 			"multiclassing": {
 				"requirements": {
-					"dex": 13,
+					"or": [
+						{
+							"str": 13,
+							"dex": 13
+						}
+					],
 					"wis": 13
 				},
 				"proficienciesGained": {
@@ -13233,7 +13238,12 @@
 			},
 			"multiclassing": {
 				"requirements": {
-					"str": 13,
+					"or": [
+						{
+							"str": 13,
+							"dex": 13
+						}
+					],
 					"cha": 13
 				},
 				"proficienciesGained": {
@@ -15356,13 +15366,18 @@
 					"(a) {@item scale mail|PHEW} or (b) {@item leather armor|PHEW}",
 					"(a) two {@item shortsword|PHEW|shortswords} or (b) two {@filter simple melee weapons|items|source=phb|category=basic|type=simple weapon;melee weapon=sand}",
 					"(a) a {@item dungeoneer's pack|PHEW} or (b) an {@item explorer's pack|PHEW}",
-					"A {@item longbow|PHEW} and a {@item quiver|PHEW} of {@item arrows (20)|phb|20 arrows}"
+					"A {@item longbow|PHEW} and a {@item quiver|PHEW} of {@item arrows (20)|PHEW|20 arrows}"
 				],
 				"goldAlternative": "{@dice 5d4×10|5d4 × 10|Starting Gold}"
 			},
 			"multiclassing": {
 				"requirements": {
-					"dex": 13,
+					"or": [
+						{
+							"str": 13,
+							"dex": 13
+						}
+					],
 					"wis": 13
 				},
 				"proficienciesGained": {
@@ -15409,7 +15424,7 @@
 					{
 						"name": "Opt: Favored Foe",
 						"entries": [
-							"You can call on your bond with nature to mark a creature as your favored enemy for a time: you know the {@spell hunter’s mark} spell, and Wisdom is your spellcasting ability for it. You can use it a certain number of times without expending a spell slot and without requiring concentration\u2014a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest.",
+							"You can call on your bond with nature to mark a creature as your favored enemy for a time: you know the {@spell hunter's mark|PHEW} spell, and Wisdom is your spellcasting ability for it. You can use it a certain number of times without expending a spell slot and without requiring concentration\u2014a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest.",
 							"When you gain the Spellcasting feature at 2nd level, hunter’s mark doesn’t count against the number of ranger spells you know."
 						]
 					},
@@ -16992,7 +17007,7 @@
 				"additionalFromBackground": true,
 				"default": [
 					"(a) a {@item rapier|PHEW} or (b) a {@item shortsword|PHEW}",
-					"(a) a {@item shortbow|PHEW} and {@item quiver|PHEW} of {@item arrows (20)|phb|20 arrows} or (b) a {@item shortsword|PHEW}",
+					"(a) a {@item shortbow|PHEW} and {@item quiver|PHEW} of {@item arrows (20)|PHEW|20 arrows} or (b) a {@item shortsword|PHEW}",
 					"(a) a {@item burglar's pack|PHEW}, (b) a {@item dungeoneer's pack|PHEW}, or (c) an {@item explorer's pack|PHEW}",
 					"{@item Leather armor|PHEW}, two {@item dagger|PHEW|daggers}, and {@item thieves' tools|PHEW}"
 				],
@@ -18776,7 +18791,7 @@
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"(a) a {@item light crossbow|PHEW} and {@item crossbow bolts (20)|phb|20 bolts} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
+					"(a) a {@item light crossbow|PHEW} and {@item crossbow bolts (20)|PHEW|20 bolts} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
 					"(a) a {@item component pouch|PHEW} or (b) an {@item arcane focus|PHEW}",
 					"(a) a {@item dungeoneer's pack|PHEW} or (b) an {@item explorer's pack|PHEW}",
 					"Two {@item dagger|PHEW|daggers}"
@@ -20452,7 +20467,7 @@
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"(a) a {@item light crossbow|PHEW} and {@item crossbow bolts (20)|phb|20 bolts} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
+					"(a) a {@item light crossbow|PHEW} and {@item crossbow bolts (20)|PHEW|20 bolts} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
 					"(a) a {@item component pouch|PHEW} or (b) an {@item arcane focus|PHEW}",
 					"(a) a {@item scholar's pack|PHEW} or (b) a {@item dungeoneer's pack|PHEW}",
 					"{@item Leather armor|PHEW}, any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}, and two {@item dagger|PHEW|daggers}"
@@ -20568,7 +20583,7 @@
 						"entries": [
 							"In your study of occult lore, you have obtained fragments of forbidden power that imbue you with an abiding magical abilities called invocations.",
 							"An invocation is a spell, chosen from the table below, which you can cast without expending spell slots or material components. These spells are cast at their lowest level, and end immediately if they are cast again. If a spell targets one or more creatures, its range becomes self.",
-							"At 2nd level, you gain two minor invocations of your choice. When you gain certain warlock levels, you gain additional invocations of your choice, as shown in the Warlock table.",
+							"At 2nd level, you gain two simplex invocations of your choice. When you gain certain warlock levels, you gain additional invocations of your choice, as shown in the Warlock table.",
 							"If you wish, your invocation can provide a spell associated with a lesser kind of invocation (e.g. a Complex Invocation could provide you with disguise self). When you gain a level in this class, you can choose one of the invocations you know and replace it with another of the same level.",
 							{
 								"type": "table",
