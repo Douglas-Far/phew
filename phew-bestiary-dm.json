@@ -525,6 +525,131 @@
 			"miscTags": [
 				"MW"
 			]
+		},
+		{
+			"name": "Brandaev (exalted)",
+			"size": "L",
+			"type": {
+				"type": "elemental",
+				"tags": [
+					"elemental"
+				]
+			},
+			"source": "PHEW",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac":18,
+					"from":["natural armor"]
+				}
+			],
+			"hp": {
+				"special": "Brandaev’s Constitution modifier + 1d10 per hit dice"
+			},
+			"speed": {
+				"walk": 60
+			},
+			"str": 10,
+			"dex": 20,
+			"con": 12,
+			"int": 15,
+			"wis": 9,
+			"cha": 18,
+			"save": {
+				"dex": "+7",
+				"int": "+4",
+				"cha": "+6"
+			},
+			"skill": {
+				"acrobatics": "+7",
+				"deception": "+6",
+				"stealth": "+7"
+			},
+			"immune":["fire"],
+			"vulnerable":["cold"],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 9,
+			"languages": [
+				"Ignan"
+			],
+			"trait": [
+				{
+					"name": "Borrowed Strength",
+					"entries": [
+						"Brandaev draws strength from the creature that attuned to the coin, and grows in strength alongside them. When the coin is attuned to a new master, or when her master's proficiency bonus changes, Brandaev's attributes and abilities change with her master's by changing her proficiency bonus of +2 to the master's proficiency bonus. This affects her proficient saves and skills, her spell attack and save DC, her attack bonus and the DC of her Flaming Breath."
+					]
+				},
+				{
+					"name": "Ice Cold Vengeance",
+					"entries": [
+						"When Brandaev takes cold damage, her Flaming Breath automatically recharges."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"Brandaev's weapon attacks are magical."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"Brandaev has advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Brandaev makes a bite attack and three claw attacks."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}10 ({@damage 1d8 + 8}) piercing damage plus {@damage 1d10} fire damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d6 + 8}) slashing damage."
+					]
+				}
+			],
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"Brandaev's innate spellcasting ability is Charisma (spell save {@dc 16}). Brandaev can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell minor illusion|phew}",
+						"{@spell disguise self|phew}",
+						"{@spell invisibility|phew} (self only)"
+					],
+					"daily": {
+						"1e": [
+							"{@spell major image|phew}",
+							"{@spell mislead|phew}"
+						]
+					},
+					"ability": "cha"
+				}
+			],
+			"traitTags":["Magic Resistance"],
+			"actionTags":["Multiattack"],
+			"languageTags":["I"],
+			"senseTags":["D"],
+			"spellcastingTags":["C"],
+			"damageTags":["P","S","F"],
+			"miscTags":["MW"]
 		}
 	]
 }
