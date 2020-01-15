@@ -581,7 +581,7 @@
 				{
 					"name": "Borrowed Strength",
 					"entries": [
-						"Brandaev draws strength from the creature that attuned to the coin, and grows in strength alongside them. When the coin is attuned to a new master, or when her master's proficiency bonus changes, Brandaev's attributes and abilities change with her master's by changing her proficiency bonus of +2 to the master's proficiency bonus. This affects her proficient saves and skills, her spell attack and save DC, her attack bonus and the DC of her Flaming Breath."
+						"Brandaev draws strength from the creature that attuned to the coin, and grows in strength alongside them. When the coin is attuned to a new master, or when her master's proficiency bonus changes, Brandaev's attributes and abilities change with her master's by changing her proficiency bonus of +2 to the master's proficiency bonus. This affects her proficient saves and skills, her spell attack and save DC, her attack bonus and the DC of her Flaming Breath. Lastly, Brandaev's Flaming Breath deals 4d10 + prof x 1d10 fire damage."
 					]
 				},
 				{
@@ -613,13 +613,19 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}10 ({@damage 1d8 + 8}) piercing damage plus ({@damage 1d10}) fire damage."
+						"{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}12 ({@damage 1d8 + 8}) piercing damage plus 5 ({@damage 1d10}) fire damage."
 					]
 				},
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d6 + 8}) slashing damage."
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}11 ({@damage 1d6 + 8}) slashing damage."
+					]
+				},
+				{
+					"name": "Flaming Breath {@recharge 6}",
+					"entries": [
+						"Brandaev exhales scorching wind in a 60-foot cone. Each creature in that area must make a {@dc 16} Constitution saving throw, taking 33 ({@damage 6d10}) fire damage on a failed save, or half as much damage on a successful one."
 					]
 				}
 			],
