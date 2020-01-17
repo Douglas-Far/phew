@@ -63,6 +63,50 @@
 			]
 		},
 		{
+			"name": "Axe Warrior",
+			"source": "PHEW",
+			"entries": [
+				"You master the {@item battleaxe|PHEW}, {@item flail|PHEW}, {@item greataxe|PHEW}, {@item handaxe|PHEW}, {@item sickle|PHEW}, and {@item war pick|PHEW}. You gain the following benefits when using any of them:",
+				{
+					"type": "list",
+					"items": [
+						"Once per turn, when you take the disarm action and succeed in the attempt with one of these weapons, you deal damage equal to the minimum possible die roll. While a properly donned shield can't be disarmed, if you succeed in an attempt to do so with one of these weapons all attacks against the target gain a +2 modifier until the beginning of their turn.",
+						"Critical hits you deal with these weapons double the static bonus to damage on top of the usual dice damage.",
+						"When a creature that would provoke an opportunity attack from you if it were to leave your reach moves within your reach it must spend 2 feet of movement for every 1 foot they wish to move."
+					]
+				}
+			]
+		},
+		{
+			"name": "Blade Master",
+			"source": "PHEW",
+			"entries": [
+				"You master the {@item dagger|PHEW}, {@item greatsword|PHEW}, {@item katana|PHEW}, {@item longsword|PHEW}, {@item rapier|PHEW}, {@item scimitar|PHEW}, and {@item shortsword|PHEW}. You gain the following benefits when using any of them:",
+				{
+					"type": "list",
+					"items": [
+						"Whenever you deal damage to a lightly armored creature the damage you deal increases significantly. You deal additional damage equal to your proficiency bonus if the target of your attack is wearing light or no armor and has no natural armor, or if the target's natural armor is 12 or lower (ignoring the Dexterity bonus to AC).",
+						"While you're wielding this weapon, you may use your reaction as a response to being hit by an attack to deflect it. If you do, reduce the slashing, piercing and bludgeoning damage you take by a number of your weapon's damage dice equal to your proficiency bonus. If this reduces the damage you take from that attack to 0 and the attacker is within 5 feet from you, you may make a melee attack with the same weapon as part of this reaction."
+					]
+				}
+			]
+		},
+		{
+			"name": "Blunt Warrior",
+			"source": "PHEW",
+			"entries": [
+				"You master the {@item club|PHEW}, {@item greatclub|PHEW}, {@item light hammer|PHEW}, {@item mace|PHEW}, {@item maul|PHEW}, {@item morningstar|PHEW}, {@item quarterstaff|PHEW} and {@item warhammer|PHEW}. You gain the following benefits when using any of them:",
+				{
+					"type": "list",
+					"items": [
+						"Once per turn, when you take the shove action and succeed in knocking a creature prone, you can automatically deal damage to it equal to the minimum possible die roll.",
+						"Whenever you have advantage on a melee attack roll you make with the weapon and hit, you can knock the target {@condition prone|PHEW} if the lower of the two d20 rolls would also hit the target.",
+						"Whenever you have disadvantage on a melee attack roll you make with the weapon, the target takes bludgeoning damage equal to the minimum possible die roll if the attack misses but the higher of the two d20 rolls would have hit."
+					]
+				}
+			]
+		},
+		{
 			"name": "Charger",
 			"source": "PHEW",
 			"entries": [
@@ -199,7 +243,7 @@
 					"type": "list",
 					"items": [
 						"On your turn, when you score a critical hit with a melee weapon or reduce a creature to 0 hit points with one, you can make one melee weapon attack as a bonus action.",
-						"Before you make a melee attack with a heavy weapon that you are proficient with, you can choose to take a -4 penalty to the attack roll. If the attack hits, you add twice your proficiency bonus to the attack's damage."
+						"Before you make a melee attack with a heavy weapon that you are proficient with, you can choose to take a penalty to the attack roll equal to your proficiency bonus. If the attack hits, you add twice your proficiency bonus to the attack's damage."
 					]
 				}
 			]
@@ -448,8 +492,8 @@
 				{
 					"type": "list",
 					"items": [
-						"When you take the Attack action and attack with only a {@item glaive|PHEW}, {@item halberd|PHEW}, {@item quarterstaff|PHEW}, or {@item spear|PHEW}, you can use a bonus action to make a melee attack with the opposite end of the weapon; this attack uses the same ability modifier as the primary attack. The weapon's damage die for this attack is a d4, and the attack deals bludgeoning damage.",
-						"While you are wielding a {@item glaive|PHEW}, {@item halberd|PHEW}, {@item pike|PHEW}, {@item quarterstaff|PHEW}, or {@item spear|PHEW}, other creatures provoke an opportunity attack from you when they enter your reach."
+						"When you take the Attack action and attack with only a {@item glaive|PHEW}, {@item halberd|PHEW}, {@item javelin|PHEW}, {@item quarterstaff|PHEW}, {@item spear|PHEW}, or {@item trident|PHEW}, you can use a bonus action to make a melee attack with the opposite end of the weapon; this attack uses the same ability modifier as the primary attack. The weapon's damage die for this attack is a d4, and the attack deals bludgeoning damage.",
+						"While you are wielding a {@item glaive|PHEW}, {@item halberd|PHEW}, {@item javelin|PHEW}, {@item lance|PHEW}, {@item pike|PHEW}, {@item quarterstaff|PHEW}, {@item spear|PHEW}, or {@item trident|PHEW} other creatures provoke an opportunity attack from you when they enter your reach."
 					]
 				}
 			]
@@ -553,22 +597,7 @@
 					"items": [
 						"Attacking at long range doesn't impose disadvantage on your ranged weapon attack rolls.",
 						"Your ranged weapon attacks ignore half cover and three-quarters cover.",
-						"Before you make an attack with a ranged weapon that you are proficient with, you can choose to take a -4 penalty to the attack roll. If the attack hits, you add twice your proficiency modifier to the attack's damage."
-					]
-				}
-			]
-		},
-		{
-			"name": "Shield Master",
-			"source": "PHEW",
-			"entries": [
-				"You use shields not just for protection but also for offense. You gain the following benefits while you are wielding a {@item shield|PHEW}:",
-				{
-					"type": "list",
-					"items": [
-						"If you take the Attack action on your turn, you can use a bonus action to try to shove a creature within 5 feet of you with your shield.",
-						"If you aren't {@condition incapacitated|PHEW}, you can add your shield's AC bonus to any Dexterity saving throw you make against a spell or other harmful effect that targets only you.",
-						"If you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you can use your reaction to take no damage if you succeed on the saving throw, interposing your shield between yourself and the source of the effect."
+						"Before you make an attack with a two-handed ranged weapon that you are proficient with, you can choose to take a penalty to the attack roll equal to your proficiency bonus. If the attack hits, you add twice your proficiency modifier to the attack's damage."
 					]
 				}
 			]
@@ -615,6 +644,22 @@
 						"When you cast a spell that requires you to make an attack roll, the spell's range is doubled.",
 						"Your ranged spell attacks ignore half cover and three-quarters cover.",
 						"You learn one cantrip that requires an attack roll. Choose the cantrip from the {@filter bard|spells|level=0|class=bard|spell attack=m;r;o}, {@filter cleric|spells|level=0|class=cleric|spell attack=m;r;o}, {@filter druid|spells|level=0|class=druid|spell attack=m;r;o}, {@filter sorcerer|spells|level=0|class=sorcerer|spell attack=m;r;o}, {@filter warlock|spells|level=0|class=warlock|spell attack=m;r;o}, or {@filter wizard|spells|level=0|class=wizard|spell attack=m;r;o} spell list. Your spellcasting ability for this cantrip depends on the spell list you chose from: Charisma for bard, sorcerer, or warlock; Wisdom for cleric or druid; or Intelligence for wizard."
+					]
+				}
+			]
+		},
+		{
+			"name": "Sword & Board Master",
+			"source": "PHEW",
+			"entries": [
+				"You are expert at fighting with shields. You gain the following benefits while wielding a weapon on one hand and a shield on the other:",
+				{
+					"type": "list",
+					"items": [
+						"Whenever you take the Attack action with a versatile weapon, you can make one of your attacks while two-handing the weapon, assuming your shield hand is otherwise free.",
+						"If you take the Attack action on your turn, you can use a bonus action to try to shove a creature within 5 feet of you with your shield.",
+						"If you aren't {@condition incapacitated|PHEW}, you can add your shield's AC bonus to any Dexterity saving throw you make against a spell or other harmful effect that targets only you.",
+						"If you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you can use your reaction to take no damage if you succeed on the saving throw, interposing your shield between yourself and the source of the effect."
 					]
 				}
 			]
