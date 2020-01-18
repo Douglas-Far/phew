@@ -60,7 +60,8 @@
 			"miscTags": [
 				"SCL",
 				"SGT"
-			]
+			],
+			"data":{"Save":"Dexterity","Damage":"1d6","Damage Type":"Acid","Damage Progression":"Cantrip Dice"},"shapedData":{"primaryDamageCondition":"save"}
 		},
 		{
 			"name": "Aid",
@@ -3068,7 +3069,7 @@
 			},
 			"source": "PHEW",
 			"entries": [
-				"You magically inject a creature with corrosive poison that congeals their blood. The creature must succeed on a Constitution saving throw or become {@condition poisoned|PHEW} for the duration. An affected creature can repeat the saving throw at the end of each of its turns to end the spell. If the target dies while it is poisoned by this effect, it explodes, and each creature in a 20-foot radius from the target must make a Constitution saving throw. A creature takes 6d8 necrotic damage on a failed save, or half as much damage on a successful one. A single creature can only be poisoned by one instance of this spell or {@spell Virulent Blood Bomb|PHEW} at the same time, an either spell overrides the other when cast on an already affected creature."
+				"You magically inject a creature with corrosive poison that congeals their blood. The creature must succeed on a Constitution saving throw or become {@condition poisoned|PHEW} for the duration. An affected creature can repeat the saving throw at the end of each of its turns to end the spell. If the target dies while it is poisoned by this effect, it explodes, and each creature in a 20-foot radius from the target must make a Constitution saving throw. A creature takes {@dice 6d8} necrotic damage on a failed save, or half as much damage on a successful one. A single creature can only be poisoned by one instance of this spell or {@spell Virulent Blood Bomb|PHEW} at the same time, an either spell overrides the other when cast on an already affected creature."
 			],
 			"entriesHigherLevel": [
 				{
@@ -6783,7 +6784,8 @@
 			],
 			"miscTags": [
 				"HL"
-			]
+			],
+			"data":{"Healing":"1d8","Add Casting Modifier":"Yes","Higher Spell Slot Die":"d8","Higher Spell Slot Dice":"1"}
 		},
 		{
 			"name": "Dancing Lights",
@@ -21262,12 +21264,12 @@
 			"source": "PHEW",
 			"entries": [
 				"You touch a dead humanoid or a piece of a dead humanoid. Provided that the creature has been dead no longer than 10 days, the spell forms a new adult body for it and then calls the soul to enter that body. If the target's soul isn't free or willing to do so, the spell fails.",
-				"The magic fashions a new body for the creature to inhabit, which likely causes the creature's race to change. The DM rolls a {@dice d100} and consults the following table to determine what form the creature takes when restored to life, or the DM chooses a form.",
+				"The magic fashions a new body for the creature to inhabit, which likely causes the creature's race to change. The DM rolls a {@dice d12} and consults the following table to determine what form the creature takes when restored to life, or the DM chooses a form.",
 				{
 					"type": "table",
 					"caption": "Reincarnate Races",
 					"colLabels": [
-						"{@dice d100}",
+						"{@dice d12}",
 						"Race"
 					],
 					"colStyles": [
@@ -21279,144 +21281,109 @@
 							{
 								"type": "cell",
 								"roll": {
-									"min": 1,
-									"max": 4,
-									"pad": true
+									"exact": 1
 								}
 							},
-							"{@race Dragonborn}"
+							"{@race Dwarf (Dragon)|phew|Dwarf, dragon}"
 						],
 						[
 							{
 								"type": "cell",
 								"roll": {
-									"min": 5,
-									"max": 13,
-									"pad": true
+									"exact": 2
 								}
 							},
-							"{@race dwarf (hill)||Dwarf, hill}"
+							"{@race Dwarf (Snake)|phew|Dwarf, snake}"
 						],
 						[
 							{
 								"type": "cell",
 								"roll": {
-									"min": 14,
-									"max": 21
+									"exact": 3
 								}
 							},
-							"{@race dwarf (mountain)||Dwarf, mountain}"
+							"{@race Dwarf (Stone)|phew|Dwarf, stone}"
 						],
 						[
 							{
 								"type": "cell",
 								"roll": {
-									"min": 22,
-									"max": 25
+									"exact": 4
 								}
 							},
-							"{@race elf (drow)||Elf, dark}"
+							"{@race Elf (City)|phew|Elf, city}"
 						],
 						[
 							{
 								"type": "cell",
 								"roll": {
-									"min": 26,
-									"max": 34
+									"exact": 5
 								}
 							},
-							"{@race elf (high)||Elf, high}"
+							"{@race Elf (Fauna)|phew|Elf, fauna}"
 						],
 						[
 							{
 								"type": "cell",
 								"roll": {
-									"min": 35,
-									"max": 42
+									"exact": 6
 								}
 							},
-							"{@race elf (wood)||Elf, wood}"
+							"{@race Elf (Flora)|phew|Elf, flora}"
 						],
 						[
 							{
 								"type": "cell",
 								"roll": {
-									"min": 43,
-									"max": 46
+									"exact": 7
 								}
 							},
-							"{@race gnome (forest)||Gnome, forest}"
+							"{@race Goroth (Artist)|phew|Goroth, artist}"
 						],
 						[
 							{
 								"type": "cell",
 								"roll": {
-									"min": 47,
-									"max": 52
+									"exact": 8
 								}
 							},
-							"{@race gnome (rock)||Gnome, rock}"
+							"{@race Goroth (Erudite)|phew|Goroth, erudite}"
 						],
 						[
 							{
 								"type": "cell",
 								"roll": {
-									"min": 53,
-									"max": 56
+									"exact": 9
 								}
 							},
-							"{@race Half-elf}"
+							"{@race Goroth (Warrior)|phew|Goroth, warrior}"
 						],
 						[
 							{
 								"type": "cell",
 								"roll": {
-									"min": 57,
-									"max": 60
+									"exact": 10
 								}
 							},
-							"{@race Half-orc}"
+							"{@race Hom (Generalist)|phew|Hom, generalist}"
 						],
 						[
 							{
 								"type": "cell",
 								"roll": {
-									"min": 61,
-									"max": 68
+									"exact": 11
 								}
 							},
-							"{@race halfling (lightfoot)||Halfling, lightfoot}"
+							"{@race Hom (Sharp)|phew|Hom, sharp}"
 						],
 						[
 							{
 								"type": "cell",
 								"roll": {
-									"min": 69,
-									"max": 76
+									"exact": 12
 								}
 							},
-							"{@race halfling (stout)||Halfling, stout}"
-						],
-						[
-							{
-								"type": "cell",
-								"roll": {
-									"min": 77,
-									"max": 96
-								}
-							},
-							"{@race Human}"
-						],
-						[
-							{
-								"type": "cell",
-								"roll": {
-									"min": 97,
-									"max": 0,
-									"pad": true
-								}
-							},
-							"{@race Tiefling}"
+							"{@race Hom (Tough)|phew|Hom, tough}"
 						]
 					]
 				},
@@ -34350,7 +34317,7 @@
 			},
 			"source": "PHEW",
 			"entries": [
-				"You magically inject a creature with corrosive poison that congeals their blood. The creature must succeed on a Constitution saving throw or become {@condition poisoned|PHEW} for the duration. An affected creature can repeat the saving throw at the end of each of its turns to end the effect of the spell on itself. If a creature dies while it is poisoned by this effect, it explodes, and each creature in a 20-foot radius from the target must make a Constitution saving throw. A creature takes 12d8 necrotic damage and becomes poisoned as if targeted by this spell on a failed save, or half as much damage on a successful one. A single creature can only be poisoned by one instance of this spell or {@spell Blood Bomb|PHEW} at the same time, an either spell overrides the other when cast on an already affected creature."
+				"You magically inject a creature with corrosive poison that congeals their blood. The creature must succeed on a Constitution saving throw or become {@condition poisoned|PHEW} for the duration. An affected creature can repeat the saving throw at the end of each of its turns to end the effect of the spell on itself. If a creature dies while it is poisoned by this effect, it explodes, and each creature in a 20-foot radius from the target must make a Constitution saving throw. A creature takes {@dice 12d8} necrotic damage and becomes poisoned as if targeted by this spell on a failed save, or half as much damage on a successful one. A single creature can only be poisoned by one instance of this spell or {@spell Blood Bomb|PHEW} at the same time, an either spell overrides the other when cast on an already affected creature."
 			],
 			"damageInflict": [
 				"necrotic"
