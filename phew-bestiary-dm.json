@@ -581,7 +581,7 @@
 				{
 					"name": "Borrowed Strength",
 					"entries": [
-						"Brandaev draws strength from the creature that attuned to the coin, and grows in strength alongside them. When the coin is attuned to a new master, or when her master's proficiency bonus changes, Brandaev's attributes and abilities change with her master's by changing her proficiency bonus of +2 to the master's proficiency bonus. This affects her proficient saves and skills, her spell attack and save DC, her attack bonus and the DC of her Flaming Breath. Lastly, Brandaev's Flaming Breath deals 4d10 + prof x 1d10 fire damage."
+						"Brandaev draws strength from the creature that attuned to the coin, and grows in strength alongside them. When the coin is attuned to a new master, or when her master's proficiency bonus changes, Brandaev's attributes and abilities change with her master's by changing her proficiency bonus of +2 to the master's proficiency bonus. This affects her proficient saves and skills, her spell attack and save DC, her attack bonus and the DC of her Flaming Breath. Lastly, Brandaev's Flaming Breath deals prof x 1d10 fire damage."
 					]
 				},
 				{
@@ -710,7 +710,7 @@
 				{
 					"name": "Borrowed Strength",
 					"entries": [
-						"Brandaev draws strength from the creature that attuned to the coin, and grows in strength alongside them. When the coin is attuned to a new master, or when her master's proficiency bonus changes, Brandaev's attributes and abilities change with her master's by changing her proficiency bonus of +2 to the master's proficiency bonus. This affects her proficient saves and skills, her spell attack and save DC, her attack bonus and the DC of her Flaming Breath. Lastly, Brandaev's Flaming Breath deals 4d10 + prof x 1d10 fire damage."
+						"Brandaev draws strength from the creature that attuned to the coin, and grows in strength alongside them. When the coin is attuned to a new master, or when her master's proficiency bonus changes, Brandaev's attributes and abilities change with her master's by changing her proficiency bonus of +2 to the master's proficiency bonus. This affects her proficient saves and skills, her spell attack and save DC, her attack bonus and the DC of her Flaming Breath. Lastly, Brandaev's Flaming Breath deals 2d10 + prof x 1d10 fire damage."
 					]
 				},
 				{
