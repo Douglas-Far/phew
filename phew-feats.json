@@ -70,7 +70,7 @@
 				{
 					"type": "list",
 					"items": [
-						"Once per turn, when you take the disarm action and succeed in the attempt with one of these weapons, you deal damage equal to the minimum possible die roll. While a properly donned shield can't be disarmed, if you succeed in an attempt to do so with one of these weapons all attacks against the target gain a +2 modifier until the beginning of their turn.",
+						"Once during your turn, when you take the disarm action and succeed in the attempt with one of these weapons, you deal damage equal to the minimum possible die roll. While a properly donned shield can't be disarmed, if you succeed in an attempt to do so with one of these weapons all attacks against the target gain a +2 modifier until the beginning of their turn.",
 						"Critical hits you deal with these weapons double the static bonus to damage on top of the usual dice damage.",
 						"When a creature that would provoke an opportunity attack from you if it were to leave your reach moves within your reach it must spend 2 feet of movement for every 1 foot they wish to move."
 					]
@@ -85,7 +85,7 @@
 				{
 					"type": "list",
 					"items": [
-						"Whenever you deal damage to a lightly armored creature the damage you deal increases significantly. You deal additional damage equal to your proficiency bonus if the target of your attack is wearing light or no armor and has no natural armor, or if the target's natural armor is 12 or lower (ignoring the Dexterity bonus to AC).",
+						"Whenever you deal damage to a lightly armored creature during your turn the damage you deal increases significantly. You deal additional damage equal to your proficiency bonus if the target of your attack is wearing light or no armor and has no natural armor, or if the target's natural armor is 12 or lower (ignoring the Dexterity bonus to AC). You may only deal additional damage to each creature once in this way during each turn.",
 						"While you're wielding this weapon, you may use your reaction as a response to being hit by an attack to deflect it. If you do, reduce the slashing, piercing and bludgeoning damage you take by a number of your weapon's damage dice equal to your proficiency bonus. If this reduces the damage you take from that attack to 0 and the attacker is within 5 feet from you, you may make a melee attack with the same weapon as part of this reaction."
 					]
 				}
@@ -99,9 +99,9 @@
 				{
 					"type": "list",
 					"items": [
-						"Once per turn, when you take the shove action and succeed in knocking a creature prone, you can automatically deal damage to it equal to the minimum possible die roll.",
-						"Whenever you have advantage on a melee attack roll you make with the weapon and hit, you can knock the target {@condition prone|PHEW} if the lower of the two d20 rolls would also hit the target.",
-						"Whenever you have disadvantage on a melee attack roll you make with the weapon, the target takes bludgeoning damage equal to the minimum possible die roll if the attack misses but the higher of the two d20 rolls would have hit."
+						"Once during your turn, when you take the shove action and succeed in knocking a creature prone, you can automatically deal damage to it equal to the minimum possible die roll.",
+						"Whenever you have advantage on a melee attack roll you make with the weapon on your turn and hit, you can knock the target {@condition prone|PHEW} if the lower of the two d20 rolls would also hit the target.",
+						"Whenever you have disadvantage on a melee attack roll you make with the weapon on your turn, the target takes bludgeoning damage equal to the minimum possible die roll if the attack misses but the higher of the two d20 rolls would have hit."
 					]
 				}
 			]
@@ -656,7 +656,7 @@
 				{
 					"type": "list",
 					"items": [
-						"Whenever you take the Attack action with a versatile weapon, you can make one of your attacks while two-handing the weapon, assuming your shield hand is otherwise free.",
+						"Whenever you take the Attack action with a versatile weapon on your turn, you can make one of your attacks while two-handing the weapon, assuming your shield hand is otherwise free.",
 						"If you take the Attack action on your turn, you can use a bonus action to try to shove a creature within 5 feet of you with your shield.",
 						"If you aren't {@condition incapacitated|PHEW}, you can add your shield's AC bonus to any Dexterity saving throw you make against a spell or other harmful effect that targets only you.",
 						"If you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you can use your reaction to take no damage if you succeed on the saving throw, interposing your shield between yourself and the source of the effect."

@@ -142,9 +142,9 @@
 					"name": "Stone",
 					"entries": [
 						{
-							"name": "Ability Score Increase",
+							"name": "Bred for War",
 							"entries": [
-								"Your Strength, Intelligence or Charisma score increases by 1."
+								"You're proficient with all types of armor, and you ignore the heavy property of any weapon you use"
 							],
 							"type": "entries"
 						},

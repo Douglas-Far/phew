@@ -17,7 +17,7 @@
 				13
 			],
 			"hp": {
-				"special": "equal the beast’s Constitution modifier + your Wisdom modifier + five times your ranger level (the beast has a number of Hit Dice [d6s] equal to your ranger level)"
+				"special": "equal the beast’s Constitution modifier + your Wisdom modifier + four times your ranger level (the beast has a number of Hit Dice [d6s] equal to your ranger level)"
 			},
 			"speed": {
 				"walk": 10,
@@ -98,7 +98,7 @@
 				12
 			],
 			"hp": {
-				"special": "equal the beast’s Constitution modifier + your Wisdom modifier + five times your ranger level (the beast has a number of Hit Dice [d6s] equal to your ranger level)"
+				"special": "equal the beast’s Constitution modifier + your Wisdom modifier + five times your ranger level (the beast has a number of Hit Dice [d8s] equal to your ranger level)"
 			},
 			"speed": {
 				"walk": 40
