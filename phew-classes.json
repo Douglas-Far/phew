@@ -1196,7 +1196,7 @@
 								"type": "list",
 								"items": [
 									"You have advantage on Strength checks and Strength saving throws.",
-									"When you make a melee weapon attack using Strength, you gain a +2 bonus to the damage roll. This bonus increases as you level.",
+									"When you make a weapon attack using Strength, you gain a +2 bonus to the damage roll. This bonus increases as you level.",
 									"You have resistance to bludgeoning, piercing, and slashing damage."
 								]
 							},
@@ -1301,7 +1301,7 @@
 					{
 						"name": "Brutal Critical (1 die)",
 						"entries": [
-							"Beginning at 9th level, you can roll one additional weapon damage die when determining the extra damage for a critical hit with a melee attack.",
+							"Beginning at 9th level, when you make a weapon attack using Strength you score a critical hit on a roll of 19 or 20. In addition, you can roll one additional weapon damage die when determining the extra damage for a critical hit with a melee attack.",
 							"This increases to two additional dice at 13th level and three additional dice at 17th level."
 						]
 					},
@@ -1749,22 +1749,22 @@
 							{
 								"name": "Path of the Battlerager",
 								"entries": [
-									"Known as Kuldjargh (literally \"axe idiot\") in Dwarvish, battleragers are dwarf followers of the gods of war and take the Path of the Battlerager. They specialize in wearing bulky, {@item spiked armor|PHEW} and throwing themselves into combat, striking with their body itself and giving themselves over to the fury of battle.",
+									"Known as Kuldjargh (literally \"axe idiot\") in Dwarvish, battleragers are dwarf followers of the gods of war and take the Path of the Battlerager. They specialize in wearing bulky, spiked armor and throwing themselves into combat, striking with their body itself and giving themselves over to the fury of battle.",
 									{
 										"type": "entries",
 										"name": "Restriction - Dwarves Only",
 										"entries": [
 											"Only dwarves can follow the Path of the Battlerager. The battlerager fills a particular niche in dwarven society and culture.",
-											"Your DM can lift this restriction to better suit the campaign. The restriction exists for the Forgotten Realms. It might not apply to your DM's setting or your DM's version of the Realms."
+											"Othe races may become battleragers if they are part of dwarven society or worship dwarven gods."
 										]
 									},
 									{
 										"type": "entries",
 										"name": "Battlerager Armor",
 										"entries": [
-											"When you choose this path at 3rd level, you gain the ability to use {@item spiked armor|PHEW} as a weapon.",
-											"While you are wearing {@item spiked armor|PHEW} and are raging, you can use a bonus action to make one melee weapon attack with your armor spikes at a target within 5 feet of you. If the attack hits, the spikes deal {@dice 1d4} piercing damage. You use your Strength modifier for the attack and damage rolls.",
-											"Additionally, when you use the {@action Attack|PHEW} action to grapple a creature, the target takes 3 piercing damage if your grapple check succeeds."
+											"When you choose this path at 3rd level, you gain the ability to construct spiked armor and use it as a weapon. During a long rest, you can create spiked armor using a set of light or medium armor and 10 gp worth of iron or steel. The armor retains all its original properties, except it allows you to use any features that reference spiked armor.",
+											"While wearing spiked armor, you can use your armor spikes as a melee weapon you're proficient in that deals {@dice 1d4} piercing damage. You use your Strength modifier for attack and damage rolls. As a bonus action while you're raging and wearing a spiked armor, you can make one weapon attack with your armor spikes.",
+											"Additionally, when you successfully grapple a creature and are wearing spiked armor, the creature takes piercing damage equal to 1d4 + your Strength modifier."
 										]
 									}
 								]
@@ -1775,9 +1775,20 @@
 								"entries": [
 									{
 										"type": "entries",
+										"name": "Fury of the Dwarven Gods",
+										"entries": [
+											"At 6th level, your faith and fury overcome the most resilient of foes. While raging, your armor spike attacks, and damage you deal with your Battlerager features, counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
+										]
+									}
+								]
+							},
+							{
+								"entries": [
+									{
+										"type": "entries",
 										"name": "Reckless Abandon",
 										"entries": [
-											"Beginning at 6th level, when you use Reckless {@action Attack|PHEW} while raging, you also gain temporary hit points equal to your Constitution modifier (minimum of 1). They vanish if any of them are left when your rage ends."
+											"Beginning at 6th level, when you use Reckless Attack while raging, you also gain temporary hit points equal to your Constitution modifier + your Rage damage (minimum of 1). They vanish if any of them are left when your rage ends."
 										]
 									}
 								]
@@ -1790,7 +1801,7 @@
 										"type": "entries",
 										"name": "Battlerager Charge",
 										"entries": [
-											"Beginning at 10th level, you can take the {@action Dash|PHEW} action as a bonus action while you are raging."
+											"Beginning at 10th level, if you take the {@action Dash|PHEW} action you ignore difficult terrain and gain resistance to damage dealt by environmental hazards (such as a pool of acid, an avalanche, or lava) or traps until the end of your turn."
 										]
 									}
 								]
@@ -1803,7 +1814,7 @@
 										"type": "entries",
 										"name": "Spiked Retribution",
 										"entries": [
-											"Starting at 14th level, when a creature within 5 feet of you hits you with a melee attack, the attacker takes 3 piercing damage if you are raging, aren't {@condition incapacitated|PHEW}, and are wearing {@item spiked armor|PHEW}."
+											"Starting at 14th level, when a creature within 5 feet of you hits you with a melee attack, the attacker takes piercing damage equal to your Strength modifier if you are raging, aren't {@condition incapacitated|PHEW}, and are wearing {@item spiked armor|PHEW}."
 										]
 									}
 								]
@@ -1892,7 +1903,7 @@
 										"name": "Storm Aura",
 										"entries": [
 											"Starting at 3rd level, you emanate a stormy, magical aura while you rage. The aura extends 10 feet from you in every direction, but not through total cover.",
-											"Your aura has an effect that activates when you enter your rage, and you can activate the effect again on each of your turns as a bonus action. Choose desert, sea, or tundra. Your aura's effect depends on that chosen environment, as detailed below. You can change your environment choice whenever you gain a level in this class.",
+											"Your aura has an effect that you can activate on each of your turns as a bonus action while you are raging. Choose desert, sea, or tundra. Your aura's effect depends on that chosen environment, as detailed below. You can change your environment choice whenever you gain a level in this class.",
 											"If your aura's effects require a saving throw, the DC equals 8 + your proficiency bonus + your Constitution modifier.",
 											{
 												"type": "options",
@@ -3086,7 +3097,7 @@
 					{
 						"name": "Superior Inspiration",
 						"entries": [
-							"At 20th level, when you roll initiative and have no uses of Bardic Inspiration left, you regain one use."
+							"Starting at 20th level, whenever you roll initiative you gain the ability to use your Bardic Inspiration feature once without spending a use for the next minute. In addition, whenever you grant Bardic Inspiration to a creature it gains 3 dice instead of one. If a creature has 1 or 2 of your Bardic Inspiration dice whenever its turn is about to start, it immediately loses them before its turn."
 						]
 					}
 				]
@@ -3180,9 +3191,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Extra Attack",
+										"name": "Valiant Spellcasting",
 										"entries": [
-											"Starting at 6th level, you can attack twice, instead of once, whenever you take the {@action Attack|PHEW} action on your turn."
+											"At 6th level, you learn the {@spell booming blade|PHEW}, {@spell green-flame blade|PHEW}, {@spell shield|PHEW}, {@spell blur|PHEW} and {@spell haste|PHEW} spells. They're considered bard spells for you and they don't count towards your maximum number of bard spells or cantrips known.",
+											"In addition, whenever you cast {@spell booming blade|PHEW} or {@spell green-flame blade|PHEW} you can either increase their damage dice to {@dice d12}s or increase their range to the range or reach of the weapon used as material component for these spells."
 										]
 									}
 								]
@@ -3195,7 +3207,7 @@
 										"type": "entries",
 										"name": "Battle Magic",
 										"entries": [
-											"At 14th level, you have mastered the art of weaving spellcasting and weapon use into a single harmonious act. When you use your action to cast a bard spell, you can make one weapon attack as a bonus action."
+											"At 14th level, you have mastered the art of weaving spellcasting and weapon use into a single harmonious act. When you use your action to cast a bard spell, you can make one weapon attack as part of the same action."
 										]
 									}
 								]
@@ -5121,7 +5133,7 @@
 										"type": "entries",
 										"name": "Acolyte of Nature",
 										"entries": [
-											"At 1st level, you learn one druid cantrip of your choice. You also gain proficiency in one of the following skills of your choice: {@skill Animal Handling}, {@skill Nature}, or {@skill Survival}."
+											"At 1st level, you learn one druid cantrip of your choice. You also gain proficiency in one of the following skills of your choice: {@skill Animal Handling}, {@skill Nature}, or {@skill Survival}. In addition, whenever you learn a new Cleric cantrip you may choose a Druid cantrip instead."
 										]
 									},
 									{
@@ -5432,7 +5444,7 @@
 										"type": "entries",
 										"name": "Improved Duplicity",
 										"entries": [
-											"At 17th level, you can create up to four duplicates of yourself, instead of one, when you use Invoke Duplicity. As a bonus action on your turn, you can move any number of them up to 30 feet, to a maximum range of 120 feet."
+											"At 17th level, your Invoke Duplicity no longer requires your concentration to maintain."
 										]
 									}
 								]
@@ -5496,7 +5508,7 @@
 										"type": "entries",
 										"name": "War Priest",
 										"entries": [
-											"From 1st level, your god delivers bolts of inspiration to you while you are engaged in battle. When you use the {@action Attack|PHEW} action, you can make one weapon attack as a bonus action. You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest."
+											"From 1st level, your god delivers bolts of inspiration to you while you are engaged in battle. When you use the {@action Attack|PHEW} action, you can make one weapon attack as part of the same action. You can use this feature once per day, but whenever you use a spell slot to cast a Cleric spell you gain an additional use of this ability if you have none left."
 										]
 									}
 								]
@@ -9074,8 +9086,8 @@
 					{
 						"name": "Indomitable",
 						"entries": [
-							"Beginning at 9th level, you can reroll a saving throw that you fail. If you do so, you must use the new roll, and you can't use this feature again until you finish a long rest.",
-							"You can use this feature twice between long rests starting at 13th level and three times between long rests starting at 17th level."
+							"Beginning at 9th level, you can reroll a saving throw that you fail. If you do so, add your proficiency bonus to your new roll. You must use the new roll and cannot change the result with this or any other feature or magical effect, and you can't use this feature again until you finish a long rest.",
+							"You can use this feature twice between long rests starting at 17th level."
 						]
 					}
 				],
@@ -9092,7 +9104,7 @@
 					{
 						"name": "Extra Attack (2)",
 						"entries": [
-							"At 11th level, you can attack three times whenever you take the {@action Attack|PHEW} action on your turn. If you're wielding two weapons, you can attack twice, instead of once, with your off-hand weapon as part of the Attack action."
+							"At 11th level, you can attack three times whenever you take the {@action Attack|PHEW} action on your turn."
 						]
 					}
 				],
@@ -9107,9 +9119,93 @@
 				],
 				[
 					{
-						"name": "Indomitable (two uses)",
+						"name": "Improved Fighting Style",
 						"entries": [
-							"At 13th level, you can use Indomitable twice between long rests."
+							"You gain an additional option from your Fighting Style feature. Alternatively, you can improve an option you already have. If you do so, you gain the following benefits, depending of the option you choose:",
+							{
+								"type": "options",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Archery",
+										"entries": [
+											"You no longer have disadvantage on your ranged weapon attacks if you are {@condition prone|PHEW} or a hostile creature is within 5 feet as long as your target is at least 10 feet away from you."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Defense",
+										"entries": [
+											"While you are wearing armor, you gain an additional +1 bonus to AC, for a total of +2."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Dueling",
+										"entries": [
+											"When you are wielding a melee weapon in one hand and no other weapons and a creature misses an attack against you, you have advantage on your next attack against that creature."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Great Weapon Fighting",
+										"entries": [
+											"When you would reroll a dice because of your Great Weapon Fighting style, you instead change the result to the maximum possible dice roll."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Protection",
+										"entries": [
+											"If you use the dodge action on your turn, any creatures you choose receive those same benefits as long as they are within 5 feet of you."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Two-Weapon Fighting",
+										"entries": [
+											"You make two separate attacks with your offhand weapon as part of your Attack action instead of one when you engage in two-weapon fighting."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Bling Fighting",
+										"entries": [
+											"Being unable to see a creature doesn’t give them advantage on attack rolls against you, provided the creature isn’t hidden from you."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Interception",
+										"entries": [
+											"You may prepare yourself to intercept an enemy attack as a bonus action. If you do, your first use of Interception before the start of your next turn doesn't require you to use your reaction.",
+											"In addition, your Interception now blocks up to 4d10 + your proficiency bonus damage."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Thrown Weapon Fighting",
+										"entries": [
+											"You gain a +1 bonus to the ranged attack roll made using a thrown weapon. You may use the hand you're using to wield a shield to draw a thrown weapon and make a ranged attack with it within your turn as though the hand was free."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Unarmed Fighting",
+										"entries": [
+											"While you're grappling a creature, as part of your Attack action, you may forgo one of your attacks. If you do, all of your attacks against the grappled creature have advantage and all of its attacks against any target have disadvantage until the start of your next turn."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Superior Technique",
+										"entries": [
+											"You learn two additional maneuvers of your choice from among those available to the Battle Master archetype and gain two superiority dice."
+										]
+									}
+								]
+							},
+							"If a feature allows you to replace a Fighting Style for another and you choose an Improved Fighting Style, you replace the Improved Fighting Style with its basic version, instead of losing it completely. You may also choose a new Improved Fighting Style by choosing to swap a differente Fighting Style for another you already posses in its basic form, but you may not have more than one Improved Fighting Style option at once."
 						]
 					}
 				],
@@ -9148,9 +9244,9 @@
 						]
 					},
 					{
-						"name": "Indomitable (three uses)",
+						"name": "Indomitable (two uses)",
 						"entries": [
-							"At 17th level, you can use Indomitable three times between long rests."
+							"At 17th level, you can use Indomitable twice between long rests."
 						]
 					}
 				],
@@ -9222,7 +9318,7 @@
 										"type": "entries",
 										"name": "Additional Fighting Style",
 										"entries": [
-											"At 10th level, you can choose a second option from the Fighting Style class feature."
+											"At 10th level, you can choose a second option from the Fighting Style class feature. If you gain the Improved Fighting Style Fighter class feature at 14th level, you may improve two different Fighting Style options instead of one, and your maximum number of improved options increases to two."
 										]
 									}
 								]
@@ -10366,7 +10462,7 @@
 										"type": "entries",
 										"name": "Improved War Magic",
 										"entries": [
-											"Starting at 18th level, when you use your action to cast a spell, you can make one weapon attack as a bonus action."
+											"Starting at 18th level, when you use your action to cast a spell, you can make one weapon attack as part of the same action."
 										]
 									}
 								]
@@ -11502,7 +11598,7 @@
 								"type": "entries",
 								"name": "Iron Body",
 								"entries": [
-									"You can spend 2 ki points as a bonus action to gain resistance to bludgeoning, piercing, and slashing damage for 1 minute. The effect ends early if you are knocked {@condition unconscious|PHEW}, if you make an attack that uses your dexterity bonus, or if you end your turn without spending a ki point."
+									"You can spend 2 ki points as a bonus action to gain you gain Damage Reduction against bludgeoning, piercing, and slashing damage equal to your proficiency bonus for 1 minute. The effect ends early if you are knocked {@condition unconscious|PHEW}, if you make an attack that uses your dexterity bonus, or if you end your turn without spending a ki point. Damage Reduction bonuses don't stack, and only the highest one applies."
 								]
 							},
 							{
@@ -11532,7 +11628,7 @@
 					{
 						"name": "Deflect Missiles",
 						"entries": [
-							"Starting at 3rd level, you can use your reaction to deflect or catch the missile when you are hit by a ranged weapon attack. When you do so, the damage you take from the attack is reduced by {@dice 1d10} + your Dexterity modifier + your monk level.",
+							"Starting at 3rd level, you can use your reaction to deflect or catch the missile when you are hit by a ranged weapon attack. When you do so, the damage you take from the attack is reduced by {@dice 1d10} + your Strength modifier + your Dexterity modifier + your monk level.",
 							"If you reduce the damage to 0, you can catch the missile if it is small enough for you to hold in one hand and you have at least one hand free. If you catch a missile in this way, you can spend 1 ki point to make a ranged attack (range 20/60 feet) with the weapon or piece of ammunition you just caught, as part of the same reaction. You make this attack with proficiency, regardless of your weapon proficiencies, and the missile counts as a monk weapon for the attack."
 						]
 					},
@@ -11649,7 +11745,7 @@
 					{
 						"name": "Improved Deflect Missiles",
 						"entries": [
-							"Starting at 13th level, when you use your reaction for your Deflect Missiles feature, you can deflect additional attacks without spending your reaction up to a number of times equal to your Wisdom modifier or until the start of your next turn."
+							"Starting at 13th level, when you use your reaction for your Deflect Missiles feature, you can deflect additional attacks without spending your reaction until you've blocked a total of {@dice 1d10} + your Strength modifier + your Dexterity modifier + your monk level damage with this feature in a single round. Lastly, you may only return one of the attacks as described in the Deflect Missiles feature, but it no longer has a ki cost."
 						]
 					},
 					{
@@ -11691,8 +11787,8 @@
 								"type": "entries",
 								"name": "Iron Body",
 								"entries": [
-									"You can spend 2 ki points as a bonus action to gain resistance to bludgeoning, piercing, and slashing damage for 1 minute. The effect ends early if you are knocked {@condition unconscious|PHEW}, if you make an attack that uses your dexterity bonus, or if you end your turn without spending a ki point.",
-									"While this effect is active, you can use your reaction to gain immunity to the bludgeoning, piercing and slashing damage you would take when you are hit by an attack or a spell."
+									"You can spend 2 ki points as a bonus action to gain you gain Damage Reduction against bludgeoning, piercing, and slashing damage equal to your proficiency bonus for 1 minute. The effect ends early if you are knocked {@condition unconscious|PHEW}, if you make an attack that uses your dexterity bonus, or if you end your turn without spending a ki point. Damage Reduction bonuses don't stack, and only the highest one applies.",
+									"When you are subjected to an effect that allows you to make a Constitution saving throw to take only half damage while this effect is active, you instead take no damage if you succeed on the saving throw, and only half damage if you fail."
 								]
 							}
 						]
@@ -11744,7 +11840,7 @@
 					{
 						"name": "Perfect Soul",
 						"entries": [
-							"At 20th level, when you roll for initiative and have no ki points remaining, you regain 4 ki points."
+							"At 20th level, when you roll for initiative, you regain all spent ki points. At the start of each of your turns, you regain 1 ki point."
 						]
 					}
 				]
@@ -15650,10 +15746,11 @@
 				],
 				[
 					{
-						"name": "Foe Slayer",
+						"name": "Ranger Archetype feature",
 						"entries": [
-							"At 20th level, you become an unparalleled hunter of your enemies. Once on each of your turns, you can add your Wisdom modifier to the attack roll or the damage roll of an attack you make against one of your favored enemies. You can choose to use this feature before or after the roll, but before any effects of the roll are applied."
-						]
+							"At 20th level, you gain a feature granted to you by your Ranger Archetype."
+						],
+						"gainSubclassFeature": true
 					}
 				]
 			],
@@ -15847,6 +15944,19 @@
 									}
 								]
 							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Sudden Strike",
+										"entries": [
+											"At 20th level, you know how to strike accurately and exploit a foe's distraction. Once per turn, you can deal an extra {@dice 6d6} damage to one creature you hit with an attack if you have advantage on the attack roll."
+										]
+									}
+								]
+							}
 						]
 					],
 					"source": "PHEW",
@@ -15892,7 +16002,7 @@
 										"type": "entries",
 										"name": "Exceptional Training",
 										"entries": [
-											"Beginning at 7th level, on any of your turns when your beast companion doesn't attack, you can use a bonus action to command the beast to take the {@action Dash|PHEW}, {@action Disengage|PHEW}, or {@action Help|PHEW} action on its turn. In addition, the beast's attacks now count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
+											"Beginning at 7th level, on any of your turns when your beast companion doesn't attack, you can command the beast to take the {@action Dash|PHEW}, {@action Disengage|PHEW}, or {@action Help|PHEW} action on its turn (no action required from you). In addition, the beast's attacks now count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
 										]
 									}
 								]
@@ -15919,6 +16029,19 @@
 										"name": "Share Spells",
 										"entries": [
 											"Beginning at 15th level, when you cast a spell targeting yourself, you can also affect your beast companion with the spell if the beast is within 30 feet of you."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Perfect Bond",
+										"entries": [
+											"At 20th level, your beast companion gains resistance to all damage while they are within 30 feet of you. In addition, whenever you receive magical healing your beast companion heals for the same amunt if it is within 30 feet of you."
 										]
 									}
 								]
@@ -16030,6 +16153,19 @@
 										"name": "Shadowy Dodge",
 										"entries": [
 											"Starting at 15th level, you can dodge in unforeseen ways, with wisps of supernatural shadow around you. Whenever a creature makes an attack roll against you and doesn't have advantage on the roll, you can use your reaction to impose disadvantage on it. You must use this feature before you know the outcome of the attack roll."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Ready to Ambush",
+										"entries": [
+											"At 20th level, you are always prepared to strike or flee as soon as conflict starts. On the first round of combat, you have a turn on your Initiative count and another on Initiative count 20."
 										]
 									}
 								]
@@ -16148,6 +16284,19 @@
 									}
 								]
 							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Dimensional Shift",
+										"entries": [
+											"At 20th level, you learn to ignore the natural boundaries of the objects around you. Your attacks may travel through up to 5 feet of solid matter unimpeded, allowing you to ignore cover. Alternatively, your movement may ignore up to 10 feet of solid matter and treat it as empty space. If you try to ignore more than 10 feet of matter you receive {@dice 6d8} force damage and are forcefully expelled to the closest empty space and knocked prone, ending your turn."
+										]
+									}
+								]
+							}
 						]
 					],
 					"source": "PHEW",
@@ -16256,6 +16405,30 @@
 										"name": "Slayer's Counter",
 										"entries": [
 											"At 15th level, you gain the ability to counterattack when your prey tries to sabotage you. If the target of your Slayer's Prey forces you to make a saving throw, you can use your reaction to make one weapon attack against the quarry. You make this attack immediately before making the saving throw. If your attack hits, your save automatically succeeds, in addition to the attack's normal effects."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Enemy Slayer",
+										"entries": [
+											"At 20th level, you become the bane of your chosen prey. You choose an additional type of favored enemy. Whenever you make an attack against your Favored Enemy, roll a {@dice 1d100}. If the result is equal to or higher than the creature's current hit points, it dies."
+										]
+									}
+								]
+							},
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Opt: Foe Slayer",
+										"entries": [
+											"At 20th level, you become the bane of your chosen prey. When you use your Favored Foe feature, increase the extra damage you deal to your chosen quarry from {@dice 1d6} to {@dice 2d8}."
 										]
 									}
 								]
@@ -16798,11 +16971,14 @@
 				],
 				"weapons": [
 					"simple",
+					"blowguns",
 					"hand crossbows",
-					"katana",
+					"katanas",
 					"longswords",
 					"rapiers",
-					"shortswords"
+					"scimitars",
+					"shortswords",
+					"whips"
 				],
 				"tools": [
 					"thieves' tools"
@@ -17015,7 +17191,7 @@
 					{
 						"name": "Blindsense",
 						"entries": [
-							"Starting at 14th level, if you are able to hear, you are aware of the location of any hidden or {@condition invisible|PHEW} creature within 10 feet of you."
+							"Starting at 14th level, if you are able to hear, you are aware of the location of any hidden or {@condition invisible|PHEW} creature within 10 feet of you and treat them as though they were completely visible to you."
 						]
 					}
 				],
@@ -17066,8 +17242,8 @@
 					{
 						"name": "Stroke of Luck",
 						"entries": [
-							"At 20th level, you have an uncanny knack for succeeding when you need to. If your attack misses a target within range, you can turn the miss into a hit. Alternatively, if you fail an ability check, you can treat the {@dice d20} roll as a 20.",
-							"Once you use this feature, you can't use it again until you finish a short or long rest."
+							"At 20th level, you have an uncanny knack for succeeding when you need to. If your attack misses a target within range, you can turn the miss into a hit. Alternatively, if you fail an ability check or saving throw, you can treat the {@dice d20} roll as a 20.",
+							"Once you use this feature twice, you can't use it again until you finish a short or long rest."
 						]
 					}
 				]
@@ -17462,34 +17638,19 @@
 							{
 								"name": "Assassin",
 								"entries": [
-									"You focus your training on the grim art of death. Those who adhere to this archetype are diverse - hired killers, spies, bounty hunters, and even specially anointed priests trained to exterminate the enemies of their deity. Stealth, poison, and disguise help you eliminate your foes with deadly efficiency.",
-									"Your archetype grants you features at 3rd level and then again at 9th, 13th, and 17th level.",
+									"You focus your training on the grim art of the death. Those who adhere to this archetype are diverse - hired killers, spies, bounty hunters, and even specially anointed priests trained to exterminate the enemies of their deity. Stealth, poison, and disguise help you eliminate your foes with deadly efficiency.",
 									{
 										"type": "entries",
-										"name": "Assassinate",
+										"name": "Tools of the Trade",
 										"entries": [
-											"Starting at 3rd level, you are at your deadliest when you get the drop on your enemies. You have advantage on attack rolls against any creature that hasn't taken a turn in the combat yet. In addition, any hit you score against a creature that is surprised is a critical hit."
+											"When you choose this archetype at 3rd level, you gain proficiency with the {@item disguise kit|PHEW} and the {@item poisoner's kit|PHEW}. You can use a bonus action to apply a dose of poison to a weapon or piece of ammunition."
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Bonus Proficiencies",
+										"name": "Assassinate",
 										"entries": [
-											"When you choose this archetype at 3rd level, you gain proficiency with the {@item disguise kit|PHEW} and the {@item poisoner's kit|PHEW}."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Infiltration Expertise",
-										"entries": [
-											"Starting at 9th level, you can unfailingly create false identities for yourself. You must spend seven days and 25 gp to establish the history, profession, and affiliations for an identity. You can't establish an identity that belongs to someone else. For example, you might acquire appropriate clothing, letters of introduction, and official-looking certification to establish yourself as a member of a trading house from a remote city so you can insinuate yourself into the company of other wealthy merchants.",
-											"Thereafter, if you adopt the new identity as a disguise, other creatures believe you to be that person until given an obvious reason not to."
+											"Starting at 3rd level, you are at your deadliest in the first chaotic moments of combat. You have advantage on attack rolls against any creature that hasn't taken an action in the combat yet. In addition, the first creature you hit with a weapon attack during your first turn of combat is dealt additional damage equal to the result of rolling half of your Sneak Attack dice (rounded up). If the creature is surprised, you deal additional damage equal to the result of rolling your Sneak Attack dice instead."
 										]
 									}
 								]
@@ -17502,8 +17663,21 @@
 										"type": "entries",
 										"name": "Impostor",
 										"entries": [
-											"At 13th level, you gain the ability to unerringly mimic another person's speech, writing, and behavior. You must spend at least three hours studying these three components of the person's behavior, listening to speech, examining handwriting, and observing mannerism.",
-											"Your ruse is indiscernible to the casual observer. If a wary creature suspects something is amiss, you have advantage on any Charisma (Deception) check you make to avoid detection."
+											"At 9th level, your abilities of disguise become impeccable, allowing you to mimic others with ease. You can spend 1 hour studying one of three components of a creature's behaviour (your choice, given sufficient materials) — listening to speech, examining handwriting, or observing mannerisms. Once this study is complete, when you attempt to mimic that component of their behaviour, your ruse is indiscernible to the casual observer. If a wary creature suspects something is amiss, you have advantage on any Charisma (Deception) check you make to avoid detection.",
+											"You can repeat this process to mimic additional behavior components for the same person or other people."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Master of Poison",
+										"entries": [
+											"At 13th level, you've learned the deepest secrets of making and using poison. During a long rest, you can use a poisoner's kit to craft a single dose of one of the following poisons: {@item Wyvern's Sting (Injury)|PHEW}, {@item Troll's Bane (Injury)|PHEW}, {@item Mindscour (Injury)|PHEW}, and {@item Embrace of Myrkul (Ingested)|PHEW}. Poisons crafted this way are unstable, and lose their potency after 24 hours. When your poison's effects require a saving throw, the DC equals 8 + your Dexterity modifier + your proficiency bonus instead of the usual DC."
 										]
 									}
 								]
@@ -17516,7 +17690,8 @@
 										"type": "entries",
 										"name": "Death Strike",
 										"entries": [
-											"Starting at 17th level, you become a master of instant death. When you attack and hit a creature that is surprised, it must make a Constitution saving throw (DC 8 + your Dexterity modifier + your proficiency bonus). On a failed save, double the damage of your attack against the creature."
+											"Starting at 17th level, you become a master of instant death. When you hit a creature with a weapon attack, you can force it to make a Constitution saving throw against a DC equal to 8 + your Dexterity modifier + your proficiency bonus. A surprised creature has disadvantage on the saving throw. On a failure, the damage dealt to it by the attack is doubled and it fails any saving throws against poisons until the end of the turn.",
+											"Once you use this feature, you can't do so again until you finish a long rest."
 										]
 									}
 								]
@@ -17545,7 +17720,7 @@
 										"type": "entries",
 										"name": "Second-Story Work",
 										"entries": [
-											"When you choose this archetype at 3rd level, you gain the ability to climb faster than normal; climbing no longer costs you extra movement.",
+											"When you choose this archetype at 3rd level, you gain the ability to climb faster than normal; climbing no longer costs you extra movement. You also gain proficiency in Athletics. If you already have it, you may gain proficiency in another skill of your choice. Regardless, you add your Dexterity modifier to any Strength (Athletics) check made to climb or jump.",
 											"In addition, when you make a running jump, the distance you cover increases by a number of feet equal to your Dexterity modifier."
 										]
 									}
@@ -18617,7 +18792,6 @@
 				"additionalFromBackground": true,
 				"default": [
 					"(a) a {@item light crossbow|PHEW} and {@item crossbow bolts (20)|PHEW|20 bolts} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
-					"(a) a {@item component pouch|PHEW} or (b) an {@item arcane focus|PHEW}",
 					"(a) a {@item dungeoneer's pack|PHEW} or (b) an {@item explorer's pack|PHEW}",
 					"Two {@item dagger|PHEW|daggers}"
 				],
@@ -18681,9 +18855,11 @@
 							},
 							{
 								"type": "entries",
-								"name": "Spellcasting Focus",
+								"name": "Eschew Materials",
 								"entries": [
-									"You can use an arcane focus (found in chapter 5) as a spellcasting focus for your sorcerer spells."
+									"A sorcerer does not require material components for their sorcerer spells. If you cast a sorcerer spell with a material component that hand no gold value cost, you do not need to provide that component.",
+									"Casting a sorcerer spell that would otherwise have a costly component requires more focus. To cast such a spell that requires a number of material components totaling up to 100 gold worth, you must use your bonus action to prepare yourself. When you do so, you may cast a spell or begin casting a spell which would otherwise have any number of material components totaling up to 100 gold before the end of your next turn turn without needing to provide any material component.",
+									"Casting a sorcerer spell which would otherwise consume a costly component is especially difficult for a sorcerer. As part of your bonus action to prepare the casting of a spell with a costly material component, if at least 1 gold worth of material is normally consumed by the spell, you take {@dice 1d6} necrotic damage that may not be resisted or reduced in any way. If 50 gold or more worth of materials are normally consumed, you also gain a level of exhaustion as part of that bonus action."
 								]
 							},
 							{
@@ -18709,6 +18885,13 @@
 						"name": "Font of Magic",
 						"entries": [
 							"At 2nd level, you tap into a deep wellspring of magic within yourself. This wellspring is represented by sorcery points, which allow you to create a variety of magical effects.",
+							{
+								"type": "entries",
+								"name": "Source of Magic",
+								"entries": [
+									"You may cast any Sorcerer spell you know of up to 5th level without spending a spell slot. If you do so, reduce your maximum hit points by 1d6 per level of the spell as you start casting the spell. You restore any maximum hit points lost from this feature at the end of a long rest."
+								]
+							},
 							{
 								"type": "entries",
 								"name": "Sorcery Points",
@@ -18838,7 +19021,37 @@
 										"type": "entries",
 										"name": "Extended Spell",
 										"entries": [
-											"When you cast a spell that has a duration of 1 minute or longer, you can spend 1 sorcery point to double its duration, to a maximum duration of 24 hours."
+											"When you cast a spell that has a duration of 1 minute or longer, you can spend 1 sorcery point to increase its duration as explained in the follwing table, to a maximum duration of 24 hours.",
+											{
+												"type": "table",
+												"caption": "Extended Spell Durations",
+												"colLabels": [
+													"Spell Duration",
+													"Extended Spell Duration"
+												],
+												"colStyles": [
+													"col-6 text-center",
+													"col-6 text-center"
+												],
+												"rows": [
+													[
+														"1 minute",
+														"10 minutes"
+													],
+													[
+														"10 minutes",
+														"1 hour"
+													],
+													[
+														"1 hour",
+														"8 hours"
+													],
+													[
+														"8 hours",
+														"24 hours"
+													]
+												]
+											}
 										]
 									},
 									{
@@ -18988,7 +19201,7 @@
 					{
 						"name": "Sorcerous Restoration",
 						"entries": [
-							"At 20th level, you regain 4 expended sorcery points whenever you finish a short rest."
+							"At 20th level, you regain all expended sorcery points whenever you finish a short rest, and you gain 20 temporary hit points whenever you roll initiative. You also treat these hit points as if their were permanent whenever you use your Source of Magic feature."
 						]
 					}
 				]
@@ -19070,7 +19283,7 @@
 										"name": "Draconic Resilience",
 										"entries": [
 											"As magic flows through your body, it causes physical traits of your dragon ancestors to emerge. At 1st level, your hit point maximum increases by 1 and increases by 1 again whenever you gain a level in this class.",
-											"Additionally, parts of your skin are covered by a thin sheen of dragon-like scales. When you aren't wearing armor, your AC equals 13 + your Dexterity modifier."
+											"Additionally, parts of your skin are covered by a thin sheen of dragon-like scales. You gain resistance to the damage type associated with your draconic ancestry and, when you aren't wearing armor, your AC equals 13 + your Dexterity modifier."
 										]
 									}
 								]
@@ -19083,7 +19296,8 @@
 										"type": "entries",
 										"name": "Elemental Affinity",
 										"entries": [
-											"Starting at 6th level, when you cast a spell that deals damage of the type associated with your draconic ancestry, you can add your Charisma modifier to one damage roll of that spell. At the same time, you can spend 1 sorcery point to gain resistance to that damage type for 1 hour."
+											"Starting at 6th level, when you cast a spell that deals damage of the type associated with your draconic ancestry, you can add your Charisma modifier to one damage roll of that spell.",
+											"You learn the {@spell dragon's breath} if you don't already know it, and it doesn't count against your limit of spells known. When you cast it on yourself and choose the damage type associated with your draconic ancestry, you don't need to maintain concentration on the spell and it always lasts its full duration."
 										]
 									}
 								]
@@ -19110,7 +19324,7 @@
 										"type": "entries",
 										"name": "Draconic Presence",
 										"entries": [
-											"Beginning at 18th level, you can channel the dread presence of your dragon ancestor, causing those around you to become awestruck or {@condition frightened|PHEW}. As an action, you can spend 5 sorcery points to draw on this power and exude an aura of awe or fear (your choice) to a distance of 60 feet. For 1 minute or until you lose your concentration (as if you were casting a concentration spell), each hostile creature that starts its turn in this aura must succeed on a Wisdom saving throw or be {@condition charmed|PHEW} (if you chose awe) or {@condition frightened|PHEW} (if you chose fear) until the aura ends. A creature that succeeds on this saving throw is immune to your aura for 24 hours."
+											"Beginning at 18th level, you can channel the dread presence of your dragon ancestor, causing those around you to become awestruck or {@condition frightened|PHEW}. As an action, you can spend 5 sorcery points to draw on this power and exude an aura of awe or fear (your choice) to a distance of 60 feet. For 1 minute, each hostile creature that starts its turn in this aura must succeed on a Wisdom saving throw or be {@condition charmed|PHEW} (if you chose awe) or {@condition frightened|PHEW} (if you chose fear) until the aura ends. A creature that succeeds on this saving throw is immune to your aura for 24 hours."
 										]
 									}
 								]
@@ -19132,7 +19346,7 @@
 										"type": "entries",
 										"name": "Wild Magic Surge",
 										"entries": [
-											"Starting when you choose this origin at 1st level, your spellcasting can unleash surges of untamed magic. Immediately after you cast a sorcerer spell of 1st level or higher, the DM can have you roll a {@dice d20}. If you roll a 1, roll on the Wild Magic Surge table to create a random magical effect. A Wild Magic Surge can happen once per turn.",
+											"Starting when you choose this origin at 1st level, your spellcasting can unleash surges of untamed magic. Immediately after you cast a sorcerer spell of 1st level or higher, roll a {@dice 1d10}. If the result is equal to or lower than the level of the spell slot used, roll on the Wild Magic Surge table to create a magical effect, and gain a stacking +1 bonus to any future {@dice d10} rolls you make as part of your Wild Magic Surge feature. This bonus resets to 0 at the end of a long rest.",
 											"If a Wild Magic effect is a spell, it's too wild to be affected by Metamagic. If it normally requires concentration, it doesn't require concentration in this case; the spell lasts for its full duration.",
 											{
 												"type": "table",
@@ -19354,8 +19568,7 @@
 										"type": "entries",
 										"name": "Tides of Chaos",
 										"entries": [
-											"Starting at 1st level, you can manipulate the forces of chance and chaos to gain advantage on one attack roll, ability check, or saving throw. Once you do so, you must finish a long rest before you can use this feature again.",
-											"Any time before you regain the use of this feature, the DM can have you roll on the Wild Magic Surge table immediately after you cast a sorcerer spell of 1st level or higher. You then regain the use of this feature."
+											"Starting at 1st level, you can manipulate the forces of chance and chaos to gain advantage on one attack roll, ability check, or saving throw. Immediately roll a {@dice 1d10}. If the result isn't equal to or lower than your proficiency bonus you must finish a long rest before you can use this feature again. If it is, gain a stacking +1 bonus to any future {@dice d10} rolls you make as part of your Tides of Chaos feature. This bonus resets to 0 at the end of a long rest."
 										]
 									}
 								]
@@ -19368,7 +19581,7 @@
 										"type": "entries",
 										"name": "Bend Luck",
 										"entries": [
-											"Starting at 6th level, you have the ability to twist fate using your wild magic. When another creature you can see makes an attack roll, an ability check, or a saving throw, you can use your reaction and spend 2 sorcery points to roll {@dice 1d4} and apply the number rolled as a bonus or penalty (your choice) to the creature's roll. You can do so after the creature rolls but before any effects of the roll occur."
+											"Starting at 6th level, you have the ability to twist fate using your wild magic. When another creature you can see makes an attack roll, an ability check, or a saving throw, you can use your reaction and spend 2 sorcery points to roll {@dice 1d6} and apply the number rolled as a bonus or penalty (your choice) to the creature's roll. You can do so after the creature rolls but before any effects of the roll occur."
 										]
 									}
 								]
@@ -22492,10 +22705,10 @@
 				],
 				[
 					{
-						"name": "Signature Spells",
+						"name": "Archwizard",
 						"entries": [
-							"When you reach 20th level, you gain mastery over two powerful spells and can cast them with little effort. Choose two 3rd-level wizard spells in your spellbook as your signature spells. You always have these spells prepared, they don't count against the number of spells you have prepared, and you can cast each of them once at 3rd level without expending a spell slot. When you do so, you can't do so again until you finish a short or long rest.",
-							"If you want to cast either spell at a higher level, you must expend a spell slot as normal."
+							"When you reach 20th level, your ability to weave magic to suit your whim becomes unparalleled. You may cast a wizard spell of 1st through 5th level even if it is not prepared, whether or not it appears in your spellbook as long as you have the spell slot to do so. You must provide the components of the spell as normal.",
+							"You can use this feature a number of times equal to your Intelligence modifier (a minimum of once). You regain all expended uses when you finish a long rest."
 						]
 					}
 				]
