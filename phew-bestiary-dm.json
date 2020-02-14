@@ -344,7 +344,7 @@
 			"type": "celestial",
 			"source": "PHEW",
 			"alignment": [
-				"LG"
+				"L", "G"
 			],
 			"ac": [
 				20
@@ -456,7 +456,7 @@
 				{
 					"name": "Staff",
 					"entries": [
-						"{@atk mw} {@hit 17} to hit, reach 10 ft., one target. {@h}18 ({@damage 2d8 + 9}) bludgeoning damage plus {@h}18 {@damage 4d8} radiant damage."
+						"{@atk mw} {@hit 17} to hit, reach 10 ft., one target. {@h}18 ({@damage 2d8 + 9}) bludgeoning damage plus {@h}18 ({@damage 4d8}) radiant damage."
 					]
 				},
 				{
@@ -984,6 +984,184 @@
 			],
 			"miscTags": [
 				"MW"
+			]
+		},
+		{
+			"name": "Black Leviathan",
+			"size": "G",
+			"type": "dragon",
+			"source": "PHEW",
+			"alignment": [
+				"L", "E"
+			],
+			"ac": [
+				22
+			],
+			"hp": {
+				"average": 367,
+				"formula": "21d20+147"
+			},
+			"speed": {
+				"walk": 60,
+				"burrow": 40,
+				"swim": 90
+			},
+			"str": 27,
+			"dex": 14,
+			"con": 25,
+			"int": 16,
+			"wis": 15,
+			"cha": 19,
+			"save": {
+				"dex": "+9",
+				"con": "+14",
+				"wis": "+9",
+				"cha": "+11"
+			},
+			"skill": {
+				"athletics": "+14",
+				"perception": "+16",
+				"stealth": "+9"
+			},
+			"senses": [
+				"blindsight 60 ft.", "tremorsense 120 ft.", "superior darkvision 120 ft."
+			],
+			"passive": 26,
+			"languages": [
+				"Common",
+				"Draconic",
+				"Dwarvish",
+				"Undercommon"
+			],
+			"cr": "22",
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical weapons"
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened"
+			],
+			"immune": [
+				"acid"
+			],
+			"trait": [
+				{
+					"name":"Tunneler",
+					"entries": [
+						"The black leviathan can burrow through solid rock at half its burrow speed and leaves a 10-foot-diameter tunnel in its wake."
+					]
+				},
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The leviathan can breathe air and water."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the black leviathan fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Bloodied Rage",
+					"entries": [
+						"When the black leviathan drops under half its maximum hit points (184) it immediately recharges and uses its Acid Gloom followed by its Vitriolic Spray. If the triggering creature is within range the leviathan will center the attacks on that creature."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The black leviathan can use its Frightful Presence. It then makes two attacks: one with its bite and one with its stinger."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit, reach 15 ft., one target. {@h}19 ({@damage 2d10 + 8}) piercing damage. If the target is a Large or smaller creature, it must succeed on a {@dc 19} Dexterity saving throw or be swallowed by the leviathan. A swallowed creature is {@condition blinded} and {@condition restrained}, it has total cover against attacks and other effects outside the leviathan, and it takes 21 ({@damage 6d6}) acid damage at the start of each of the leviathan's turns.",
+						"If the leviathan takes 30 damage or more on a single turn from a creature inside it, the leviathan must succeed on a {@dc 21} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition prone} in a space within 10 feet of the leviathan. If the leviathan dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse by using 20 feet of movement, exiting {@condition prone}."
+					]
+				},
+				{
+					"name": "Tail Stinger",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit, reach 20 ft., one creature. {@h}17 ({@damage 2d8 + 8}) piercing damage, and the target must make a {@dc 22} Constitution saving throw, taking 45 ({@damage 10d8}) acid damage on a failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Acid Spit",
+					"entries": [
+						"The black leviathan spits a glob of acid at one creature within 90 feet. The target must make a {@dc 22} Dexterity saving throw taking 31 ({@damage 7d8}) acid damage on a failure and nonmagical armor worn by the target is partly dissolved and takes a permanent and cumulative -1 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10, or taking half as much damage on a sucessful save."
+					]
+				},
+				{
+					"name": "Frightful Presence",
+					"entries": [
+						"Each creature of the leviathan's choice that is within 120 feet of the leviathan and aware of it must succeed on a {@dc 19} Wisdom saving throw or become {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the leviathan's Frightful Presence for the next 24 hours."
+					]
+				},
+				{
+					"name": "Vitriolic Spray",
+					"entries": [
+						"The leviathan exhales acid in a 60-foot cone. Each creature in that area must make a {@dc 22} Dexterity saving throw, taking 36 ({@damage 8d8}) acid damage and being {@condition blinded} for 1 minute on a failed save, or half as much damage and not being blinded on a successful one. A creature that is blinded can use its action to wash its eyes, if it has access to fresh, clean water, to end the effect early."
+					]
+				},
+				{
+					"name": "Acid Gloom {@recharge 4}",
+					"entries": [
+						"Magical darkness spreads from a point the leviathan chooses within 60 feet to fill a 25-foot radius sphere for up to 10 minutes. The leviathan must hold concentration on this effect as though concentrating on a spell. The darkness spreads around corners. A creature with darkvision can't see through this darkness and nonmagical light can't illuminate it. If the point the leviathan chooses is on an object, that the leviathan is holding or one that isn't being worn or carried, the darkness emanates from the object and moves with it. If any of this effect's area overlaps with an area of light created by a spell of 5th level or lower, the spell that created the light is dispelled. Any creature that enters the area for the first time or starts its turn in the area must make a {@dc 19} Constitution saving throw, taking 36 ({@damage 8d8}) acid damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Detect",
+					"entries": [
+						"The leviathan makes a Wisdom (Perception) check."
+					]
+				},
+				{
+					"name": "Acid Spit",
+					"entries": [
+						"The leviathan uses its acid spit."
+					]
+				},
+				{
+					"name": "Tail Slash (Costs 2 Actions)",
+					"entries": [
+						"The leviathan slashes its tail. Each creature within 15 feet of the leviathan must succeed on a {@dc 19} Dexterity saving throw or take 13 ({@damage 2d6 + 6}) bludgeoning damage and be knocked prone. The leviathan can then burrow up to half its burrowing speed."
+					]
+				}
+			],
+			"traitTags": [
+				"Amphibious", "Legendary Resistances"
+			],
+			"actionTags": [
+				"Frightful Presence",
+				"Multiattack",
+				"Swallow"
+			],
+			"languageTags": [
+				"C", "D", "DR", "U"
+			],
+			"senseTags": [
+				"B", "SD", "T", "U"
+			],
+			"damageTags": [
+				"A", "B", "P"
+			],
+			"miscTags": [
+				"MW", "RCH", "AOE"
 			]
 		}
 	]
