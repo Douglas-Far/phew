@@ -7,235 +7,90 @@
 				"number": 1,
 				"faces": 8
 			},
-			"proficiency": [
-				"con",
-				"int"
-			],
+			"proficiency": ["con", "int"],
 			"spellcastingAbility": "int",
 			"casterProgression": "1/2",
+			"multiclassing": {
+				"requirements": {
+					"int":13
+				},
+				"proficienciesGained": {
+					"armor": ["light","medium","shields"],
+					"tools":["thieves' tools","tinker's tools"]
+				}
+			},
 			"classTableGroups": [
 				{
 					"colLabels": [
-						"{@filter Spells Known|spells|class=Artificer}",
+						"{@filter Infusions Known|optionalfeatures|feature type=ai|source=PHEW}",
+						"Infused Items",
+						"{@filter Cantrips Known|spells|level=0|class=artificer}"
+					],
+					"rows": [
+						[0,0,2],
+						[4,2,2],
+						[4,2,2],
+						[4,2,2],
+						[4,2,2],
+						[6,3,2],
+						[6,3,2],
+						[6,3,2],
+						[6,3,2],
+						[8,4,3],
+						[8,4,3],
+						[8,4,3],
+						[8,4,3],
+						[10,5,4],
+						[10,5,4],
+						[10,5,4],
+						[10,5,4],
+						[12,6,4],
+						[12,6,4],
+						[12,6,4]
+					]
+				},
+				{
+					"title": "Spell Slots per Spell Level",
+					"colLabels": [
 						"{@filter 1st|spells|level=1|class=Artificer}",
 						"{@filter 2nd|spells|level=2|class=Artificer}",
 						"{@filter 3rd|spells|level=3|class=Artificer}",
 						"{@filter 4th|spells|level=4|class=Artificer}",
-						"{@filter 5th|spells|level=5|class=Artificer}",
-						"{@filter Upgrades|optionalfeatures}"
+						"{@filter 5th|spells|level=5|class=Artificer}"
 					],
 					"rows": [
-						[
-							0,
-							0,
-							0,
-							0,
-							0,
-							0,
-							0
-						],
-						[
-							3,
-							2,
-							0,
-							0,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							0,
-							0,
-							0,
-							0,
-							1
-						],
-						[
-							4,
-							3,
-							0,
-							0,
-							0,
-							0,
-							1
-						],
-						[
-							5,
-							4,
-							2,
-							0,
-							0,
-							0,
-							2
-						],
-						[
-							5,
-							4,
-							2,
-							0,
-							0,
-							0,
-							2
-						],
-						[
-							6,
-							4,
-							3,
-							0,
-							0,
-							0,
-							3
-						],
-						[
-							6,
-							4,
-							3,
-							0,
-							0,
-							0,
-							3
-						],
-						[
-							7,
-							4,
-							3,
-							2,
-							0,
-							0,
-							4
-						],
-						[
-							7,
-							4,
-							3,
-							2,
-							0,
-							0,
-							4
-						],
-						[
-							8,
-							4,
-							3,
-							3,
-							0,
-							0,
-							5
-						],
-						[
-							8,
-							4,
-							3,
-							3,
-							0,
-							0,
-							5
-						],
-						[
-							9,
-							4,
-							3,
-							3,
-							1,
-							0,
-							6
-						],
-						[
-							9,
-							4,
-							3,
-							3,
-							1,
-							0,
-							6
-						],
-						[
-							10,
-							4,
-							3,
-							3,
-							2,
-							0,
-							7
-						],
-						[
-							10,
-							4,
-							3,
-							3,
-							2,
-							0,
-							7
-						],
-						[
-							11,
-							4,
-							3,
-							3,
-							3,
-							1,
-							8
-						],
-						[
-							11,
-							4,
-							3,
-							3,
-							3,
-							1,
-							8
-						],
-						[
-							12,
-							4,
-							3,
-							3,
-							3,
-							2,
-							9
-						],
-						[
-							12,
-							4,
-							3,
-							3,
-							3,
-							2,
-							9
-						]
+						[2,0,0,0,0],
+						[2,0,0,0,0],
+						[3,0,0,0,0],
+						[3,0,0,0,0],
+						[4,2,0,0,0],
+						[4,2,0,0,0],
+						[4,3,0,0,0],
+						[4,3,0,0,0],
+						[4,3,2,0,0],
+						[4,3,2,0,0],
+						[4,3,3,0,0],
+						[4,3,3,0,0],
+						[4,3,3,1,0],
+						[4,3,3,1,0],
+						[4,3,3,2,0],
+						[4,3,3,2,0],
+						[4,3,3,3,1],
+						[4,3,3,3,1],
+						[4,3,3,3,2],
+						[4,3,3,3,2]
 					]
 				}
 			],
 			"startingProficiencies": {
-				"armor": [
-					"light",
-					"medium"
-				],
-				"weapons": [
-					"simple",
-					"hand crossbow",
-					"heavy crossbow"
-				],
-				"tools": [
-					"thieves' tools",
-					"one other tool of your choice"
-				],
+				"armor": ["light","medium","shields"],
+				"weapons": ["simple"],
+				"tools": ["thieves' tools","tinker's tools","one type of artisan's tools of your choice"],
 				"skills": [
 					{
 						"choose": {
-							"from": [
-								"arcana",
-								"deception",
-								"history",
-								"investigation",
-								"medicine",
-								"nature",
-								"religion",
-								"sleight of Hand"
-							],
-							"count":3
+							"from": ["arcana","history","investigation","medicine","nature","perception","sleight of hand"],
+							"count": 2
 						}
 					}
 				]
@@ -243,116 +98,98 @@
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"(a) a {@item light crossbow|PHEW} and {@item crossbow bolts (20)|PHEW|20 bolts} or (b) any two {@filter simple weapons|items|source=phb|category=basic|type=simple weapon}",
-					"(a) {@item scale mail|PHEW}, (b) {@item leather armor|PHEW}, or (c) {@item chain mail|PHEW}",
-					"{@item thieves' tools|PHEW} and a {@item dungeoneer's pack|PHEW}"
-				]
-			},
-			"multiclassing": {
-				"requirements": {
-					"int": 13
-				},
-				"proficienciesGained": {
-					"armor": [
-						"light"
-					],
-					"skills": [
-						{
-							"choose": {
-								"from": [
-									"arcana"
-								],
-								"count":1
-							}
-						}
-					]
-				}
+					"any two {@filter simple weapons|items|source=phew|category=basic|type=simple weapon} of your choice",
+					"a {@item light crossbow|phew} and {@item crossbow bolts (20)|phew|20 bolts}",
+					"(a) {@item studded leather armor|phew} or (b) {@item scale mail|phew}",
+					"{@item thieves' tools|phew} and a {@item dungeoneer's pack|phew}"
+				],
+				"goldAlternative": "{@dice 5d4×10|5d4 × 10|Starting Gold}"
 			},
 			"classFeatures": [
 				[
 					{
-						"name": "Artificer Specialization",
+						"name": "Firearm Proficiency",
 						"entries": [
-							"At 1st level, you focus your craft on a particular specialization: Gadgetsmith, Golemsmith, Infusionsmith, Potionsmith, Thundersmith, Warsmith or Fleshsmith, each of which are detailed at the end of the class description. Your choice grants you features at 1st level and again at 3rd, 5th, and 14th level."
-						],
-						"gainSubclassFeature": true
+							"The artificer is proficient with {@filter firearms|items|source=phew|category=basic|type=martial weapon;firearm=sand}."
+						]
 					},
 					{
-						"name": "Magic Item Analysis",
+						"name": "Magical Tinkering",
 						"entries": [
-							"Starting at 1st level, your understanding of magic items allows you to analyze and understand their secrets. You know the artificer spells {@spell detect magic|PHEW} and {@spell identify|PHEW}, and you can cast them as rituals without material components."
-						]
-					}
-				],
-				[
-					{
-						"name": "Tool Expertise",
-						"entries": [
-							"Starting at 2nd level, your proficiency bonus is doubled for any ability check you make that uses any of the tool proficiencies you gain from this class."
+							"At 1st level, you learn how to invest a spark of magic into mundane objects. To use this ability, you must have tinker's tools or other artisan's tools in hand. You then touch a Tiny nonmagical object as an action and give it one of the following magical properties of your choice:",
+							{
+								"type": "list",
+								"items": [
+									"The object sheds bright light in a 5-foot radius and dim light for an additional 5 feet.",
+									"Whenever tapped by a creature, the object emits a recorded message that can be heard up to 10 feet away. You utter the message when you bestow this property on the object, and the recording can be no more than 6 seconds long.",
+									"The object continuously emits your choice of an odor or a nonverbal sound (wind, waves, chirping, or the like). The chosen phenomenon is perceivable up to 10 feet away.","A static visual effect appears on one of the object's surfaces. This effect can be a picture, up to 25 words of text, lines and shapes, or a mixture of these elements, as you like."
+								]
+							},
+							"The chosen property lasts indefinitely. As an action, you can touch the object and end the property early.",
+							"You can bestow magic on multiple objects, touching one object each time you use this feature, though a single object can only bear one property at a time. The maximum number of objects you can affect with this feature at one time is equal to your Intelligence modifier (minimum of one object). If you try to exceed your maximum, the oldest property immediately ends, and then the new property applies."
 						]
 					},
 					{
 						"name": "Spellcasting",
 						"entries": [
-							"As part of your study of magic, you gain the ability to cast spells at 2nd level. The spells you learn are limited in scope, primarily concerned with modifying creatures and objects or creating items.",
+							"You have studied the workings of magic and how to channel it through objects. As a result, you have gained the ability to cast spells. To observers, you don't appear to be casting spells in a conventional way; you look as if you're producing wonders using mundane items or outlandish inventions.",
 							{
 								"type": "entries",
-								"name": "Spell Slots",
+								"name": "Tools Required",
 								"entries": [
-									"The artificer table shows how many spell slots you have to cast your artificer spells of 1st level and higher. To cast one of your Artificer spells, you must expend a slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest."
-								]
-							},
-							{
-								"type": "entries",
-								"name": "Spells Known of 1st Level and Higher",
-								"entries": [
-									"You know three 1st-level spells of your choice from the artificer spell list.",
-									"The Spells Known column of the Artificer table shows when you learn more Artificer spells of your choice. Each of these spells must be of a level for which you have spell slots.",
-									"For instance, when you reach 5th level in this class, you can learn one new spell of 1st or 2nd level. Additionally, when you gain a level in this class, you can choose one of the Artificer spells you know and replace it with another spell from the Artificer spell list, which also must be of a level for which you have spell slots."
-								]
-							},
-							{
-								"type": "entries",
-								"name": "Spellcasting Ability",
-								"entries": [
-									"Intelligence is your spellcasting ability for your artificer spells, so you use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for an artificer spell you cast and when making an attack roll with one.",
+									"You produce your artificer spell effects through your tools. You must have a spellcasting focus—specifically {@item thieves' tools|phew} or some kind of artisan's tool—in hand when you cast any spell with this Spellcasting feature. You must be proficient with the tool to use it in this way.",
+									"After you gain the Infuse Item feature at 2nd level, you can also use any item bearing one of your infusions as a spellcasting focus.",
 									{
-										"type": "abilityDc",
-										"name": "Spell",
-										"attributes": [
-											"int"
-										]
-									},
-									{
-										"type": "abilityAttackMod",
-										"name": "Spell",
-										"attributes": [
-											"int"
+										"type": "inset",
+										"name": "The Magic of Artifice",
+										"entries": [
+											"As an artificer, you use tools when you cast your spells. When describing your spellcasting, think about how you're using a tool to perform the spell effect. If you cast {@spell cure wounds|PHEW} using {@item alchemist's supplies|PHEW}, you could be quickly producing a salve. If you cast it using {@item tinker's tools|PHEW}, you might have a miniature mechanical spider that binds wounds. When you cast {@spell poison spray|PHEW}, you could fling foul chemicals or use a wand that spits venom. The effect of the spell is the same as for a spellcaster of any other class, but your method of spellcasting is special.",
+											"The same principle applies when you prepare your spells. As an artificer, you don't study a spellbook or pray to prepare your spells. Instead, you work with your tools and create the specialized items you'll use to produce your effects. If you replace {@spell cure wounds|PHEW} with {@spell heat metal|PHEW}, you might be altering the device you use to heal—perhaps modifying a tool so that it channels heat instead of healing energy.",
+											"Such details don't limit you in any way or provide you with any benefit beyond the spell's effects. You don't have to justify how you're using tools to cast a spell. But describing your spellcasting creatively is a fun way to distinguish yourself from other spellcasters."
 										]
 									}
 								]
 							},
 							{
 								"type": "entries",
-								"name": "Spellcasting Focus",
+								"name": "Cantrips (0-Level Spells)",
 								"entries": [
-									"You can use an arcane focus as a spellcasting focus for your artificer spells. See chapter 5, 'Equipment' in the Player’s Handbook for various arcane focus options."
+									"At 1st level, you know two cantrips of your choice from the {@filter artificer spell list|spells|level=0|class=Artificer}. At higher levels, you learn additional artificer cantrips of your choice, as shown in the Cantrips Known column of the Artificer table.",
+									"When you gain a level in this class, you can replace one of the artificer cantrips you know with another cantrip from the artificer spell list."
 								]
 							},
 							{
 								"type": "entries",
-								"name": "Spell Versatility",
+								"name": "Preparing and Casting Spells",
 								"entries": [
-									"Whenever you finish a long rest, you can replace one spell you learned from this Spellcasting feature with another spell from the artificer spell list. The new spell must be the same level as the spell you replace."
+									"The Artificer table shows how many spell slots you have to cast your artificer spells. To cast one of your artificer spells of 1st level or higher, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
+									"You prepare the list of artificer spells that are available for you to cast, choosing from the {@filter artificer spell list|spells|class=Artificer}. When you do so, choose a number of artificer spells equal to your Intelligence modifier + half your artificer level, rounded down (minimum of one spell). The spells must be of a level for which you have spell slots.",
+									"For example, if you are a 5th-level artificer, you have four 1st-level and two 2nd-level spell slots. With an Intelligence of 14, your list of prepared spells can include four spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell {@spell cure wounds|PHEW}, you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.",
+									"You can change your list of prepared spells when you finish a long rest. Preparing a new list of artificer spells requires time spent tinkering with your spellcasting focuses: at least 1 minute per spell level for each spell on your list."
 								]
 							},
 							{
-								"type": "inset",
-								"name": "Artificer's Spellcasting",
+								"type": "entries",
+								"name": "Spellcasting Ability",
 								"entries": [
-									"An Artificer is fundamentally someone that understands and regularly interacts with magic, leading to the ability to apply this knowledge as spell casters, but how you want to approach your Artificer's spell casting is up to you.",
-									"While the Focuses listed in Chapter 5 'Equipment' are certainly functional options, feel free to explore other approaches in coordination with your DM. From a functional standpoint, the only requirement would be that you have a defined material or focus for the spell.",
-									"Consider for some spells that perhaps your Artisan's Tools are your focus, or perhaps a specific item you've made is your material component for a spell. Perhaps instead of a Component Pouch that simply contains all the material components you could need for your spells, you have an Artificer's Tool Belt that contains the various spellcasting assistance contraptions you've made to cast your spells. For the purposes of mechanics, the only thing that matters is that if functions the same way, and is used consistently."
+									"Intelligence is your spellcasting ability for your artificer spells; your understanding of the theory behind magic allows you to wield these spells with superior skill. You use your Intelligence whenever an artificer spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for an artificer spell you cast and when making an attack roll with one.",
+									{
+										"type": "abilityDc",
+										"name": "Spell",
+										"attributes": ["int"]
+									},
+									{
+										"type": "abilityAttackMod",
+										"name": "Spell",
+										"attributes": ["int"]
+									}
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Ritual Casting",
+								"entries": [
+									"You can cast an artificer spell as a ritual if that spell has the ritual tag and you have the spell prepared."
 								]
 							}
 						]
@@ -360,27 +197,51 @@
 				],
 				[
 					{
-						"name": "Artificer Specialist feature",
+						"name": "Infuse Item",
 						"entries": [
-							"At 3rd level, you gain a feature granted by your Artificer Specialization."
+							"At 2nd level, you gain the ability to imbue mundane items with certain magical infusions. The magic items you create with this feature are effectively prototypes of permanent items.",
+							{
+								"type": "entries",
+								"name": "Infusions Known",
+								"entries": [
+									"When you gain this feature, pick four artificer infusions to learn, choosing from the \"{@filter Artificer Infusions|optionalfeatures|feature type=ai|source=PHEW}\" section at the end of the class's description. You learn additional infusions of your choice when you reach certain levels in this class, as shown in the Infusions Known column of the Artificer table.",
+									"Whenever you gain a level in this class, you can replace one of the artificer infusions you learned with a new one.",
+									{
+										"type": "inset",
+										"name": "Artificer Infusions",
+										"entries": [
+											"Artificers have invented numerous magical infusions, extraordinary processes that rapidly create magic items. To many, artificers seem like wonderworkers, accomplishing in hours what others need weeks to complete.",
+											"The description of each of the following infusions details the type of item that can receive it, along with whether the resulting magic item requires attunement.",
+											"Some infusions specify a minimum artificer level. You can't learn such an infusion until you are at least that level.",
+											"Unless an infusion's description says otherwise, you can't learn an infusion more than once."
+										]
+									}
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Infusing an Item",
+								"entries": [
+									"Whenever you finish a long rest, you can touch a nonmagical object and imbue it with one of your artificer infusions, turning it into a magic item. An infusion works on only certain kinds of objects, as specified in the infusion's description. If the item requires attunement, you can attune yourself to it the instant you infuse the item. If you decide to attune to the item later, you must do so using the normal process for attunement (see \"Attunement\" in chapter 7 of the {@book Dungeon Master's Guide|DMG}).",
+									"Your infusion remains in an item indefinitely, but when you die, the infusion vanishes after a number of days have passed equal to your Intelligence modifier (minimum of 1 day). The infusion also vanishes if you give up your knowledge of the infusion for another one.",
+									"You can infuse more than one nonmagical object at the end of a long rest; the maximum number of objects appears in the Infused Items column of the Artificer table. You must touch each of the objects, and each of your infusions can be in only one object at a time. Moreover, no object can bear more than one of your infusions at a time. If you try to exceed your maximum number of infusions, the oldest infusion immediately ends, and then the new infusion applies."
+								]
+							}
+						]
+					}
+				],
+				[
+					{
+						"name": "Artificer Specialist",
+						"entries": [
+							"At 3rd level, you choose the type of specialist you are: Alchemist, Artillerist, or Battle Smith, each of which is detailed at the end of the class's description. Your choice grants you features at 5th level and again at 9th and 15th level."
 						],
 						"gainSubclassFeature": true
 					},
 					{
-						"name": "Specialization Upgrade",
+						"name": "The Right Tool for the Job",
 						"entries": [
-							"Your expert craftsmanship allows you to improve, modify, or add to your specialization's features.",
-							"Starting at 3rd level, choose an upgrade from the list at the end of your specialization, and gain the benefits listed in the description of the Upgrade.",
-							"You select an additional Upgrade at 5th, 7th, 9th, 11th, 13th, 15th, 17th, and 19th level. You cannot select an Upgrade more than once, unless the Upgrade's description says otherwise. Whenever you level up, you can exchange one of your existing upgrades for another upgrade of the same level requirement as the replaced upgrade.",
-							"In any case that a specialization allows an Upgrade to be swapped out, Upgrades must always be selected as if the Artificer is the level they were when they got that Upgrade slot. For example, if you replace your Stormforged Weapon and reselect all of your upgrades as a 5th level Artificer, you could select one 3rd level upgrade and one 5th level upgrade, or two 3rd level upgrades, but you would not be able to select two 5th level upgrades.",
-							{
-								"type": "inset",
-								"name": "Customizing Artificer Upgrades",
-								"entries": [
-									"The upgrades for each Artificer Specialization are presented in a list at the end of the Specialization, but invariably there will always be ideas for upgrades not included in that list. At the heart of an Artificer beats an unrelenting drive for creativity, after all! Feel free to consult your DM for potential custom upgrades.",
-									"Consult the Expanded Toolbox more ideas and playtesting content."
-								]
-							}
+							"At 3rd level, you learn how to produce exactly the tool you need: with tinker's tools in hand, you can magically create one set of artisan's tools in an unoccupied space within 5 feet of you. This creation requires 1 hour of uninterrupted work, which can coincide with a short or long rest. Though the product of magic, the tools are nonmagical, and they vanish when you use this feature again."
 						]
 					}
 				],
@@ -395,35 +256,27 @@
 				],
 				[
 					{
-						"name": "Artificer Specialist feature",
+						"name": "Artificer Specialist Feature",
 						"entries": [
-							"At 5th level, you gain a feature granted by your Artificer Specialization."
+							"At 5th level, you gain a feature granted by your Artificer Specialist choice."
 						],
 						"gainSubclassFeature": true
 					}
 				],
 				[
 					{
-						"name": "Arcane Reconstruction",
+						"name": "Tool Expertise",
 						"entries": [
-							"At 6th level, you have mastered the knowledge of using magic to repair things. You learn the {@spell mending|PHEW} cantrip, and can cast it at will. Additionally, you learn the {@spell cure wounds|PHEW} spell. If you already know cure wounds you can select another spell from the {@filter Artificer spell list|spells|class=Artificer}. When you cast cure wounds, it can heal constructs in addition to normally valid targets."
-						]
-					},
-					{
-						"name": "Cross Disciplinary Knowledge",
-						"entries": [
-							"At 6th level, you can expand on your knowledge across fields. You can craft one of the following: a Thundersmith's Stormforged Weapon, an Infusionsmith's Animated Weapon, Blasting Rod, or Infused Weapon, a Potionsmith's Alchemical Reagent Pouch and Alchemical Fire or Alchemical Acid, or an Unrestricted Gadgetsmith Upgrade.",
-							"If you select a Stormforged Weapon, you gain proficiency with that weapon and knowledge of how to make ammunition for it (if required). You cannot apply Infused Weapon to another weapon granted by this class.",
-							"If this selection is lost or destroyed, you can remake it following the rules for remaking the select item in subclass."
+							"Starting at 6th level, your proficiency bonus is doubled for any ability check you make that uses your proficiency with a tool."
 						]
 					}
 				],
 				[
 					{
-						"name": "Wondrous Item Proficiency",
+						"name": "Flash of Genius",
 						"entries": [
-							"At 7th level, your familiarity with the workings of magical items means that you can ignore class based restrictions on attuning to magical items.",
-							"Additionally, you can now attune to 4 magical items at once."
+							"Starting at 7th level, you gain the ability to come up with solutions under pressure. When you or another creature you can see within 30 feet of you makes an ability check or a saving throw, you can use your reaction to add your Intelligence modifier to the roll.",
+							"You can use this feature a number of times equal to your Intelligence modifier (minimum of once). You regain all expended uses when you finish a long rest."
 						]
 					}
 				],
@@ -437,29 +290,35 @@
 					}
 				],
 				[
+					{
+						"name": "Artificer Specialist Feature",
+						"entries": [
+							"At 9th level, you gain a feature granted by your Artificer Specialist choice."
+						],
+						"gainSubclassFeature": true
+					}
 				],
 				[
 					{
-						"name": "Improved Magical Crafting",
+						"name": "Magic Item Adept",
 						"entries": [
-							"At 10th level, your experience in creating your own wondrous invention makes you more adept at crafting a magic item than a normal spellcaster. Creating a magic item takes you half the time it would normally take.",
-							"Additionally, you can make 1 hour of progress toward crafting a magic item, scroll, or potion during a long rest."
-						]
-					},
-					{
-						"name": "Wondrous Item Recharge",
-						"entries": [
-							"Starting at 10th level, you can recharge a magic item that has charges or per rest uses, as long as those charges or uses can only be used to cast spells. To restore charges or uses, you perform a ritual that takes one minute and expends a spell slot of equal or higher level than a spell slot level of a spell cast by the item.",
-							"The number of charges or uses restored to the item is equal to the number of charges or uses required to cast that spell using the item once."
+							"When you reach 10th level, you achieve a profound understanding of how to use and make magic items:",
+							{
+								"type": "list",
+								"items": [
+									"You can attune to up to four magic items at once.",
+									"If you craft a magic item with a rarity of common or uncommon, it takes you a quarter of the normal time, and it costs you half as much of the usual gold."
+								]
+							}
 						]
 					}
 				],
 				[
 					{
-						"name": "Study of Magic",
+						"name": "Spell-Storing Item",
 						"entries": [
-							"At 11th level, your proficiency in the workings of magic has become so great you can cast detect magic and identify at will without expending a spell slot.",
-							"Additionally, you have advantage on all Intelligence (Arcana) checks to understand the workings of magical traps, effects, or runes."
+							"At 11th level, you learn how to store a spell in an object. Whenever you finish a long rest, you can touch one simple or martial weapon or one item that you can use as a spellcasting focus, and you store a spell in it, choosing a 1st- or 2nd-level spell from the {@filter artificer spell list|spells|class=Artificer|cast time=action} that requires 1 action to cast (you needn't have it prepared).",
+							"While holding the object, a creature can take an action to produce the spell's effect from it, using your spellcasting ability modifier. If the spell requires concentration, the creature must concentrate. The spell stays in the object until it's been used a number of times equal to twice your Intelligence modifier (minimum of twice) or until you use this feature again to store a spell in an object."
 						]
 					}
 				],
@@ -472,18 +331,30 @@
 						]
 					}
 				],
-				[
-				],
+				[],
 				[
 					{
-						"name": "Artificer Specialist feature",
+						"name": "Magic Item Savant",
 						"entries": [
-							"At 14th level, you gain a feature granted by your Artificer Specialization."
-						],
-						"gainSubclassFeature": true
+							"At 14th level, your skill with magic items deepens more:",
+							{
+								"type": "list",
+								"items": [
+									"You can attune to up to five magic items at once.",
+									"You ignore all class, race, spell, and level requirements on attuning to or using a magic item."
+								]
+							}
+						]
 					}
 				],
 				[
+					{
+						"name": "Artificer Specialist Feature",
+						"entries": [
+							"At 15th level, you gain a feature granted by your Artificer Specialist choice."
+						],
+						"gainSubclassFeature":true
+					}
 				],
 				[
 					{
@@ -494,14 +365,12 @@
 						]
 					}
 				],
-				[
-				],
+				[],
 				[
 					{
-						"name": "Wondrous Item Mastery",
+						"name": "Magic Item Master",
 						"entries": [
-							"Starting at 18th level you can activate a magic item that would normally take an action as a bonus action instead.",
-							"Additionally, you can attune to 5 magical items at a time."
+							"Starting at 18th level, you can attune to up to six magic items at once."
 						]
 					}
 				],
@@ -516,35 +385,79 @@
 				],
 				[
 					{
-						"name": "Peerless Inventor",
+						"name": "Soul of Artifice",
 						"entries": [
-							"At 20th level, your mind is always thinking of new options and clever solutions. You can select and create temporary version of an Upgrade from your subclass you are qualified to take but do not have with a level requirement of 11th level or lower as an action. You have this upgrade until you complete a short rest. You cannot select another temporary Upgrade in this fashion until you complete a short or long rest."
+							"At 20th level, you develop a mystical connection to your magic items, which you can draw on for protection:",
+							{
+								"type": "list",
+								"items": [
+									"You gain a +1 bonus to all saving throws per magic item you are currently attuned to.",
+									"If you're reduced to 0 hit points but not killed outright, you can use your reaction to end one of your artificer infusions, causing you to drop to 1 hit point instead of 0."
+								]
+							}
 						]
 					}
 				]
 			],
-			"subclassTitle": "Artificer Specialization",
+			"subclassTitle": "Artificer Specialist",
 			"subclasses": [
 				{
-					"name": "Gadgetsmith",
+					"name": "Alchemist",
 					"subclassFeatures": [
 						[
 							{
-								"name": "Gadgetsmith's Proficiency",
+								"name": "Alchemist",
 								"entries": [
-									"When you choose this specialization at 1st level, you gain proficiency with nets, rapiers, whips, and tinker's tools."
-								]
-							},
-							{
-								"name": "Essential Tools",
-								"entries": [
-									"At 1st level, you've mastered the creation of the essential reusable tools for surviving the battlefield as a gadgeteer. You have the following items:",
+									"An Alchemist is an expert at combining reagents to produce mystical effects. Alchemists use their creations to give life and to leech it away. Alchemy is the oldest of artificer traditions, and its versatility has long been valued during times of war and peace.",
 									{
-										"type": "list",
-										"items": [
-											"Grappling Hook. As an attack or as an action, you may target a surface, object or creature within 20 feet. If the target is Small or Smaller, you can make a Strength (Athletics) grappling check to pull it to you and grapple it. Alternatively, if the target is Medium or larger, you can choose to be pulled to it, however, this does not grapple it.",
-											"Smoke Bomb. As an action, you can use this to cast {@spell fog cloud|PHEW} centered on yourself without expending a spell slot. It lasts a number of rounds equal to your intelligence modifier and does not require concentration.",
-											"Gadgetsmith Weapon. Pick one of boomerang of hitting, Impact Gauntlets, Lightning Baton, Repeating Crossbow, or Shock Generator from the {@filter upgrade section|optionalfeatures|feature type=gg}. You receive this upgrade and it does not count against your upgrade total."
+										"type": "entries",
+										"name": "Tool Proficiency",
+										"entries": [
+											"When you adopt this specialization at 3rd level, you gain proficiency with alchemist's supplies. If you already have this proficiency, you gain proficiency with one other type of artisan's tools of your choice."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Alchemist Spells",
+										"entries": [
+											"Starting at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Alchemist Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.",
+											{
+												"type": "table",
+												"caption": "Alchemist Spells",
+												"colLabels": ["Artificer Level","Spell"],
+												"colStyles": ["col-2 text-center","col-10"],
+												"rows": [
+													["3rd","{@spell healing word|PHEW}, {@spell ray of sickness|PHEW}"],
+													["5th","{@spell flaming sphere|PHEW}, {@spell Melf's acid arrow|PHEW}"],
+													["9th","{@spell gaseous form|PHEW}, {@spell mass healing word|PHEW}"],
+													["13th","{@spell blight|PHEW}, {@spell death ward|PHEW}"],
+													["17th","{@spell cloudkill|PHEW}, {@spell raise dead|PHEW}"]
+												]
+											}
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Experimental Elixir",
+										"entries": [
+											"Beginning at 3rd level, whenever you finish a long rest, you can magically produce an {@i experimental elixir} in an empty flask you touch. Roll on the Experimental Elixir table for the elixir's effect, which is triggered when someone drinks the elixir. As an action, a creature can drink the elixir or administer it to an {@condition incapacitated} creature.",
+											"Creating an {@i experimental elixir} requires you to have {@item alchemist's supplies|PHEW} on your person, and any elixir you create with this feature lasts until it is drunk or until the end of your next long rest.",
+											"When you reach certain levels in this class, you can make more elixirs at the end of a long rest: two at 6th level and three at 15th level. Roll for each elixir's effect separately. Each elixir requires its own flask.",
+											"You can create additional {@i experimental elixirs} by expending a spell slot of 1st level or higher for each one. When you do so, you use your action to create the elixir in an empty flask you touch, and you choose the elixir's effect from the Experimental Elixir table.",
+											{
+												"type": "table",
+												"caption": "Experimental Elixir",
+												"colLabels": ["d6","Effect"],
+												"colStyles": ["col-2 text-center","col-10"],
+												"rows": [
+													["1","{@b Healing}. The drinker regains a number of hit points equal to {@dice 2d4} + your Intelligence modifier."],
+													["2","{@b Swiftness}. The drinker's walking speed increases by 10 feet for 1 hour."],
+													["3","{@b Resilience}. The drinker gains a +1 bonus to AC for 10 minutes."],
+													["4","{@b Boldness}. The drinker can roll a {@dice d4} and add the number rolled to every attack roll and saving throw they make for the next minute."],
+													["5","{@b Flight}. The drinker gains a flying speed of 10 feet for 10 minutes."],
+													["6","{@b Transformation}. The drinker's body is transformed as if by the {@spell alter self|PHEW} spell. The drinker determines the transformation caused by the spell, the effects of which last for 10 minutes."]
+												]
+											}
 										]
 									}
 								]
@@ -555,23 +468,232 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Additional Upgrade",
+										"name": "Alchemical Savant",
 										"entries": [
-											"At 3rd level, you've mastered the essential tools, and have begun to tinker with ways to expand your arsenal. The number of upgrades you have for your class level is increased by one.",
-											"The number of additional upgrades you get increases by one more at 5th level to two more than the class table."
+											"At 5th level, you develop masterful command of magical chemicals, enhancing the healing and damage you create through them. Whenever you cast a spell using your alchemist's supplies as the spellcasting focus, you gain a bonus to one roll of the spell. That roll must restore hit points or be a damage roll that deals acid, fire, necrotic, or poison damage, and the bonus equals your Intelligence modifier (minimum of +1)."
 										]
 									}
 								]
-							},
+							}
+						],
+						[
 							{
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Recycle Gadgets",
+										"name": "Restorative Reagents",
 										"entries": [
-											"Starting at 3rd level, during a long rest and taking effect when you complete it, you can disassemble your gadgets and create different ones. When you do this, remove any upgrade you would like, and pick a new upgrade its place.",
-											"You still must select upgrades that are valid for the level you gained the upgrade at (e.g. at 9th level, you can only have one upgrade that has a prerequisite of 9th level).",
-											"Additionally, if a gadget is destroyed, you can use this feature to recreate it for materials worth 20 gold pieces."
+											"Starting at 9th level, you can incorporate restorative reagents into some of your works:",
+											{
+												"type": "list",
+												"items": [
+													"Whenever a creature drinks an {@i experimental elixir} you created, the creature gains temporary hit points equal to {@dice 2d6} + your Intelligence modifier (minimum of 1 temporary hit point).",
+													"You can cast {@spell lesser restoration|PHEW} without expending a spell slot and without preparing the spell, provided you use alchemist's supplies as the spellcasting focus. You can do so a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a long rest."
+												]
+											}
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Chemical Mastery",
+										"entries": [
+											"By 15th level, you have been exposed to so many chemicals that they pose little risk to you, and you can use them to quickly end certain ailments:",
+											{
+												"type": "list",
+												"items": [
+													"You gain resistance to acid damage and poison damage, and you are immune to the {@condition poisoned|PHEW} condition.",
+													"You can cast {@spell greater restoration|PHEW} and {@spell heal|PHEW} without expending a spell slot, without preparing the spell, and without material components, provided you use alchemist's supplies as the spellcasting focus. Once you cast either spell with this feature, you can't cast that spell with it again until you finish a long rest."
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					],
+					"source": "PHEW",
+					"shortName": "Alchemist"
+				},
+				{
+					"name": "Artillerist",
+					"subclassFeatures": [
+						[
+							{
+								"name": "Artillerist",
+								"entries": [
+									"An Artillerist specializes in using magic to hurl energy, projectiles, and explosions on a battlefield. This destructive power is valued by all the armies of the world.",
+									{
+										"type": "entries",
+										"name": "Tool Proficiency",
+										"entries": [
+											"When you adopt this specialization at 3rd level, you gain proficiency with woodcarver's tools. If you already have this proficiency, you gain proficiency with one other type of artisan's tools of your choice."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Artillerist Spells",
+										"entries": [
+											"Starting at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Artillerist Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.",
+											{
+												"type": "table",
+												"caption": "Artillerist Spells",
+												"colLabels": ["Artificer Level","Spell"],
+												"colStyles": ["col-2 text-center","col-10"],
+												"rows": [
+													["3rd","{@spell shield|PHEW}, {@spell thunderwave|PHEW}"],
+													["5th","{@spell scorching ray|PHEW}, {@spell shatter|PHEW}"],
+													["9th","{@spell fireball|PHEW}, {@spell wind wall|PHEW}"],
+													["13th","{@spell ice storm|PHEW}, {@spell wall of fire|PHEW}"],
+													["17th","{@spell cone of cold|PHEW}, {@spell wall of force|PHEW}"]
+												]
+											}
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Eldritch Cannon",
+										"entries": [
+											"At 3rd level, you learn how to create a magical cannon. Using woodcarver's tools or smith's tools, you can take an action to magically create a Small or Tiny eldritch cannon in an unoccupied space on a horizontal surface within 5 feet of you. A Small eldritch cannon occupies its space, and a Tiny one can be held in one hand.",
+											"Once you create a cannon, you can't do so again until you finish a long rest or until you expend a spell slot of 1st level or higher. You can have only one cannon at a time and can't create one while your cannon is present.",
+											"The cannon is a magical object. Regardless of size, the cannon has an AC of 18 and a number of hit points equal to five times your artificer level. It is immune to poison damage, psychic damage, and all conditions. If it is forced to make an ability check or a saving throw, treat all its ability scores as 10 (+0). If the {@spell mending|PHEW} spell is cast on it, it regains {@dice 2d6} hit points. It disappears if it is reduced to 0 hit points or after 1 hour. You can dismiss it early as an action.",
+											"When you create the cannon, you determine its appearance and whether it has legs. You also decide which type it is, choosing from the options on the Eldritch Cannons table. On each of your turns, you can take a bonus action to cause the cannon to activate if you are within 60 feet of it. As part of the same bonus action, you can direct the cannon to walk or climb up to 15 feet to an unoccupied space, provided it has legs.",
+											{
+												"type": "table",
+												"caption": "Eldritch Cannons",
+												"colLabels": ["Cannon","Activation"],
+												"colStyles": ["col-2","col-10"],
+												"rows": [
+													["Flamethrower","The cannon exhales fire in an adjacent 15-foot cone that you designate. Each creature in that area must make a Dexterity saving throw against your spell save DC, taking {@dice 2d8} fire damage on a failed save or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren't being worn or carried."],
+													["Force Ballista","Make a ranged spell attack, originating from the cannon, at one creature or object within 120 feet of it. On a hit, the target takes {@dice 2d8} force damage, and if the target is a creature, it is pushed up to 5 feet away from the cannon."],
+													["Protector","The cannon emits a burst of positive energy that grants itself and each creature of your choice within 10 feet of it a number of temporary hit points equal to {@dice 1d8} + your Intelligence modifier (minimum of +1)."]
+												]
+											}
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Arcane Firearm",
+										"entries": [
+											"At 5th level, you know how to turn a wand, staff, or rod into an arcane firearm, a conduit for your destructive spells. When you finish a long rest, you can use woodcarver's tools to carve special sigils into a wand, staff, or rod and thereby turn it into your arcane firearm. The sigils disappear from the object if you later carve them on a different item. The sigils otherwise last indefinitely.",
+											"You can use your arcane firearm as a spellcasting focus for your artificer spells. When you cast an artificer spell through the firearm, roll a {@dice d8}, and you gain a bonus to one of the spell's damage rolls equal to the number rolled."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Explosive Cannon",
+										"entries": [
+											"Starting at 9th level, every eldritch cannon you create is more destructive:",
+											{
+												"type": "list",
+												"items": [
+													"The cannon's damage rolls all increase by {@dice 1d8}.",
+													"As an action, you can command the cannon to detonate if you are within 60 feet of it. Doing so destroys the cannon and forces each creature within 20 feet of it to make a Dexterity saving throw against your spell save DC, taking {@dice 3d8} force damage on a failed save or half as much damage on a successful one."
+												]
+											}
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Fortified Position",
+										"entries": [
+											"Starting at 15th level, you're a master at forming well-defended emplacements using Eldritch Cannon:",
+											{
+												"type": "list",
+												"items": [
+													"You and your allies have half cover while within 10 feet of a cannon you create with Eldritch Cannon, as a result of a shimmering field of magical protection that the cannon emits.",
+													"You can now have two cannons at the same time. You can create two with the same action (but not the same spell slot), and you can activate both of them with the same bonus action. You determine whether the cannons are identical to each other or different. You can't create a third cannon while you have two."
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					],
+					"source": "PHEW",
+					"shortName": "Artillerist"
+				},
+				{
+					"name": "Battle Smith",
+					"subclassFeatures": [
+						[
+							{
+								"name": "Battle Smith",
+								"entries": [
+									"Armies require protection, and someone has to put things back together if defenses fail. A combination of protector and medic, a Battle Smith is an expert at defending others and repairing both material and personnel. To aid in their work, Battle Smiths are usually accompanied by a steel defender, a protective companion of their own creation. Many soldiers tell stories of nearly dying before being saved by a Battle Smith and a steel defender.",
+									{
+										"type": "entries",
+										"name": "Tool Proficiency",
+										"entries": [
+											"When you adopt this specialization at 3rd level, you gain proficiency with smith's tools. If you already have this proficiency, you gain proficiency with one other type of artisan's tools of your choice."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Battle Smith Spells",
+										"entries": [
+											"Starting at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Battle Smith Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.",
+											{
+												"type": "table",
+												"caption": "Battle Smith Spells",
+												"colLabels": ["Artificer Level","Spell"],
+												"colStyles": ["col-2 text-center","col-10"],
+												"rows": [
+													["3rd","{@spell heroism|PHEW}, {@spell shield|PHEW}"],
+													["5th","{@spell branding smite|PHEW}, {@spell warding bond|PHEW}"],
+													["9th","{@spell aura of vitality|PHEW}, {@spell conjure barrage|PHEW}"],
+													["13th","{@spell aura of purity|PHEW}, {@spell fire shield|PHEW}"],
+													["17th","{@spell banishing smite|PHEW}, {@spell mass cure wounds|PHEW}"]
+												]
+											}
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Battle Ready",
+										"entries": [
+											"When you reach 3rd level, your combat training and your experiments with magic have paid off in two ways:",
+											{
+												"type": "list",
+												"items": [
+													"You gain proficiency with martial weapons.",
+													"When you attack with a magic weapon, you can use your Intelligence modifier, instead of Strength or Dexterity modifier, for the attack and damage rolls."
+												]
+											}
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Steel Defender",
+										"entries": [
+											"By 3rd level, your tinkering has borne you a faithful companion, a {@creature steel defender|phew}. It is friendly to you and your companions, and it obeys your commands. See this creature's game statistics in the steel defender stat block. You determine the creature's appearance and whether it has two legs or four; your choice has no effect on its game statistics.",
+											"In combat, the steel defender shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the {@action Dodge|PHEW} action, unless you take a bonus action on your turn to command it to take one of the actions in its stat block or the {@action Dash|PHEW}, {@action Disengage|PHEW}, {@action Help|PHEW}, {@action Hide|PHEW}, or {@action Search|PHEW} action.",
+											"If the {@spell mending|PHEW} spell is cast on it, it regains {@dice 2d6} hit points. If it has died within the last hour, you can use your smith's tools as an action to revive it, provided you are within 5 feet of it and you expend a spell slot of 1st level or higher. The steel defender returns to life after 1 minute with all its hit points restored.",
+											"At the end of a long rest, you can create a new steel defender if you have your smith's tools with you. If you already have a steel defender from this feature, the first one immediately perishes."
 										]
 									}
 								]
@@ -584,7 +706,7 @@
 										"type": "entries",
 										"name": "Extra Attack",
 										"entries": [
-											"Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn."
+											"Starting at 5th level, you can attack twice, rather than once, whenever you take the {@action Attack|PHEW} action on your turn."
 										]
 									}
 								]
@@ -595,9 +717,38 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Combat Gadgets",
+										"name": "Arcane Jolt",
 										"entries": [
-											"Beginning at the 14th level, when you take the Attack action, you can replace an attack with using any gadget that requires an action to use."
+											"At 9th level, you learn new ways to channel arcane energy to harm or heal. When either you hit a target with a magic weapon attack or your steel defender hits a target, you can channel magical energy through the strike to create one of the following effects:",
+											{
+												"type": "list",
+												"items": [
+													"The target takes an extra {@dice 2d6} force damage.",
+													"Choose one creature or object you can see within 30 feet of the target. Healing energy flows into the chosen recipient, restoring {@dice 2d6} hit points to it."
+												]
+											},
+											"You can use this energy a number of times equal to your Intelligence modifier (minimum of once), but you can do so no more than once on a turn. You regain all expended uses when you finish a long rest."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Improved Defender",
+										"entries": [
+											"At 15th level, your Arcane Jolt and steel defender become more powerful:",
+											{
+												"type": "list",
+												"items": [
+													"The extra damage and the healing of your Arcane Jolt both increase to {@dice 4d6}.",
+													"Your steel defender gains a +2 bonus to Armor Class.",
+													"Whenever your steel defender uses its Deflect Attack, the attacker takes force damage equal to {@dice 1d4} + your Intelligence modifier."
+												]
+											}
 										]
 									}
 								]
@@ -605,373 +756,80 @@
 						]
 					],
 					"source": "PHEW",
-					"shortName": "Gadgetsmith"
-				},
-				{
-					"name": "Golemsmith",
-					"subclassFeatures": [
-						[
-							{
-								"name": "Golemsmith's Proficiency",
-								"entries": [
-									"When you choose this specialization at 1st level, you gain proficiency with smith's tools and tinker's tools."
-								]
-							},
-							{
-								"name": "Mechanical Golem",
-								"entries": [
-									"Starting at 1st level, you forge an {@creature artificer's golem|phew} to carry out your orders and protect you. The golem is under your control, and understands the languages you speak, but does not speak.",
-									"The Golem obeys your commands as best it can. On your turn, you can verbally command the construct where to move (no action required by you) and take an action, which requires your action to do. Additionally, you can use your reaction to direct it to take a reaction. The Golem acts on your commands during your turn. If you issue no action command to your Golem, it takes no actions.",
-									"Your Golem's Proficiency increases when yours does. If the golem is killed, it can be returned to life via normal means, such as with the revivify spell.",
-									"In addition, over the course of a long rest, you can repair a slain servant if you have access to its body. It returns to life with half (rounded down) its maximum hit point at the end of the rest during which you repaired it. If the servant is beyond recovery, you can reproduce the construct exactly as it was, with four days of work (eight hours each day) and 100 gp of raw materials.",
-									"Over the course of a short rest, you can restore hitpoints equal to your Intelligence modifier + your Artificer level to your golem, or repair it to full health during a long rest."
-								]
-							},
-							{
-								"name": "Golem Chassis",
-								"entries": [
-									"When you create your golem, you can add one prefix to its type in the form which basic chassis you use for golem. For example, if you select Warforged, your golem becomes a Warforged Golem, and gains the Warforged modifications to its base statistics.",
-									{
-										"name": "Warforged",
-										"entries": [
-											"Your golem is roughly humanoid, and comes with the robust flexibility and options that this form provides. Its base strength becomes 16(+3) and it gains proficiency in shields, simple weapons, and martial weapons.",
-											"Its natural weapon is: Slam: +5 (Strength + Proficiency) to hit, reach 5ft., one target. Hit 1d4 + 3 (Strength) bludgeoning damage."
-										]
-									},
-									{
-										"name": "Quadrupedal",
-										"entries": [
-											"Your golem takes on a quadrupedal design. Larger and more sturdy, it is more suitable to launch into the fray or carry its creator. Its base size becomes large, its base strength and constitution become 16(+3), its natural armor becomes 16, and its speed becomes 35 ft.",
-											"Its natural weapon is: Bite: +5 (Strength + Proficiency) to hit, reach 5ft., one target. Hit 1d10 + 3 (Strength) piercing damage."
-										]
-									},
-									{
-										"name": "Winged",
-										"entries": [
-											"Your Golem is modeled off a flying creature. Smaller and lighter than most golems, it is kept aloft by intricate wings. Its base size becomes small and it gains a flying speed of 30 ft.",
-											"Its natural weapon is: Talon: +4 (Strength + Proficiency) to hit, reach 5ft., one target. Hit 1d8 + 2 (Strength) slashing damage."
-										]
-									},
-									{
-										"name": "Launcher",
-										"entries": [
-											"Your Golem becomes akin to a mobile turret, taking the frame of a ballista or other launching device. Its base Dexterity becomes 16(+3) and its speed becomes 25 ft.",
-											"Its natural weapon is: Shoot +5 (Dexterity + Proficiency) to hit, reach 60/240ft., one target. Hit 1d10 + 3 (Dexterity) piercing damage."
-										]
-									},
-									{
-										"name": "Specialized",
-										"entries": [
-											"Your Golem defies all expectations, its design fueled by your own rampant creativity. A little less robust and stable, it is far more extensible to your visionary plans. Your Golem starts with the basic statistics, but you can select 2 free {@filter upgrades|optionalfeatures|feature type=gl} that do not count against your upgrade total.",
-											"Its natural weapon is: Slam: +4 (Strength + Proficiency) to hit, reach 5ft., one target. Hit 1d8 + 4 (Strength) bludgeoning damage."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Intelligent Oversight",
-										"entries": [
-											"Starting at 3rd level, you can take the Help action as a bonus action when assisting your golem.",
-											"Additionally, when you take the Help action to aid an ally (including your golem) in attacking a creature, the target of that attack can be within 30 feet of you, rather than 5 feet of you, if the allied creature can see or hear you."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Autonomous Action",
-										"entries": [
-											"Starting at 5th level, you no longer need to spend your action or reaction to direct the golem to use its action or reaction, and it can act following mental commands communicated while it is within 60 feet of you.",
-											"If the Golem is not directed to take any action, it will take the Dodge action in combat."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Magical Nature",
-										"entries": [
-											"Additionally at 5th level, your golem's natural weapons count as magical for the purposes of overcoming resistance and immunity to nonmagical attacks and damage."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Perfected Design",
-										"entries": [
-											"Starting at 14th level, your golem can add your Intelligence modifier to all of its attack rolls, skill checks, and saving throws."
-										]
-									}
-								]
-							}
-						]
-					],
-					"source": "PHEW",
-					"shortName": "Golemsmith"
-				},
-				{
-					"name": "Infusionsmith",
-					"subclassFeatures": [
-						[
-							{
-								"name": "Infusionsmith's Proficiency",
-								"entries": [
-									"When you choose this specialization at 1st level, you gain proficiency with jeweler's tools and calligrapher's supplies.",
-									"Your knowledge of infusion magic gives you a natural affinity for scribing spell scrolls. Creating a magic spell scroll only takes you half the time and material cost it would normally take."
-								]
-							},
-							{
-								"name": "Infused Armament",
-								"entries": [
-									"Starting at 1st level, you can infuse a powerful armament to take into battle. At the end of a long rest, select one of the Infusions below. The infusion lasts until the end of your next long rest.",
-									{
-										"name": "Animated Weapon",
-										"entries": [
-											"You touch a melee weapon, causing it to spring to life. An animated weapon can be carried or stowed, but while readied, it floats beside you. While an animated weapon is readied, as an action you can make a melee spell attack with it.",
-											"If this attack hits, it deals the weapon's damage dice + your Intelligence modifier. The range of this attack is 30 feet, with that range reduced to 15 feet if the weapon has the Heavy property and increased to 60 feet if the weapon has the Light property."
-										]
-									},
-									{
-										"name": "Blasting Rod",
-										"entries": [
-											"You touch a nonmagical wand-blank, stick, staff, or rod, infusing with the ability to cast a cantrip. Select one Evocation Cantrip from the Wizard spell list that does not require concentration. Thereafter, as an action, you can use the Blasting rod to cast that cantrip.",
-											"Once per turn, when you deal damage to a creature or object with your Blasting Rod, you can add your Intelligence modifier to damage dealt to that target."
-										]
-									},
-									{
-										"name": "Infused Weapon",
-										"entries": [
-											"You touch a weapon, enchanting its effectiveness. While this weapon is enchanted, you - and only you - have proficiency with it.",
-											"An Infused Weapon can be wielded like a normal weapon, but gains the following property: you can apply your Intelligence modifier to the to attack and damage roll of the weapon where you usually apply your Strength or Dexterity modifier.",
-											"If an Infused Weapon has a single damage die, and that damage die is less than a d12, the damage die of the Infused Weapon is increased (for example, a dagger's damage die would go from a d4 to a d6)."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Spell Manual",
-										"entries": [
-											"At 3rd level, you have a Spell Manual containing two 1st-level wizard spells of your choice. Your Spell Manual is the repository of any non-Artificer spell you know.",
-											"You cannot cast these spells and they do not count against your spells known, but when you would learn a new Artificer spell, you can select that spell from your Spell Manual instead of the Artificer spell list, at which point you can cast it as normal. You can choose to scribe any Artificer spell you can cast into the Spell Manual, as if copying from a written spell."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Learning Spells of 1st Level and Higher",
-										"entries": [
-											"Each time you gain a artificer level, you can add one wizard Spell of your choice to your Spell Manual for free. Each of these spells must be of a level for which you have Spell Slots, as shown on the Artificer table.",
-											"On your adventures, you might find other Spells that you can add to your Spell Manual. For each level of the spell, the process takes 2 hours and costs 50 gold pieces."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Infuse Magic",
-										"entries": [
-											"Additionally at 3rd level, you can use your Spell Manual to infuse magic items, such as wands, storing the power for later use. In a special ritual taking 1 minute, you can expend a spell slot to cast a spell as normal, but the spell does not take effect, and is stored in the item for later use.",
-											"Subsequently, any creature holding the item with an Intelligence of 6 or higher that is aware there is magic infused in it can expend the stored magic to cast the spell.",
-											"The spell uses your spellcasting modifiers, but is in all other ways treated as if the creature holding it cast the spell. The magic infused in the item fades if you complete a long rest without expending the stored spell."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Improved Armaments",
-										"entries": [
-											"Starting at 5th level, you have mastered the use of your Infused Armaments, allowing you grow more effective with them.",
-											"Your Animated Weapon infusion can now animate two Animated Weapons, and you can attack with both them as part of the same action.",
-											"Your Blasting Rod infusion can now be used more easily. If you cast a spell using an item from Infuse Magic or from a wand (from the Magical Wand upgrade or a normal wand), you can cast the cantrip with your Blasting Rod as a bonus action.",
-											"Your Infused Weapon empowers you, allowing you to attack twice instead of once when you take the attack action."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Infused Focus",
-										"entries": [
-											"Starting at 14th level, you can anchor a powerful spell into an item. When you cast a concentration spell, you can anchor it to an item (such as a staff, wand or weapon), and do not need to maintain concentration. The spell lasts a number of rounds equal to your intelligence modifier, after which the spell ends.",
-											"Once you use this ability, you must complete a short or long rest before using it again."
-										]
-									}
-								]
-							}
-						]
-					],
-					"source": "PHEW",
-					"shortName": "Infusionsmith"
-				},
-				{
-					"name": "Potionsmith",
-					"subclassFeatures": [
-						[
-							{
-								"name": "Potionsmith's Proficiency",
-								"entries": [
-									"When you choose this specialization at 1st level, you gain proficiency with Blowguns, Alchemist’s supplies and Herbalism kit.",
-									"Your knowledge of alchemy gives you a natural affinity for brewing potions. Creating a potion through normal crafting takes you only half the time and cost it would normally take."
-								]
-							},
-							{
-								"name": "Alchemical Reagents Pouch",
-								"entries": [
-									"At 1st level, you've acquired a pouch of useful basic reagents, much as a wizard might carry a component pouch. You've tucked away things that will come in handy, and can retrieve them as part of using an ability that might require them. As long as you have this pouch on, you can use the potionsmith's features. This pouch is considered as alchemy supplies for the purposes of crafting.",
-									"If you lose your reagent pouch, you can spend 50 gold pieces to reacquire the various stocks you need, or spend 1 full day gathering them from a natural environment without expense."
-								]
-							},
-							{
-								"name": "Instant Reactions",
-								"entries": [
-									"At 1st level, you know how to get instant reactions to occur without the niceties of grinding, simmering and brewing required for more refined concoctions.",
-									"Moreover, you know enough ways to do these that with just a few standards supplies, you can get these results out of a wide range of things you can gather in almost any locale and a pinch from your reagent pouch.",
-									"You can pick three instant reactions from your {@filter Upgrade list|optionalfeatures|feature type=pt}, marked with a '*'; these include Alchemical Fire, Alchemical Acid, Healing Draught, Poisonous Gas, or Fortifying Fumes. The reactions you pick do not count against your maximum Upgrades known."
-								]
-							}
-						],
-						[
-							{
-								"name": "Alchemical Infusions",
-								"entries": [
-									"At 3rd level, you have found a way to skip most of the brewing process for alchemically creating potent magically effects by directly infusing the potion with your own magic. When you finish a short or long rest and have an empty vial on your person, you may choose one or more the following spells and use a spell slots to cast them.",
-									{
-										"type": "table",
-										"colLabels": [
-											"Spell level",
-											"Infusion Spells"
-										],
-										"colStyles": [
-											"col-2 text-center",
-											"col-8"
-										],
-										"rows": [
-											[
-												"1st",
-												"{@spell cure wounds|PHEW}, {@spell fog cloud|PHEW}, {@spell grease|PHEW}, {@spell heroism|PHEW}"
-											],
-											[
-												"2nd",
-												"{@spell barkskin|PHEW}, {@spell shatter|PHEW}, {@spell lesser restoration|PHEW}, {@spell web|PHEW}"
-											],
-											[
-												"3rd",
-												"{@spell blink|PHEW}, {@spell water breathing|PHEW}, {@spell stinking cloud|PHEW}, {@spell haste|PHEW}"
-											],
-											[
-												"4th",
-												"{@spell stoneskin|PHEW}, {@spell confusion|PHEW}"
-											],
-											[
-												"5th",
-												"{@spell cloudkill|PHEW}, {@spell skill empowerment|PHEW}"
-											]
-										]
-									},
-									"When you cast spells in this way, the spell does not take effect immediately, but is infused into the potion. If the spell grants an effect or restores health, the creature will gain the effect of the spell when the potion is consumed as an action.",
-									"If the spell has an area of effect, that area of effect takes place when the vial is broken, with the effect centered on where the vial breaks. As an action, you or another creature can either consume the vial, or throw it up to 30 feet where it shatters on impact.",
-									"If the spell has a persistent effect that requires concentration, it does not require concentration to maintain, but its duration is shortened to a number of rounds equal to your intelligence modifier.",
-									"A spell that does not require concentration lasts its normal duration. An infused potion loses its potency if it is not used by the end of your next long rest.",
-									"You can gain additional spells for your Alchemical Infusions through your Alchemist upgrades."
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Empowered Alchemy",
-										"entries": [
-											"Starting at 5th level, when you deal damage, grant temporary hit points, or restore health with an instant reaction or alchemical infusion, you can add your intelligence modifier to the damage dealt or health restored."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Infusion Expertise",
-										"entries": [
-											"Starting at 14th level, when you create an Alchemical Infusion at end the end of a short or long rest, the first alchemical infusion you create does not require a spell slot to infuse, and you can select an alchemical infusion that you would otherwise not have a spell slot of high enough level for when making this infusion."
-										]
-									}
-								]
-							}
-						]
-					],
-					"source": "PHEW",
-					"shortName": "Potionsmith"
+					"shortName": "Battle Smith"
 				}
 			],
 			"fluff": [
 				{
 					"entries": [
-						"A gnome sits hunched over a workbench in a room cluttered with every sort of tool, carefully drawing the final lines to an intricate rune. With a crackling hum of arcane energy, the completed rune flares with power, and she watches with a smile of pride as the golem comes to life and stands.",
-						"A troll growls in hunger as it looms over a dwarf, who slides a long, metal tube from a holster at his belt. With a thundering boom, a gout of energy erupts from the tube, and the troll's growls turn into shrieks of panic as it turns to flee.",
-						"With a thunderous crash of energy a figure lands in the middle of the battlefield. As the smoke clears, a towering presence stands amidst the war-torn battlefield clad in glowing mechanical plate mail. The glowing visor swivels to inspect the wreckage. It raises a gauntlet, and lightning crackles forth.",
-						"Makers of magic-infused objects, artificers are defined by their inventive nature. Like wizards, they see magic as a complex system waiting to be decoded and controlled through a combination of thorough study and investigation.",
-						"Artificers, though, focus on creating marvelous new magical objects. Spells are often too ephemeral and temporary for their tastes. Instead, they seek to craft durable, useful items.",
+						"Masters of unlocking magic in everyday objects, artificers are supreme inventors. They see magic as a complex system waiting to be decoded and controlled. Artificers use tools to channel arcane power, crafting magical objects. To cast a spell, an artificer could use alchemist's supplies to create a potent elixir, calligrapher's supplies to inscribe a sigil of power on an ally's armor, or tinker's tools to craft a temporary charm. The magic of artificers is tied to their tools and their talents.",
 						{
 							"type": "entries",
-							"name": "Cunning Inventors",
+							"name": "Arcane Science",
 							"entries": [
-								"Every artificer is defined by a specific craft. Artificers see mastering the basic methods of a craft as the first step to true progress, the invention of new methods and approaches. Artificers are arcane engineers, students of invention and warfare who craft deadly firearms, ingenious gadgets, magical armor, and mechanical beings that they can augment with magic.",
-								"All artificers are united by their curious and inventive nature. To an artificer, magic is an evolving art with a leading edge of discovery and mastery that pushes further ahead with each passing year. Artificers value novelty and discovery. This penchant pushes them to seek a life of adventure.",
-								"A hidden ruin might hold a forgotten magic item or a beautifully crafted mirror perfect for magical enhancement. Artificers win respect and renown among their kind by uncovering new lore or inventing new methods of creation."
+								"In the world of Eberron, arcane magic has been harnessed as a form of science and deployed throughout society. Artificers reflect this development. Their knowledge of magical devices, and their ability to infuse mundane items with magic, allows Eberron's most miraculous projects to continue.",
+								"During the Last War, artificers were marshaled on a massive scale. Many lives were saved because of the inventions of brave artificers, but countless lives were also lost because of the mass destruction unleashed by their creations."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Intense Rivalries",
+							"name": "Seekers of New Lore",
 							"entries": [
-								"The artificers’ drive to invent and expand their knowledge creates an intense drive to uncover new magic discoveries. An artificer who hears news of a newly discovered magic item must act fast to get it before any rivals do. Good-aligned artificers recover items on adventures or offer gold or wondrous items to those who possess items they are keen to own. Evil ones have no problem committing crimes to claim what they want.",
-								"Almost every artificer has at least one rival, someone whom they seek to outdo at every turn. By the same token, artificers with similar philosophies and theories band together into loose guilds. They share their discoveries and work together to verify their theories and keep ahead of their rivals."
+								"Nothing excites an artificer quite like uncovering a new metal or discovering a source of elemental energy. In artificer circles, new inventions and strange discoveries create the most excitement. Artificers who wish to make their mark must innovate, creating something fresh, rather than iterating on familiar designs.",
+								"This drive for novelty pushes artificers to become adventurers. Eberron's main travel routes and populated regions have long since been explored. Thus, artificers seek the frontiers of civilization in hopes of making the next great discovery in arcane research."
 							]
 						},
 						{
 							"type": "entries",
 							"name": "Creating an Artificer",
 							"entries": [
-								"When creating an artificer character, think about your character's background and drive for adventure. Does the character have a rival? What drove your character down the path of being an artificer? Is it about curiosity and invention, or about the power their inventions bring? Did you character learn from another artificer, or receive a vision or flash of inspiration to learn their craft?",
-								"Consider how your character interacts with the world, and what they represent. Consult with your DM regarding guilds or societies your character might belong to.",
+								"When creating an artificer, think about your character's relationship with the artisan who taught them their craft. Does the character have a rival? Talk to your DM about the role played by artificers in the campaign and the sort of organizations you might have ties to.",
+								{
+									"type": "inset",
+									"name": "Artificers in Other Worlds",
+									"entries": [
+										"Eberron is the world most associated with artificers, yet the class can be found throughout the D&D multiverse. In the Forgotten Realms, for example, the island of Lantan is home to many artificers, and in the world of Dragonlance, tinker gnomes are often members of this class. The strange technologies in the Barrier Peaks of the World of Greyhawk have inspired some folk to walk the path of the artificer, and in Mystara, various nations employ artificers to keep airships and other wondrous devices operational. In the City of Sigil, artificers share discoveries from throughout the cosmos, and one in particular—the gnome inventor Vi—has run a multiverse-spanning business from there since leaving the world of her birth, Eberron. In the world-city Ravnica, the Izzet League trains numerous artificers, the destructiveness of whom is unparalleled in other worlds—except, perhaps, by the tinker gnomes of Krynn."
+									]
+								},
 								{
 									"type": "entries",
 									"name": "Quick Build",
 									"entries": [
-										"You can make an artificer quickly by following these suggestions. For the Gadgetsmith or Thundersmith paths, make your highest attribute Dexterity, followed by Intelligence. For Golemsmith, Infusionsmith, or Potionsmith, Intelligence followed by Constitution or Dexterity, and for Warsmith or Fleshsmith, choose either Strength or Intelligence, with Constitution as your second highest attribute. Second, choose the Guild Artisan background."
+										"You can make an artificer quickly by following these suggestions. First, put your highest ability score in Intelligence, followed by Constitution or Dexterity. Second, choose the guild artisan background."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Optional Rule: Multiclassing",
+									"entries": [
+										"If your group uses the optional rule on multiclassing in the {@book Player's Handbook|PHB}, here's what you need to know if you choose artificer as one of your classes.",
+										{
+											"type": "entries",
+											"name": "Ability Score Minimum",
+											"entries": [
+												"As a multiclass character, you must have at least an Intelligence score of 13 to take a level in this class, or to take a level in another class if you are already an artificer."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Proficiencies Gained",
+											"entries": [
+												"If artificer isn't your initial class, here are the proficiencies you gain when you take your first level as an artificer: light armor, medium armor, shields, thieves' tools, tinker's tools."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Spell Slots",
+											"entries": [
+												"Add half your levels (rounded up) in the artificer class to the appropriate levels from other classes to determine your available spell slots."
+											]
+										}
 									]
 								}
 							]
 						}
 					],
-					"source": "PHEW"
+					"source":"PHEW"
 				}
 			]
 		},
@@ -3010,7 +2868,7 @@
 					{
 						"name": "Magical Secrets",
 						"entries": [
-							"By 10th level, you have plundered magical knowledge from a wide spectrum of disciplines. Choose two spells from any classes, including this one. A spell you choose must be of a level you can cast, as shown on the Bard table, or a cantrip.",
+							"By 10th level, you have plundered magical knowledge from a wide spectrum of disciplines. Choose two spells from any full caster classes, including this one. A spell you choose must be of a level you can cast, as shown on the Bard table, or a cantrip.",
 							"The chosen spells count as bard spells for you and are included in the number in the Spells Known column of the Bard table.",
 							"You learn two additional spells from any classes at 14th level and again at 18th level."
 						]
@@ -3038,7 +2896,7 @@
 					{
 						"name": "Magical Secrets",
 						"entries": [
-							"At 14th level, choose two additional spells from any classes, including this one. A spell you choose must be of a level you can cast, as shown on the Bard table, or a cantrip.",
+							"At 14th level, choose two additional spells from any full caster classes, including this one. A spell you choose must be of a level you can cast, as shown on the Bard table, or a cantrip.",
 							"The chosen spells count as bard spells for you and are included in the number in the Spells Known column of the Bard table."
 						]
 					},
@@ -3079,7 +2937,7 @@
 					{
 						"name": "Magical Secrets",
 						"entries": [
-							"At 18th level, choose two additional spells from any class, including this one. A spell you choose must be of a level you can cast, as shown on the Bard table, or a cantrip.",
+							"At 18th level, choose two additional spells from any full caster class, including this one. A spell you choose must be of a level you can cast, as shown on the Bard table, or a cantrip.",
 							"The chosen spells count as bard spells for you and are included in the number in the Spells Known column of the Bard table."
 						]
 					}
@@ -3138,7 +2996,7 @@
 										"type": "entries",
 										"name": "Additional Magical Secrets",
 										"entries": [
-											"At 6th level, you learn two spells of your choice from any class. A spell you choose must be of a level you can cast, as shown on the Bard table, or a cantrip. The chosen spells count as bard spells for you but don't count against the number of bard spells you know."
+											"At 6th level, you learn two spells of your choice from any full caster class. A spell you choose must be of a level you can cast, as shown on the Bard table, or a cantrip. The chosen spells count as bard spells for you but don't count against the number of bard spells you know."
 										]
 									}
 								]
@@ -3304,26 +3162,7 @@
 										"type": "entries",
 										"name": "Fighting Style",
 										"entries": [
-											"At 3rd level, you adopt a style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if something in the game lets you choose again.",
-											{
-												"type": "options",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Dueling",
-														"entries": [
-															"When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon."
-														]
-													},
-													{
-														"type": "entries",
-														"name": "Two-Weapon Fighting",
-														"entries": [
-															"When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack."
-														]
-													}
-												]
-											}
+											"At 3rd level, you adopt a style of fighting as your specialty. Choose one of the {@filter following options|optionalfeatures|feature type=fs:b|source=PHEW}. You can't take a Fighting Style option more than once, even if something in the game lets you choose again."
 										]
 									},
 									{
@@ -8857,92 +8696,7 @@
 					{
 						"name": "Fighting Style",
 						"entries": [
-							"You adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take the same Fighting Style option more than once, even if you get to choose again.",
-							{
-								"type": "options",
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Archery",
-										"entries": [
-											"You gain a +2 bonus to attack rolls you make with ranged weapons."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Defense",
-										"entries": [
-											"While you are wearing armor, you gain a +1 bonus to AC."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Dueling",
-										"entries": [
-											"When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Great Weapon Fighting",
-										"entries": [
-											"When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Protection",
-										"entries": [
-											"When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Two-Weapon Fighting",
-										"entries": [
-											"When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Bling Fighting",
-										"entries": [
-											"Being unable to see a creature doesn’t impose disadvantage on your attack rolls against it, provided the creature isn’t hidden from you."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Interception",
-										"entries": [
-											"When a creature you can see hits a target that is within 5 feet of you with an attack, you can use your reaction to reduce the damage the target takes by 1d10 + your proficiency bonus (to a minimum of 0 damage). You must be wielding a shield or a simple or martial weapon to use this reaction."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Thrown Weapon Fighting",
-										"entries": [
-											"You can draw a weapon that has the thrown property as part of the attack you make with the weapon.",
-											"In addition, when you hit with a ranged attack using a thrown weapon, you gain a +1 bonus to the damage roll."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Unarmed Fighting",
-										"entries": [
-											"Your unarmed strikes can deal bludgeoning damage equal to 1d6 + your Strength modifier. If you strike with two free hands, the d6 becomes a d8.",
-											"When you successfully start a grapple, you can deal 1d4 bludgeoning damage to the grappled creature. Until the grapple ends, you can also deal this damage to the creature whenever you hit it with a melee attack."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Superior Technique",
-										"entries": [
-											"You learn one maneuver of your choice from among those available to the Battle Master archetype. If a maneuver you use requires your target to make a saving throw to resist the maneuver’s effects, the saving throw DC equals 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice).",
-											"You gain one superiority die, which is a {@dice d6} (this die is added to any superiority dice you have from another source). This die is used to fuel your maneuvers. A superiority die is expended when you use it. You regain your expended superiority dice when you finish a short or long rest."
-										]
-									}
-								]
-							}
+							"You adopt a particular style of fighting as your specialty. Choose one of the {@filter following options|optionalfeatures|feature type=fs:f|source=PHEW}. You can't take the same Fighting Style option more than once, even if you get to choose again."
 						]
 					},
 					{
@@ -8955,60 +8709,6 @@
 						"name": "Maneuver Versatility",
 						"entries": [
 							"If you know any maneuvers from the fighter’s Battle Master archetype, you can replace one maneuver you know with a different maneuver whenever you finish a long rest. This change reflects your physical and mental preparation for the day ahead."
-						]
-					},
-					{
-						"name": "Maneuver Options",
-						"entries": [
-							"If you have access to maneuvers, the following maneuvers are added to the list of options available to you. Maneuvers are available to Battle Masters and to characters who have the Superior Technique fighting style or the Martial Adept feat.",
-							{
-								"type": "options",
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Ambush",
-										"entries": [
-											"When you make a Dexterity (Stealth) check or an initiative roll, you can expend one superiority die and add the die to the roll."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Bait and Switch",
-										"entries": [
-											"When you’re within 5 feet of an ally on your turn, you can expend one superiority die and switch places with that ally, provided you spend at least 5 feet of movement. This movement doesn’t provoke opportunity attacks.",
-											"Roll the superiority die. Until the start of your next turn, the ally gains a bonus to AC equal to the number rolled."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Brace",
-										"entries": [
-											"When an enemy you can see moves within 5 feet of you, you can use your reaction to expend one superiority die and make one weapon attack against that creature. If the attack hits, add the superiority die to the attack’s damage roll."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Silver Tongue",
-										"entries": [
-											"When you make a Charisma (Deception) check or a Charisma (Persuasion) check, you can expend one superiority die, and add the superiority die to the ability check."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Snipe",
-										"entries": [
-											"As a bonus action, you can expend one superiority die and make a ranged weapon attack. You can draw a thrown weapon as part of making this attack. If you hit, add the superiority die to the attack’s damage roll."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Studious Eye",
-										"entries": [
-											"When you make a Wisdom (Insight) check or an Intelligence (Investigation) check, you can expend one superiority die, and add the superiority die to the ability check."
-										]
-									}
-								]
-							}
 						]
 					},
 					{
@@ -9121,90 +8821,7 @@
 					{
 						"name": "Improved Fighting Style",
 						"entries": [
-							"You gain an additional option from your Fighting Style feature. Alternatively, you can improve an option you already have. If you do so, you gain the following benefits, depending of the option you choose:",
-							{
-								"type": "options",
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Archery",
-										"entries": [
-											"You no longer have disadvantage on your ranged weapon attacks if you are {@condition prone|PHEW} or a hostile creature is within 5 feet as long as your target is at least 10 feet away from you."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Defense",
-										"entries": [
-											"While you are wearing armor, you gain an additional +1 bonus to AC, for a total of +2."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Dueling",
-										"entries": [
-											"When you are wielding a melee weapon in one hand and no other weapons and a creature misses an attack against you, you have advantage on your next attack against that creature."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Great Weapon Fighting",
-										"entries": [
-											"When you would reroll a dice because of your Great Weapon Fighting style, you instead change the result to the maximum possible dice roll."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Protection",
-										"entries": [
-											"If you use the dodge action on your turn, any creatures you choose receive those same benefits as long as they are within 5 feet of you."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Two-Weapon Fighting",
-										"entries": [
-											"You make two separate attacks with your offhand weapon as part of your Attack action instead of one when you engage in two-weapon fighting."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Bling Fighting",
-										"entries": [
-											"Being unable to see a creature doesn’t give them advantage on attack rolls against you, provided the creature isn’t hidden from you."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Interception",
-										"entries": [
-											"You may prepare yourself to intercept an enemy attack as a bonus action. If you do, your first use of Interception before the start of your next turn doesn't require you to use your reaction.",
-											"In addition, your Interception now blocks up to 4d10 + your proficiency bonus damage."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Thrown Weapon Fighting",
-										"entries": [
-											"You gain a +1 bonus to the ranged attack roll made using a thrown weapon. You may use the hand you're using to wield a shield to draw a thrown weapon and make a ranged attack with it within your turn as though the hand was free."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Unarmed Fighting",
-										"entries": [
-											"While you're grappling a creature, as part of your Attack action, you may forgo one of your attacks. If you do, all of your attacks against the grappled creature have advantage and all of its attacks against any target have disadvantage until the start of your next turn."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Superior Technique",
-										"entries": [
-											"You learn two additional maneuvers of your choice from among those available to the Battle Master archetype and gain two superiority dice."
-										]
-									}
-								]
-							},
+							"You gain an {@filter additional option|optionalfeatures|feature type=fs:f|source=PHEW} from your Fighting Style feature. Alternatively, you can improve an option you already have. If you do so, you gain the following benefits, depending of the {@filter option you choose|optionalfeatures|feature type=ifs|source=PHEW}.",
 							"If a feature allows you to replace a Fighting Style for another and you choose an Improved Fighting Style, you replace the Improved Fighting Style with its basic version, instead of losing it completely. You may also choose a new Improved Fighting Style by choosing to swap a differente Fighting Style for another you already posses in its basic form, but you may not have more than one Improved Fighting Style option at once."
 						]
 					}
@@ -9286,12 +8903,21 @@
 							{
 								"name": "Champion",
 								"entries": [
-									"The archetypal Champion focuses on the development of raw physical power honed to deadly perfection. Those who model themselves on this archetype combine rigorous training with physical excellence to deal devastating blows.",
+									"The archetypal Champion focuses on the development of both raw physical power and skill as well as mastery over an assortment of weapons. Those who model themselves on this archetype combine rigorous training with physical excellence to deal with any situation.",
 									{
 										"type": "entries",
-										"name": "Improved Critical",
+										"name": "Remarkable Athlete",
 										"entries": [
-											"Beginning when you choose this archetype at 3rd level, your weapon attacks score a critical hit on a roll of 19 or 20."
+											"Beginning when you choose this archetype at 3rd level, you can add half your proficiency bonus (round up) to any Strength, Dexterity, or Constitution check you make that doesn't already use your proficiency bonus.",
+											"In addition, when you make a running long jump, the distance you can cover increases by a number of feet equal to your Strength modifier."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Weapon Master",
+										"entries": [
+											"You can stow a weapon or a shield and draw a weapon for no cost once per turn, and you can don a shield as a bonus action.",
+											"If you make a weapon attack on your turn, the first time you hit an attack with a different weapon until the end of your turn you deal extra damage equal to half your fighter level."
 										]
 									}
 								]
@@ -9302,10 +8928,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Remarkable Athlete",
+										"name": "Improved Critical",
 										"entries": [
-											"Starting at 7th level, you can add half your proficiency bonus (round up) to any Strength, Dexterity, or Constitution check you make that doesn't already use your proficiency bonus.",
-											"In addition, when you make a running long jump, the distance you can cover increases by a number of feet equal to your Strength modifier."
+											"Starting at 7th level, add half of your Dexterity mod to the d20 roll for any attack rolls you make using strength. This means, for example, that with a Dexterity mod of 3 a roll of 1 will not automatically miss (since it becomes a 2) and a roll of 19 or 20 will become a critical hit.",
+											"In addition, you can roll additional weapon damage dice when determining the extra damage for a critical hit with an attack you make using your dexterity. The number of dice you roll equals your Strength modifier."
 										]
 									}
 								]
@@ -9318,7 +8944,7 @@
 										"type": "entries",
 										"name": "Additional Fighting Style",
 										"entries": [
-											"At 10th level, you can choose a second option from the Fighting Style class feature. If you gain the Improved Fighting Style Fighter class feature at 14th level, you may improve two different Fighting Style options instead of one, and your maximum number of improved options increases to two."
+											"At 10th level, you can choose a {@filter second option|optionalfeatures|feature type=fs:f|source=PHEW} from the Fighting Style class feature."
 										]
 									}
 								]
@@ -9329,9 +8955,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Superior Critical",
+										"name": "Fighting Style Savant",
 										"entries": [
-											"Starting at 15th level, your weapon attacks score a critical hit on a roll of 18-20."
+											"Starting at 15th level, you gain an {@filter additional option|optionalfeatures|feature type=fs:f|source=PHEW} from your Fighting Style feature or improve {@filter an additional option|optionalfeatures|feature type=ifs|source=PHEW} from your Improved Fighting Style feature. You may now have up to 2 Improved Fighting Style features at the same time."
 										]
 									}
 								]
@@ -9388,121 +9014,6 @@
 									},
 									{
 										"type": "entries",
-										"name": "Firearms: Firearm Properties",
-										"entries": [
-											"Firearms are a new and volatile technology, and as such bring their own unique set of weapon properties. Some properties are followed by a number, and this number signifies an element of that property (outlined below). These properties replace the optional ones presented in the Dungeon Master's Guide. Firearms are ranged weapons.",
-											{
-												"type": "entries",
-												"name": "Reload",
-												"entries": [
-													"The weapon can be fired a number of times equal to its Reload score before you must spend 1 attack or 1 action to reload. You must have one free hand to reload a firearm."
-												]
-											},
-											{
-												"type": "entries",
-												"name": "Misfire",
-												"entries": [
-													"Whenever you make an attack roll with a firearm, and the dice roll is equal to or lower than the weapon's Misfire score, the weapon misfires. The attack misses, and the weapon cannot be used again until you spend an action to try and repair it. To repair your firearm, you must make a successful Tinker's Tools check (DC equal to 8 + misfire score). If your check fails, the weapon is broken and must be repaired out of combat at half the cost of the firearm. Creatures who use a firearm without being proficient increase the weapon's misfire score by 1."
-												]
-											},
-											{
-												"type": "entries",
-												"name": "Explosive",
-												"entries": [
-													"Upon a hit, everything within 5 ft. of the target must make a Dexterity saving throw (DC equal to 8 + your proficiency bonus + your Dexterity modifier) or suffer 1d8 fire damage. If the weapon misses, the ammunition fails to detonate, or bounces away harmlessly before doing so."
-												]
-											},
-											{
-												"type": "table",
-												"caption": "Firearms",
-												"colLabels": [
-													"Name",
-													"Cost",
-													"Ammo",
-													"Damage",
-													"Weight",
-													"Range",
-													"Properties"
-												],
-												"colStyles": [
-													"col-2",
-													"col-1",
-													"col-2",
-													"col-2",
-													"col-1 text-right",
-													"col-1",
-													"col-4"
-												],
-												"rows": [
-													[
-														"Palm Pistol",
-														"50g",
-														"2g (20)",
-														"1d8 piercing",
-														"1 lbs",
-														"(40/160)",
-														"Light, Reload 1, misfire 1"
-													],
-													[
-														"Pistol",
-														"150g",
-														"4g (20)",
-														"1d10 piercing",
-														"3 lbs",
-														"(60/240)",
-														"Reload 4, misfire 1"
-													],
-													[
-														"Musket",
-														"300g",
-														"5g (20)",
-														"1d12 piercing",
-														"10 lbs",
-														"(120/480)",
-														"Two-handed, reload 1, misfire 2"
-													],
-													[
-														"Pepperbox",
-														"250g",
-														"4g (20)",
-														"1d10 piercing",
-														"5 lbs",
-														"(80/320)",
-														"Reload 6, misfire 2"
-													],
-													[
-														"Blunderbuss",
-														"300g",
-														"5g (5)",
-														"2d8 piercing",
-														"10 lbs",
-														"(15/60)",
-														"Reload 1, misfire 2"
-													],
-													[
-														"Bad News",
-														"Crafted",
-														"10g (5)",
-														"2d12 piercing",
-														"25 lbs",
-														"(200/800)",
-														"Two-handed, reload 1, misfire 3"
-													],
-													[
-														"Hand Mortar",
-														"Crafted",
-														"10g (1)",
-														"2d8 fire",
-														"10 lbs",
-														"(30/60)",
-														"Reload 1, misfire 3, explosive"
-													]
-												]
-											}
-										]
-									},
-									{
-										"type": "entries",
 										"name": "Adept Marksman",
 										"entries": [
 											"When you choose this archetype at 3rd level, you learn to perform powerful trick shots to disable or damage your opponent using your firearms.",
@@ -9513,7 +9024,7 @@
 														"type": "entries",
 														"name": "Trick Shots",
 														"entries": [
-															"You learn two trick shots of your choice, which are detailed under \"Trick Shots\" below. Many trick shots enhance an attack in some way. Each use of a trick shot must be declared before the attack roll is made. You can use only one trick shot per attack.",
+															"You learn two {@filter trick shots|optionalfeatures|feature type=ts|source=PHEW} of your choice, which are detailed under \"Trick Shots\" below. Many trick shots enhance an attack in some way. Each use of a trick shot must be declared before the attack roll is made. You can use only one trick shot per attack.",
 															"You learn an additional trick shot of your choice at 7th, 10th, 15th and 18th level. Each time you learn a new trick shot, you can also replace one trick shot you know with a different one."
 														]
 													}
@@ -9546,108 +9057,6 @@
 																	"dex"
 																]
 															}
-														]
-													}
-												]
-											}
-										]
-									},
-									{
-										"type": "options",
-										"name": "Gunslinger: Trick Shots",
-										"entries": [
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Bullying Shot",
-														"entries": [
-															"You can use the powerful blast and thundering sound of your firearm to shake the resolve of a creature. When making a Charisma (Intimidation) check, you can expend one grit point to gain advantage on the roll."
-														]
-													}
-												]
-											},
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Dazing Shot",
-														"entries": [
-															"When you make a firearm attack against a creature, you can expend one grit point to attempt to dizzy your opponent. On a hit, the creature suffers normal damage and must make a Constitution saving throw or suffer disadvantage on attacks until the end of their next turn."
-														]
-													}
-												]
-											},
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Deadeye Shot",
-														"entries": [
-															"When you make a firearm attack against a creature, you can expend one grit point to gain advantage on the attack roll."
-														]
-													}
-												]
-											},
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Disarming Shot",
-														"entries": [
-															"When you make a firearm attack against a creature, you can expend one grit point to attempt to shoot an object from their hands. On a hit, the creature suffers normal damage and must succeed on a Strength saving throw or drop 1 held object of your choice and have that object be pushed 10 feet away from you."
-														]
-													}
-												]
-											},
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Forceful Shot",
-														"entries": [
-															"When you make a firearm attack against a creature, you can expend one grit point to attempt to trip them up and force them back. On a hit, the creature suffers normal damage and must succeed on a Strength saving throw or be pushed 15 feet away from you."
-														]
-													}
-												]
-											},
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Piercing Shot",
-														"entries": [
-															"When you make a firearm attack against a creature, you can expend one grit point to attempt to fire through multiple opponents. The initial attack gains a +1 to the firearm's misfire score. On a hit, the creature suffers normal damage and you make an attack roll with disadvantage against every creature in a line directly behind the target within your first range increment. Only the initial attack can misfire."
-														]
-													}
-												]
-											},
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Winging Shot",
-														"entries": [
-															"When you make a firearm attack against a creature, you can expend one grit point to attempt to topple a moving target. On a hit, the creature suffers normal damage and must make a Strength saving throw or be knocked {@condition prone|PHEW}."
-														]
-													}
-												]
-											},
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Violent Shot",
-														"entries": [
-															"When you make a firearm attack against a creature, you can expend one or more grit points to enhance the volatility of the attack. For each grit point expended, the attack gains a +2 to the firearm's misfire score. If the attack hits, you can roll one additional weapon damage die per grit point spent when determining the damage."
 														]
 													}
 												]
@@ -9747,7 +9156,7 @@
 														"type": "entries",
 														"name": "Maneuvers",
 														"entries": [
-															"You learn three maneuvers of your choice, which are listed under \"Maneuvers\" below. Many maneuvers enhance an attack in some way. You can use only one maneuver per attack.",
+															"You learn three {@filter maneuvers|optionalfeatures|feature type=mv|source=PHEW} of your choice. Many maneuvers enhance an attack in some way. You can use only one maneuver per attack.",
 															"You learn two additional maneuvers of your choice at 7th, 10th, and 15th level. Each time you learn new maneuvers, you can also replace one maneuver you know with a different one."
 														]
 													}
@@ -9787,205 +9196,6 @@
 												]
 											}
 										]
-									},
-									{
-										"type": "options",
-										"name": "Battle Master: Maneuvers",
-										"entries": [
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Commander's Strike",
-														"entries": [
-															"When you take the {@action Attack|PHEW} action on your turn, you can forgo one of your attacks and use a bonus action to direct one of your companions to strike. When you do so, choose a friendly creature who can see or hear you and expend one superiority die. That creature can immediately use its reaction to make one weapon attack, adding the superiority die to the attack's damage roll."
-														]
-													}
-												]
-											},
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Disarming Attack",
-														"entries": [
-															"When you hit a creature with a weapon attack, you can expend one superiority die to attempt to disarm the target, forcing it to drop one item of your choice that it's holding. You add the superiority die to the attack's damage roll, and the target must make a Strength saving throw. On a failed save, it drops the object you choose. The object lands at its feet."
-														]
-													}
-												]
-											},
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Distracting Strike",
-														"entries": [
-															"When you hit a creature with a weapon attack, you can expend one superiority die to distract the creature, giving your allies an opening. You add the superiority die to the attack's damage roll. The next attack roll against the target by an attacker other than you has advantage if the attack is made before the start of your next turn."
-														]
-													}
-												]
-											},
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Evasive Footwork",
-														"entries": [
-															"When you move, you can expend one superiority die, rolling the die and adding the number rolled to your AC until you stop moving."
-														]
-													}
-												]
-											},
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Feinting Attack",
-														"entries": [
-															"You can expend one superiority die and use a bonus action on your turn to feint, choosing one creature within 5 feet of you as your target. You have advantage on your next attack roll this turn against that creature. If that attack hits, add the superiority die to the attack's damage roll.",
-															"The advantage is lost if not used on the turn you gain it."
-														]
-													}
-												]
-											},
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Goading Attack",
-														"entries": [
-															"When you hit a creature with a weapon attack, you can expend one superiority die to attempt to goad the target into attacking you. You add the superiority die to the attack's damage roll, and the target must make a Wisdom saving throw. On a failed save, the target has disadvantage on all attack rolls against targets other than you until the end of your next turn."
-														]
-													}
-												]
-											},
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Lunging Attack",
-														"entries": [
-															"When you make a melee weapon attack on your turn, you can expend one superiority die to increase your reach for that attack by 5 feet. If you hit, you add the superiority die to the attack's damage roll."
-														]
-													}
-												]
-											},
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Maneuvering Attack",
-														"entries": [
-															"When you hit a creature with a weapon attack, you can expend one superiority die to maneuver one of your comrades into a more advantageous position. You add the superiority die to the attack's damage roll, and you choose a friendly creature who can see or hear you. That creature can use its reaction to move up to half its speed without provoking opportunity attacks from the target of your attack."
-														]
-													}
-												]
-											},
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Menacing Attack",
-														"entries": [
-															"When you hit a creature with a weapon attack, you can expend one superiority die to attempt to frighten the target. You add the superiority die to the attack's damage roll, and the target must make a Wisdom saving throw. On a failed save, it is {@condition frightened|PHEW} of you until the end of your next turn."
-														]
-													}
-												]
-											},
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Parry",
-														"entries": [
-															"When another creature damages you with a melee attack, you can use your reaction and expend one superiority die to reduce the damage by the number you roll on your superiority die + your Dexterity modifier."
-														]
-													}
-												]
-											},
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Precision Attack",
-														"entries": [
-															"When you make a weapon attack roll against a creature, you can expend one superiority die to add it to the roll. You can use this maneuver before or after making the attack roll, but before any effects of the attack are applied."
-														]
-													}
-												]
-											},
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Pushing Attack",
-														"entries": [
-															"When you hit a creature with a weapon attack, you can expend one superiority die to attempt to drive the target back. You add the superiority die to the attack's damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you push the target up to 15 feet away from you."
-														]
-													}
-												]
-											},
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Rally",
-														"entries": [
-															"On your turn, you can use a bonus action and expend one superiority die to bolster the resolve of one of your companions. When you do so, choose a friendly creature who can see or hear you. That creature gains temporary hit points equal to the superiority die roll + your Charisma modifier."
-														]
-													}
-												]
-											},
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Riposte",
-														"entries": [
-															"When a creature misses you with a melee attack, you can use your reaction and expend one superiority die to make a melee weapon attack against the creature. If you hit, you add the superiority die to the attack's damage roll."
-														]
-													}
-												]
-											},
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Sweeping Attack",
-														"entries": [
-															"When you hit a creature with a melee weapon attack, you can expend one superiority die to attempt to damage another creature with the same attack. Choose another creature within 5 feet of the original target and within your reach. If the original attack roll would hit the second creature, it takes damage equal to the number you roll on your superiority die. The damage is of the same type dealt by the original attack."
-														]
-													}
-												]
-											},
-											{
-												"type": "entries",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Trip Attack",
-														"entries": [
-															"When you hit a creature with a weapon attack, you can expend one superiority die to attempt to knock the target down. You add the superiority die to the attack's damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you knock the target {@condition prone|PHEW}."
-														]
-													}
-												]
-											}
-										]
 									}
 								]
 							}
@@ -9997,7 +9207,7 @@
 										"type": "entries",
 										"name": "Additional Maneuvers",
 										"entries": [
-											"At 7th level, you learn two additional maneuvers of your choice."
+											"At 7th level, you learn two additional {@filter maneuvers|optionalfeatures|feature type=mv|source=PHEW} of your choice."
 										]
 									},
 									{
@@ -10036,7 +9246,7 @@
 										"type": "entries",
 										"name": "Additional Maneuvers",
 										"entries": [
-											"At 10th level, you learn two additional maneuvers of your choice."
+											"At 10th level, you learn two additional {@filter maneuvers|optionalfeatures|feature type=mv|source=PHEW} of your choice."
 										]
 									},
 									{
@@ -10056,7 +9266,7 @@
 										"type": "entries",
 										"name": "Additional Maneuvers",
 										"entries": [
-											"At 15th level, you learn two additional maneuvers of your choice."
+											"At 15th level, you learn two additional {@filter maneuvers|optionalfeatures|feature type=mv|source=PHEW} of your choice."
 										]
 									},
 									{
@@ -10491,93 +9701,9 @@
 										"type": "entries",
 										"name": "Arcane Shot",
 										"entries": [
-											"At 3rd level, you learn to unleash special magical effects with some of your shots. When you gain this feature, you learn two Arcane Shot options of your choice (see \"Arcane Shot Options\" below).",
+											"At 3rd level, you learn to unleash special magical effects with some of your shots. When you gain this feature, you learn two {@filter Arcane Shot|optionalfeatures|feature type=as|source=PHEW} options of your choice.",
 											"Once per turn when you fire an arrow from a shortbow or longbow as part of the {@action Attack|PHEW} action, you can apply one of your Arcane Shot options to that arrow. You decide to use the option when the arrow hits a creature, unless the option doesn't involve an attack roll. You have two uses of this ability, and you regain all expended uses of it when you finish a short or long rest.",
 											"You gain an additional Arcane Shot option of your choice when you reach certain levels in this class: 7th, 10th, 15th, and 18th level. Each option also improves when you become an 18th-level fighter."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Arcane Shot Options",
-										"entries": [
-											"The Arcane Shot feature lets you choose options for it at certain levels. The options are presented here in alphabetical order. They are all magical effects, and each one is associated with one of the schools of magic.",
-											"If an option requires a saving throw, your Arcane Shot save DC is calculated as follows:",
-											{
-												"type": "abilityDc",
-												"name": "Arcane Shot",
-												"attributes": [
-													"int"
-												]
-											},
-											{
-												"type": "options",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Banishing Arrow",
-														"entries": [
-															"You use abjuration magic to try to temporarily banish your target to a harmless location in the Feywild. The creature hit by the arrow must also succeed on a Charisma saving throw or be banished. While banished in this way, the target's speed is 0, and it is {@condition incapacitated|PHEW}. At the end of its next turn, the target reappears in the space it vacated or in the nearest unoccupied space if that space is occupied.",
-															"After you reach 18th level in this class, a target also takes {@dice 2d6} force damage when the arrow hits it."
-														]
-													},
-													{
-														"type": "entries",
-														"name": "Beguiling Arrow",
-														"entries": [
-															"Your enchantment magic causes this arrow to temporarily beguile its target. The creature hit by the arrow takes an extra {@dice 2d6} psychic damage, and choose one of your allies within 30 feet of the target. The target must succeed on a Wisdom saving throw, or it is {@condition charmed|PHEW} by the chosen ally until the start of your next turn. This effect ends early if the chosen ally attacks the {@condition charmed|PHEW} target, deals damage to it, or forces it to make a saving throw.",
-															"The psychic damage increases to {@dice 4d6} when you reach 18th level in this class."
-														]
-													},
-													{
-														"type": "entries",
-														"name": "Bursting Arrow",
-														"entries": [
-															"You imbue your arrow with force energy drawn from the school of evocation. The energy detonates after your attack. Immediately after the arrow hits the creature, the target and all other creatures within 10 feet of it take {@dice 2d6} force damage each.",
-															"The force damage increases to {@dice 4d6} when you reach 18th level in this class."
-														]
-													},
-													{
-														"type": "entries",
-														"name": "Enfeebling Arrow",
-														"entries": [
-															"You weave necromantic magic into your arrow. The creature hit by the arrow takes an extra {@dice 2d6} necrotic damage. The target must also succeed on a Constitution saving throw, or the damage dealt by its weapon attacks is halved until the start of your next turn.",
-															"The necrotic damage increases to {@dice 4d6} when you reach 18th level in this class."
-														]
-													},
-													{
-														"type": "entries",
-														"name": "Grasping Arrow",
-														"entries": [
-															"When this arrow strikes its target, conjuration magic creates grasping, poisonous brambles, which wrap around the target. The creature hit by the arrow takes an extra {@dice 2d6} poison damage, its speed is reduced by 10 feet, and it takes {@dice 2d6} slashing damage the first time on each turn it moves 1 foot or more without teleporting. The target or any creature that can reach it can use its action to remove the brambles with a successful Strength (Athletics) check against your Arcane Shot save DC. Otherwise, the brambles last for 1 minute or until you use this option again.",
-															"The poison damage and slashing damage both increase to {@dice 4d6} when you reach 18th level in this class."
-														]
-													},
-													{
-														"type": "entries",
-														"name": "Piercing Arrow",
-														"entries": [
-															"You use transmutation magic to give your arrow an ethereal quality. When you use this option, you don't make an attack roll for the attack. Instead, the arrow shoots forward in a line, which is 1 foot wide and 30 feet long, before disappearing. The arrow passes harmlessly through objects, ignoring cover. Each creature in that line must make a Dexterity saving throw. On a failed save, a creature takes damage as if it were hit by the arrow, plus an extra {@dice 1d6} piercing damage. On a successful save, a target takes half as much damage.",
-															"The piercing damage increases to {@dice 2d6} when you reach 18th level in this class."
-														]
-													},
-													{
-														"type": "entries",
-														"name": "Seeking Arrow",
-														"entries": [
-															"Using divination magic, you grant your arrow the ability to seek out a target. When you use this option, you don't make an attack roll for the attack. Instead, choose one creature you have seen in the past minute. The arrow flies toward that creature, moving around corners if necessary and ignoring three-quarters cover and half cover. If the target is within the weapon's range and there is a path large enough for the arrow to travel to the target, the target must make a Dexterity saving throw. Otherwise, the arrow disappears after traveling as far as it can. On a failed save, the target takes damage as if it were hit by the arrow, plus an extra {@dice 1d6} force damage, and you learn the target's current location. On a successful save, the target takes half as much damage, and you don't learn its location.",
-															"The force damage increases to {@dice 2d6} when you reach 18th level in this class."
-														]
-													},
-													{
-														"type": "entries",
-														"name": "Shadow Arrow",
-														"entries": [
-															"You weave illusion magic into your arrow, causing it to occlude your foe's vision with shadows. The creature hit by the arrow takes an extra {@dice 2d6} psychic damage, and it must succeed on a Wisdom saving throw or be unable to see anything farther than 5 feet away until the start of your next turn.",
-															"The psychic damage increases to {@dice 4d6} when you reach 18th level in this class."
-														]
-													}
-												]
-											}
 										]
 									}
 								]
@@ -10604,7 +9730,7 @@
 										"type": "entries",
 										"name": "Additional Arcane Shot Option",
 										"entries": [
-											"You gain an additional Arcane Shot option of your choice when you reach 7th level."
+											"You gain an additional {@filter Arcane Shot|optionalfeatures|feature type=as|source=PHEW} option of your choice when you reach 7th level."
 										]
 									}
 								]
@@ -10617,7 +9743,7 @@
 										"type": "entries",
 										"name": "Additional Arcane Shot Option",
 										"entries": [
-											"You gain an additional Arcane Shot option of your choice when you reach 10th level."
+											"You gain an additional {@filter Arcane Shot|optionalfeatures|feature type=as|source=PHEW} option of your choice when you reach 10th level."
 										]
 									}
 								]
@@ -10637,7 +9763,7 @@
 										"type": "entries",
 										"name": "Additional Arcane Shot Option",
 										"entries": [
-											"You gain an additional Arcane Shot option of your choice when you reach 15th level."
+											"You gain an additional {@filter Arcane Shot|optionalfeatures|feature type=as|source=PHEW} option of your choice when you reach 15th level."
 										]
 									}
 								]
@@ -10650,7 +9776,7 @@
 										"type": "entries",
 										"name": "Additional Arcane Shot Option",
 										"entries": [
-											"You gain an additional Arcane Shot option of your choice when you reach 18th level. Each option also improves when you become an 18th-level fighter."
+											"You gain an additional {@filter Arcane Shot|optionalfeatures|feature type=as|source=PHEW} option of your choice when you reach 18th level. Each option also improves when you become an 18th-level fighter."
 										]
 									}
 								]
@@ -12101,7 +11227,7 @@
 										"name": "Disciple of the Elements",
 										"entries": [
 											"You learn magical disciplines that harness the power of the four elements. A discipline requires you to spend ki points each time you use it.",
-											"You know the Elemental Attunement discipline and one other elemental discipline of your choice. You learn one additional elemental discipline of your choice at 6th, 11th, and 17th level.",
+											"You know the Elemental Attunement discipline and one other {@filter elemental disciplines|optionalfeatures|feature type=ed|source=PHEW} of your choice. You learn one additional elemental discipline of your choice at 6th, 11th, and 17th level.",
 											"Whenever you learn a new elemental discipline, you can also replace one elemental discipline that you already know with a different discipline.",
 											{
 												"type": "entries",
@@ -12138,146 +11264,6 @@
 																"17th-20th",
 																5
 															]
-														]
-													}
-												]
-											}
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Elemental Disciplines",
-										"entries": [
-											"The elemental disciplines are presented in alphabetical order. If a discipline requires a level, you must be the level in this class to learn the discipline.",
-											{
-												"type": "options",
-												"entries": [
-													{
-														"type": "entries",
-														"name": "Breath of Winter (17th Level Required)",
-														"entries": [
-															"You can spend 5 ki points to cast {@spell cone of cold|PHEW}."
-														]
-													},
-													{
-														"type": "entries",
-														"name": "Clench of the North Wind (6th Level Required)",
-														"entries": [
-															"You can spend 2 ki points to cast {@spell hold person|PHEW}."
-														]
-													},
-													{
-														"type": "entries",
-														"name": "Elemental Attunement",
-														"entries": [
-															"You can use your action to briefly control elemental forces within 30 feet of you, causing one of the following effects of your choice:",
-															{
-																"type": "list",
-																"items": [
-																	"Create a harmless, instantaneous sensory effect related to air, earth, fire, or water, such as a shower of sparks, a puff of wind, a spray of light mist, or a gentle rumbling of stone.",
-																	"Instantaneously light or snuff out a candle, a torch, or a small campfire.",
-																	"Chill or warm up to 1 pound of nonliving material for up to 1 hour.",
-																	"Cause earth, fire, water, or mist that can fit within a 1-foot cube to shape itself into a crude form you designate for 1 minute."
-																]
-															}
-														]
-													},
-													{
-														"type": "entries",
-														"name": "Eternal Mountain Defense (17th Level Required)",
-														"entries": [
-															"You can spend 4 ki points to cast {@spell stoneskin|PHEW}, targeting yourself."
-														]
-													},
-													{
-														"type": "entries",
-														"name": "Fangs of the Fire Snake",
-														"entries": [
-															"When you use the {@action Attack|PHEW} action on your turn, you can spend 1 ki point to cause tendrils of flame to stretch out from your fists and feet. Your reach with your unarmed strikes increases by 10 feet for that action, as well as the rest of the turn. A hit with such an attack deals fire damage instead of bludgeoning damage, and if you spend 1 ki point when the attack hits, it also deals an extra {@dice 1d10} fire damage."
-														]
-													},
-													{
-														"type": "entries",
-														"name": "Fist of Four Thunders",
-														"entries": [
-															"You can spend 1 ki point to cast {@spell thunderwave|PHEW}."
-														]
-													},
-													{
-														"type": "entries",
-														"name": "Unbroken Air",
-														"entries": [
-															"You can create a blast of compressed air that strikes like a mighty fist. As an action, you can spend 2 ki points and choose a creature within 30 feet of you. That creature must make a Strength saving throw. On a failed save, the creature takes {@dice 3d10} bludgeoning damage, plus an extra {@dice 1d10} bludgeoning damage for each additional ki point you spend, and you can push the creature up to 20 feet away from you and knock it {@condition prone|PHEW}. On a successful save, the creature takes half as much damage, and you don't push it or knock it {@condition prone|PHEW}."
-														]
-													},
-													{
-														"type": "entries",
-														"name": "Flames of the Phoenix (11th Level Required)",
-														"entries": [
-															"You can spend 3 ki points to cast {@spell fireball|PHEW}."
-														]
-													},
-													{
-														"type": "entries",
-														"name": "Gong of the Summit (6th Level Required)",
-														"entries": [
-															"You can spend 2 ki points to cast {@spell shatter|PHEW}."
-														]
-													},
-													{
-														"type": "entries",
-														"name": "Mist Stance (11th Level Required)",
-														"entries": [
-															"You can spend 3 ki points to cast {@spell gaseous form|PHEW}, targeting yourself."
-														]
-													},
-													{
-														"type": "entries",
-														"name": "Ride the Wind (11th Level Required)",
-														"entries": [
-															"You can spend 3 ki points to cast {@spell fly|PHEW}, targeting yourself."
-														]
-													},
-													{
-														"type": "entries",
-														"name": "River of Hungry Flame (17th Level Required)",
-														"entries": [
-															"You can spend 4 ki points to cast {@spell wall of fire|PHEW}."
-														]
-													},
-													{
-														"type": "entries",
-														"name": "Rush of the Gale Spirits",
-														"entries": [
-															"You can spend 1 ki point to cast {@spell gust of wind|PHEW}."
-														]
-													},
-													{
-														"type": "entries",
-														"name": "Shape the Flowing River",
-														"entries": [
-															"As an action, you can spend 1 ki point to choose an area of ice or water no larger than 30 feet on a side within 120 feet of you. You can change water to ice within the area and vice versa, and you can reshape ice in the area in any manner you choose. You can raise or lower the ice's elevation, create or fill in a trench, erect or flatten a wall, or form a pillar. The extent of any such changes can't exceed half the area's largest dimension. For example, if you affect a 30-foot square, you can create a pillar up to 15 feet high. raise or lower the square's elevation by up to 15 feet, dig a trench up to 15 feet deep, and so on. You can't shape the ice to trap or injure a creature in the area."
-														]
-													},
-													{
-														"type": "entries",
-														"name": "Sweeping Cinder Strike",
-														"entries": [
-															"You can spend 1 ki point to cast {@spell burning hands|PHEW}."
-														]
-													},
-													{
-														"type": "entries",
-														"name": "Water Whip",
-														"entries": [
-															"You can spend 2 ki points as an action to create a whip of water that shoves and pulls a creature to unbalance it. A creature that you can see that is within 30 feet of you must make a Dexterity saving throw. On a failed save, the creature takes {@dice 3d10} bludgeoning damage, plus an extra {@dice 1d10} bludgeoning damage for each additional ki point you spend, and you can either knock it {@condition prone|PHEW} or pull it up to 25 feet closer to you. On a successful save, the creature takes half as much damage, and you don't pull it or knock it {@condition prone|PHEW}."
-														]
-													},
-													{
-														"type": "entries",
-														"name": "Wave of Rolling Earth (17th Level Required)",
-														"entries": [
-															"You can spend 5 ki points to cast {@spell wall of stone|PHEW}."
 														]
 													}
 												]
@@ -13208,77 +12194,7 @@
 					{
 						"name": "Fighting Style",
 						"entries": [
-							"At 2nd level, you adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take the same Fighting Style option more than once, even if you get to choose again.",
-							{
-								"type": "options",
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Defense",
-										"entries": [
-											"While you are wearing armor, you gain a +1 bonus to AC."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Dueling",
-										"entries": [
-											"When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Great Weapon Fighting",
-										"entries": [
-											"When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll. The weapon must have the two-handed or versatile property for you to gain this benefit."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Protection",
-										"entries": [
-											"When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Blind Fighting",
-										"entries": [
-											"Being unable to see a creature doesn’t impose disadvantage on your attack rolls against it, provided the creature isn’t hidden from you."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Interception",
-										"entries": [
-											"When a creature you can see hits a target that is within 5 feet of you with an attack, you can use your reaction to reduce the damage the target takes by 1d10 + your proficiency bonus (to a minimum of 0 damage). You must be wielding a shield or a simple or martial weapon to use this reaction."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Thrown Weapon Fighting",
-										"entries": [
-											"You can draw a weapon that has the thrown property as part of the attack you make with the weapon.",
-											"In addition, when you hit with a ranged attack using a thrown weapon, you gain a +1 bonus to the damage roll."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Unarmed Fighting",
-										"entries": [
-											"Your unarmed strikes can deal bludgeoning damage equal to 1d6 + your Strength modifier. If you strike with two free hands, the d6 becomes a d8.",
-											"When you successfully start a grapple, you can deal 1d4 bludgeoning damage to the grappled creature. Until the grapple ends, you can also deal this damage to the creature whenever you hit it with a melee attack."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Blessed Warrior",
-										"entries": [
-											"You learn two cantrips of your choice from the cleric spell list. They count as paladin spells for you, and Charisma is your spellcasting ability for them. Whenever you gain a level in this class, you can replace one of these cantrips with another cantrip from the cleric spell list."
-										]
-									}
-								]
-							}
+							"At 2nd level, you adopt a particular style of fighting as your specialty. Choose one of the {@filter following options|optionalfeatures|feature type=fs:p|source=PHEW}. You can't take the same Fighting Style option more than once, even if you get to choose again."
 						]
 					},
 					{
@@ -15394,7 +14310,7 @@
 										"type": "entries",
 										"name": "Tireless",
 										"entries": [
-											"As an action, you can give yourself a number of temporary hit points equal to {@dice 1d10} + your Wisdom modifier. You can use this special action a number of times equal to your Wisdom modifier (a minimum of once), and you regain all expended uses when you finish a long rest.",
+											"As an action, you can give yourself a number of temporary hit points equal to {@dice 1d10} + your proficiency bonus. You can use this special action a number of times equal to your Wisdom modifier (a minimum of once), and you regain all expended uses when you finish a long rest.",
 											"In addition, your vitality is unmatched. If you have one or more levels of exhaustion, you level of exhaustion is reduced by 1 when determining which effects you suffer from it unless you have at least 6 levels."
 										]
 									}
@@ -15407,77 +14323,7 @@
 					{
 						"name": "Fighting Style",
 						"entries": [
-							"At 2nd level, you adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again.",
-							{
-								"type": "options",
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Archery",
-										"entries": [
-											"You gain a +2 bonus to attack rolls you make with ranged weapons."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Defense",
-										"entries": [
-											"While you are wearing armor, you gain a +1 bonus to AC."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Dueling",
-										"entries": [
-											"When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Two-Weapon Fighting",
-										"entries": [
-											"When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Bling Fighting",
-										"entries": [
-											"Being unable to see a creature doesn’t impose disadvantage on your attack rolls against it, provided the creature isn’t hidden from you."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Interception",
-										"entries": [
-											"When a creature you can see hits a target that is within 5 feet of you with an attack, you can use your reaction to reduce the damage the target takes by 1d10 + your proficiency bonus (to a minimum of 0 damage). You must be wielding a shield or a simple or martial weapon to use this reaction."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Thrown Weapon Fighting",
-										"entries": [
-											"You can draw a weapon that has the thrown property as part of the attack you make with the weapon.",
-											"In addition, when you hit with a ranged attack using a thrown weapon, you gain a +1 bonus to the damage roll."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Unarmed Fighting",
-										"entries": [
-											"Your unarmed strikes can deal bludgeoning damage equal to 1d6 + your Strength modifier. If you strike with two free hands, the d6 becomes a d8.",
-											"When you successfully start a grapple, you can deal 1d4 bludgeoning damage to the grappled creature. Until the grapple ends, you can also deal this damage to the creature whenever you hit it with a melee attack."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Druidic Warrior",
-										"entries": [
-											"You learn two cantrips of your choice from the druid spell list. They count as druid spells for you, and Wisdom is your spellcasting ability for them. Whenever you gain a level in this class, you can replace one of these cantrips with another cantrip from the druid spell list."
-										]
-									}
-								]
-							}
+							"At 2nd level, you adopt a particular style of fighting as your specialty. Choose one of the {@filter following options|optionalfeatures|feature type=fs:r|source=PHEW}. You can't take a Fighting Style option more than once, even if you later get to choose again."
 						]
 					},
 					{
@@ -18982,124 +17828,8 @@
 					{
 						"name": "Metamagic",
 						"entries": [
-							"At 3rd level, you gain the ability to twist your spells to suit your needs. You gain two of the following Metamagic options of your choice. You gain another one at 10th and 17th level.",
-							"You can use only one Metamagic option on a spell when you cast it, unless otherwise noted.",
-							{
-								"type": "options",
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Careful Spell",
-										"entries": [
-											"When you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell's full force. To do so, you spend 1 sorcery point and choose a number of those creatures up to your Charisma modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw against the spell."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Distant Spell",
-										"entries": [
-											"When you cast a spell that has a range of 5 feet or greater, you can spend 1 sorcery point to double the range of the spell.",
-											"When you cast a spell that has a range of touch, you can spend 1 sorcery point to make the range of the spell 30 feet."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Elemental Spell",
-										"entries": [
-											"When you cast a spell that deals a type of damage from the following list, you can spend 1 sorcery point to change that damage type to one of the other listed types: acid, cold, fire, lightning, thunder."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Empowered Spell",
-										"entries": [
-											"When you roll damage for a spell, you can spend 1 sorcery point to reroll a number of the damage dice up to your Charisma modifier (minimum of one). You must use the new rolls.",
-											"You can use Empowered Spell even if you have already used a different Metamagic option during the casting of the spell."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Extended Spell",
-										"entries": [
-											"When you cast a spell that has a duration of 1 minute or longer, you can spend 1 sorcery point to increase its duration as explained in the follwing table, to a maximum duration of 24 hours.",
-											{
-												"type": "table",
-												"caption": "Extended Spell Durations",
-												"colLabels": [
-													"Spell Duration",
-													"Extended Spell Duration"
-												],
-												"colStyles": [
-													"col-6 text-center",
-													"col-6 text-center"
-												],
-												"rows": [
-													[
-														"1 minute",
-														"10 minutes"
-													],
-													[
-														"10 minutes",
-														"1 hour"
-													],
-													[
-														"1 hour",
-														"8 hours"
-													],
-													[
-														"8 hours",
-														"24 hours"
-													]
-												]
-											}
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Heightened Spell",
-										"entries": [
-											"When you cast a spell that forces a creature to make a saving throw to resist its effects, you can spend 3 sorcery points to give one target of the spell disadvantage on its first saving throw made against the spell."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Quickened Spell",
-										"entries": [
-											"When you cast a spell that has a casting time of 1 action, you can spend 2 sorcery points to change the casting time to 1 bonus action for this casting."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Seeking Spell",
-										"entries": [
-											"When you cast a spell that requires you to make a spell attack roll or that forces a target to make a Dexterity saving throw, you can spend 1 sorcery point to ignore the effects of half- and three-quarters cover against targets of the spell."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Subtle Spell",
-										"entries": [
-											"When you cast a spell, you can spend 1 sorcery point to cast it without any somatic or verbal components."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Twinned Spell",
-										"entries": [
-											"When you cast a spell that doesn't have a range of self and is incapable of targeting more than one creature at the spell's current level, you can spend a number of sorcery points equal to the spell's level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip).",
-											"To be eligible, a spell must be incapable of targeting more than one creature at the spell's current level. For example, magic missile and scorching ray aren't eligible, but ray of frost and chromatic orb are."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Unerring Spell",
-										"entries": [
-											"If you make an attack roll for a spell and miss, you can spend 2 sorcery points to reroll the attack roll. You must use the result of the second roll.",
-											"You can use Unerring Spell even if you have already used a different Metamagic option during the casting of the spell."
-										]
-									}
-								]
-							}
+							"At 3rd level, you gain the ability to twist your spells to suit your needs. You gain two {@filter Metamagic options|optionalfeatures|feature type=mm|source=PHEW} of your choice. You gain another one at 10th and 17th level.",
+							"You can use only one Metamagic option on a spell when you cast it, unless otherwise noted."
 						]
 					}
 				],
@@ -20665,42 +19395,7 @@
 					{
 						"name": "Pact Boon",
 						"entries": [
-							"At 3rd level, your otherworldly patron bestows a gift upon you for your loyal service. You gain one of the following features of your choice.",
-							{
-								"type": "options",
-								"entries": [
-									{
-										"type": "patron",
-										"name": "Pact of the Blade",
-										"entries": [
-											"Your patron required a warrior. You become proficient with martial weapons, medium armor, and shields.",
-											"You can use your action to create a pact weapon in your empty hand. You can choose the form that this melee weapon takes each time you create it (see chapter 5 for weapon options). This weapon counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage. You can use this weapon as an arcane focus for your warlock spells.",
-											"Your pact weapon disappears if it is more than 5 feet away from you for 1 minute or more. It also disappears if you use this feature again, if you dismiss the weapon (no action required), or if you die.",
-											"You can transform one magic weapon into your pact weapon by performing a special ritual while you hold the weapon. You perform the ritual over the course of 1 hour, which can be done during a short rest. You can then dismiss the weapon, shunting it into an extradimensional space, and it appears whenever you create your pact weapon thereafter. You can't affect an artifact or a sentient weapon in this way. The weapon ceases being your pact weapon if you die, if you perform the 1-hour ritual on a different weapon, or if you use a 1-hour ritual to break your bond to it. The weapon appears at your feet if it is in the extradimensional space when the bond breaks."
-										]
-									},
-									{
-										"type": "patron",
-										"name": "Pact of the Chain",
-										"entries": [
-											"Your patron felt the need to provide a guide, watcher, or aide. You learn the {@spell find familiar|PHEW} spell and can cast it as a ritual. The spell doesn't count against your number of spells known.",
-											"When you cast the spell, you can choose one of the normal forms for your familiar or one of the following special forms: {@creature imp|PHEW}, {@creature pseudodragon|PHEW}, {@creature quasit|PHEW}, or {@creature sprite|PHEW}.",
-											"Additionally, when you take the {@action Attack|PHEW} action, you can forgo one of your own attacks to allow your familiar to use its reaction to make one attack of its own.",
-											"Your familiar uses your proficiency bonus instead of its own, and has proficiency in all saving throws. It adds your proficiency bonus to its AC and attack damage, and its hit point maximum increases by twice your warlock level."
-										]
-									},
-									{
-										"type": "patron",
-										"name": "Pact of the Tome",
-										"entries": [
-											"Your patron grants you the gift of knowledge, in the form of an otherworldly grimoire, tablet, or scroll. This tome acts as a warlock spellcasting focus. You can use it to cast warlock spells you know as rituals, if they have the ritual tag.",
-											"You can also inscribe magical rituals in this tome. Choose two 1st-level spells that have the ritual tag from any class’s spell list. The spells appear in the tome, and are treated as warlock spells you know. They don’t count against the number of spells you know, and you can’t cast the spells except as rituals, unless you’ve learned them by other means.",
-											"If you find other ritual spells recorded in spellbooks or spell scrolls, you can add them to the book if the spell’s level is equal to or less than half your warlock level (rounded up), in the same way as a wizard adding a spell to their spellbook.",
-											"If you lose your tome, you can perform a 1-hour ceremony to create a replacement. This ceremony can be performed during a short or long rest, and it destroys the previous tome. The tome turns to ash when you die."
-										]
-									}
-								]
-							}
+							"At 3rd level, your otherworldly patron bestows a gift upon you for your loyal service. You gain a {@filter pact boon|optionalfeatures|feature type=pb|source=PHEW} of your choice."
 						]
 					}
 				],
@@ -20744,38 +19439,7 @@
 					{
 						"name": "Improved Boon",
 						"entries": [
-							"At 7th level, the Pact Boon you chose at 3rd level improves in the following ways:",
-							{
-								"type": "options",
-								"entries": [
-									{
-										"type": "patron",
-										"name": "Pact of the Blade",
-										"entries": [
-											"When you use your action to cast a cantrip, you can make a single attack with your bond weapon as a bonus action.",
-											"In addition, when cast eldritch blast as a warlock cantrip while holding your bond weapon, you can do so as a melee spell attack with the same reach as your bond weapon."
-										]
-									},
-									{
-										"type": "patron",
-										"name": "Pact of the Chain",
-										"entries": [
-											"You can use your action to transform your familiar into a new shape, which uses the traits of any beast of your choice with a challenge rating no higher than your warlock level divided by 3. Its type stays the same, and it retains all the benefits of being your familiar.",
-											"In this form, your familiar attacks normally, rather than using your attacks. Its hit points do not change, but it gains temporary hit points equal to its new form's hit point maximum until the transformation ends.",
-											"This transformation lasts for 1 hour, but ends early if your familiar is dismissed or reduced to 0 hit points.",
-											"You must complete a short or long rest before you use this feature again."
-										]
-									},
-									{
-										"type": "patron",
-										"name": "Pact of the Tome",
-										"entries": [
-											"Your tome contains two spells of your choice from any class, which you can cast while it is on your person. A spell you choose must be of a level you can cast, as shown on the Warlock table, or a cantrip. The chosen spells count as warlock spells for you, but don't count toward the warlock spells you know.",
-											"In addition, choose one skill from Arcana, History, Nature, and Religion. While your tome is on your person, you are considered proficient in that skill. If you already are, your proficiency bonus is doubled."
-										]
-									}
-								]
-							}
+							"At 7th level, the Pact Boon you chose at 3rd level grants you {@filter additional benefits|optionalfeatures|feature type=ipb|source=PHEW}."
 						]
 					}
 				],
@@ -20826,35 +19490,7 @@
 					{
 						"name": "Refined Boon",
 						"entries": [
-							"At 11th level, your Pact Boon improves again:",
-							{
-								"type": "options",
-								"entries": [
-									{
-										"type": "patron",
-										"name": "Pact of the Blade",
-										"entries": [
-											"When you hit a creature with your bond weapon, that creature has disadvantage on the next saving throw it makes against a spell."
-										]
-									},
-									{
-										"type": "patron",
-										"name": "Pact of the Chain",
-										"entries": [
-											"You gain an extra use of your Improved Boon feature. If you transform your familiar into a form with a challenge rating of 1/2 or lower, that transformation does not consume a use of your Improved Boon feature.",
-											"In addition, your familiar can use your Invocations. It cannot cast your cantrips, but otherwise uses your Charisma modifier, where relevant."
-										]
-									},
-									{
-										"type": "patron",
-										"name": "Pact of the Tome",
-										"entries": [
-											"While you are holding your tome, you learn the {@spell counterspell|PHEW} and {@spell dispel magic|PHEW} spells, which do not count toward your number of spells known.",
-											"If you use a Pact Arcanum to cast one of these spells, and remove or counter a spell of 5th level or lower, your tome absorbs the spell. One of its pages transforms into a spell scroll containing that spell, which you can use as though it were a warlock spell. The scroll fades after 1 hour."
-										]
-									}
-								]
-							}
+							"At 11th level, your Pact Boon improves again, granting even {@filter more benefits|optionalfeatures|feature type=rpb|source=PHEW}."
 						]
 					}
 				],
@@ -20916,33 +19552,7 @@
 					{
 						"name": "Superior Boon",
 						"entries": [
-							"At 18th level, your Pact boon receives a final improvement:",
-							{
-								"type": "options",
-								"entries": [
-									{
-										"type": "patron",
-										"name": "Pact of the Blade",
-										"entries": [
-											"When you use your action to cast a spell, you can make one attack with your bond weapon as a bonus action."
-										]
-									},
-									{
-										"type": "patron",
-										"name": "Pact of the Chain",
-										"entries": [
-											"When you expend an use of Pact Arcanum, your familiar can immediately take a turn, in addition to any turn it has already taken or is going to take this round."
-										]
-									},
-									{
-										"type": "patron",
-										"name": "Pact of the Tome",
-										"entries": [
-											"While your tome is on your person, you have proficiency in Intelligence and Wisdom saving throws."
-										]
-									}
-								]
-							}
+							"At 18th level, your Pact boon receives a final improvement, granting {@filter additional benefitss|optionalfeatures|feature type=rpb|source=PHEW}."
 						]
 					}
 				],

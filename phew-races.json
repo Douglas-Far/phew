@@ -368,7 +368,7 @@
 				{
 					"name": "Stalwart Resilience",
 					"entries": [
-						"You reduce any bludgeoning, piercing, and slashing damage you take by 3."
+						"You have Damage Reduction against bludgeoning, piercing, and slashing damage equal to your proficiency bonus. Damage Reduction bonuses don't stack, and only the highest one applies."
 					],
 					"type": "entries"
 				},
@@ -729,7 +729,7 @@
 						{
 							"name": "Reliable Scouting",
 							"entries": [
-								"You can choose 10 instead of rolling whenever you make a Dexterity or Wisdom skill check for a skill you're proficient with a number of times equal to your proficiency bonus."
+								"You can choose 10 instead of rolling whenever you make a Dexterity or Wisdom skill check for a skill you're proficient with a number of times equal to your proficiency bonus. You can only replace one of the dice if you have disadvantage on the roll."
 							],
 							"type": "entries"
 						}

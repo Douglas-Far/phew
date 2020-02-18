@@ -101,7 +101,7 @@
 					"items": [
 						"Once during your turn, when you take the shove action and succeed in knocking a creature prone, you can automatically deal damage to it equal to the minimum possible die roll.",
 						"Whenever you have advantage on a melee attack roll you make with the weapon on your turn and hit, you can knock the target {@condition prone|PHEW} if the lower of the two d20 rolls would also hit the target.",
-						"Whenever you have disadvantage on a melee attack roll you make with the weapon on your turn, the target takes bludgeoning damage equal to the minimum possible die roll if the attack misses but the higher of the two d20 rolls would have hit."
+						"Whenever you have disadvantage on a melee attack roll you make with the weapon on your turn, the target takes weapon damage equal to the minimum possible die roll if the attack misses but the higher of the two d20 rolls would have hit."
 					]
 				}
 			]
@@ -126,6 +126,25 @@
 						"Being within 5 feet of a hostile creature doesn't impose disadvantage on your ranged attack rolls. You lose this benefit when you miss a ranged attack until you move to a space that isn't threatened by a hostile creature or you take the Disengage action.",
 						"When you use the Attack action and attack with a one-handed weapon, you can use a bonus action to attack with a {@item hand crossbow|PHEW} you are holding."
 					]
+				}
+			]
+		},
+		{
+			"name": "Cunning Versatility",
+			"source": "PHEW",
+			"entries": [
+				"Your wit gives you endless adaptability, allowing you to find answers when most people couldn't do it.",
+				{
+					"type": "list",
+					"items": [
+						"You can use your Intelligence modifier instead of your Dexterity modifier to calculate your Initiative Bonus if it is higher.",
+						"You gain a number of Wit Dice equal to your Intelligence modifier (min. 1). You regain any spent uses at the end of a long rest. Once on each turn you can roll a Wit Die and add the number rolled to one ability check or attack roll you make, spending the Die. You can wait until after you roll the d20 before deciding to use the Wit Die, but you must decide before the DM says whether the roll succeeds or fails. You can't use a Wit Die while you're {@condition incapacitated|PHEW}. The size of the Wit Die equals twice your proficiency bonus (i.e. 1d6 at proficiency bonus 3)."
+					]
+				}
+			],
+			"ability": [
+				{
+					"int": 1
 				}
 			]
 		},
@@ -187,7 +206,10 @@
 					"type": "list",
 					"items": [
 						"When you roll a Hit Die to regain hit points, reroll any dice lower than your proficiency bonus.",
-						"You recover all of your Hit Die at the end of a long rest."
+						"You recover all of your Hit Die at the end of a long rest.",
+						"You regain 1 hit point after 10 minutes of becoming stable, instead of after {@dice 1d4} hours.",
+						"If you roll a 1 on a death savng throw, it only counts as 1 failure.",
+						"If you roll a 19 on a death saving throw, you regain 1 hit point."
 					]
 				}
 			],
@@ -209,6 +231,43 @@
 				"When you gain this feat, choose one of the following damage types: acid, cold, fire, lightning, or thunder.",
 				"Spells you cast ignore resistance to damage of the chosen type. In addition, when you roll damage for a spell you cast that deals damage of that type, you can treat any 1 on a damage die as a 2.",
 				"You can select this feat multiple times. Each time you do so, you must choose a different damage type."
+			]
+		},
+		{
+			"name": "Expert Thrower",
+			"source": "PHEW",
+			"entries": [
+				"You have mastered thrown weapons and can make use of them in ways others may find impossible. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"The normal range of throwing weapons you use increases by 5x your Strength modifier, without exceeding the weapon's usual long range. The long range, in turn, increases by 15 feet.",
+						"Once during your turn, as part of an Attack action you take, you can ricochet one ranged weapon attack made with a {@item sling|PHEW} or a thrown weapon that has the light property if you're proficient with it. If you do, choose a trajectory for your weapon in a series on straight lines separated by bounces and ending with an attack. Subtract 2 to the attack roll for every bounce (max. number of bounces = proficiency bonus/2) made before it. Cover is calculated based on the last bounce before the attack (although attacking an unseen creature may still impose disadvantage as usual), but the range is calculated by adding together the total travel distance of the weapon, and it cannot exceed the weapon's long range. A weapon or piece of ammunition that deals bludgeoning damage can be made to bounce off of the target, dealing 2 extra damage per bounce made before hitting them, and continuing its trajectory in the direction of your choice up to a point of your choosing or until the total travel distance equals the weapon's long range. You may grab the weapon or projectile if its trajectory passes within 5 feet of you as part of the attack. If the attack misses, no bounce happens off of the target.",
+						"If you hit a creature with a ranged weapon attack made with a weapon that has the thrown or ammunition properties and then get within 5 feet of them you may use your free item interaction to retrieve as many weapons or ammunitions as you hit them with this turn. This deals 2 damage per weapon or ammunition retrieved, up to a maximum amount of damage equal to your proficiency bonus.",
+						"When you hit an attack made with a net, you may use your bonus action to make a weapon attack against the same target with a melee one-handed weapon you're wielding on the other hand."
+					]
+				}
+			]
+		},
+		{
+			"name": "Game Master",
+			"source": "PHEW",
+			"entries": [
+				"You are an expert at playing and learning any game you encounter. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You gain proficiency proficiency in three gaming sets of your choice and double your proficiency bonus for one of those sets of your choice.",
+						"If you are introduced to a new game, you gain proficiency in it after 8 hours total spent playing, and expertise after training the same amount of time most people would need in order to gain proficiency.",
+						"You have advantage on all Charisma checks made against a target for 1 hour after defeating them in a game you have expertise in.",
+						"You can use your Intelligence modifier in place of your Wisdom or Charisma modifier for any check you make with a gaming set you're proficient with."
+					]
+				}
+			],
+			"ability": [
+				{
+					"int": 1
+				}
 			]
 		},
 		{
@@ -280,7 +339,7 @@
 				{
 					"type": "list",
 					"items": [
-						"While you are wearing heavy armor, bludgeoning, piercing, and slashing damage that you take is reduced by your proficiency bonus.",
+						"While you are wearing heavy armor, you gain Damage Reduction against bludgeoning, piercing, and slashing damage equal to your proficiency bonus. Damage Reduction bonuses don't stack, and only the highest one applies.",
 						"If you're wearing heavy armor its weight doesn't count towards your encumbrance limit."
 					]
 				}
@@ -649,10 +708,30 @@
 			]
 		},
 		{
+			"name": "Subtle Killer",
+			"source": "PHEW",
+			"entries": [
+				"You are an expert at eliminating your enemies without engaging in combat through the use of poisons and traps. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You gain proficiency with poisoner's kits. If you’re already proficient with them, you gain expertise with them, which means your proficiency bonus is doubled for any ability check you make with them.",
+						"You gain proficiency with one artisan's tool of your choice.",
+						"With 8 hours of work, you can improve the potency of one dose of poison or the lethality of one trap. To use this benefit, you must have the appropriate tool and be proficient with it. The DC to resist the poison or trap changes to 8 + your proficiency bonus + your Intelligence modifier, unless it was already higher."
+					]
+				}
+			],
+			"ability": [
+				{
+					"int": 1
+				}
+			]
+		},
+		{
 			"name": "Sword & Board Master",
 			"source": "PHEW",
 			"entries": [
-				"You are expert at fighting with shields. You gain the following benefits while wielding a weapon on one hand and a shield on the other:",
+				"You are an expert at fighting with shields. You gain the following benefits while wielding a weapon on one hand and a shield on the other:",
 				{
 					"type": "list",
 					"items": [
@@ -660,6 +739,69 @@
 						"If you take the Attack action on your turn, you can use a bonus action to try to shove a creature within 5 feet of you with your shield.",
 						"If you aren't {@condition incapacitated|PHEW}, you can add your shield's AC bonus to any Dexterity saving throw you make against a spell or other harmful effect that targets only you.",
 						"If you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you can use your reaction to take no damage if you succeed on the saving throw, interposing your shield between yourself and the source of the effect."
+					]
+				}
+			]
+		},
+		{
+			"name": "Tamer",
+			"source": "PHEW",
+			"entries": [
+				"You know how to bond with or lord over all sorts of creatures. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You are proficient with the {@item whip|PHEW} and the {@item net|PHEW}, and whenever you deal non-lethal damage with a whip you can choose to hold back. If you do and the attack would reduce the target's hit points to 0, it reduces them to 1 instead.",
+						"Any dragon or monstrosity without the titan or shapechanger tags and with an intelligence of 5 or lower can be considered a beast by you for the purposes of a trait you have, a feature you use or a spell you cast.",
+						"You can spend a short rest interacting with a willing large or smaller beast of appropriate CR to create a temporary bond of friendship with it. Until you use this feature on another beast, you can communicate simple ideas with the animal, you understand its responses, and you have advantage on any Animal Handling checks and any Charisma checks made against it. It will follow you as a companion and attempt to carry out your instructions to the best of its ability, but may leave if mistreated. In combat, the beast acts on your turn, but will always attempt to dash, disengage, or dodge. If the beast is one size category bigger than you, it will allow you to use it as your mount.",
+						{
+							"type": "table",
+							"caption": "Bound Creature's Details",
+							"colLabels": [
+								"Your level",
+								"Max CR"
+							],
+							"colStyles": [
+								"col-2",
+								"col-1 text-center",
+								"col-1 text-center"
+							],
+							"rows": [
+								[
+									"1",
+									"0"
+								],
+								[
+									"2",
+									"1/8"
+								],
+								[
+									"3",
+									"1/4"
+								],
+								[
+									"4",
+									"1/2"
+								],
+								[
+									"5-8",
+									"1"
+								],
+								[
+									"9-12",
+									"2"
+								],
+								[
+									"13-16",
+									"3"
+								],
+								[
+									"17-20",
+									"4"
+								]
+							]
+						},
+						"Alternatively, you may breed a beast and raise it yourself. The mechanics are identical to bonding with a full-grown creature, however you are responsible for the beast's training and growth. As such, the beast's CR will only increase alongside yours, at a normal rate for its species but only up to the maximum between the CR of an adult of its species and the maximum CR as indicated by the Bound Creature Details table. The infant form of a beast is up to two size categories smaller than the parent, and it may change during its growth if the DM indicates it."
 					]
 				}
 			]
