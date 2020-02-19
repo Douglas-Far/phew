@@ -528,7 +528,7 @@
 			]
 		},
 		{
-			"name": "Bomb MK II",
+			"name": "Bomb Mk II",
 			"type": "G",
 			"rarity": "None",
 			"value": 10000,
@@ -727,11 +727,261 @@
 		{"name":"Rope of Climbing","wondrous":true,"weight":3,"tier":"Minor","rarity":"Uncommon","source":"PHEW","entries":["This 60-foot length of silk rope weighs 3 pounds and can hold up to 3,000 pounds. If you hold one end of the rope and use an action to speak the command word, the rope animates. As a bonus action, you can command the other end to move toward a destination you choose. That end moves 10 feet on your turn when you first command it and 10 feet on each of your turns until reaching its destination, up to its maximum length away, or until you tell it to stop. You can also tell the rope to fasten itself securely to an object or to unfasten itself, to knot or unknot itself, or to coil itself for carrying.","If you tell the rope to knot, large knots appear at 1-foot intervals along the rope. While knotted, the rope shortens to a 50-foot length and grants advantage on checks made to climb it.","The rope has AC 20 and 20 hit points. It regains 1 hit point every 5 minutes as long as it has at least 1 hit point. If the rope drops to 0 hit points, it is destroyed."],"lootTables":["Magic Item Table B"],"srd":true},
 		{"name":"Sending Stones","wondrous":true,"tier":"Minor","rarity":"Uncommon","source":"PHEW","entries":["Sending stones come in pairs, with each smooth stone carved to match the other so the pairing is easily recognized. While you touch one stone, you can use an action to cast the {@spell sending|PHEW} spell from it. The target is the bearer of the other stone. If no creature bears the other stone, you know that fact as soon as you use the stone and don't cast the spell.","Once {@spell sending|PHEW} is cast through the stones, they can't be used again until the next dawn. If one of the stones in a pair is destroyed, the other one becomes nonmagical."],"attachedSpells":["sending"],"lootTables":["Magic Item Table C"]},
 		{"name":"Slippers of Spider Climbing","wondrous":true,"tier":"Major","rarity":"Uncommon","source":"PHEW","reqAttune":true,"entries":["While you wear these light shoes, you can move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free. You have a climbing speed equal to your walking speed. However, the slippers don't allow you to move this way on a slippery surface, such as one covered by ice or oil."],"lootTables":["Magic Item Table F"],"srd":true},
+		{"name":"Spell Scroll (1st Level)","type":"SC","tier":"Minor","rarity":"Common","source":"PHEW","entries":["A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without having to provide any of the spell's components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.","If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 11. On a failed check, the spell disappears from the scroll with no other effect.","Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.","A spell cast from this scroll has a save DC of 13 and an attack bonus of {@hit 5}.","A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on a DC 11 Intelligence ({@skill Arcana}) check. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed."],"srd":true},
+		{"name":"Spell Scroll (2nd Level)","type":"SC","tier":"Minor","rarity":"Uncommon","source":"PHEW","entries":["A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without having to provide any of the spell's components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.","If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 12. On a failed check, the spell disappears from the scroll with no other effect.","Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.","A spell cast from this scroll has a save DC of 13 and an attack bonus of {@hit 5}.","A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on a DC 12 Intelligence ({@skill Arcana}) check. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed."],"srd":true},
+		{"name":"Spell Scroll (3rd Level)","type":"SC","tier":"Minor","rarity":"Uncommon","source":"PHEW","entries":["A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without having to provide any of the spell's components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.","If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 13. On a failed check, the spell disappears from the scroll with no other effect.","Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.","A spell cast from this scroll has a save DC of 15 and an attack bonus of {@hit 7}.","A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on a DC 13 Intelligence ({@skill Arcana}) check. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed."],"srd":true},
+		{"name":"Spell Scroll (4th Level)","type":"SC","tier":"Minor","rarity":"Rare","source":"PHEW","entries":["A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without having to provide any of the spell's components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.","If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 14. On a failed check, the spell disappears from the scroll with no other effect.","Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.","A spell cast from this scroll has a save DC of 15 and an attack bonus of {@hit 7}.","A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on a DC 14 Intelligence ({@skill Arcana}) check. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed."],"srd":true},
+		{"name":"Spell Scroll (5th Level)","type":"SC","tier":"Minor","rarity":"Rare","source":"PHEW","entries":["A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without having to provide any of the spell's components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.","If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 15. On a failed check, the spell disappears from the scroll with no other effect.","Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.","A spell cast from this scroll has a save DC of 17 and an attack bonus of {@hit 9}.","A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on a DC 15 Intelligence ({@skill Arcana}) check. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed."],"srd":true},
+		{"name":"Spell Scroll (6th Level)","type":"SC","tier":"Minor","rarity":"Very Rare","source":"PHEW","entries":["A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without having to provide any of the spell's components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.","If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 16. On a failed check, the spell disappears from the scroll with no other effect.","Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.","A spell cast from this scroll has a save DC of 17 and an attack bonus of {@hit 9}.","A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on a DC 16 Intelligence ({@skill Arcana}) check. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed."],"srd":true},
+		{"name":"Spell Scroll (7th Level)","type":"SC","tier":"Minor","rarity":"Very Rare","source":"PHEW","entries":["A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without having to provide any of the spell's components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.","If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 17. On a failed check, the spell disappears from the scroll with no other effect.","Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.","A spell cast from this scroll has a save DC of 18 and an attack bonus of {@hit 10}.","A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on a DC 17 Intelligence ({@skill Arcana}) check. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed."],"srd":true},
+		{"name":"Spell Scroll (8th Level)","type":"SC","tier":"Minor","rarity":"Very Rare","source":"PHEW","entries":["A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without having to provide any of the spell's components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.","If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 18. On a failed check, the spell disappears from the scroll with no other effect.","Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.","A spell cast from this scroll has a save DC of 18 and an attack bonus of {@hit 10}.","A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on a DC 18 Intelligence ({@skill Arcana}) check. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed."],"srd":true},
+		{"name":"Spell Scroll (9th Level)","type":"SC","tier":"Minor","rarity":"Legendary","source":"PHEW","entries":["A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without having to provide any of the spell's components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.","If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 19. On a failed check, the spell disappears from the scroll with no other effect.","Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.","A spell cast from this scroll has a save DC of 19 and an attack bonus of {@hit 11}.","A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on a DC 19 Intelligence ({@skill Arcana}) check. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed."],"srd":true},
+		{"name":"Spell Scroll (Cantrip)","type":"SC","tier":"Minor","rarity":"Common","source":"PHEW","entries":["A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without having to provide any of the spell's components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.","If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 10. On a failed check, the spell disappears from the scroll with no other effect.","Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.","A spell cast from this scroll has a save DC of 13 and an attack bonus of {@hit 5}."],"srd":true},
 		{"name":"Ventilating Lungs","source":"PHEW","rarity":"Rare","wondrous":true,"reqAttune":true,"entries":["These metallic nodules were created in response to the poisonous gases used on the battlefields of the Last War. When you attune to these lungs, they replace the lungs in your chest, which disappear. The lungs allow you to breathe normally, even in an antimagic field, and their breathing function can't be suppressed by magic.","Outside an antimagic field or any other effect that suppresses magic, these lungs allow you to breathe normally in any environment (including a vacuum), and you have advantage on saving throws against harmful gases such as those created by a {@spell cloudkill|PHEW} spell, a {@spell stinking cloud|PHEW} spell, inhaled poisons, and gaseous breath weapons.","As an action, you can use these lungs to exhale a gust of wind, as if you had cast the {@spell gust of wind|PHEW} spell (spell save DC 15) with no components. This property of the lungs can't be used again until the next dawn.","If your attunement to the lungs ends, your original lungs reappear."],"attachedSpells":["gust of wind"],"recharge":"dawn"},
 		{"name":"Wand of Magic Detection","type":"WD","weight":1,"tier":"Minor","rarity":"Uncommon","source":"PHEW","entries":["This wand has 3 charges. While holding it, you can expend 1 charge as an action to cast the {@spell detect magic|PHEW} spell from it. The wand regains {@dice 1d3} expended charges daily at dawn."],"charges":3,"attachedSpells":["detect magic"],"lootTables":["Magic Item Table B"],"recharge":"dawn","srd":true},
 		{"name":"Wand of Secrets","type":"WD","weight":1,"tier":"Minor","rarity":"Uncommon","source":"PHEW","entries":["The wand has 3 charges. While holding it. you can use an action to expend 1 of its charges, and if a secret door or trap is within 30 feet of you, the wand pulses and points at the one nearest to you. The wand regains {@dice 1d3} expended charges daily at dawn."],"charges":3,"lootTables":["Magic Item Table B"],"recharge":"dawn","srd":true},
 		{"name":"Wand Sheath","source":"PHEW","rarity":"Common","wondrous":true,"reqAttune":"by a warforged","entries":["A wand sheath clamps onto your arm and imparts the following benefits:",{"type":"list","items":["The wand sheath can't be removed from you while you're attuned to it.","You can insert a wand into the sheath as an action. The sheath can hold only one wand at a time.","You can retract or extend a wand from the sheath as a bonus action. While the wand is extended, you can use it as if you were holding it, but your hand remains free."]},"If a sheathed wand requires attunement, you must attune to the wand before you can use it. However, the wand sheath and the attached wand count as a single magic item with regard to the number of magic items you can attune to. If you remove the wand from the sheath, your attunement to the wand ends."]},
 		{"name":"Winged Boots","wondrous":true,"tier":"Major","rarity":"Uncommon","source":"PHEW","reqAttune":true,"entries":["While you wear these boots, you have a flying speed equal to your walking speed. You can use the boots to fly for up to 4 hours, all at once or in several shorter flights, each one using a minimum of 1 minute from the duration. If you are flying when the duration expires, you descend at a rate of 30 feet per round until you land.","The boots regain 2 hours of flying capability for every 12 hours they aren't in use."],"lootTables":["Magic Item Table F"],"srd":true},
+		{
+			"name": "Decalen (Abjuration)",
+			"type": "LEN",
+			"tier": "Major",
+			"rarity": "Very Rare",
+			"reqAttune": "by someone with access to at least one 4th level spell slot",
+			"source": "PHEW",
+			"value": 600000,
+			"weight": 0.5,
+			"wondrous": true,
+			"entries": [
+				"Whenever the creature attuned to this item casts a spell from the abjuration school using a spell slot of up to 4th level, the spell slot is consumed as usual, but the spell is cast as if a spell slot that is 1 level higher was consumed in the casting."
+			],
+			"srd":true
+		},
+		{
+			"name": "Decalen (Conjuration)",
+			"type": "LEN",
+			"tier": "Major",
+			"rarity": "Very Rare",
+			"reqAttune": "by someone with access to at least one 4th level spell slot",
+			"source": "PHEW",
+			"value": 600000,
+			"weight": 0.5,
+			"wondrous": true,
+			"entries": [
+				"Whenever the creature attuned to this item casts a spell from the conjuration school using a spell slot of up to 4th level, the spell slot is consumed as usual, but the spell is cast as if a spell slot that is 1 level higher was consumed in the casting."
+			],
+			"srd":true
+		},
+		{
+			"name": "Decalen (Divination)",
+			"type": "LEN",
+			"tier": "Major",
+			"rarity": "Very Rare",
+			"reqAttune": "by someone with access to at least one 4th level spell slot",
+			"source": "PHEW",
+			"value": 600000,
+			"weight": 0.5,
+			"wondrous": true,
+			"entries": [
+				"Whenever the creature attuned to this item casts a spell from the divination school using a spell slot of up to 4th level, the spell slot is consumed as usual, but the spell is cast as if a spell slot that is 1 level higher was consumed in the casting."
+			],
+			"srd":true
+		},
+		{
+			"name": "Decalen (Enchantment)",
+			"type": "LEN",
+			"tier": "Major",
+			"rarity": "Very Rare",
+			"reqAttune": "by someone with access to at least one 4th level spell slot",
+			"source": "PHEW",
+			"value": 600000,
+			"weight": 0.5,
+			"wondrous": true,
+			"entries": [
+				"Whenever the creature attuned to this item casts a spell from the enchantment school using a spell slot of up to 4th level, the spell slot is consumed as usual, but the spell is cast as if a spell slot that is 1 level higher was consumed in the casting."
+			],
+			"srd":true
+		},
+		{
+			"name": "Decalen (Evocation)",
+			"type": "LEN",
+			"tier": "Major",
+			"rarity": "Very Rare",
+			"reqAttune": "by someone with access to at least one 4th level spell slot",
+			"source": "PHEW",
+			"value": 600000,
+			"weight": 0.5,
+			"wondrous": true,
+			"entries": [
+				"Whenever the creature attuned to this item casts a spell from the evocation school using a spell slot of up to 4th level, the spell slot is consumed as usual, but the spell is cast as if a spell slot that is 1 level higher was consumed in the casting."
+			],
+			"srd":true
+		},
+		{
+			"name": "Decalen (Illusion)",
+			"type": "LEN",
+			"tier": "Major",
+			"rarity": "Very Rare",
+			"reqAttune": "by someone with access to at least one 4th level spell slot",
+			"source": "PHEW",
+			"value": 600000,
+			"weight": 0.5,
+			"wondrous": true,
+			"entries": [
+				"Whenever the creature attuned to this item casts a spell from the illusion school using a spell slot of up to 4th level, the spell slot is consumed as usual, but the spell is cast as if a spell slot that is 1 level higher was consumed in the casting."
+			],
+			"srd":true
+		},
+		{
+			"name": "Decalen (Necromancy)",
+			"type": "LEN",
+			"tier": "Major",
+			"rarity": "Very Rare",
+			"reqAttune": "by someone with access to at least one 4th level spell slot",
+			"source": "PHEW",
+			"value": 600000,
+			"weight": 0.5,
+			"wondrous": true,
+			"entries": [
+				"Whenever the creature attuned to this item casts a spell from the necromancy school using a spell slot of up to 4th level, the spell slot is consumed as usual, but the spell is cast as if a spell slot that is 1 level higher was consumed in the casting."
+			],
+			"srd":true
+		},
+		{
+			"name": "Decalen (Transmutation)",
+			"type": "LEN",
+			"tier": "Major",
+			"rarity": "Very Rare",
+			"reqAttune": "by someone with access to at least one 4th level spell slot",
+			"source": "PHEW",
+			"value": 600000,
+			"weight": 0.5,
+			"wondrous": true,
+			"entries": [
+				"Whenever the creature attuned to this item casts a spell from the transmutation school using a spell slot of up to 4th level, the spell slot is consumed as usual, but the spell is cast as if a spell slot that is 1 level higher was consumed in the casting."
+			],
+			"srd":true
+		},
+		{
+			"name": "Dodecalen (Abjuration)",
+			"type": "LEN",
+			"tier": "Major",
+			"rarity": "Legendary",
+			"reqAttune": "by someone with access to at least one 5th level spell slot",
+			"source": "PHEW",
+			"value": 900000,
+			"weight": 0.6,
+			"wondrous": true,
+			"entries": [
+				"Whenever the creature attuned to this item casts a spell from the abjuration school using a spell slot of up to 5th level, the spell slot is consumed as usual, but the spell is cast as if a spell slot that is 1 level higher was consumed in the casting."
+			],
+			"srd":true
+		},
+		{
+			"name": "Dodecalen (Conjuration)",
+			"type": "LEN",
+			"tier": "Major",
+			"rarity": "Legendary",
+			"reqAttune": "by someone with access to at least one 5th level spell slot",
+			"source": "PHEW",
+			"value": 900000,
+			"weight": 0.6,
+			"wondrous": true,
+			"entries": [
+				"Whenever the creature attuned to this item casts a spell from the conjuration school using a spell slot of up to 5th level, the spell slot is consumed as usual, but the spell is cast as if a spell slot that is 1 level higher was consumed in the casting."
+			],
+			"srd":true
+		},
+		{
+			"name": "Dodecalen (Divination)",
+			"type": "LEN",
+			"tier": "Major",
+			"rarity": "Legendary",
+			"reqAttune": "by someone with access to at least one 5th level spell slot",
+			"source": "PHEW",
+			"value": 900000,
+			"weight": 0.6,
+			"wondrous": true,
+			"entries": [
+				"Whenever the creature attuned to this item casts a spell from the divination school using a spell slot of up to 5th level, the spell slot is consumed as usual, but the spell is cast as if a spell slot that is 1 level higher was consumed in the casting."
+			],
+			"srd":true
+		},
+		{
+			"name": "Dodecalen (Enchantment)",
+			"type": "LEN",
+			"tier": "Major",
+			"rarity": "Legendary",
+			"reqAttune": "by someone with access to at least one 5th level spell slot",
+			"source": "PHEW",
+			"value": 900000,
+			"weight": 0.6,
+			"wondrous": true,
+			"entries": [
+				"Whenever the creature attuned to this item casts a spell from the enchantment school using a spell slot of up to 5th level, the spell slot is consumed as usual, but the spell is cast as if a spell slot that is 1 level higher was consumed in the casting."
+			],
+			"srd":true
+		},
+		{
+			"name": "Dodecalen (Evocation)",
+			"type": "LEN",
+			"tier": "Major",
+			"rarity": "Legendary",
+			"reqAttune": "by someone with access to at least one 5th level spell slot",
+			"source": "PHEW",
+			"value": 900000,
+			"weight": 0.6,
+			"wondrous": true,
+			"entries": [
+				"Whenever the creature attuned to this item casts a spell from the evocation school using a spell slot of up to 5th level, the spell slot is consumed as usual, but the spell is cast as if a spell slot that is 1 level higher was consumed in the casting."
+			],
+			"srd":true
+		},
+		{
+			"name": "Dodecalen (Illusion)",
+			"type": "LEN",
+			"tier": "Major",
+			"rarity": "Legendary",
+			"reqAttune": "by someone with access to at least one 5th level spell slot",
+			"source": "PHEW",
+			"value": 900000,
+			"weight": 0.6,
+			"wondrous": true,
+			"entries": [
+				"Whenever the creature attuned to this item casts a spell from the illusion school using a spell slot of up to 5th level, the spell slot is consumed as usual, but the spell is cast as if a spell slot that is 1 level higher was consumed in the casting."
+			],
+			"srd":true
+		},
+		{
+			"name": "Dodecalen (Necromancy)",
+			"type": "LEN",
+			"tier": "Major",
+			"rarity": "Legendary",
+			"reqAttune": "by someone with access to at least one 5th level spell slot",
+			"source": "PHEW",
+			"value": 900000,
+			"weight": 0.6,
+			"wondrous": true,
+			"entries": [
+				"Whenever the creature attuned to this item casts a spell from the necromancy school using a spell slot of up to 5th level, the spell slot is consumed as usual, but the spell is cast as if a spell slot that is 1 level higher was consumed in the casting."
+			],
+			"srd":true
+		},
+		{
+			"name": "Dodecalen (Transmutation)",
+			"type": "LEN",
+			"tier": "Major",
+			"rarity": "Legendary",
+			"reqAttune": "by someone with access to at least one 5th level spell slot",
+			"source": "PHEW",
+			"value": 900000,
+			"weight": 0.6,
+			"wondrous": true,
+			"entries": [
+				"Whenever the creature attuned to this item casts a spell from the transmutation school using a spell slot of up to 5th level, the spell slot is consumed as usual, but the spell is cast as if a spell slot that is 1 level higher was consumed in the casting."
+			],
+			"srd":true
+		},
 		{
 			"name": "Estus Flask",
 			"wondrous": true,
@@ -743,14 +993,495 @@
 			"entries": [
 				"This dull emerald flask is treasured by adventurers everywhere. It constantly gives out warmth, regardless of the surrounding temperature, and it contains the precious Estus, a liquid substance with miraculous healing properties.",				"When placed in a flame, hearth, or other similar source of flame it begins to slowly fill with a vibrant orange liquid. After 1 hour the flask is filled completely. It may be removed from the fire safely as it is never more than warm to the touch.",				"Using an action, any creature may drink the Estus to spend as many of their Hit Dice as possible, up to a maximum of half the creature's level, to regain a number of hit points equal to {@dice 1d4+1} times the number of Hit Dice spent. A creature that is attuned to this item multiplies the hit dice spent by their Hit Die value + their Constitution modifier instead.",				"In order to attune to this item you first need to drink its contents, and then you must wait until the second dawn since you drank it.",				"Regardless of attunement, drinking the contents of the flask provides enough sustenance and water for the day, and drinking more than one flask during the same day is likely to cause illness from overeating.",				"A creature that falls unconscious while attuned to this item loses attunement to it."
 			]
+		},
+		{
+			"name": "Hexalen (Abjuration)",
+			"type": "LEN",
+			"tier": "Minor",
+			"rarity": "Uncommon",
+			"reqAttune": "by someone with access to at least one 2nd level spell slot",
+			"source": "PHEW",
+			"value": 200000,
+			"weight": 0.3,
+			"wondrous": true,
+			"entries": [
+				"Whenever the creature attuned to this item casts a spell from the abjuration school using a spell slot of up to 2nd level, the spell slot is consumed as usual, but the spell is cast as if a spell slot that is 1 level higher was consumed in the casting."
+			],
+			"srd":true
+		},
+		{
+			"name": "Hexalen (Conjuration)",
+			"type": "LEN",
+			"tier": "Minor",
+			"rarity": "Uncommon",
+			"reqAttune": "by someone with access to at least one 2nd level spell slot",
+			"source": "PHEW",
+			"value": 200000,
+			"weight": 0.3,
+			"wondrous": true,
+			"entries": [
+				"Whenever the creature attuned to this item casts a spell from the conjuration school using a spell slot of up to 2nd level, the spell slot is consumed as usual, but the spell is cast as if a spell slot that is 1 level higher was consumed in the casting."
+			],
+			"srd":true
+		},
+		{
+			"name": "Hexalen (Divination)",
+			"type": "LEN",
+			"tier": "Minor",
+			"rarity": "Uncommon",
+			"reqAttune": "by someone with access to at least one 2nd level spell slot",
+			"source": "PHEW",
+			"value": 200000,
+			"weight": 0.3,
+			"wondrous": true,
+			"entries": [
+				"Whenever the creature attuned to this item casts a spell from the divination school using a spell slot of up to 2nd level, the spell slot is consumed as usual, but the spell is cast as if a spell slot that is 1 level higher was consumed in the casting."
+			],
+			"srd":true
+		},
+		{
+			"name": "Hexalen (Enchantment)",
+			"type": "LEN",
+			"tier": "Minor",
+			"rarity": "Uncommon",
+			"reqAttune": "by someone with access to at least one 2nd level spell slot",
+			"source": "PHEW",
+			"value": 200000,
+			"weight": 0.3,
+			"wondrous": true,
+			"entries": [
+				"Whenever the creature attuned to this item casts a spell from the enchantment school using a spell slot of up to 2nd level, the spell slot is consumed as usual, but the spell is cast as if a spell slot that is 1 level higher was consumed in the casting."
+			],
+			"srd":true
+		},
+		{
+			"name": "Hexalen (Evocation)",
+			"type": "LEN",
+			"tier": "Minor",
+			"rarity": "Uncommon",
+			"reqAttune": "by someone with access to at least one 2nd level spell slot",
+			"source": "PHEW",
+			"value": 200000,
+			"weight": 0.3,
+			"wondrous": true,
+			"entries": [
+				"Whenever the creature attuned to this item casts a spell from the evocation school using a spell slot of up to 2nd level, the spell slot is consumed as usual, but the spell is cast as if a spell slot that is 1 level higher was consumed in the casting."
+			],
+			"srd":true
+		},
+		{
+			"name": "Hexalen (Illusion)",
+			"type": "LEN",
+			"tier": "Minor",
+			"rarity": "Uncommon",
+			"reqAttune": "by someone with access to at least one 2nd level spell slot",
+			"source": "PHEW",
+			"value": 200000,
+			"weight": 0.3,
+			"wondrous": true,
+			"entries": [
+				"Whenever the creature attuned to this item casts a spell from the illusion school using a spell slot of up to 2nd level, the spell slot is consumed as usual, but the spell is cast as if a spell slot that is 1 level higher was consumed in the casting."
+			],
+			"srd":true
+		},
+		{
+			"name": "Hexalen (Necromancy)",
+			"type": "LEN",
+			"tier": "Minor",
+			"rarity": "Uncommon",
+			"reqAttune": "by someone with access to at least one 2nd level spell slot",
+			"source": "PHEW",
+			"value": 200000,
+			"weight": 0.3,
+			"wondrous": true,
+			"entries": [
+				"Whenever the creature attuned to this item casts a spell from the necromancy school using a spell slot of up to 2nd level, the spell slot is consumed as usual, but the spell is cast as if a spell slot that is 1 level higher was consumed in the casting."
+			],
+			"srd":true
+		},
+		{
+			"name": "Hexalen (Transmutation)",
+			"type": "LEN",
+			"tier": "Minor",
+			"rarity": "Uncommon",
+			"reqAttune": "by someone with access to at least one 2nd level spell slot",
+			"source": "PHEW",
+			"value": 200000,
+			"weight": 0.3,
+			"wondrous": true,
+			"entries": [
+				"Whenever the creature attuned to this item casts a spell from the transmutation school using a spell slot of up to 2nd level, the spell slot is consumed as usual, but the spell is cast as if a spell slot that is 1 level higher was consumed in the casting."
+			],
+			"srd":true
+		},
+		{
+			"name": "Icosalen (Abjuration)",
+			"type": "LEN",
+			"tier": "Major",
+			"rarity": "Artifact",
+			"reqAttune": "by someone with access to at least one 9th level spell slot",
+			"source": "PHEW",
+			"value": 10000000,
+			"weight": 2,
+			"wondrous": true,
+			"entries": [
+				"Whenever the creature attuned to this item casts a spell from the abjuration school using a spell slot of up to 9th level, the spell slot is consumed as usual, but the spell is cast as if a spell slot that is 1 level higher was consumed in the casting."
+			],
+			"srd":true
+		},
+		{
+			"name": "Icosalen (Conjuration)",
+			"type": "LEN",
+			"tier": "Major",
+			"rarity": "Artifact",
+			"reqAttune": "by someone with access to at least one 9th level spell slot",
+			"source": "PHEW",
+			"value": 10000000,
+			"weight": 2,
+			"wondrous": true,
+			"entries": [
+				"Whenever the creature attuned to this item casts a spell from the conjuration school using a spell slot of up to 9th level, the spell slot is consumed as usual, but the spell is cast as if a spell slot that is 1 level higher was consumed in the casting."
+			],
+			"srd":true
+		},
+		{
+			"name": "Icosalen (Divination)",
+			"type": "LEN",
+			"tier": "Major",
+			"rarity": "Artifact",
+			"reqAttune": "by someone with access to at least one 9th level spell slot",
+			"source": "PHEW",
+			"value": 10000000,
+			"weight": 2,
+			"wondrous": true,
+			"entries": [
+				"Whenever the creature attuned to this item casts a spell from the divination school using a spell slot of up to 9th level, the spell slot is consumed as usual, but the spell is cast as if a spell slot that is 1 level higher was consumed in the casting."
+			],
+			"srd":true
+		},
+		{
+			"name": "Icosalen (Enchantment)",
+			"type": "LEN",
+			"tier": "Major",
+			"rarity": "Artifact",
+			"reqAttune": "by someone with access to at least one 9th level spell slot",
+			"source": "PHEW",
+			"value": 10000000,
+			"weight": 2,
+			"wondrous": true,
+			"entries": [
+				"Whenever the creature attuned to this item casts a spell from the enchantment school using a spell slot of up to 9th level, the spell slot is consumed as usual, but the spell is cast as if a spell slot that is 1 level higher was consumed in the casting."
+			],
+			"srd":true
+		},
+		{
+			"name": "Icosalen (Evocation)",
+			"type": "LEN",
+			"tier": "Major",
+			"rarity": "Artifact",
+			"reqAttune": "by someone with access to at least one 9th level spell slot",
+			"source": "PHEW",
+			"value": 10000000,
+			"weight": 2,
+			"wondrous": true,
+			"entries": [
+				"Whenever the creature attuned to this item casts a spell from the evocation school using a spell slot of up to 9th level, the spell slot is consumed as usual, but the spell is cast as if a spell slot that is 1 level higher was consumed in the casting."
+			],
+			"srd":true
+		},
+		{
+			"name": "Icosalen (Illusion)",
+			"type": "LEN",
+			"tier": "Major",
+			"rarity": "Artifact",
+			"reqAttune": "by someone with access to at least one 9th level spell slot",
+			"source": "PHEW",
+			"value": 10000000,
+			"weight": 2,
+			"wondrous": true,
+			"entries": [
+				"Whenever the creature attuned to this item casts a spell from the illusion school using a spell slot of up to 9th level, the spell slot is consumed as usual, but the spell is cast as if a spell slot that is 1 level higher was consumed in the casting."
+			],
+			"srd":true
+		},
+		{
+			"name": "Icosalen (Necromancy)",
+			"type": "LEN",
+			"tier": "Major",
+			"rarity": "Artifact",
+			"reqAttune": "by someone with access to at least one 9th level spell slot",
+			"source": "PHEW",
+			"value": 10000000,
+			"weight": 2,
+			"wondrous": true,
+			"entries": [
+				"Whenever the creature attuned to this item casts a spell from the necromancy school using a spell slot of up to 9th level, the spell slot is consumed as usual, but the spell is cast as if a spell slot that is 1 level higher was consumed in the casting."
+			],
+			"srd":true
+		},
+		{
+			"name": "Icosalen (Transmutation)",
+			"type": "LEN",
+			"tier": "Major",
+			"rarity": "Artifact",
+			"reqAttune": "by someone with access to at least one 9th level spell slot",
+			"source": "PHEW",
+			"value": 10000000,
+			"weight": 2,
+			"wondrous": true,
+			"entries": [
+				"Whenever the creature attuned to this item casts a spell from the transmutation school using a spell slot of up to 9th level, the spell slot is consumed as usual, but the spell is cast as if a spell slot that is 1 level higher was consumed in the casting."
+			],
+			"srd":true
+		},
+		{
+			"name": "Octalen (Abjuration)",
+			"type": "LEN",
+			"tier": "Major",
+			"rarity": "Rare",
+			"reqAttune": "by someone with access to at least one 3rd level spell slot",
+			"source": "PHEW",
+			"value": 400000,
+			"weight": 0.4,
+			"wondrous": true,
+			"entries": [
+				"Whenever the creature attuned to this item casts a spell from the abjuration school using a spell slot of up to 3rd level, the spell slot is consumed as usual, but the spell is cast as if a spell slot that is 1 level higher was consumed in the casting."
+			],
+			"srd":true
+		},
+		{
+			"name": "Octalen (Conjuration)",
+			"type": "LEN",
+			"tier": "Major",
+			"rarity": "Rare",
+			"reqAttune": "by someone with access to at least one 3rd level spell slot",
+			"source": "PHEW",
+			"value": 400000,
+			"weight": 0.4,
+			"wondrous": true,
+			"entries": [
+				"Whenever the creature attuned to this item casts a spell from the conjuration school using a spell slot of up to 3rd level, the spell slot is consumed as usual, but the spell is cast as if a spell slot that is 1 level higher was consumed in the casting."
+			],
+			"srd":true
+		},
+		{
+			"name": "Octalen (Divination)",
+			"type": "LEN",
+			"tier": "Major",
+			"rarity": "Rare",
+			"reqAttune": "by someone with access to at least one 3rd level spell slot",
+			"source": "PHEW",
+			"value": 400000,
+			"weight": 0.4,
+			"wondrous": true,
+			"entries": [
+				"Whenever the creature attuned to this item casts a spell from the divination school using a spell slot of up to 3rd level, the spell slot is consumed as usual, but the spell is cast as if a spell slot that is 1 level higher was consumed in the casting."
+			],
+			"srd":true
+		},
+		{
+			"name": "Octalen (Enchantment)",
+			"type": "LEN",
+			"tier": "Major",
+			"rarity": "Rare",
+			"reqAttune": "by someone with access to at least one 3rd level spell slot",
+			"source": "PHEW",
+			"value": 400000,
+			"weight": 0.4,
+			"wondrous": true,
+			"entries": [
+				"Whenever the creature attuned to this item casts a spell from the enchantment school using a spell slot of up to 3rd level, the spell slot is consumed as usual, but the spell is cast as if a spell slot that is 1 level higher was consumed in the casting."
+			],
+			"srd":true
+		},
+		{
+			"name": "Octalen (Evocation)",
+			"type": "LEN",
+			"tier": "Major",
+			"rarity": "Rare",
+			"reqAttune": "by someone with access to at least one 3rd level spell slot",
+			"source": "PHEW",
+			"value": 400000,
+			"weight": 0.4,
+			"wondrous": true,
+			"entries": [
+				"Whenever the creature attuned to this item casts a spell from the evocation school using a spell slot of up to 3rd level, the spell slot is consumed as usual, but the spell is cast as if a spell slot that is 1 level higher was consumed in the casting."
+			],
+			"srd":true
+		},
+		{
+			"name": "Octalen (Illusion)",
+			"type": "LEN",
+			"tier": "Major",
+			"rarity": "Rare",
+			"reqAttune": "by someone with access to at least one 3rd level spell slot",
+			"source": "PHEW",
+			"value": 400000,
+			"weight": 0.4,
+			"wondrous": true,
+			"entries": [
+				"Whenever the creature attuned to this item casts a spell from the illusion school using a spell slot of up to 3rd level, the spell slot is consumed as usual, but the spell is cast as if a spell slot that is 1 level higher was consumed in the casting."
+			],
+			"srd":true
+		},
+		{
+			"name": "Octalen (Necromancy)",
+			"type": "LEN",
+			"tier": "Major",
+			"rarity": "Rare",
+			"reqAttune": "by someone with access to at least one 3rd level spell slot",
+			"source": "PHEW",
+			"value": 400000,
+			"weight": 0.4,
+			"wondrous": true,
+			"entries": [
+				"Whenever the creature attuned to this item casts a spell from the necromancy school using a spell slot of up to 3rd level, the spell slot is consumed as usual, but the spell is cast as if a spell slot that is 1 level higher was consumed in the casting."
+			],
+			"srd":true
+		},
+		{
+			"name": "Octalen (Transmutation)",
+			"type": "LEN",
+			"tier": "Major",
+			"rarity": "Rare",
+			"reqAttune": "by someone with access to at least one 3rd level spell slot",
+			"source": "PHEW",
+			"value": 400000,
+			"weight": 0.4,
+			"wondrous": true,
+			"entries": [
+				"Whenever the creature attuned to this item casts a spell from the transmutation school using a spell slot of up to 3rd level, the spell slot is consumed as usual, but the spell is cast as if a spell slot that is 1 level higher was consumed in the casting."
+			],
+			"srd":true
+		},
+		{
+			"name": "Tetralen (Abjuration)",
+			"type": "LEN",
+			"tier": "Minor",
+			"rarity": "Common",
+			"reqAttune": "by someone with access to at least one 1st level spell slot",
+			"source": "PHEW",
+			"value": 100000,
+			"weight": 0.2,
+			"wondrous": true,
+			"entries": [
+				"Whenever the creature attuned to this item casts a spell from the abjuration school using a spell slot of up to 1st level, the spell slot is consumed as usual, but the spell is cast as if a spell slot that is 1 level higher was consumed in the casting."
+			],
+			"srd":true
+		},
+		{
+			"name": "Tetralen (Conjuration)",
+			"type": "LEN",
+			"tier": "Minor",
+			"rarity": "Common",
+			"reqAttune": "by someone with access to at least one 1st level spell slot",
+			"source": "PHEW",
+			"value": 100000,
+			"weight": 0.2,
+			"wondrous": true,
+			"entries": [
+				"Whenever the creature attuned to this item casts a spell from the conjuration school using a spell slot of up to 1st level, the spell slot is consumed as usual, but the spell is cast as if a spell slot that is 1 level higher was consumed in the casting."
+			],
+			"srd":true
+		},
+		{
+			"name": "Tetralen (Divination)",
+			"type": "LEN",
+			"tier": "Minor",
+			"rarity": "Common",
+			"reqAttune": "by someone with access to at least one 1st level spell slot",
+			"source": "PHEW",
+			"value": 100000,
+			"weight": 0.2,
+			"wondrous": true,
+			"entries": [
+				"Whenever the creature attuned to this item casts a spell from the divination school using a spell slot of up to 1st level, the spell slot is consumed as usual, but the spell is cast as if a spell slot that is 1 level higher was consumed in the casting."
+			],
+			"srd":true
+		},
+		{
+			"name": "Tetralen (Enchantment)",
+			"type": "LEN",
+			"tier": "Minor",
+			"rarity": "Common",
+			"reqAttune": "by someone with access to at least one 1st level spell slot",
+			"source": "PHEW",
+			"value": 100000,
+			"weight": 0.2,
+			"wondrous": true,
+			"entries": [
+				"Whenever the creature attuned to this item casts a spell from the enchantment school using a spell slot of up to 1st level, the spell slot is consumed as usual, but the spell is cast as if a spell slot that is 1 level higher was consumed in the casting."
+			],
+			"srd":true
+		},
+		{
+			"name": "Tetralen (Evocation)",
+			"type": "LEN",
+			"tier": "Minor",
+			"rarity": "Common",
+			"reqAttune": "by someone with access to at least one 1st level spell slot",
+			"source": "PHEW",
+			"value": 100000,
+			"weight": 0.2,
+			"wondrous": true,
+			"entries": [
+				"Whenever the creature attuned to this item casts a spell from the evocation school using a spell slot of up to 1st level, the spell slot is consumed as usual, but the spell is cast as if a spell slot that is 1 level higher was consumed in the casting."
+			],
+			"srd":true
+		},
+		{
+			"name": "Tetralen (Illusion)",
+			"type": "LEN",
+			"tier": "Minor",
+			"rarity": "Common",
+			"reqAttune": "by someone with access to at least one 1st level spell slot",
+			"source": "PHEW",
+			"value": 100000,
+			"weight": 0.2,
+			"wondrous": true,
+			"entries": [
+				"Whenever the creature attuned to this item casts a spell from the illusion school using a spell slot of up to 1st level, the spell slot is consumed as usual, but the spell is cast as if a spell slot that is 1 level higher was consumed in the casting."
+			],
+			"srd":true
+		},
+		{
+			"name": "Tetralen (Necromancy)",
+			"type": "LEN",
+			"tier": "Minor",
+			"rarity": "Common",
+			"reqAttune": "by someone with access to at least one 1st level spell slot",
+			"source": "PHEW",
+			"value": 100000,
+			"weight": 0.2,
+			"wondrous": true,
+			"entries": [
+				"Whenever the creature attuned to this item casts a spell from the necromancy school using a spell slot of up to 1st level, the spell slot is consumed as usual, but the spell is cast as if a spell slot that is 1 level higher was consumed in the casting."
+			],
+			"srd":true
+		},
+		{
+			"name": "Tetralen (Transmutation)",
+			"type": "LEN",
+			"tier": "Minor",
+			"rarity": "Common",
+			"reqAttune": "by someone with access to at least one 1st level spell slot",
+			"source": "PHEW",
+			"value": 100000,
+			"weight": 0.2,
+			"wondrous": true,
+			"entries": [
+				"Whenever the creature attuned to this item casts a spell from the transmutation school using a spell slot of up to 1st level, the spell slot is consumed as usual, but the spell is cast as if a spell slot that is 1 level higher was consumed in the casting."
+			],
+			"srd":true
 		}
 	],
 	"itemGroup":[
 		{"name":"Arcane Focus","type":"SCF","scfType":"arcane","rarity":"None","source":"PHEW","items":["Crystal|phew","Orb|phew","Rod|phew","Staff|phew","Wand|phew"],"focus":["Sorcerer","Warlock","Wizard"]},
 		{"name":"Druidic Focus","type":"SCF","scfType":"druid","rarity":"None","source":"PHEW","items":["Sprig of mistletoe|phew","Totem|phew","Wooden staff|phew","Yew wand|phew"],"focus":["Druid"]},
 		{"name":"Holy Symbol","type":"SCF","scfType":"holy","rarity":"None","source":"PHEW","items":["Amulet|phew","Emblem|phew","Reliquary|phew"],"focus":["Cleric","Paladin"]},
+		{"name":"Gaming Set","type":"GS","rarity":"None","source":"PHEW","items":["Dice Set|phew","Dragonchess Set|phew","Playing Card Set|phew","Three-Dragon Ante Set|phew"]},
 		{"name":"Musical Instrument","type":"INS","rarity":"None","source":"PHEW","items":["Bagpipes|phew","Drum|phew","Dulcimer|phew","Flute|phew","Horn|phew","Lute|phew","Lyre|phew","Pan Flute|phew","Shawm|phew","Viol|phew"]},
-		{"name":"Gaming Set","type":"GS","rarity":"None","source":"PHEW","items":["Dice Set|phew","Dragonchess Set|phew","Playing Card Set|phew","Three-Dragon Ante Set|phew"]}
+		{"name":"Spell Scroll","type":"SC","rarity":"Varies","source":"PHEW","items":["Spell Scroll (Cantrip)","Spell Scroll (1st Level)","Spell Scroll (2nd Level)","Spell Scroll (3rd Level)","Spell Scroll (4th Level)","Spell Scroll (5th Level)","Spell Scroll (6th Level)","Spell Scroll (7th Level)","Spell Scroll (8th Level)","Spell Scroll (9th Level)"]}
 	],
 	"itemProperty":[
 		{
