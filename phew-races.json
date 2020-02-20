@@ -407,7 +407,7 @@
 						{
 							"name": "Goroth Artist's Role",
 							"entries": [
-								"You can add your Charisma modifier to a Dexterity check or saving throw you make, or add your Dexterity modifier to a Charisma check or saving throw you make, a number of times equal to your proficiency bonus. You can wait until after you roll the {@dice d20} before deciding to use this feature, but must decide before the DM says whether the roll succeeds or fails. You regain any expended uses when you finish a long rest."
+								"You can add your Charisma modifier to a Dexterity check or saving throw you make, or add your Dexterity modifier to a Charisma check or saving throw you make, a number of times equal to your proficiency bonus. You must decide if you wish to add this bonus before making the {@dice d20} roll. You regain any expended uses when you finish a long rest."
 							],
 							"type": "entries"
 						}
@@ -432,7 +432,7 @@
 						{
 							"name": "Goroth Erudite's Role",
 							"entries": [
-								"You can add your Intelligence modifier to a Wisdom check or saving throw you make, or add your Wisdom modifier to an Intelligence check or saving throw you make, a number of times equal to your proficiency bonus. You can wait until after you roll the {@dice d20} before deciding to use this feature, but must decide before the DM says whether the roll succeeds or fails. You regain any expended uses when you finish a long rest."
+								"You can add your Intelligence modifier to a Wisdom check or saving throw you make, or add your Wisdom modifier to an Intelligence check or saving throw you make, a number of times equal to your proficiency bonus. You must decide if you wish to add this bonus before making the {@dice d20} roll. You regain any expended uses when you finish a long rest."
 							],
 							"type": "entries"
 						}
@@ -457,7 +457,7 @@
 						{
 							"name": "Goroth Warrior's Role",
 							"entries": [
-								"You can add your Strength modifier to a Constitution check or saving throw you make, or add your Constitution modifier to a Strength check or saving throw you make, a number of times equal to your proficiency bonus. You can wait until after you roll the {@dice d20} before deciding to use this feature, but must decide before the DM says whether the roll succeeds or fails. You regain any expended uses when you finish a long rest."
+								"You can add your Strength modifier to a Constitution check or saving throw you make, or add your Constitution modifier to a Strength check or saving throw you make, a number of times equal to your proficiency bonus. You must decide if you wish to add this bonus before making the {@dice d20} roll. You regain any expended uses when you finish a long rest."
 							],
 							"type": "entries"
 						}
