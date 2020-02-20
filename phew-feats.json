@@ -130,25 +130,6 @@
 			]
 		},
 		{
-			"name": "Cunning Versatility",
-			"source": "PHEW",
-			"entries": [
-				"Your wit gives you endless adaptability, allowing you to find answers when most people couldn't do it.",
-				{
-					"type": "list",
-					"items": [
-						"You can use your Intelligence modifier instead of your Dexterity modifier to calculate your Initiative Bonus if it is higher.",
-						"You gain a number of Wit Dice equal to your Intelligence modifier (min. 1). You regain any spent uses at the end of a long rest. Once on each turn you can roll a Wit Die and add the number rolled to one ability check or attack roll you make, spending the Die. You can wait until after you roll the d20 before deciding to use the Wit Die, but you must decide before the DM says whether the roll succeeds or fails. You can't use a Wit Die while you're {@condition incapacitated|PHEW}. The size of the Wit Die equals twice your proficiency bonus (i.e. 1d6 at proficiency bonus 3)."
-					]
-				}
-			],
-			"ability": [
-				{
-					"int": 1
-				}
-			]
-		},
-		{
 			"name": "Defensive Duelist",
 			"source": "PHEW",
 			"prerequisite": [

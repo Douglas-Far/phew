@@ -802,7 +802,7 @@
 									"type": "entries",
 									"name": "Optional Rule: Multiclassing",
 									"entries": [
-										"If your group uses the optional rule on multiclassing in the {@book Player's Handbook|PHB}, here's what you need to know if you choose artificer as one of your classes.",
+										"If your group uses the optional rule on multiclassing in the {@book Player's Handbook|phew}, here's what you need to know if you choose artificer as one of your classes.",
 										{
 											"type": "entries",
 											"name": "Ability Score Minimum",
@@ -1023,8 +1023,8 @@
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"(a) a {@item greataxe|PHEW} or (b) any {@filter martial melee weapon|items|source=phb|category=basic|type=martial weapon;melee weapon=sand}",
-					"(a) two {@item handaxe|PHEW|handaxes} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
+					"(a) a {@item greataxe|PHEW} or (b) any {@filter martial melee weapon|items|source=phew|category=basic|type=martial weapon;melee weapon=sand}",
+					"(a) two {@item handaxe|PHEW|handaxes} or (b) any {@filter simple weapon|items|source=phew|category=basic|type=simple weapon}",
 					"An {@item explorer's pack|PHEW}, and four {@item javelin|PHEW|javelins}"
 				],
 				"goldAlternative": "{@dice 2d4×10|2d4 × 10|Starting Gold}"
@@ -2634,7 +2634,7 @@
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"(a) a {@item rapier|PHEW}, (b) a {@item longsword|PHEW}, or (c) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
+					"(a) a {@item rapier|PHEW}, (b) a {@item longsword|PHEW}, or (c) any {@filter simple weapon|items|source=phew|category=basic|type=simple weapon}",
 					"(a) a {@item diplomat's pack|PHEW} or (b) an {@item entertainer's pack|PHEW}",
 					"(a) a {@item lute|PHEW} or (b) any other {@filter musical instrument|items|miscellaneous=mundane|type=instrument}",
 					"{@item Leather armor|PHEW}, and a {@item dagger|PHEW}"
@@ -3973,7 +3973,7 @@
 				"default": [
 					"(a) a {@item mace|PHEW} or (b) a {@item warhammer|PHEW} (if proficient)",
 					"(a) {@item scale mail|PHEW}, (b) {@item leather armor|PHEW}, or (c) {@item chain mail|PHEW} (if proficient)",
-					"(a) a {@item light crossbow|PHEW} and {@item Crossbow Bolts (20)|PHEW|20 bolts} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
+					"(a) a {@item light crossbow|PHEW} and {@item Crossbow Bolts (20)|PHEW|20 bolts} or (b) any {@filter simple weapon|items|source=phew|category=basic|type=simple weapon}",
 					"(a) a {@item priest's pack|PHEW} or (b) an {@item explorer's pack|PHEW}",
 					"A {@item shield|PHEW} and a {@item holy symbol|PHEW}"
 				],
@@ -6341,8 +6341,8 @@
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"(a) a wooden {@item shield|PHEW} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
-					"(a) a {@item scimitar|PHEW} or (b) any {@filter simple melee weapon|items|source=phb|category=basic|type=simple weapon;melee weapon=sand}",
+					"(a) a wooden {@item shield|PHEW} or (b) any {@filter simple weapon|items|source=phew|category=basic|type=simple weapon}",
+					"(a) a {@item scimitar|PHEW} or (b) any {@filter simple melee weapon|items|source=phew|category=basic|type=simple weapon;melee weapon=sand}",
 					"{@item Leather armor|PHEW}, an {@item explorer's pack|PHEW}, and a {@item druidic focus|PHEW}"
 				],
 				"goldAlternative": "{@dice 2d4×10|2d4 × 10|Starting Gold}"
@@ -8664,7 +8664,7 @@
 				"additionalFromBackground": true,
 				"default": [
 					"(a) {@item chain mail|PHEW} or (b) {@item leather armor|PHEW|leather}, {@item longbow|PHEW}, and {@item arrows (20)|PHEW|20 arrows}",
-					"(a) a {@filter martial weapon|items|source=phb|category=basic|type=martial weapon} and a {@item shield|PHEW} or (b) two {@filter martial weapons|items|source=phb|category=basic|type=martial weapon}",
+					"(a) a {@filter martial weapon|items|source=phew|category=basic|type=martial weapon} and a {@item shield|PHEW} or (b) two {@filter martial weapons|items|source=phew|category=basic|type=martial weapon}",
 					"(a) a {@item light crossbow|PHEW} and {@item crossbow bolts (20)|PHEW|20 bolts} or (b) two {@item handaxe|PHEW|handaxes}",
 					"(a) a {@item dungeoneer's pack|PHEW} or (b) an {@item explorer's pack|PHEW}"
 				],
@@ -9141,7 +9141,7 @@
 										"type": "entries",
 										"name": "Student of War",
 										"entries": [
-											"At 3rd level, you gain proficiency with one type of {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan tool} of your choice."
+											"At 3rd level, you gain proficiency with one type of {@filter artisan's tools|items|source=phew|miscellaneous=mundane|type=artisan tool} of your choice."
 										]
 									},
 									{
@@ -10621,7 +10621,7 @@
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"(a) a {@item shortsword|PHEW} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
+					"(a) a {@item shortsword|PHEW} or (b) any {@filter simple weapon|items|source=phew|category=basic|type=simple weapon}",
 					"(a) a {@item dungeoneer's pack|PHEW} or (b) an {@item explorer's pack|PHEW}",
 					"10 {@item dart|PHEW|darts}"
 				],
@@ -12136,8 +12136,8 @@
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"(a) a {@filter martial weapon|items|source=phb|category=basic|type=martial weapon} and a {@item shield|PHEW} or (b) two {@filter martial weapons|items|source=phb|category=basic|type=martial weapon}",
-					"(a) five {@item javelin|PHEW|javelins} or (b) any {@filter simple melee weapon|items|source=phb|category=basic|type=simple weapon;melee weapon=sand}",
+					"(a) a {@filter martial weapon|items|source=phew|category=basic|type=martial weapon} and a {@item shield|PHEW} or (b) two {@filter martial weapons|items|source=phew|category=basic|type=martial weapon}",
+					"(a) five {@item javelin|PHEW|javelins} or (b) any {@filter simple melee weapon|items|source=phew|category=basic|type=simple weapon;melee weapon=sand}",
 					"(a) a {@item priest's pack|PHEW} or (b) an {@item explorer's pack|PHEW}",
 					"{@item Chain mail|PHEW} and a {@item holy symbol|PHEW}"
 				],
@@ -14201,7 +14201,7 @@
 				"additionalFromBackground": true,
 				"default": [
 					"(a) {@item scale mail|PHEW} or (b) {@item leather armor|PHEW}",
-					"(a) two {@item shortsword|PHEW|shortswords} or (b) two {@filter simple melee weapons|items|source=phb|category=basic|type=simple weapon;melee weapon=sand}",
+					"(a) two {@item shortsword|PHEW|shortswords} or (b) two {@filter simple melee weapons|items|source=phew|category=basic|type=simple weapon;melee weapon=sand}",
 					"(a) a {@item dungeoneer's pack|PHEW} or (b) an {@item explorer's pack|PHEW}",
 					"A {@item longbow|PHEW} and a {@item quiver|PHEW} of {@item arrows (20)|PHEW|20 arrows}"
 				],
@@ -17637,7 +17637,7 @@
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"(a) a {@item light crossbow|PHEW} and {@item crossbow bolts (20)|PHEW|20 bolts} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
+					"(a) a {@item light crossbow|PHEW} and {@item crossbow bolts (20)|PHEW|20 bolts} or (b) any {@filter simple weapon|items|source=phew|category=basic|type=simple weapon}",
 					"(a) a {@item dungeoneer's pack|PHEW} or (b) an {@item explorer's pack|PHEW}",
 					"Two {@item dagger|PHEW|daggers}"
 				],
@@ -19235,10 +19235,10 @@
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"(a) a {@item light crossbow|PHEW} and {@item crossbow bolts (20)|PHEW|20 bolts} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
+					"(a) a {@item light crossbow|PHEW} and {@item crossbow bolts (20)|PHEW|20 bolts} or (b) any {@filter simple weapon|items|source=phew|category=basic|type=simple weapon}",
 					"(a) a {@item component pouch|PHEW} or (b) an {@item arcane focus|PHEW}",
 					"(a) a {@item scholar's pack|PHEW} or (b) a {@item dungeoneer's pack|PHEW}",
-					"{@item Leather armor|PHEW}, any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}, and two {@item dagger|PHEW|daggers}"
+					"{@item Leather armor|PHEW}, any {@filter simple weapon|items|source=phew|category=basic|type=simple weapon}, and two {@item dagger|PHEW|daggers}"
 				],
 				"goldAlternative": "{@dice 4d4×10|4d4 × 10|Starting Gold}"
 			},
