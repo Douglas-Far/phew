@@ -3,10 +3,6 @@
 		{
 			"name": "Artificer",
 			"source": "PHEW",
-			"hd": {
-				"number": 1,
-				"faces": 8
-			},
 			"proficiency": ["con", "int"],
 			"spellcastingAbility": "int",
 			"casterProgression": "1/2",
@@ -107,6 +103,37 @@
 			},
 			"classFeatures": [
 				[
+					{
+						"name": "Hit Points",
+						"entries": [
+							"{@b Hit Dice}: 1d8",
+							"{@b Hit Points at First Level}: 11",
+							"{@b Hit Points at Higher Levels}: {@dice 3 + 1d8}",
+							"{@b Expected Hit Points at Higher Levels}: 8",
+							"{@b Con Bonus to HP}: Proficiency Bonus x Constitution Modifier",
+							"If you obtain this feature from more than one class, it won't stack. Whenever you gain a level, you always gain the \"Hit Points at Higher Levels\" from the class you're gaining a level in.",
+							{
+								"type": "inset",
+								"name": "HP Recalculation values",
+								"entries": [
+									"If you have levels in more than one class, you must manually calculate your expected hit points. You should keep a tally of your expected hp total that you update every time you gain a level.",
+									"If you only have levels in this class, here's a quick reference for what your expected hp will be at the levels where {@variantrule HP Catch-Up|PHEW} happens:",
+									{
+										"type": "table",
+										"caption": "Expected HP",
+										"colLabels": ["Level","Expected HP"],
+										"colStyles": ["col-2 text-center","col-10"],
+										"rows": [
+											["5th","43 + 3 x Constitution modifier"],
+											["10th","83 + 4 x Constitution modifier"],
+											["15th","123 + 5 x Constitution modifier"],
+											["20th","163 + 6 x Constitution modifier"]
+										]
+									}
+								]
+							}
+						]
+					},
 					{
 						"name": "Firearm Proficiency",
 						"entries": [
@@ -836,10 +863,6 @@
 		{
 			"name": "Barbarian",
 			"source": "PHEW",
-			"hd": {
-				"number": 1,
-				"faces": 12
-			},
 			"proficiency": [
 				"str",
 				"con"
@@ -1045,6 +1068,37 @@
 			},
 			"classFeatures": [
 				[
+					{
+						"name": "Hit Points",
+						"entries": [
+							"{@b Hit Dice}: 1d12",
+							"{@b Hit Points at First Level}: 17",
+							"{@b Hit Points at Higher Levels}: {@dice 5 + 1d12}",
+							"{@b Expected Hit Points at Higher Levels}: 12",
+							"{@b Con Bonus to HP}: Proficiency Bonus x Constitution Modifier",
+							"If you obtain this feature from more than one class, it won't stack. Whenever you gain a level, you always gain the \"Hit Points at Higher Levels\" from the class you're gaining a level in.",
+							{
+								"type": "inset",
+								"name": "HP Recalculation values",
+								"entries": [
+									"If you have levels in more than one class, you must manually calculate your expected hit points. You should keep a tally of your expected hp total that you update every time you gain a level.",
+									"If you only have levels in this class, here's a quick reference for what your expected hp will be at the levels where {@variantrule HP Catch-Up|PHEW} happens:",
+									{
+										"type": "table",
+										"caption": "Expected HP",
+										"colLabels": ["Level","Expected HP"],
+										"colStyles": ["col-2 text-center","col-10"],
+										"rows": [
+											["5th","65 + 3 x Constitution modifier"],
+											["10th","125 + 4 x Constitution modifier"],
+											["15th","185 + 5 x Constitution modifier"],
+											["20th","245 + 6 x Constitution modifier"]
+										]
+									}
+								]
+							}
+						]
+					},
 					{
 						"name": "Rage",
 						"entries": [
@@ -2253,10 +2307,6 @@
 		{
 			"name": "Bard",
 			"source": "PHEW",
-			"hd": {
-				"number": 1,
-				"faces": 8
-			},
 			"proficiency": [
 				"dex",
 				"cha"
@@ -2683,6 +2733,37 @@
 			},
 			"classFeatures": [
 				[
+					{
+						"name": "Hit Points",
+						"entries": [
+							"{@b Hit Dice}: 1d8",
+							"{@b Hit Points at First Level}: 11",
+							"{@b Hit Points at Higher Levels}: {@dice 3 + 1d8}",
+							"{@b Expected Hit Points at Higher Levels}: 8",
+							"{@b Con Bonus to HP}: Proficiency Bonus x Constitution Modifier",
+							"If you obtain this feature from more than one class, it won't stack. Whenever you gain a level, you always gain the \"Hit Points at Higher Levels\" from the class you're gaining a level in.",
+							{
+								"type": "inset",
+								"name": "HP Recalculation values",
+								"entries": [
+									"If you have levels in more than one class, you must manually calculate your expected hit points. You should keep a tally of your expected hp total that you update every time you gain a level.",
+									"If you only have levels in this class, here's a quick reference for what your expected hp will be at the levels where {@variantrule HP Catch-Up|PHEW} happens:",
+									{
+										"type": "table",
+										"caption": "Expected HP",
+										"colLabels": ["Level","Expected HP"],
+										"colStyles": ["col-2 text-center","col-10"],
+										"rows": [
+											["5th","43 + 3 x Constitution modifier"],
+											["10th","83 + 4 x Constitution modifier"],
+											["15th","123 + 5 x Constitution modifier"],
+											["20th","163 + 6 x Constitution modifier"]
+										]
+									}
+								]
+							}
+						]
+					},
 					{
 						"name": "Bardic Inspiration",
 						"entries": [
@@ -3629,10 +3710,6 @@
 		{
 			"name": "Cleric",
 			"source": "PHEW",
-			"hd": {
-				"number": 1,
-				"faces": 8
-			},
 			"proficiency": [
 				"wis",
 				"cha"
@@ -3993,6 +4070,37 @@
 			},
 			"classFeatures": [
 				[
+					{
+						"name": "Hit Points",
+						"entries": [
+							"{@b Hit Dice}: 1d8",
+							"{@b Hit Points at First Level}: 11",
+							"{@b Hit Points at Higher Levels}: {@dice 3 + 1d8}",
+							"{@b Expected Hit Points at Higher Levels}: 8",
+							"{@b Con Bonus to HP}: Proficiency Bonus x Constitution Modifier",
+							"If you obtain this feature from more than one class, it won't stack. Whenever you gain a level, you always gain the \"Hit Points at Higher Levels\" from the class you're gaining a level in.",
+							{
+								"type": "inset",
+								"name": "HP Recalculation values",
+								"entries": [
+									"If you have levels in more than one class, you must manually calculate your expected hit points. You should keep a tally of your expected hp total that you update every time you gain a level.",
+									"If you only have levels in this class, here's a quick reference for what your expected hp will be at the levels where {@variantrule HP Catch-Up|PHEW} happens:",
+									{
+										"type": "table",
+										"caption": "Expected HP",
+										"colLabels": ["Level","Expected HP"],
+										"colStyles": ["col-2 text-center","col-10"],
+										"rows": [
+											["5th","43 + 3 x Constitution modifier"],
+											["10th","83 + 4 x Constitution modifier"],
+											["15th","123 + 5 x Constitution modifier"],
+											["20th","163 + 6 x Constitution modifier"]
+										]
+									}
+								]
+							}
+						]
+					},
 					{
 						"name": "Spellcasting",
 						"entries": [
@@ -5983,10 +6091,6 @@
 		{
 			"name": "Druid",
 			"source": "PHEW",
-			"hd": {
-				"number": 1,
-				"faces": 8
-			},
 			"proficiency": [
 				"int",
 				"wis"
@@ -6361,6 +6465,37 @@
 			},
 			"classFeatures": [
 				[
+					{
+						"name": "Hit Points",
+						"entries": [
+							"{@b Hit Dice}: 1d8",
+							"{@b Hit Points at First Level}: 11",
+							"{@b Hit Points at Higher Levels}: {@dice 3 + 1d8}",
+							"{@b Expected Hit Points at Higher Levels}: 8",
+							"{@b Con Bonus to HP}: Proficiency Bonus x Constitution Modifier",
+							"If you obtain this feature from more than one class, it won't stack. Whenever you gain a level, you always gain the \"Hit Points at Higher Levels\" from the class you're gaining a level in.",
+							{
+								"type": "inset",
+								"name": "HP Recalculation values",
+								"entries": [
+									"If you have levels in more than one class, you must manually calculate your expected hit points. You should keep a tally of your expected hp total that you update every time you gain a level.",
+									"If you only have levels in this class, here's a quick reference for what your expected hp will be at the levels where {@variantrule HP Catch-Up|PHEW} happens:",
+									{
+										"type": "table",
+										"caption": "Expected HP",
+										"colLabels": ["Level","Expected HP"],
+										"colStyles": ["col-2 text-center","col-10"],
+										"rows": [
+											["5th","43 + 3 x Constitution modifier"],
+											["10th","83 + 4 x Constitution modifier"],
+											["15th","123 + 5 x Constitution modifier"],
+											["20th","163 + 6 x Constitution modifier"]
+										]
+									}
+								]
+							}
+						]
+					},
 					{
 						"name": "Druidic",
 						"entries": [
@@ -8623,10 +8758,6 @@
 		{
 			"name": "Fighter",
 			"source": "PHEW",
-			"hd": {
-				"number": 1,
-				"faces": 10
-			},
 			"proficiency": [
 				"str",
 				"con"
@@ -8693,6 +8824,37 @@
 			},
 			"classFeatures": [
 				[
+					{
+						"name": "Hit Points",
+						"entries": [
+							"{@b Hit Dice}: 1d10",
+							"{@b Hit Points at First Level}: 14",
+							"{@b Hit Points at Higher Levels}: {@dice 4 + 1d10}",
+							"{@b Expected Hit Points at Higher Levels}: 10",
+							"{@b Con Bonus to HP}: Proficiency Bonus x Constitution Modifier",
+							"If you obtain this feature from more than one class, it won't stack. Whenever you gain a level, you always gain the \"Hit Points at Higher Levels\" from the class you're gaining a level in.",
+							{
+								"type": "inset",
+								"name": "HP Recalculation values",
+								"entries": [
+									"If you have levels in more than one class, you must manually calculate your expected hit points. You should keep a tally of your expected hp total that you update every time you gain a level.",
+									"If you only have levels in this class, here's a quick reference for what your expected hp will be at the levels where {@variantrule HP Catch-Up|PHEW} happens:",
+									{
+										"type": "table",
+										"caption": "Expected HP",
+										"colLabels": ["Level","Expected HP"],
+										"colStyles": ["col-2 text-center","col-10"],
+										"rows": [
+											["5th","54 + 3 x Constitution modifier"],
+											["10th","104 + 4 x Constitution modifier"],
+											["15th","154 + 5 x Constitution modifier"],
+											["20th","204 + 6 x Constitution modifier"]
+										]
+									}
+								]
+							}
+						]
+					},
 					{
 						"name": "Fighting Style",
 						"entries": [
@@ -10253,10 +10415,6 @@
 		{
 			"name": "Monk",
 			"source": "PHEW",
-			"hd": {
-				"number": 1,
-				"faces": 8
-			},
 			"proficiency": [
 				"str",
 				"dex"
@@ -10647,6 +10805,37 @@
 			},
 			"classFeatures": [
 				[
+					{
+						"name": "Hit Points",
+						"entries": [
+							"{@b Hit Dice}: 1d8",
+							"{@b Hit Points at First Level}: 11",
+							"{@b Hit Points at Higher Levels}: {@dice 3 + 1d8}",
+							"{@b Expected Hit Points at Higher Levels}: 8",
+							"{@b Con Bonus to HP}: Proficiency Bonus x Constitution Modifier",
+							"If you obtain this feature from more than one class, it won't stack. Whenever you gain a level, you always gain the \"Hit Points at Higher Levels\" from the class you're gaining a level in.",
+							{
+								"type": "inset",
+								"name": "HP Recalculation values",
+								"entries": [
+									"If you have levels in more than one class, you must manually calculate your expected hit points. You should keep a tally of your expected hp total that you update every time you gain a level.",
+									"If you only have levels in this class, here's a quick reference for what your expected hp will be at the levels where {@variantrule HP Catch-Up|PHEW} happens:",
+									{
+										"type": "table",
+										"caption": "Expected HP",
+										"colLabels": ["Level","Expected HP"],
+										"colStyles": ["col-2 text-center","col-10"],
+										"rows": [
+											["5th","43 + 3 x Constitution modifier"],
+											["10th","83 + 4 x Constitution modifier"],
+											["15th","123 + 5 x Constitution modifier"],
+											["20th","163 + 6 x Constitution modifier"]
+										]
+									}
+								]
+							}
+						]
+					},
 					{
 						"name": "Unarmored Defense",
 						"entries": [
@@ -11942,10 +12131,6 @@
 		{
 			"name": "Paladin",
 			"source": "PHEW",
-			"hd": {
-				"number": 1,
-				"faces": 10
-			},
 			"proficiency": [
 				"wis",
 				"cha"
@@ -12167,6 +12352,37 @@
 			},
 			"classFeatures": [
 				[
+					{
+						"name": "Hit Points",
+						"entries": [
+							"{@b Hit Dice}: 1d10",
+							"{@b Hit Points at First Level}: 14",
+							"{@b Hit Points at Higher Levels}: {@dice 4 + 1d10}",
+							"{@b Expected Hit Points at Higher Levels}: 10",
+							"{@b Con Bonus to HP}: Proficiency Bonus x Constitution Modifier",
+							"If you obtain this feature from more than one class, it won't stack. Whenever you gain a level, you always gain the \"Hit Points at Higher Levels\" from the class you're gaining a level in.",
+							{
+								"type": "inset",
+								"name": "HP Recalculation values",
+								"entries": [
+									"If you have levels in more than one class, you must manually calculate your expected hit points. You should keep a tally of your expected hp total that you update every time you gain a level.",
+									"If you only have levels in this class, here's a quick reference for what your expected hp will be at the levels where {@variantrule HP Catch-Up|PHEW} happens:",
+									{
+										"type": "table",
+										"caption": "Expected HP",
+										"colLabels": ["Level","Expected HP"],
+										"colStyles": ["col-2 text-center","col-10"],
+										"rows": [
+											["5th","54 + 3 x Constitution modifier"],
+											["10th","104 + 4 x Constitution modifier"],
+											["15th","154 + 5 x Constitution modifier"],
+											["20th","204 + 6 x Constitution modifier"]
+										]
+									}
+								]
+							}
+						]
+					},
 					{
 						"name": "Divine Sense",
 						"entries": [
@@ -13938,10 +14154,6 @@
 		{
 			"name": "Ranger",
 			"source": "PHEW",
-			"hd": {
-				"number": 1,
-				"faces": 10
-			},
 			"proficiency": [
 				"str",
 				"dex"
@@ -14248,6 +14460,37 @@
 			},
 			"classFeatures": [
 				[
+					{
+						"name": "Hit Points",
+						"entries": [
+							"{@b Hit Dice}: 1d10",
+							"{@b Hit Points at First Level}: 14",
+							"{@b Hit Points at Higher Levels}: {@dice 4 + 1d10}",
+							"{@b Expected Hit Points at Higher Levels}: 10",
+							"{@b Con Bonus to HP}: Proficiency Bonus x Constitution Modifier",
+							"If you obtain this feature from more than one class, it won't stack. Whenever you gain a level, you always gain the \"Hit Points at Higher Levels\" from the class you're gaining a level in.",
+							{
+								"type": "inset",
+								"name": "HP Recalculation values",
+								"entries": [
+									"If you have levels in more than one class, you must manually calculate your expected hit points. You should keep a tally of your expected hp total that you update every time you gain a level.",
+									"If you only have levels in this class, here's a quick reference for what your expected hp will be at the levels where {@variantrule HP Catch-Up|PHEW} happens:",
+									{
+										"type": "table",
+										"caption": "Expected HP",
+										"colLabels": ["Level","Expected HP"],
+										"colStyles": ["col-2 text-center","col-10"],
+										"rows": [
+											["5th","54 + 3 x Constitution modifier"],
+											["10th","104 + 4 x Constitution modifier"],
+											["15th","154 + 5 x Constitution modifier"],
+											["20th","204 + 6 x Constitution modifier"]
+										]
+									}
+								]
+							}
+						]
+					},
 					{
 						"name": "Favored Enemy",
 						"entries": [
@@ -15574,10 +15817,6 @@
 		{
 			"name": "Rogue",
 			"source": "PHEW",
-			"hd": {
-				"number": 1,
-				"faces": 8
-			},
 			"proficiency": [
 				"dex",
 				"int"
@@ -15895,6 +16134,37 @@
 			},
 			"classFeatures": [
 				[
+					{
+						"name": "Hit Points",
+						"entries": [
+							"{@b Hit Dice}: 1d8",
+							"{@b Hit Points at First Level}: 11",
+							"{@b Hit Points at Higher Levels}: {@dice 3 + 1d8}",
+							"{@b Expected Hit Points at Higher Levels}: 8",
+							"{@b Con Bonus to HP}: Proficiency Bonus x Constitution Modifier",
+							"If you obtain this feature from more than one class, it won't stack. Whenever you gain a level, you always gain the \"Hit Points at Higher Levels\" from the class you're gaining a level in.",
+							{
+								"type": "inset",
+								"name": "HP Recalculation values",
+								"entries": [
+									"If you have levels in more than one class, you must manually calculate your expected hit points. You should keep a tally of your expected hp total that you update every time you gain a level.",
+									"If you only have levels in this class, here's a quick reference for what your expected hp will be at the levels where {@variantrule HP Catch-Up|PHEW} happens:",
+									{
+										"type": "table",
+										"caption": "Expected HP",
+										"colLabels": ["Level","Expected HP"],
+										"colStyles": ["col-2 text-center","col-10"],
+										"rows": [
+											["5th","43 + 3 x Constitution modifier"],
+											["10th","83 + 4 x Constitution modifier"],
+											["15th","123 + 5 x Constitution modifier"],
+											["20th","163 + 6 x Constitution modifier"]
+										]
+									}
+								]
+							}
+						]
+					},
 					{
 						"name": "Expertise",
 						"entries": [
@@ -17207,10 +17477,6 @@
 		{
 			"name": "Sorcerer",
 			"source": "PHEW",
-			"hd": {
-				"number": 1,
-				"faces": 6
-			},
 			"proficiency": [
 				"con",
 				"cha"
@@ -17650,6 +17916,37 @@
 			},
 			"classFeatures": [
 				[
+					{
+						"name": "Hit Points",
+						"entries": [
+							"{@b Hit Dice}: 1d6",
+							"{@b Hit Points at First Level}: 8",
+							"{@b Hit Points at Higher Levels}: {@dice 2 + 1d6}",
+							"{@b Expected Hit Points at Higher Levels}: 6",
+							"{@b Con Bonus to HP}: Proficiency Bonus x Constitution Modifier",
+							"If you obtain this feature from more than one class, it won't stack. Whenever you gain a level, you always gain the \"Hit Points at Higher Levels\" from the class you're gaining a level in.",
+							{
+								"type": "inset",
+								"name": "HP Recalculation values",
+								"entries": [
+									"If you have levels in more than one class, you must manually calculate your expected hit points. You should keep a tally of your expected hp total that you update every time you gain a level.",
+									"If you only have levels in this class, here's a quick reference for what your expected hp will be at the levels where {@variantrule HP Catch-Up|PHEW} happens:",
+									{
+										"type": "table",
+										"caption": "Expected HP",
+										"colLabels": ["Level","Expected HP"],
+										"colStyles": ["col-2 text-center","col-10"],
+										"rows": [
+											["5th","32 + 3 x Constitution modifier"],
+											["10th","62 + 4 x Constitution modifier"],
+											["15th","92 + 5 x Constitution modifier"],
+											["20th","122 + 6 x Constitution modifier"]
+										]
+									}
+								]
+							}
+						]
+					},
 					{
 						"name": "Spellcasting",
 						"entries": [
@@ -19025,10 +19322,6 @@
 		{
 			"name": "Warlock",
 			"source": "PHEW",
-			"hd": {
-				"number": 1,
-				"faces": 8
-			},
 			"proficiency": [
 				"con",
 				"cha"
@@ -19257,6 +19550,37 @@
 			},
 			"classFeatures": [
 				[
+					{
+						"name": "Hit Points",
+						"entries": [
+							"{@b Hit Dice}: 1d8",
+							"{@b Hit Points at First Level}: 11",
+							"{@b Hit Points at Higher Levels}: {@dice 3 + 1d8}",
+							"{@b Expected Hit Points at Higher Levels}: 8",
+							"{@b Con Bonus to HP}: Proficiency Bonus x Constitution Modifier",
+							"If you obtain this feature from more than one class, it won't stack. Whenever you gain a level, you always gain the \"Hit Points at Higher Levels\" from the class you're gaining a level in.",
+							{
+								"type": "inset",
+								"name": "HP Recalculation values",
+								"entries": [
+									"If you have levels in more than one class, you must manually calculate your expected hit points. You should keep a tally of your expected hp total that you update every time you gain a level.",
+									"If you only have levels in this class, here's a quick reference for what your expected hp will be at the levels where {@variantrule HP Catch-Up|PHEW} happens:",
+									{
+										"type": "table",
+										"caption": "Expected HP",
+										"colLabels": ["Level","Expected HP"],
+										"colStyles": ["col-2 text-center","col-10"],
+										"rows": [
+											["5th","43 + 3 x Constitution modifier"],
+											["10th","83 + 4 x Constitution modifier"],
+											["15th","123 + 5 x Constitution modifier"],
+											["20th","163 + 6 x Constitution modifier"]
+										]
+									}
+								]
+							}
+						]
+					},
 					{
 						"name": "Pact Magic",
 						"entries": [
@@ -20723,10 +21047,6 @@
 		{
 			"name": "Wizard",
 			"source": "PHEW",
-			"hd": {
-				"number": 1,
-				"faces": 6
-			},
 			"proficiency": [
 				"int",
 				"wis"
@@ -21079,6 +21399,37 @@
 			},
 			"classFeatures": [
 				[
+					{
+						"name": "Hit Points",
+						"entries": [
+							"{@b Hit Dice}: 1d6",
+							"{@b Hit Points at First Level}: 8",
+							"{@b Hit Points at Higher Levels}: {@dice 2 + 1d6}",
+							"{@b Expected Hit Points at Higher Levels}: 6",
+							"{@b Con Bonus to HP}: Proficiency Bonus x Constitution Modifier",
+							"If you obtain this feature from more than one class, it won't stack. Whenever you gain a level, you always gain the \"Hit Points at Higher Levels\" from the class you're gaining a level in.",
+							{
+								"type": "inset",
+								"name": "HP Recalculation values",
+								"entries": [
+									"If you have levels in more than one class, you must manually calculate your expected hit points. You should keep a tally of your expected hp total that you update every time you gain a level.",
+									"If you only have levels in this class, here's a quick reference for what your expected hp will be at the levels where {@variantrule HP Catch-Up|PHEW} happens:",
+									{
+										"type": "table",
+										"caption": "Expected HP",
+										"colLabels": ["Level","Expected HP"],
+										"colStyles": ["col-2 text-center","col-10"],
+										"rows": [
+											["5th","32 + 3 x Constitution modifier"],
+											["10th","62 + 4 x Constitution modifier"],
+											["15th","92 + 5 x Constitution modifier"],
+											["20th","122 + 6 x Constitution modifier"]
+										]
+									}
+								]
+							}
+						]
+					},
 					{
 						"name": "Arcane Recovery",
 						"entries": [
