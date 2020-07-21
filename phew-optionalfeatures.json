@@ -1,4 +1,21 @@
 {
+	"_meta": {
+		"sources": [
+			{
+				"json": "PHEW",
+				"abbreviation": "PHEW",
+				"full": "PHEW",
+				"version": "1.0.0",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"optionalFeatureTypes": {
+			"IFS": "Improved Fighting Style",
+			"IPB": "Improved Pact Boon",
+			"RPB": "Refined Pact Boon",
+			"TS": "Trick Shot"
+		}
+	},
 	"optionalfeature": [
 		{"name":"Careful Spell","entries":["When you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell's full force. To do so, you spend 1 sorcery point and choose a number of those creatures up to your Charisma modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw against the spell."],"source":"PHEW","featureType":"MM"},
 		{"name":"Distant Spell","entries":["When you cast a spell that has a range of 5 feet or greater, you can spend 1 sorcery point to double the range of the spell.","When you cast a spell that has a range of touch, you can spend 1 sorcery point to make the range of the spell 30 feet."],"source":"PHEW","featureType":"MM"},
@@ -53,7 +70,7 @@
 		{"name":"Thrown Weapon Fighting","entries":["You can draw a weapon that has the thrown property as part of the attack you make with the weapon.","In addition, when you hit with a ranged attack using a thrown weapon, you gain a +1 bonus to the damage roll."],"source":"PHEW","featureType":["FS:F","FS:P","FS:R"]},
 		{"name":"Unarmed Fighting","entries":["Your unarmed strikes can deal bludgeoning damage equal to {@dice 1d6} + your Strength modifier. If you strike with two free hands, the {@dice d6} becomes a {@dice d8}.","When you successfully start a grapple, you can deal {@dice 1d4} bludgeoning damage to the grappled creature. Until the grapple ends, you can also deal this damage to the creature whenever you hit it with a melee attack."],"source":"PHEW","featureType":["FS:F","FS:P","FS:R"]},
 		{"name":"Superior Technique","entries":["You learn one {@filter maneuver|optionalfeatures|feature type=MV;MV} of your choice from among those available to the Battle Master archetype. If a maneuver you use requires your target to make a saving throw to resist the maneuver's effects, the saving throw DC equals 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice).","You gain one superiority die, which is a {@dice d6} (this die is added to any superiority dice you have from another source). This die is used to fuel your maneuvers. A superiority die is expended when you use it. You regain your expended superiority dice when you finish a short or long rest."],"source":"PHEW","featureType":["FS:F"]},
-		{"name":"Blessed Warrior","entries":["You learn two cantrips of your choice from the cleric spell list. They count as paladin spells for you, and Charisma is your spellcasting ability for them. Whenever you gain a level in this class, you can replace one of these cantrips with another cantrip from the cleric spell list."],"source":"PHEW","featureType":["FS:P"]},
+		{"name":"Blessed Warrior","entries":["You learn two cantrips of your choice from the {@filter cleric spell list|spells|level=0|class=cleric}. They count as paladin spells for you, and Charisma is your spellcasting ability for them. Whenever you gain a level in this class, you can replace one of these cantrips with another cantrip from the cleric spell list."],"source":"PHEW","featureType":["FS:P"]},
 		{"name":"Druidic Warrior","entries":["You learn two cantrips of your choice from the {@filter druid spell list|spells|level=0|class=druid}. They count as druid spells for you, and Wisdom is your spellcasting ability for them. Whenever you gain a level in this class, you can replace one of these cantrips with another cantrip from the druid spell list."],"source":"PHEW","featureType":["FS:R"]},
 		{"name":"Pact of the Chain","entries":["Your patron felt the need to provide a guide, watcher, or aide. You learn the {@spell find familiar|PHEW} spell and can cast it as a ritual. The spell doesn't count against your number of spells known.","When you cast the spell, you can choose one of the normal forms for your familiar or one of the following special forms: {@creature imp|PHEW}, {@creature pseudodragon|PHEW}, {@creature quasit|PHEW}, or {@creature sprite|PHEW}.","Additionally, when you take the {@action Attack|PHEW} action, you can forgo one of your own attacks to allow your familiar to use its reaction to make one attack of its own.","Your familiar uses your proficiency bonus instead of its own, and has proficiency in all saving throws. It adds your proficiency bonus to its AC and attack damage, and its hit point maximum increases by twice your warlock level."],"featureType":"PB","source":"PHEW"},
 		{"name":"Pact of the Blade","entries":["Your patron required a warrior. You become proficient with martial weapons, medium armor, and shields.","You can use your action to create a pact weapon in your empty hand. You can choose the form that this melee weapon takes each time you create it (see chapter 5 for weapon options). This weapon counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage. You can use this weapon as an arcane focus for your warlock spells.","Your pact weapon disappears if it is more than 5 feet away from you for 1 minute or more. It also disappears if you use this feature again, if you dismiss the weapon (no action required), or if you die.","You can transform one magic weapon into your pact weapon by performing a special ritual while you hold the weapon. You perform the ritual over the course of 1 hour, which can be done during a short rest. You can then dismiss the weapon, shunting it into an extradimensional space, and it appears whenever you create your pact weapon thereafter. You can't affect an artifact or a sentient weapon in this way. The weapon ceases being your pact weapon if you die, if you perform the 1-hour ritual on a different weapon, or if you use a 1-hour ritual to break your bond to it. The weapon appears at your feet if it is in the extradimensional space when the bond breaks."],"featureType":"PB","source":"PHEW"},
@@ -141,7 +158,7 @@
 			"source":"PHEW"
 		},
 		{
-			"name": "Improved Bling Fighting",
+			"name": "Improved Blind Fighting",
 			"entries": [
 				"Being unable to see a creature doesn’t give them advantage on attack rolls against you, provided the creature isn’t hidden from you."
 			],
@@ -245,17 +262,5 @@
 			"featureType":"TS",
 			"source":"PHEW"
 		}
-	],
-	"_meta": {
-		"optionalFeatureTypes": {
-			"IFS": {
-			},
-			"IPB": {
-			},
-			"RPB": {
-			},
-			"TS": {
-			}
-		}
-	}
+	]
 }

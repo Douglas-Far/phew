@@ -1,4 +1,15 @@
 {
+	"_meta": {
+		"sources": [
+			{
+				"json": "PHEW",
+				"abbreviation": "PHEW",
+				"full": "PHEW",
+				"version": "1.0.0",
+				"targetSchema": "1.0.0"
+			}
+		]
+	},
 	"class": [
 		{
 			"name": "Artificer",

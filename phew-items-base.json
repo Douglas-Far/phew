@@ -1,0 +1,1149 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "PHEW",
+				"abbreviation": "PHEW",
+				"full": "PHEW",
+				"version": "1.0.0",
+				"targetSchema": "1.0.0"
+			}
+		]
+	},
+	"baseitem":[
+		{"name":"Arrow","type":"A","rarity":"None","value":5,"weight":0.05,"source":"PHEW","srd":true},
+		{"name":"Arrows (20)","type":"A","rarity":"None","value":100,"weight":1,"source":"PHEW","quantity":20,"srd":true},
+		{
+			"name": "Bad News",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Exotic",
+			"rarity": "None",
+			"value": 200000,
+			"weight": 25,
+			"dmg1": "2d12",
+			"dmgType": "P",
+			"property": ["2H","RL","MF","FA"],
+			"reload": 1,
+			"misfire": 3,
+			"range": "200/800",
+			"source": "PHEW",
+			"firearm": true
+		},
+		{"name":"Bad News Bullet","type":"AF","rarity":"None","value":200,"weight":0.4,"source":"PHEW","srd":true},
+		{
+			"name":"Bastard Sword",
+			"type":"M",
+			"weapon":true,
+			"sword":true,
+			"weaponCategory":"Exotic",
+			"rarity":"None",
+			"value":3500,
+			"weight":6,
+			"dmg1":"2d4",
+			"dmg2":"2d6",
+			"dmgType":"S",
+			"property":["V","SS"],
+			"source":"PHEW"
+		},
+		{
+			"name": "Bladed Hoop",
+			"type": "M",
+			"weapon": true,
+			"sword": true,
+			"weaponCategory": "Exotic",
+			"rarity": "None",
+			"value": 5000,
+			"weight": 3,
+			"dmg1": "1d6",
+			"dmg2": "1d10",
+			"dmgType": "S",
+			"property": [
+				"F",
+				"V",
+				"S",
+				"KN"
+			],
+			"source": "PHEW",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"You can use your bonus action to start spinning this weapon around your arm. If you do, you can attack with this weapon as if you were wielding it on one hand, but the weapon gains the free hand property:",
+						"A free-hand weapon can’t be Disarmed. You can use the hand covered by your free-hand weapon to wield other items, interact with your environment, and so on. You can’t attack with a free-hand weapon if you’re wielding anything in that hand or otherwise using that hand. When you’re not wielding anything and not otherwise using the hand, you can use abilities that require you to have a hand free as well as those that require you to be wielding a weapon in that hand. Each of your hands can have only one free-hand weapon on it.",
+						"You can maintain the spin by using your bonus action each turn. However, prolonged periods of spinning will tire you out, and after 10 minutes of spinning before taking a short or long rest you'll gain a level of exhaustion. You can't spin this weapon underwater."
+					]
+				}
+			]
+		},
+		{
+			"name": "Blunderbuss",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Exotic",
+			"rarity": "None",
+			"value": 30000,
+			"weight": 10,
+			"dmg1": "2d8",
+			"dmgType": "P",
+			"property": ["RL","MF","FA"],
+			"reload": 1,
+			"misfire": 2,
+			"range": "15/60",
+			"source": "PHEW",
+			"firearm": true
+		},
+		{"name":"Blunderbuss Bullet","type":"AF","rarity":"None","value":100,"weight":0.2,"source":"PHEW","srd":true},
+		{"name":"Battleaxe","type":"M","axe":true,"weapon":true,"weaponCategory":"Martial","rarity":"None","value":1000,"weight":4,"dmg1":"1d8","dmg2":"1d10","dmgType":"S","property":["V","AX"],"source":"PHEW"},
+		{
+			"name":"Blowgun",
+			"type":"R",
+			"weapon":true,
+			"weaponCategory":"Martial",
+			"rarity":"None",
+			"value":1000,
+			"weight":1,
+			"dmg1":"1",
+			"dmgType":"P",
+			"property":["A","LD","S","DA"],
+			"range":"25/100",
+			"source":"PHEW",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"Blowgun needles are very small and long, and particularly good at piercing deep into the skin without causing much external damage. You may apply a single dose of poison to up to 10 blowgun needles instead of 3 pieces of ammunition for other weapons."
+					]
+				}
+			]
+		},
+		{"name":"Blowgun Needle","type":"A","rarity":"None","value":2,"weight":0.02,"source":"PHEW","srd":true},
+		{"name":"Blowgun Needles (50)","type":"A","rarity":"None","value":100,"weight":1,"source":"PHEW","quantity":50,"srd":true},
+		{
+			"name":"Bola",
+			"type":"R",
+			"weapon":true,
+			"weaponCategory":"Exotic",
+			"rarity":"None",
+			"value":500,
+			"dmg1":"1d4",
+			"dmgType":"B",
+			"property":["T","S","FL","SL"],
+			"range":"20/60",
+			"source":"PHEW",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"You can make a trip attack from range by throwing a bola at your target. Make a shove attempt as usual, but you must make a ranged weapon attack with this weapon instead of an {@skill Athletics} check.",
+						"This weapon always deals nonlethal damage."
+					]
+				}
+			]
+		},
+		{"name":"Breastplate","type":"MA","armor":true,"rarity":"None","value":40000,"weight":20,"ac":14,"source":"PHEW","entries":["This armor consists of a fitted metal chest piece worn with supple leather. Although it leaves the legs and arms relatively unprotected, this armor provides good protection for the wearer's vital organs while leaving the wearer relatively unencumbered."]},
+		{
+			"name":"Broadsword",
+			"type":"M",
+			"weapon":true,
+			"sword":true,
+			"weaponCategory":"Martial",
+			"rarity":"None",
+			"value":1500,
+			"weight":3,
+			"dmg1":"2d4",
+			"dmgType":"S",
+			"property":["SS"],
+			"source":"PHEW"
+		},
+		{
+			"name":"Buckler",
+			"type":"S",
+			"rarity":"None",
+			"value":1000,
+			"weight":5,
+			"ac":1,
+			"source":"PHEW",
+			"hp": 12,
+			"break": 6,
+			"dr": 3,
+			"property": [
+				"SH"
+			],
+			"entries": [
+				"A buckler is usually made of metal and is worn strapped to your forearm. Wielding a buckler increases your Armor Class by 1, but only if you aren't surprised and you haven't used your shield hand otherwise since the start of your most recent turn, or if you used the Dodge or Disengage action. You can benefit from only one shield at a time."
+			]
+		},
+		{
+			"name":"Butterfly Sword",
+			"type":"M",
+			"weapon":true,
+			"sword":true,
+			"weaponCategory":"Exotic",
+			"rarity":"None",
+			"value":3500,
+			"weight":3,
+			"dmg1":"1d6",
+			"dmgType":"S",
+			"property":["F","L","TW","CS"],
+			"source":"PHEW"
+		},
+		{
+			"name": "Caestus",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Martial",
+			"rarity": "None",
+			"value": 500,
+			"weight": 1,
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"property": ["FH","L","TW","BR"],
+			"source": "PHEW"
+		},
+		{"name":"Chain Mail","type":"HA","armor":true,"rarity":"None","value":7500,"weight":55,"ac":16,"strength":"13","stealth":true,"source":"PHEW","entries":["Made of interlocking metal rings, chain mail includes a layer of quilted fabric worn underneath the mail to prevent chafing and to cushion the impact of blows. The suit includes gauntlets."]},
+		{"name":"Chain Shirt","type":"MA","armor":true,"rarity":"None","value":5000,"weight":20,"ac":13,"source":"PHEW","entries":["Made of interlocking metal rings, a chain shirt is worn between layers of clothing or leather. This armor offers modest protection to the wearer's upper body and allows the sound of the rings rubbing against one another to be muffled by outer layers."]},
+		{
+			"name":"Chakram",
+			"type":"M",
+			"weapon":true,
+			"weaponCategory":"Exotic",
+			"rarity":"None",
+			"value":2000,
+			"weight":1,
+			"dmg1":"1d6",
+			"dmgType":"S",
+			"property":["F","L","T","KN"],
+			"range":"20/60",
+			"source":"PHEW"
+		},
+		{
+			"name": "Claw",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Exotic",
+			"rarity": "None",
+			"value": 1500,
+			"weight": 1,
+			"dmg1": "1d4",
+			"dmgType": "S",
+			"property": [
+				"F",
+				"L",
+				"S",
+				"TW",
+				"BR"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"Your hands are considered free for the purposes of making a ranged attack with a thrown weapon, spellcasting, and activating a spell scroll."
+					]
+				}
+			],
+			"source": "PHEW"
+		},
+		{"name":"Club","type":"M","weapon":true,"weaponCategory":"Simple","rarity":"None","value":10,"weight":2,"dmg1":"1d6","dmgType":"B","property":["L","HM"],"source":"PHEW"},
+		{"name":"Crossbow Bolt","type":"A","rarity":"None","value":5,"weight":0.075,"source":"PHEW","srd":true},
+		{"name":"Crossbow Bolts (20)","type":"A","rarity":"None","value":100,"weight":1.5,"source":"PHEW","quantity":20,"srd":true},
+		{"name":"Crystal","type":"SCF","scfType":"arcane","rarity":"None","value":1000,"weight":1,"source":"PHEW","srd":true},
+		{
+			"name":"Cutlass",
+			"type":"M",
+			"weapon":true,
+			"sword":true,
+			"weaponCategory":"Martial",
+			"rarity":"None",
+			"value":1500,
+			"weight":4,
+			"dmg1":"1d8",
+			"dmgType":"S",
+			"property":["L","CS"],
+			"source":"PHEW"
+		},
+		{"name":"Dagger","type":"M","weapon":true,"weaponCategory":"Simple","rarity":"None","value":200,"weight":1,"dmg1":"1d4","dmgType":"P","property":["F","L","T","KN"],"range":"10/30","source":"PHEW"},
+		{"name":"Dart","type":"R","weapon":true,"weaponCategory":"Simple","rarity":"None","value":5,"weight":0.25,"dmg1":"1d4","dmgType":"P","property":["F","T","DA"],"range":"20/60","source":"PHEW"},
+		{
+			"name":"Estoc",
+			"type":"M",
+			"weapon":true,
+			"sword":true,
+			"weaponCategory":"Exotic",
+			"rarity":"None",
+			"value":5000,
+			"weight":4,
+			"dmg1":"2d4",
+			"dmgType":"P",
+			"property":["F","SS"],
+			"source":"PHEW"
+		},
+		{
+			"name":"Falchion",
+			"type":"M",
+			"weapon":true,
+			"sword":true,
+			"weaponCategory":"Martial",
+			"rarity":"None",
+			"value":7500,
+			"weight":3,
+			"dmg1":"1d8",
+			"dmgType":"S",
+			"property":["F","CS"],
+			"source":"PHEW"
+		},
+		{
+			"name":"Flail",
+			"type":"M",
+			"weapon":true,
+			"weaponCategory":"Martial",
+			"rarity":"None",
+			"value":1000,
+			"weight":2,
+			"dmg1":"2d4",
+			"dmgType":"B",
+			"property":["FL"],
+			"source":"PHEW"
+		},
+		{"name":"Glaive","type":"M","weapon":true,"weaponCategory":"Martial","rarity":"None","value":2000,"weight":6,"dmg1":"1d10","dmgType":"S","property":["H","R","2H","PA"],"source":"PHEW"},
+		{"name":"Greataxe","type":"M","weapon":true,"axe":true,"weaponCategory":"Martial","rarity":"None","value":3000,"weight":7,"dmg1":"1d12","dmgType":"S","property":["H","2H","AX"],"source":"PHEW"},
+		{
+			"name": "Greatclub",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Simple",
+			"rarity": "None",
+			"value": 20,
+			"weight": 10,
+			"dmg1": "1d10",
+			"dmgType": "B",
+			"property": [
+				"H",
+				"2H","HM"
+			],
+			"source": "PHEW"
+		},
+		{"name":"Greatsword","type":"M","weapon":true,"sword":true,"weaponCategory":"Martial","rarity":"None","value":5000,"weight":6,"dmg1":"2d6","dmgType":"S","property":["H","2H","SS"],"source":"PHEW"},
+		{
+			"name":"Halberd",
+			"type":"M",
+			"weapon":true,
+			"weaponCategory":"Martial",
+			"rarity":"None",
+			"value":2000,
+			"weight":6,
+			"dmg1":"1d8",
+			"dmgType":"S",
+			"property":["H","R","2H","PA","SP"],
+			"source":"PHEW"
+		},
+		{"name":"Half Plate Armor","type":"MA","armor":true,"rarity":"None","value":75000,"weight":40,"ac":15,"stealth":true,"source":"PHEW","entries":["Half plate consists of shaped metal plates that cover most of the wearer's body. It does not include leg protection beyond simple greaves that are attached with leather straps."]},
+		{"name":"Hand Crossbow","type":"R","weapon":true,"weaponCategory":"Martial","rarity":"None","value":7500,"weight":3,"dmg1":"1d6","dmgType":"P","property":["A","L","LD","CB"],"range":"30/120","source":"PHEW"},
+		{
+			"name": "Handaxe",
+			"type": "M",
+			"weapon": true,
+			"axe": true,
+			"weaponCategory": "Martial",
+			"rarity": "None",
+			"value": 500,
+			"weight": 2,
+			"dmg1": "1d6",
+			"dmgType": "S",
+			"property": [
+				"L",
+				"T","AX"
+			],
+			"range": "20/60",
+			"source": "PHEW"
+		},
+		{"name":"Heavy Crossbow","type":"R","weapon":true,"weaponCategory":"Martial","rarity":"None","value":5000,"weight":18,"dmg1":"1d10","dmgType":"P","property":["A","H","LD","2H","CB"],"range":"100/400","source":"PHEW"},
+		{"name":"Hide Armor","type":"MA","armor":true,"rarity":"None","value":1000,"weight":12,"ac":12,"source":"PHEW","entries":["This crude armor consists of thick furs and pelts. It is commonly worn by barbarian tribes, evil humanoids, and other folk who lack access to the tools and materials needed to create better armor."]},
+		{"name":"Javelin","type":"M","weapon":true,"weaponCategory":"Simple","rarity":"None","value":50,"weight":2,"dmg1":"1d6","dmgType":"P","property":["T","SP"],"range":"30/120","source":"PHEW"},
+		{
+			"name":"Kama",
+			"type":"M",
+			"weapon":true,
+			"weaponCategory":"Martial",
+			"rarity":"None",
+			"value":100,
+			"weight":2,
+			"dmg1":"1d4",
+			"dmgType":"S",
+			"property":["F","L","TW","KN"],
+			"source":"PHEW"
+		},
+		{
+			"name": "Katana",
+			"type": "M",
+			"weapon": true,
+			"sword": true,
+			"weaponCategory": "Martial",
+			"rarity": "None",
+			"value": 5000,
+			"weight": 3,
+			"dmg1": "1d6",
+			"dmg2": "1d10",
+			"dmgType": "S",
+			"property": [
+				"F",
+				"V","CS"
+			],
+			"source": "PHEW"
+		},
+		{
+			"name": "Katar",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Simple",
+			"rarity": "None",
+			"value": 600,
+			"weight": 1,
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"property": [
+				"L",
+				"TW",
+				"KN"
+			],
+			"source": "PHEW"
+		},
+		{
+			"name":"Kukri",
+			"type":"M",
+			"weapon":true,
+			"weaponCategory":"Martial",
+			"rarity":"None",
+			"value":100,
+			"weight":2,
+			"dmg1":"1d6",
+			"dmgType":"S",
+			"property":["L","TW","KN"],
+			"source":"PHEW"
+		},
+		{
+			"name":"Kunai",
+			"type":"R",
+			"weapon":true,
+			"weaponCategory":"Exotic",
+			"rarity":"None",
+			"value":200,
+			"weight":2,
+			"dmg1":"1d4",
+			"dmgType":"P",
+			"property":["F","L","T","DA","KN"],
+			"range":"20/60",
+			"source":"PHEW"
+		},
+		{
+			"name": "Kusarigama",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Exotic",
+			"rarity": "None",
+			"value": 1000,
+			"weight": 10,
+			"dmg1": "1d6",
+			"dmg2": "1d6",
+			"dmgType": "S",
+			"property": ["2H","D","R","F","S","FL"],
+			"source": "PHEW",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"The off-hand end of the weapon deals bludgeoning damage. You can only benefit from the reach property with one of the two ends within a single turn."
+					]
+				}
+			]
+		},
+		{"name":"Lance","type":"M","weapon":true,"weaponCategory":"Martial","rarity":"None","value":1000,"weight":6,"dmg1":"1d12","dmgType":"P","property":["R","S","SP"],"source":"PHEW","entries":[{"type":"entries","name":"Special","entries":["You have disadvantage when you use a lance to attack a target within 5 feet of you. Also, a lance requires two hands to wield when you aren't mounted."]}]},
+		{"name":"Leather Armor","type":"LA","armor":true,"rarity":"None","value":1000,"weight":10,"ac":11,"source":"PHEW","entries":["The breastplate and shoulder protectors of this armor are made of leather that has been stiffened by being boiled in oil. The rest of the armor is made of softer and more flexible materials."]},
+		{"name":"Light Crossbow","type":"R","weapon":true,"weaponCategory":"Simple","rarity":"None","value":2500,"weight":5,"dmg1":"1d8","dmgType":"P","property":["A","LD","2H","CB"],"range":"80/320","source":"PHEW"},
+		{"name":"Light Hammer","type":"M","weapon":true,"weaponCategory":"Simple","rarity":"None","value":200,"weight":2,"dmg1":"1d4","dmgType":"B","property":["L","T","HM"],"range":"20/60","source":"PHEW"},
+		{"name":"Longbow","type":"R","weapon":true,"weaponCategory":"Martial","rarity":"None","value":5000,"weight":2,"dmg1":"1d8","dmgType":"P","property":["A","H","2H","BW"],"range":"150/600","source":"PHEW"},
+		{"name":"Longsword","type":"M","weapon":true,"sword":true,"weaponCategory":"Martial","rarity":"None","value":1500,"weight":3,"dmg1":"1d8","dmg2":"1d10","dmgType":"S","property":["V","SS"],"source":"PHEW"},
+		{
+			"name":"Mace",
+			"type":"M",
+			"weapon":true,
+			"weaponCategory":"Simple",
+			"rarity":"None",
+			"value":500,
+			"weight":4,
+			"dmg1":"1d6",
+			"dmg2":"1d8",
+			"dmgType":"B",
+			"property":["V","HM"],
+			"source":"PHEW"
+		},
+		{
+			"name":"Mambele",
+			"type":"M",
+			"weapon":true,
+			"axe":true,
+			"weaponCategory":"Exotic",
+			"rarity":"None",
+			"value":400,
+			"weight":3,
+			"dmg1":"1d6",
+			"dmgType":"P",
+			"property":["L","T","AX","KN"],
+			"range":"20/60",
+			"source":"PHEW"
+		},
+		{"name":"Maul","type":"M","weapon":true,"weaponCategory":"Martial","rarity":"None","value":1000,"weight":10,"dmg1":"2d6","dmgType":"B","property":["H","2H","HM"],"source":"PHEW"},
+		{
+			"name": "Meteor Hammer",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Exotic",
+			"rarity": "None",
+			"value": 3500,
+			"weight": 8,
+			"dmg1": "1d8",
+			"dmg2": "1d8",
+			"dmgType": "B",
+			"property": ["2H","H","D","FL","HM"],
+			"source": "PHEW"
+		},
+		{"name":"Morningstar","type":"M","weapon":true,"weaponCategory":"Martial","rarity":"None","value":1500,"weight":4,"dmg1":"2d4","dmgType":"P","property":["HM"],"source":"PHEW"},
+		{
+			"name": "Musket",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Exotic",
+			"rarity": "None",
+			"value": 30000,
+			"weight": 10,
+			"dmg1": "1d12",
+			"dmgType": "P",
+			"property": ["2H","RL","MF","FA"],
+			"reload": 1,
+			"misfire": 2,
+			"range": "120/480",
+			"source": "PHEW",
+			"firearm": true
+		},
+		{"name":"Musket Bullet","type":"AF","rarity":"None","value":25,"weight":0.1,"source":"PHEW","srd":true},
+		{
+			"name":"Naginata",
+			"type":"M",
+			"weapon":true,
+			"weaponCategory":"Exotic",
+			"rarity":"None",
+			"value":1800,
+			"weight":10,
+			"dmg1":"1d12",
+			"dmgType":"S",
+			"property":["2H","R","PA"],
+			"source":"PHEW"
+		},
+		{"name":"Net","type":"R","weapon":true,"weaponCategory":"Martial","rarity":"None","value":100,"weight":3,"property":["S","T"],"range":"5/15","source":"PHEW","entries":[{"type":"entries","name":"Special","entries":["A Large or smaller creature hit by a net is {@condition restrained|PHEW} until it is freed. A net has no effect on creatures that are formless, or creatures that are Huge or larger. A creature can use its action to make a DC 10 Strength check, freeing itself or another creature within its reach on a success. Dealing 5 slashing damage to the net (AC 10) also frees the creature without harming it, ending the effect and destroying the net. When you use an action, bonus action, or reaction to attack with a net, you can make only one attack regardless of the number of attacks you can normally make."]}]},
+		{
+			"name": "Nunchaku",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Martial",
+			"rarity": "None",
+			"value": 150,
+			"weight": 2,
+			"dmg1": "1d8",
+			"dmg2": "1d8",
+			"dmgType": "B",
+			"property": [
+				"D","HM"
+			],
+			"source": "PHEW"
+		},
+		{"name":"Orb","type":"SCF","scfType":"arcane","rarity":"None","value":2500,"weight":3,"source":"PHEW","srd":true},
+		{"name":"Padded Armor","type":"LA","armor":true,"rarity":"None","value":500,"weight":8,"ac":11,"stealth":true,"source":"PHEW","entries":["Padded armor consists of quilted layers of cloth and batting."]},
+		{
+			"name": "Palm Pistol",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Exotic",
+			"rarity": "None",
+			"value": 5000,
+			"weight": 1,
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"property": ["L","RL","MF","FA"],
+			"reload": 1,
+			"misfire": 1,
+			"range": "40/160",
+			"source": "PHEW",
+			"firearm": true
+		},
+		{"name":"Palm Pistol Bullet","type":"AF","rarity":"None","value":10,"weight":0.05,"source":"PHEW","srd":true},
+		{
+			"name": "Pepperbox",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Exotic",
+			"rarity": "None",
+			"value": 25000,
+			"weight": 5,
+			"dmg1": "1d10",
+			"dmgType": "P",
+			"property": ["RL","MF","FA"],
+			"reload": 6,
+			"misfire": 2,
+			"range": "80/320",
+			"source": "PHEW",
+			"firearm": true
+		},
+		{"name":"Pepperbox Bullet","type":"AF","rarity":"None","value":20,"weight":0.05,"source":"PHEW","srd":true},
+		{"name":"Pike","rarity":"None","type":"M","weapon":true,"weaponCategory":"Martial","value":500,"weight":18,"dmg1":"1d10","dmgType":"P","property":["H","R","2H","SP"],"source":"PHEW"},
+		{
+			"name": "Pistol",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Exotic",
+			"rarity": "None",
+			"value": 15000,
+			"weight": 3,
+			"dmg1": "1d10",
+			"dmgType": "P",
+			"property": ["RL","MF","FA"],
+			"reload": 4,
+			"misfire": 1,
+			"range": "60/240",
+			"source": "PHEW",
+			"firearm": true
+		},
+		{"name":"Pistol Bullet","type":"AF","rarity":"None","value":20,"weight":0.05,"source":"PHEW","srd":true},
+		{"name":"Plate Armor","type":"HA","armor":true,"rarity":"None","value":150000,"weight":65,"ac":18,"strength":"15","stealth":true,"source":"PHEW","entries":["Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body."]},
+		{
+			"name": "Quarterstaff",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Simple",
+			"rarity": "None",
+			"value": 20,
+			"weight": 4,
+			"dmg1": "1d6",
+			"dmg2": "1d8",
+			"dmgType": "B",
+			"property": [
+				"V","PA"
+			],
+			"source": "PHEW",
+			"staff": true
+		},
+		{"name":"Rapier","type":"M","weapon":true,"sword":true,"weaponCategory":"Martial","rarity":"None","value":2500,"weight":2,"dmg1":"1d8","dmgType":"P","property":["F","SS"],"source":"PHEW"},
+		{"name":"Ring Mail","type":"HA","armor":true,"rarity":"None","value":3000,"weight":40,"ac":14,"stealth":true,"source":"PHEW","entries":["This armor is leather armor with heavy rings sewn into it. The rings help reinforce the armor against blows from swords and axes. Ring mail is inferior to chain mail, and it's usually worn only by those who can't afford better armor."]},
+		{"name":"Rod","type":"SCF","scfType":"arcane","rarity":"None","value":1000,"weight":2,"source":"PHEW","srd":true},
+		{
+			"name":"Sai",
+			"type":"M",
+			"weapon":true,
+			"weaponCategory":"Simple",
+			"rarity":"None",
+			"value":100,
+			"weight":1,
+			"dmg1":"1d4",
+			"dmgType":"B",
+			"property":["F","L","KN"],
+			"source":"PHEW"
+		},
+		{"name":"Scale Mail","type":"MA","armor":true,"rarity":"None","value":5000,"weight":45,"ac":14,"stealth":true,"source":"PHEW","entries":["This armor consists of a coat and leggings (and perhaps a separate skirt) of leather covered with overlapping pieces of metal, much like the scales of a fish. The suit includes gauntlets."]},
+		{"name":"Scimitar","type":"M","weapon":true,"sword":true,"weaponCategory":"Martial","rarity":"None","value":2500,"weight":3,"dmg1":"1d6","dmgType":"S","property":["F","L","CS"],"source":"PHEW"},
+		{
+			"name":"Shield",
+			"type":"S",
+			"rarity":"None",
+			"value":1000,
+			"weight":5,
+			"ac":2,
+			"source":"PHEW",
+			"hp": 24,
+			"break": 12,
+			"dr": 3,
+			"property": [
+				"SH"
+			],
+			"entries": [
+				"A shield is made from wood and is carried in one hand. Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time."
+			]
+		},
+		{"name":"Shortbow","type":"R","weapon":true,"weaponCategory":"Simple","rarity":"None","value":2500,"weight":2,"dmg1":"1d6","dmgType":"P","property":["A","2H","BW"],"range":"80/320","source":"PHEW"},
+		{"name":"Shortsword","type":"M","weapon":true,"sword":true,"weaponCategory":"Martial","rarity":"None","value":1000,"weight":2,"dmg1":"1d6","dmgType":"P","property":["F","L","SS"],"source":"PHEW"},
+		{
+			"name":"Shuriken",
+			"type":"R",
+			"weapon":true,
+			"weaponCategory":"Martial",
+			"rarity":"None",
+			"value":20,
+			"weight":0.1,
+			"dmg1":"1d4",
+			"dmgType":"P",
+			"property":["F","L","T","DA"],
+			"range":"20/60",
+			"source":"PHEW"
+		},
+		{"name":"Sickle","type":"M","weapon":true,"weaponCategory":"Simple","rarity":"None","value":100,"weight":2,"dmg1":"1d6","dmgType":"S","property":["L","KN"],"source":"PHEW"},
+		{"name":"Sling","type":"R","weapon":true,"weaponCategory":"Simple","rarity":"None","value":10,"dmg1":"1d4","dmgType":"B","property":["A","SL"],"range":"30/120","source":"PHEW"},
+		{
+			"name":"Slingshot",
+			"type":"R",
+			"weapon":true,
+			"weaponCategory":"Simple",
+			"rarity":"None",
+			"value":50,
+			"weight":1,
+			"dmg1":"1d6",
+			"dmgType":"B",
+			"property":["2H","A","SL"],
+			"range":"20/60",
+			"source":"PHEW"
+		},
+		{"name":"Sling Bullet","type":"A","rarity":"None","value":0.2,"weight":0.075,"source":"PHEW","srd":true},
+		{"name":"Sling Bullets (20)","type":"A","rarity":"None","value":4,"weight":1.5,"source":"PHEW","quantity":20,"srd":true},
+		{"name":"Spear","type":"M","weapon":true,"weaponCategory":"Simple","rarity":"None","value":100,"weight":3,"dmg1":"1d6","dmg2":"1d8","dmgType":"P","property":["T","V","SP"],"range":"10/30","source":"PHEW"},
+		{
+			"name":"Spear-Thrower",
+			"type":"R",
+			"weapon":true,
+			"weaponCategory":"Martial",
+			"rarity":"None",
+			"value":5000,
+			"weight":2,
+			"dmg1":"1d8",
+			"dmgType":"P",
+			"property":["2H","A","SL"],
+			"range":"50/200",
+			"source":"PHEW"
+		},
+		{
+			"name":"Spiked Chain",
+			"type":"M",
+			"weapon":true,
+			"weaponCategory":"Exotic",
+			"rarity":"None",
+			"value":2500,
+			"weight":10,
+			"dmg1":"2d4",
+			"dmgType":"P",
+			"property":["2H","F","R","FL"],
+			"source":"PHEW"
+		},
+		{
+			"name": "Spiked Gauntlet",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Martial",
+			"rarity": "None",
+			"value": 500,
+			"weight": 1,
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"property": ["FH","L","TW","BR"],
+			"source": "PHEW"
+		},
+		{"name":"Splint Armor","type":"HA","armor":true,"rarity":"None","value":20000,"weight":60,"ac":17,"strength":"15","stealth":true,"source":"PHEW","entries":["This armor is made of narrow vertical strips of metal riveted to a backing of leather that is worn over cloth padding. Flexible chain mail protects the joints."]},
+		{"name":"Staff","type":"SCF","scfType":"arcane","rarity":"None","value":500,"weight":4,"source":"PHEW","staff":true,"srd":true},
+		{
+			"name": "Steel Shield",
+			"type":"S",
+			"rarity":"None",
+			"value":2000,
+			"weight":7,
+			"ac":2,
+			"source":"PHEW",
+			"hp": 40,
+			"break": 20,
+			"dr": 5,
+			"property": [
+				"SH"
+			],
+			"entries":[
+				"A steel shield is carried in one hand. Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time."
+			]
+		},
+		{"name":"Studded Leather Armor","type":"LA","armor":true,"rarity":"None","value":4500,"weight":13,"ac":12,"source":"PHEW","entries":["Made from tough but flexible leather, studded leather is reinforced with close-set rivets or spikes."]},
+		{
+			"name":"Tower Shield",
+			"type":"S",
+			"rarity":"None",
+			"value":4000,
+			"weight":30,
+			"ac":3,
+			"source":"PHEW",
+			"hp": 40,
+			"break": 20,
+			"dr": 5,
+			"property": [
+				"SH"
+			],
+			"entries": [
+				"A tower shield is made from wood or metal and is carried in one hand. Wielding a tower shield increases your Armor Class by 3, but reduces your movement by 5 feet. You can benefit from only one shield at a time."
+			]
+		},
+		{
+			"name": "Trident",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Martial",
+			"rarity": "None",
+			"value": 500,
+			"weight": 4,
+			"dmg1": "1d6",
+			"dmg2": "1d10",
+			"dmgType": "P",
+			"property": [
+				"T",
+				"V","SP"
+			],
+			"range": "20/60",
+			"source": "PHEW"
+		},
+		{"name":"Wand","type":"SCF","scfType":"arcane","rarity":"None","value":1000,"weight":1,"source":"PHEW","srd":true},
+		{
+			"name":"War Fan",
+			"type":"M",
+			"weapon":true,
+			"weaponCategory":"Exotic",
+			"rarity":"None",
+			"value":2000,
+			"weight":3,
+			"dmg1":"1d4",
+			"dmgType":"S",
+			"property":["F","L","TW","CS","KN"],
+			"source":"PHEW"
+		},
+		{"name":"War Pick","type":"M","weapon":true,"weaponCategory":"Martial","rarity":"None","value":500,"weight":2,"dmg1":"2d4","dmgType":"P","property":["HM"],"source":"PHEW"},
+		{"name":"Warhammer","type":"M","weapon":true,"weaponCategory":"Martial","rarity":"None","value":1500,"weight":2,"dmg1":"1d8","dmg2":"1d10","dmgType":"B","property":["V","HM"],"source":"PHEW"},
+		{"name":"Whip","type":"M","weapon":true,"weaponCategory":"Martial","rarity":"None","value":200,"weight":3,"dmg1":"1d6","dmgType":"S","property":["F","R","FL"],"source":"PHEW"},
+		{
+			"name":"Wind & Fire Wheels",
+			"type":"M",
+			"weapon":true,
+			"weaponCategory":"Exotic",
+			"rarity":"None",
+			"value":5000,
+			"weight":3,
+			"dmg1":"1d6",
+			"dmgType":"S",
+			"property":["F","L","TW","KN"],
+			"source":"PHEW"
+		}
+	],
+	"itemProperty":[
+		{"abbreviation":"A","source":"PHEW","entries":[{"type":"entries","name":"Ammunition","entries":["You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. Loading a one-handed weapon requires a free hand. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.","If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon. A sling must be loaded to deal any damage when used in this way."]}],"template":"{{prop_name}} ({{item.range}} ft.)"},
+		{"abbreviation":"AF","source":"PHEW","entries":[{"type":"entries","name":"Ammunition","entries":["You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. Loading a one-handed weapon requires a free hand. The ammunition of a firearm is destroyed upon use.","If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon. A sling must be loaded to deal any damage when used in this way."]}],"template":"{{prop_name}} ({{item.range}} ft.)"},
+		{
+			"abbreviation":"AX",
+			"source":"PHEW",
+			"entries": [
+				{
+					"type":"entries",
+					"name":"Axe",
+					"entries": [
+						"With mastery, it becomes easier to hit a creature repeatedly. Once during your turn, when you hit a creature with an axe, you gain a +1 bonus to all attack rolls made with it against it. You may only gain this bonus against 1 creature at once. This bonus stacks with itself up to half your proficiency bonus. If you end your turn and you haven't hit the creature with an axe, the bonus is lost."
+					]
+				}
+			]
+		},
+		{"abbreviation":"BF","source":"PHEW","entries":[{"type":"entries","name":"Burst Fire","entries":["A weapon that has the burst fire property can make a single-target attack, or it can spray a 10-foot-cube area within normal range with shots. Each creature in the area must succeed on a DC 15 Dexterity saving throw or take the weapon's normal damage. This action uses ten pieces of ammunition."]}]},
+		{
+			"abbreviation":"BR",
+			"source":"PHEW",
+			"entries": [
+				{
+					"type":"entries",
+					"name":"Brawling",
+					"entries": [
+						"With mastery, the speed of your attacks becomes unmatched. If you're wielding a brawling weapon on each hand you may attack twice in quick succession whenever you make a weapon attack on your turn that beats the target's AC by at least 5. This is a combo attack that is considered a single weapon attack that deals normal damage with additional damage equal to your other brawling weapon's damage dice."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation":"BW",
+			"source":"PHEW",
+			"entries": [
+				{
+					"type":"entries",
+					"name":"Bow",
+					"entries": [
+						"With mastery, bows become the ultimate sniping tool. You add half you Strength modifier to any weapon attack roll you make with a bow against a target that's at least 30 feet away from you."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation":"CB",
+			"source":"PHEW",
+			"entries": [
+				{
+					"type":"entries",
+					"name":"Crossbow",
+					"entries": [
+						"With mastery, crossbows make for the best kiting weapons. Whenever you take the disengage action during your turn, you can make one weapon attack with a crossbow you're wielding as part of the action."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation":"CS",
+			"source":"PHEW",
+			"entries": [
+				{
+					"type":"entries",
+					"name":"Curved Sword",
+					"entries": [
+						"With mastery, curved swords can be used to easily parry incoming attacks. Wielding a curved sword grants you a +1 bonus to your AC as if it were a shield. You can benefit from only one shield at a time."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "D",
+			"source": "PHEW",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Double",
+					"entries": [
+						"This weapon can be wielded in two hands and it is considered a pair of light weapons when you do. You can choose which end of the weapon to attack with if you wield it one-handed."
+					]
+				}
+			],
+			"template":"{{prop_name}} ({{item.dmg2}})"
+		},
+		{
+			"abbreviation":"DA",
+			"source":"PHEW",
+			"entries":[
+				{
+					"type":"entries",
+					"name":"Dart",
+					"entries":[
+						"With mastery, darts become the ultimate weapon for stealth. You can treat darts as melee weapons for the purposes of dealing nonlethal damage, and the first save against a poison applied to a creature with one of your darts is always made with disadvantage."
+					]
+				}
+			]
+		},
+		{"abbreviation":"F","source":"PHEW","entries":[{"type":"entries","name":"Finesse","entries":["When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls."]}]},
+		{
+			"abbreviation":"FA",
+			"source":"PHEW",
+			"entries": [
+				{
+					"type":"entries",
+					"name":"Firearm",
+					"entries": [
+						"With mastery, being within 5 feet of a hostile creature doesn't impose disadvantage on your ranged attack rolls with this weapon."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation":"FH",
+			"source":"PHEW",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Free Hand",
+					"entries": [
+						"A free-hand weapon can’t be Disarmed. You can use the hand covered by your free-hand weapon to wield other items, interact with your environment, and so on. You can’t attack with a free-hand weapon if you’re wielding anything in that hand or otherwise using that hand. When you’re not wielding anything and not otherwise using the hand, you can use abilities that require you to have a hand free as well as those that require you to be wielding a weapon in that hand. Each of your hands can have only one free-hand weapon on it."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation":"FL",
+			"source":"PHEW",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Flexile",
+					"entries": [
+						"With mastery, flexile weapons become an extension of your own body. Any check to attempt to disarm or shove prone a creature you make while wielding a flexile weapon is made with advantage."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation":"H",
+			"source":"PHEW",
+			"entries": [
+				{
+					"type":"entries",
+					"name":"Heavy",
+					"entries": [
+						"Small creatures have disadvantage on attack rolls with heavy weapons. A heavy weapon's size and bulk make it too large for a Small creature to use effectively. In addition, it takes an action to sheathe or stow away a heavy weapon."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation":"HM",
+			"source":"PHEW",
+			"entries": [
+				{
+					"type":"entries",
+					"name":"Hammer",
+					"entries": [
+						"With mastery, the force of your blows tears your foes asunder. Once during each of your turns you deal additional damage to a target hit with a hammer equal to your proficiency bonus if your target is within 5 feet of a solid wall or object of equal or larger size than itself."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation":"KN",
+			"source":"PHEW",
+			"entries":[
+				{
+					"type":"entries",
+					"name":"Knife",
+					"entries":[
+						"With mastery, this weapon can be used to finish your foes when they're weakest. When you use this weapon to deal a critical hit or to attack a creature you're grappling, add 2 extra weapon dice to the damage dealt."
+					]
+				}
+			]
+		},
+		{"abbreviation":"L","source":"PHEW","entries":[{"type":"entries","name":"Light","entries":["A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons."]}]},
+		{"abbreviation":"LD","source":"PHEW","entries":[{"type":"entries","name":"Loading","entries":["Because of the time required to load this weapon, you can fire only one piece of ammunition from it when you use an action, bonus action, or reaction to fire it, regardless of the number of attacks you can normally make."]}]},
+		{
+			"abbreviation":"MF",
+			"source":"PHEW",
+			"entries":[
+				{
+					"type":"entries",
+					"name":"Misfire",
+					"entries":[
+						"Whenever you make an attack roll with a firearm, and the dice roll is equal to or lower than the weapon's Misfire score, the weapon misfires. The attack misses, and the weapon cannot be used again until you spend an action to try and repair it. To repair your firearm, you must make a successful Tinker's Tools check (DC equal to 8 + misfire score). If your check fails, the weapon is broken and must be repaired out of combat at half the cost of the firearm. Creatures who use a firearm without being proficient increase the weapon's misfire score by 2."
+					]
+				}
+			],
+			"template":"{{prop_name}} {{item.misfire}}"
+		},
+		{
+			"abbreviation":"PA",
+			"source":"PHEW",
+			"entries":[
+				{
+					"type":"entries",
+					"name":"Polearm",
+					"entries":[
+						"With mastery, polearms can be used to control the battlefield, dealing with several enemies at once. Once during your turn, if you attack a creature with a polearm, you gain a +2 bonus to your attack rolls made against any creature other than the target of that attack until the start of your next turn."
+					]
+				}
+			]
+		},
+		{"abbreviation":"R","source":"PHEW","entries":[{"type":"entries","name":"Reach","entries":["This weapon adds 5 feet to your reach when you attack with it. This property also determines your reach for opportunity attacks with a reach weapon."]}]},
+		{
+			"abbreviation":"RL",
+			"source":"PHEW",
+			"entries":[
+				{
+					"type":"entries",
+					"name":"Reload",
+					"entries":[
+						"The weapon can be fired a number of times equal to its Reload score before you must spend 1 attack or 1 action to reload. You must have one free hand to reload a firearm."
+					]
+				}
+			],
+			"template":"{{prop_name}} {{item.reload}} ({{item.range}} ft.)"
+		},
+		{"abbreviation":"S","source":"PHEW","name":"special"},
+		{
+			"abbreviation":"SH",
+			"source":"PHEW",
+			"entries": [
+				{
+					"type":"entries",
+					"name":"Shield",
+					"entries": [
+						"With mastery, shields can be used to obtain even more protection. Once during your turn, when you use the Dodge, Disengage or Hide action, your shield bonus to AC is doubled versus ranged attacks until the start of your next turn.",
+						"In addition, if you would receive a critical hit you can gain resistance to the damage by interposing your shield as a reaction. The shield takes damage in the process, however, possibly becoming damaged or completely broken. The damage taken by the shield equals half the original damage minus the toughness value. A damaged shield still counts as a shield but gives no AC bonus. Any excess damage beyond the breaking point of the shield is taken by the wielder. A magical shield that gets broken regains 1 hp every day at dawn."
+					]
+				}
+			],
+			"template":"shield; {{item.hp}} hp, {{item.break}} damaged threshold, {{item.dr}} toughness"
+		},
+		{
+			"abbreviation":"SL",
+			"source":"PHEW",
+			"entries":[
+				{
+					"type":"entries",
+					"name":"Sling",
+					"entries":[
+						"With mastery, slings allow you to benefit the most from a vantage point. The range multiplier for these weapons becomes 1, and it increases by 1 for every 10 feet away you are from your target, up to half your proficiency bonus. For example, if you have a proficiency bonus of 4 and you are at least 20 feet higher than your target, the range multiplier for the weapon increases by 2, becoming 3 in total. Whenever you hit a target with a sling from long range, add your range multiplier to the damage dealt."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation":"SP",
+			"source":"PHEW",
+			"entries":[
+				{
+					"type":"entries",
+					"name":"Spear",
+					"entries":[
+						"With mastery, spears excel at both offense and defense. Whenever you take the Dodge action during your turn, you can make a single attack with a spear as part of it."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation":"SS",
+			"source":"PHEW",
+			"entries":[
+				{
+					"type":"entries",
+					"name":"Straight Sword",
+					"entries":[
+						"With mastery, straight swords create openings in your enemy's defense. Once during your turn, when you hit a creature with a straight sword, lower its ac by 1 until the start of your next turn and deal additional damage equal to 1 for every weapon damage dice rolled. A creature can be affected by this from several sources, but the ac reduction doesn't stack."
+					]
+				}
+			]
+		},
+		{"abbreviation":"T","source":"PHEW","entries":[{"type":"entries","name":"Thrown","entries":["If a weapon has the thrown property, you can throw the weapon to make a ranged attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. For example, if you throw a handaxe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity, since the dagger has the finesse property."]}],"template":"{{prop_name}} ({{item.range}} ft.)"},
+		{
+			"abbreviation":"TW",
+			"source":"PHEW",
+			"entries": [
+				{
+					"type":"entries",
+					"name":"Twin",
+					"entries": [
+						"As part of your Attack action, while you're wielding twin weapons of the same type on each hand, you may benefit from each of these effects once:",
+						{
+							"type": "list",
+							"items": [
+								"If you roll a 20 and deal a critical hit, you may add 1 weapon damage dice to the total damage dealt by the attack.",
+								"If you roll a 1 and miss the attack, you may immediately make an additional attack with the other weapon as part of the same action."
+							]
+						}
+					]
+				}
+			]
+		},
+		{"abbreviation":"V","source":"PHEW","entries":[{"type":"entries","name":"Versatile","entries":["This weapon can be used with one or two hands. A damage value in parentheses appears with the property—the damage when the weapon is used with two hands to make a melee attack."]}],"template":"{{prop_name}} ({{item.dmg2}})"},
+		{"abbreviation":"2H","source":"PHEW","entries":[{"type":"entries","name":"Two-Handed","entries":["This weapon requires two hands to use. This property is relevant only when you attack with the weapon, not when you simply hold it."]}]}
+	],
+	"itemType":[
+		{"abbreviation":"AT","source":"PHEW","name":"Artisan Tools","entries":["These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."]},
+		{"abbreviation":"GS","source":"PHEW","name":"Gaming Set","entries":["If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set. Each type of gaming set requires a separate proficiency."]},
+		{"abbreviation":"INS","source":"PHEW","name":"Instrument","entries":["If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument.","A bard can use a musical instrument as a spellcasting focus, substituting it for any material component that does not list a cost.","Each type of musical instrument requires a separate proficiency."]},
+		{"abbreviation":"Len","source":"PHEW","name":"Len","entries":["A len is a fragment of raw arcane energy from a particular school of magic. It is sometimes used by spellcasters to boost their power, but its primary uses are two: as currency for some of the wealthiest people on the planet, and as a power supply for the arcanospheres that power many kinds of magical devices, notably airships."]},
+		{"abbreviation":"R","source":"PHEW","entries":[{"type":"entries","name":"Range","entries":["A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range."]}]},
+		{"abbreviation":"SHP","source":"PHEW","name":"Vehicle","entries":[{"type":"entries","name":"Crew","entries":["A ship needs a crew of skilled hirelings to function. As per the Player's Handbook, one skilled hireling costs at least 2 gp per day. The minimum number of skilled hirelings needed to crew a ship depends on the type of vessel.","You can track the loyalty of individual crew members or the crew as a whole using the optional loyalty rules in chapter 4 of the Dungeon Master's Guide. If at least half the crew becomes disloyal during a voyage, the crew turns hostile and stages a mutiny. If the ship is berthed, disloyal crew members leave the ship and never return."]},{"type":"entries","name":"Passengers","entries":["The table indicates the number of Small and Medium passengers the ship can accommodate.","Accommodations consist of shared hammocks in tight quarters. A ship outfitted with private accommodations can carry one-fifth as many passengers.","A passenger is usually expected to pay 5 sp per day for a hammock, but prices can vary from ship to ship. A small private cabin usually costs 2 gp per day."]},{"type":"entries","name":"Cargo","entries":["The maximum tonnage the ship can carry."]},{"type":"entries","name":"Damage Threshold","entries":["If a ship has a Damage Threshold, it has immunity to all damage unless it takes an amount of damage equal to or greater than its damage threshold, in which case it takes damage as normal. Any damage that fails to meet or exceed the damage threshold is considered superficial and doesn't reduce the ship's hit points."]},{"type":"entries","name":"Ship Repair","entries":["Repairs to a damaged ship can be made while the vessel is berthed. Repairing 1 hit point of damage requires 1 day and costs 20 gp for materials and labor."]}]},
+		{"abbreviation":"TG","source":"PHEW","name":"Trade Good","entries":["Most wealth is not in coins. It is measured in livestock, grain, land, rights to collect taxes, or rights to resources (such as a mine or a forest).","Guilds, nobles, and royalty regulate trade. Chartered companies are granted rights to conduct trade along certain routes, to send merchant ships to various ports, or to buy or sell specific goods. Guilds set prices for the goods or services that they control, and determine who may or may not offer those goods and services. Merchants commonly exchange trade goods without using currency."]}
+	],
+	"itemTypeAdditionalEntries":[
+		{"appliesTo":"INS","entries":["Proficiency with a musical instrument indicates you are familiar with the techniques used to play it. You also have knowledge of some songs commonly performed with that instrument.",{"type":"entries","name":"History","entries":["Your expertise aids you in recalling lore related to your instrument."]},{"type":"entries","name":"Performance","entries":["Your ability to put on a good show is improved when you incorporate an instrument into your act."]},{"type":"entries","name":"Compose a Tune","entries":["As part of a long rest, you can compose a new tune and lyrics for your instrument. You might use this ability to impress a noble or spread scandalous rumors with a catchy tune."]},{"type":"table","caption":"Musical Instrument","colLabels":["Activity","DC"],"colStyles":["col-10","col-2 text-center"],"rows":[["Identify a tune","10"],["Improvise a tune","20"]]}]},
+		{"appliesTo":"GS","entries":["Proficiency with a gaming set applies to one type of game, such as Three-Dragon Ante or games of chance that use dice.",{"type":"entries","name":"Components","entries":["A gaming set has all the pieces needed to play a specific game or type of game, such as a complete deck of cards or a board and tokens."]},{"type":"entries","name":"History","entries":["Your mastery of a game includes knowledge of its history, as well as of important events it was connected to or prominent historical figures involved with it."]},{"type":"entries","name":"Insight","entries":["Playing games with someone is a good way to gain understanding of their personality, granting you a better ability to discern their lies from their truths and read their mood."]},{"type":"entries","name":"Sleight of Hand","entries":["Sleight of Hand is a useful skill for cheating at a game, as it allows you to swap pieces, palm cards, or alter a die roll. Alternatively, engrossing a target in a game by manipulating the components with dexterous movements is a great distraction for a pickpocketing attempt."]},{"type":"table","caption":"Gaming Set","colLabels":["Activity","DC"],"colStyles":["col-10","col-2 text-center"],"rows":[["Catch a player cheating","15"],["Gain insight into an opponent's personality","15"]]}]}
+	]
+}
